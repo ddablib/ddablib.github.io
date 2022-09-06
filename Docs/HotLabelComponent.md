@@ -25,7 +25,7 @@ A further example is provided by the demo program that is included in the downlo
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Hot Label Component Web Page](https://delphidabbler.com/software/hotlabel) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/hotlabel/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/hotlabel) -- Current development tree.

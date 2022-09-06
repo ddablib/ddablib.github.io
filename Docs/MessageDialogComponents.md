@@ -11,7 +11,7 @@ The Message Dialogue Components are supplied in a single unit named _PJMessageDi
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Message Dialogue Components Web Page](https://delphidabbler.com/software/msgdlg) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/msgdlg/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/msgdlg) -- Current development tree.

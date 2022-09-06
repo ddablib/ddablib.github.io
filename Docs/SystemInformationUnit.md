@@ -40,7 +40,7 @@ Unless specified otherwise, classes, variables and methods are available in all 
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [System Information Unit Web Page](https://delphidabbler.com/software/sysinfo) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/sysinfo/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/sysinfo) -- Current development tree.

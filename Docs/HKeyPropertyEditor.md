@@ -9,4 +9,4 @@ The editor behaves erratically, working correctly on some Delphi installations b
 
 **Links:**
 
-  * Back to [Wiki Home Page](Welcome.md)
+  * Back to [Wiki Home Page](../index.md)

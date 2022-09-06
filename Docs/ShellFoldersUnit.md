@@ -19,7 +19,7 @@ This unit provides design time support. In particular it provides a property edi
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Shell Folders Unit Web Page](https://delphidabbler.com/software/shellfolders) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/shellfolders/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/shellfolders) -- Current development tree.

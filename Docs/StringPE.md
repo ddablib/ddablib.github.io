@@ -9,7 +9,7 @@ There are two versions of this property editor, each of which is documented sepa
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Property Editor web page](https://delphidabbler.com/software/stringpe) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/stringpe/) -- Download current version here.
 * [Source code](https://github.com/ddablib/stringpe) -- Current development tree.

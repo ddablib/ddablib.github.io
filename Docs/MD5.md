@@ -15,7 +15,7 @@ This project provides a single class that is designed to make it easy to get an 
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [MD5 Message Digest Unit web page](https://delphidabbler.com/software/md5)
 * [Downloads](https://sourceforge.net/projects/ddablib/files/md5/) -- Download current version here.
 * [Source code](https://github.com/ddablib/md5) -- Current development tree.

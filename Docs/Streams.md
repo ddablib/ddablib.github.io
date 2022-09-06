@@ -13,7 +13,7 @@ This project provides a library of classes that can be used to extend the functi
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Stream Extension Classes Web Page](https://delphidabbler.com/software/streams) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/streams) -- Download current version here.
 * [Source Code](https://github.com/ddablib/streams) -- Current development tree.

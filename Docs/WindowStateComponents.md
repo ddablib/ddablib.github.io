@@ -15,7 +15,7 @@ Various event handler procedural types, oridinal types and set types are also de
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Window State Components Web Page](https://delphidabbler.com/software/wdwstate) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/wdwstate/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/wdwstate) -- Current development tree.

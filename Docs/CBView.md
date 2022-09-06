@@ -16,7 +16,7 @@ This is a Windows-only, 32 and 64 bit compatible, component that requires the VC
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Clipboard Viewer Component web page](https://delphidabbler.com/software/cbview).
 * [Downloads](https://sourceforge.net/projects/ddablib/files/cbview/) -- Download current version here.
 * [Source code](https://github.com/ddablib/cbview) -- Current development tree.

@@ -38,7 +38,7 @@ The editors are:
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Drop Files Components Web Page](https://delphidabbler.com/software/dropfiles) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/dropfiles/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/dropfiles) -- Current development tree.

@@ -19,7 +19,7 @@ Can't find what you want here? Try the [FAQ](../FAQs/ConsoleAppClasses.md).
 
 ## Links
 
-* Back to [Documentation Home Page](Welcome.md)
+* Back to [Documentation Home Page](../index.md)
 * [Console Application Runner Classes Web Page](https://delphidabbler.com/software/consoleapp) -- Install notes, change log, license etc.
 * [Downloads](https://sourceforge.net/projects/ddablib/files/consoleapp/) -- Download current version here.
 * [Source Code](https://github.com/ddablib/consoleapp) -- Current development tree.
