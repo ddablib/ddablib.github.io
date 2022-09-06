@@ -1,49 +1,32 @@
-# DelphiDabbler Code Library
+# DelphiDabbler Code Library Documentation
 
-The DelphiDabbler Code Library contains various useful and re-usable Delphi components, units and IDE extensions, arranged in sub-projects. All were originally published on [DelphiDabbler.com](https://delphidabbler.com/).
+Welcome to the _DelphiDabbler Code Library Documentation Site_.
 
-Many of the components and classes are stable and have been in development for a number of years. For details of each sub-project see [this summary](Docs/Welcome.md).
+The library currently contains the following projects, all originally published on [DelphiDabbler.com](https://delphidabbler.com/codelib).
 
-The project contains these components, classes and IDE extensions:
+| **Project** | **Description** |
+|:------------|:----------------|
+| [About Box Component](./Docs/AboutBox.md) | Non-visual component that encapsulates an About Box. Set properties or link to a [Version Information Component](./Docs/VerInfo.md) to customise the about box content. |
+| [Clipboard Viewer Component](./Docs/CBView.md) | Component that triggers an event whenever the contents of the clipboard change. |
+| [Console Application Runner Classes](./Docs/ConsoleApp.md) | Classes to control the execution of child console application processes and to redirect input and output where required. |
+| [Drop Files Components](./Docs/DropFilesComponents.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
+| [Environment Variables Unit](./Docs/EnvVars.md) | Contains a static class and supporting types for interrogating, modifying and enumerating the environment variables belonging to the current process. |
+| [Extended String Property Editor](./Docs/StringPE.md) | Property editor that allows multi-line and long _string_ and _TCaption_ properties to be edited at design time. |
+| [Fractions Unit](./Docs/Fractions.md) | Defines an advanced "record with methods" type that encapsulates fraction and related operations. |
+| [Hot Label Component](./Docs/HotLabelComponent.md) | Label component that accesses a URL when clicked. The URL is displayed in the default web browser or email client. |
+| [I/O Utilities Unit](./Docs/IOUtils.md) | Several classes that assist with various I/O related tasks, including working with pipes and inheritable file handles. |
+| [MD5 Message Digest Unit](./Docs/MD5.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
+| [Message Dialog Components](./Docs/MessageDialogComponents.md) | Components that wrap message dialogue boxes provided by the Delphi VCL and the Windows API. |
+| [Resource File Unit](./Docs/ResFileUnit.md) | Contains classes that encapsulate 32 bit binary resource files and the resources they contain. Can read and update raw resource file data. |
+| [Shell Folders Unit](./Docs/ShellFoldersUnit.md) | Components, classes and routines to assist in working with shell folders. Includes a "Browse for Folder" dialogue box. |
+| [Stream Extension Classes](./Docs/Streams.md) | Classes that provide a means to wrap _TStream_ objects. Also provides implementations of the _IStream_ interface. |
+| [System Information Unit](./Docs/SystemInformationUnit.md) | Static classes that get information about the user's computer and operating system.  |
+| [Version Information Component](./Docs/VerInfo.md) | Component that accesses version information embedded in program files, DLLs etc. |
+| [Window State Components](./Docs/WindowStateComponents.md) | Three components that save and restore window size, state and position using ini files, the registry or user-defined storage. |
 
-| Project | Source Code | Documentation | Releases | More Info |  Platforms | Framework |
-| ------- | ----------- | ------------- | -------- | --------- | --------- | --------- |
-| About Box Component | [GitHub](https://github.com/ddablib/aboutbox) | [GitHub](Docs/AboutBox.md)<br>WinHelp | [SourceForge](https://sourceforge.net/projects/ddablib/files/aboutbox/)<br>[GitHub](https://github.com/ddablib/aboutbox/releases) | [Website](https://delphidabbler.com/software/aboutbox) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| Clipboard Viewer Component | [GitHub](https://github.com/ddablib/cbview) | [GitHub](Docs/CBView.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/cbview/)<br>[GitHub](https://github.com/ddablib/cbview/releases) | [Website](https://delphidabbler.com/software/cbview) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| Console Application Runner Classes | [GitHub](https://github.com/ddablib/consoleapp) | [GitHub](Docs/ConsoleApp.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/consoleapp/)<br>[GitHub](https://github.com/ddablib/consoleapp/releases) | [Website](https://delphidabbler.com/software/consoleapp) | Win32<br>Win64 | RTL |
-| Drop Files Components | [GitHub](https://github.com/ddablib/dropfiles) | [GitHub](Docs/DropFilesComponents.md)<br>WinHelp | [SourceForge](https://sourceforge.net/projects/ddablib/files/dropfiles/)<br>[GitHub](https://github.com/ddablib/dropfiles/releases) | [Website](https://delphidabbler.com/software/dropfiles) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| Environment Variables Unit | [GitHub](https://github.com/ddablib/envvars) | [GitHub](Docs/EnvVars.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/envvars/)<br>[GitHub](https://github.com/ddablib/envvars/releases) | [Website](https://delphidabbler.com/software/envvars) | Win32<br>Win64 | VCL<br>FMX |
-| Extended String Property Editor | [GitHub](https://github.com/ddablib/stringpe) | [GitHub](Docs/StringPE.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/stringpe/)<br>[GitHub](https://github.com/ddablib/stringpe/releases) | [Website](https://delphidabbler.com/software/stringpe) | Win32<br><strike>Win64</strike> | IDE |
-| Fractions Unit *(beta)* | [GitHub](https://github.com/ddablib/fractions) | [GitHub](Docs/Fractions.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/fractions/)<br>[GitHub](https://github.com/ddablib/fractions/releases) | [Website](https://delphidabbler.com/software/fractions) | Win32<br>Win64 | RTL |
-| Hot Label Component | [GitHub](https://github.com/ddablib/hotlabel) | [GitHub](Docs/HotLabelComponent.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/hotlabel/)<br>[GitHub](https://github.com/ddablib/hotlabel/releases) | [Website](https://delphidabbler.com/software/hotlabel) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| I/O Utility Classes | [GitHub](https://github.com/ddablib/ioutils) | [GitHub](Docs/IOUtils.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/ioutils/)<br>[GitHub](https://github.com/ddablib/ioutils/releases) | [Website](http://delphidabbler.com/software/ioutils) | Win32<br>Win64 | RTL |
-| MD5 Message Digest Class | [GitHub](https://github.com/ddablib/md5) | [GitHub](Docs/MD5.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/md5/)<br>[GitHub](https://github.com/ddablib/md5/releases) | [Website](https://delphidabbler.com/software/md5) | Win32<br>Win64 | RTL |
-| Message Dialogue Components | [GitHub](https://github.com/ddablib/msgdlg) | [GitHub](Docs/MessageDialogComponents.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/msgdlg/)<br>[GitHub](https://github.com/ddablib/msgdlg/releases) | [Website](https://delphidabbler.com/software/msgdlg)| Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| Resource File Unit | [GitHub](https://github.com/ddablib/resfile) | [GitHub](Docs/ResFileUnit.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/resfile/)<br>[GitHub](https://github.com/ddablib/resfile/releases) | [Website](https://delphidabbler.com/software/resfile) | Win32<br>Win64 | RTL |
-| Shell Folders Unit | [GitHub](https://github.com/ddablib/shellfolders) | [GitHub](Docs/ShellFoldersUnit.md)<br>WinHelp | [SourceForge](https://sourceforge.net/projects/ddablib/files/shellfolders/)<br>[GitHub](https://github.com/ddablib/shellfolders/releases) | [Website](https://delphidabbler.com/software/shellfolders) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
-| Stream Extension Classes | [GitHub](https://github.com/ddablib/streams) | [GitHub](Docs/Streams.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/streams/)<br>[GitHub](https://github.com/ddablib/streams/releases) | [Website](https://delphidabbler.com/software/streams) | Win32<br>Win64 | RTL |
-| System Information Unit | [GitHub](https://github.com/ddablib/sysinfo) | [GitHub](Docs/SystemInformationUnit.md) | [SourceForge](https://sourceforge.net/projects/ddablib/files/sysinfo/)<br>[GitHub](https://github.com/ddablib/sysinfo/releases) | [Website](https://delphidabbler.com/software/sysinfo) | Win32<br>Win64 | RTL |
-| Version Information Component | [GitHub](https://github.com/ddablib/verinfo) | [GitHub](Docs/VerInfo.md)<br>WinHelp | [SourceForge](https://sourceforge.net/projects/ddablib/files/verinfo/)<br>[GitHub](https://github.com/ddablib/verinfo/releases) | [Website](https://delphidabbler.com/software/verinfo) | Win32<br>Win64 | VCL<br>FMX |
-| Window State Components | [GitHub](https://github.com/ddablib/wdwstate) | [GitHub](Docs/WindowStateComponents.md)<br>WinHelp | [SourceForge](https://sourceforge.net/projects/ddablib/files/wdwstate/)<br>[GitHub](https://github.com/ddablib/wdwstate/releases) | [Website](https://delphidabbler.com/software/wdwstate) | Win32<br>Win64 | VCL<br><strike>FMX</strike> |
+Each library project has its own source code repository on [GitHub](https://github.com/ddablib). The repository structure is described [here](./Docs/RepoStructure.md).
 
-The **Source Code** column contains a link to the project's Git repository.
-
-The **Documentation** column contains links to the documentation for the project.
-
-The **Releases** column contains links to the project's directory on the *SourceForge* file manager from where zip files containing all available releases can be downloaded. There are also links to the project's _Releases_ page on GitHub, which has only later releases available.
-
-The **More Info** column has links that take you to the library project's page on DelphiDabbler.com.
-
-The **Platforms** column notes the platforms that the project is compatible with. *Win32* is 32 bit Windows and *Win64* is 64 bit Windows. Struck out items, like *<strike>Win64</strike>*, indicate that the code is not compatible with the platform. IDE extensions are only ever 32 bit compatible. **Note:** No projects in this library have been tested on non-Windows platforms.
-
-The **Framework** column notes whether the project is compatible with either the VCL or FireMonkey, has no dependencies, or is an IDE extension. The following abbreviations are used:
-
-  * *RTL* - requires only the Delphi run time library, so has no dependencies on either the VCL and FMX frameworks and can be used with either or none.
-  * *VCL* - compatible with the Visual Component Library framework.
-  * *FMX* - compatible with the FireMonkey framework.
-  * *IDE* - an IDE extension.
-
-Struck out frameworks such as *<strike>FMX</strike>* are not supported by the project.
+Project releases are available in .zip format from [SourceForge](https://sourceforge.net/projects/ddablib/files/) and later releases are also available from the _Releases_ tab of the library project's GitHub repository.
 
 ## FAQs
 
@@ -85,7 +68,7 @@ If you're unsure of the process [this tutorial](https://opensource.com/article/1
 
 DelphiDabbler Code Library Documentation by [Peter Johnson](https://en.gravatar.com/delphidabbler) is licensed under a Creative [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-Based on a work at https://github.com/delphidabbler/ddab-lib-docs.
+Based on a work at [https://github.com/ddablib/ddablib.github.io](https://github.com/ddablib/ddablib.github.io).
 
 For full details see the `LICENSE` file.
 
@@ -93,11 +76,7 @@ For full details see the `LICENSE` file.
 
 The Creative Commons CC BY-SA 4.0 license requires accreditation by anyone reusing this documentation.  A suitable accreditation would be:
 
-```text
-Based on a work by Peter Johnson (https://en.gravatar.com/delphidabbler),
-at https://github.com/delphidabbler/ddab-lib-docs, copyright (c) 2022 and
-licensed under the Creative Commons CC BY-SA license. No warranties are given.
-```
+> Based on a work by Peter Johnson ([https://en.gravatar.com/delphidabbler](https://en.gravatar.com/delphidabbler)), at [https://github.com/delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs), copyright (c) 2022 and licensed under the Creative Commons CC BY-SA license. No warranties are given.
 
 If you make changes and distribute the changes then, in addition to the above, you must distribute the modified version under the same license, indicate you made changes and retain an indication of earlier changes.
 
