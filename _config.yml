@@ -1,0 +1,38 @@
+# Set repo for use by github-metadata
+# https://github.com/mmistakes/mm-github-pages-starter/pull/2
+repository: "ddablib/ddablib.github.io"
+
+# Base host name and protocol of site
+url: "https://lib-docs.delphidabbler.com"
+
+# Site is in root of host
+baseurl: ""
+
+title: "DDabLib Documentation" # the name of your site, e.g. ACME Corp.
+
+# Inhibit github-pages from gerating unwanted style sheet
+# see https://github.com/jekyll/jekyll/issues/7478
+theme: null
+
+# Don't process these files
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
+
+plugins:
+  # Render .md files without front matter
+  # https://github.com/benbalter/jekyll-optional-front-matter
+  - jekyll-optional-front-matter
+  # Pull page title from the first Markdown heading when none is specified
+  # https://github.com/benbalter/jekyll-titles-from-headings
+  - jekyll-titles-from-headings
+
+optional_front_matter:
+  # Remove .md files processed by jekyll-optional-front-matter that have been rendered as HTML
+  remove_originals: true
+
+defaults:
+  # Defaults for all files
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
