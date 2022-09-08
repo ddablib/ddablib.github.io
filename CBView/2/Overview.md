@@ -1,4 +1,4 @@
-# [Clipboard Viewer Component](../CBView.md)  Overview
+# [Clipboard Viewer Component](../index.md)  Overview
 
 > This page provides an overview of the features of the Clipboard Viewer Component. If you are looking for information on programming with the component please see the [Programmers' Guide](./API.md).
 

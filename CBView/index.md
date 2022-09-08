@@ -10,9 +10,9 @@ This is a Windows-only, 32 and 64 bit compatible, component that requires the VC
 
 ## Contents
 
-* [Overview](./CBView/Overview.md)
-* [Programmers' Guide](./CBView/API.md)
-* [Example](./CBView/Example.md)
+* [Overview](./2/Overview.md)
+* [Programmers' Guide](./2/API.md)
+* [Example](./2/Example.md)
 
 ## Links
 

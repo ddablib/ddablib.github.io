@@ -1,4 +1,4 @@
-# [Clipboard Viewer Component](../CBView.md) Programmers' Guide
+# [Clipboard Viewer Component](../index.md) Programmers' Guide
 
 ## Introduction
 

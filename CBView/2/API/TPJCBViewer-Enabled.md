@@ -1,6 +1,6 @@
 # Enabled property
 
-**Project:** [Clipboard Viewer Component](../../CBView.md)
+**Project:** [Clipboard Viewer Component](../../index.md)
 
 **Unit:** _PJCBView_
 
