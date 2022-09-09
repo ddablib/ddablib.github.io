@@ -8,6 +8,12 @@ The Clipboard Viewer component is a non-visual Delphi component notifies the use
 
 This is a Windows-only, 32 and 64 bit compatible, component that requires the VCL. It is not compatible with FireMonkey.
 
+## Supported Versions
+
+This documentation applies to Clipboard Viewer Component v2 only.
+
+> Documentation for v1 is not available.
+
 ## Contents
 
 * [Overview](./2/Overview.md)

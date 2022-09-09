@@ -6,6 +6,8 @@
 
 **Class:** [_TPJCBViewer_](./TPJCBViewer.md)
 
+**Applies to:** v2.x
+
 ```pascal
 property Enabled: Boolean;
 ```

@@ -4,15 +4,29 @@
 
 This section of the _Clipboard Component Component_ documentation focusses on describing the usage of components's code.
 
-> **This documentation refers to v2.0 or later of the component only.**
->
-> v1 is no longer supported and no documentation is available.
+## Supported Versions
+
+This documentation applies to v2.x only.
 
 ## Contents
 
-There is just one unit in this project, named _PJCBView_, that contains all the code.
+### Units
 
-_PJCBView_ contains just a single component: [_TPJCBViewer_](./API/TPJCBViewer.md).
+| Unit | Description |
+|------|-------------|
+| _PJCBView_ | The only unit in this project. Contains the component and component registration code. |
+
+### Classes
+
+| Class | Description |
+|-------|-------------|
+| [_TPJCBViewer_](./API/TPJCBViewer.md) | The clipboard viewer component. |
+
+### Public Routines
+
+| Routine | Description |
+|---------|-------------|
+| _Register_ | **Do not use**. Called by the IDE at design time to register the component. |
 
 ## Conventions
 
