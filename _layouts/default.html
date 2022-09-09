@@ -22,7 +22,13 @@
     <!-- End Document Content -->
     <footer>
       <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. <a href="https://github.com/ddablib/ddablib.github.io/edit/main/index.md">Improve this page</a>.
+        {%- assign closer = page.url | slice: -1, 1 -%}
+        {%- if closer == '/' -%}
+        {%- assign url = page.url | append: 'index.md' -%}
+        {%- else -%}
+        {%- assign url = page.url | replace: '.html', '.md' -%}
+        {%- endif %}
+        This site is open source. <a href="https://github.com/ddablib/ddablib.github.io/edit/main{{ url }}">Improve this page</a>.
       </div>
     </footer>
   </div>
