@@ -1,8 +1,10 @@
 # TPJCBViewer class
 
-**Project:** [Clipboard Viewer Component](../../CBView.md)
+**Project:** [Clipboard Viewer Component](../../index.md)
 
 **Unit:** _PJCBView_
+
+**Applies to:** v2.x
 
 _TPJCBViewer_ notifies the user of changes to the Windows clipboard. It registers itself with Windows to receive notifications whenever the contents of the clipboard change. When a change is detected the [_OnClipboardChanged_](./TPJCBViewer-OnClipboardChanged.md) event is triggered. Users handle this event.
 

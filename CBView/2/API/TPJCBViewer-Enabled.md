@@ -1,10 +1,12 @@
 # Enabled property
 
-**Project:** [Clipboard Viewer Component](../../CBView.md)
+**Project:** [Clipboard Viewer Component](../../index.md)
 
 **Unit:** _PJCBView_
 
 **Class:** [_TPJCBViewer_](./TPJCBViewer.md)
+
+**Applies to:** v2.x
 
 ```pascal
 property Enabled: Boolean;

@@ -1,4 +1,4 @@
-# [Clipboard Viewer Component](../CBView.md) Example
+# [Clipboard Viewer Component](../index.md) Example
 
 The following is an example of how to use the [Clipboard Viewer Component](./Overview.md).
 
