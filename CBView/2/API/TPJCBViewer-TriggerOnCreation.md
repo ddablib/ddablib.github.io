@@ -1,6 +1,6 @@
 # TriggerOnCreation property
 
-**Project:** [Clipboard Viewer Component](../../index.md)
+**Project:** [Clipboard Viewer Component](../API.md)
 
 **Unit:** _PJCBView_
 
