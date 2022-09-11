@@ -16,6 +16,6 @@ property Enabled: Boolean;
 
 The _Enabled_ property enables and disables the component.
 
-When the property is set to _False_ the component will never trigger the [_OnClipboardChanged_](./TPJCBViewer-OnClipboardChanged.md) event. Restoring _Enabled_ to _True_ re-enables [_OnClipboardChanged_](./TPJCBViewer-OnClipboardChanged.md).
+When the property is set to `False` the component will never trigger the [_OnClipboardChanged_](./TPJCBViewer-OnClipboardChanged.md) event. Restoring _Enabled_ to `True` re-enables [_OnClipboardChanged_](./TPJCBViewer-OnClipboardChanged.md).
 
-The default value is _True_.
+The default value is `True`.
