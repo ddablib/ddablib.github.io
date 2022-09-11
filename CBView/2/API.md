@@ -4,7 +4,7 @@
 
 ## Introduction
 
-This section of the _Clipboard Component Component_ documentation focusses on describing the usage of components's code.
+This section of the _Clipboard Component Component_ documentation describes the API exposed by the component to programmers.
 
 ## Contents
 
@@ -28,7 +28,7 @@ This section of the _Clipboard Component Component_ documentation focusses on de
 
 ## Conventions
 
-This documentation complies with [these conventions](/common/conventions.md).
+This documentation complies with [these conventions](../../common/conventions.md).
 
 ## Links
 
