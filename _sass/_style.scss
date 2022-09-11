@@ -1,0 +1,271 @@
+/*! Main style sheet. Emulates GitHub Pages default style.
+*   Base on code from GitHub Pages obtained by doing
+*     rougify style github > style.css
+*   MIT license, Peter Johnson (https://gravatar.com/delphidabbler) */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    line-height: $body-line-height;
+    color: $body-color;
+    background-color: $body-bg-color;
+    word-wrap: break-word;
+}
+
+// **TODO: Add offsite text link styling
+a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:not([href]) {
+        color: inherit;
+        text-decoration: none;
+    }
+
+}
+
+b, strong {
+    font-weight: $bold-font-weight;
+}
+
+hr {
+    height: .25em;
+    margin: $hr-margin;
+    overflow: hidden;
+    background-color: $hr-bg-color;
+    border: 0;
+    border-bottom: 1px solid $hr-color;
+    padding: 0;
+
+    &::before {
+        display: table;
+        content: "";
+    }
+
+    &::after {
+        display: table;
+        clear: both;
+        content: "";
+    }
+}
+
+img {
+    max-width: 100%;
+    box-sizing: content-box;
+    background-color: $img-bg-color;
+
+    &[align=right] {
+        padding-left: 20px;
+    }
+
+    &[align=left] {
+        padding-right: 20px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: $bold-font-weight;
+}
+
+h1 {
+    font-size: $h1-font-size;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $h1-ul-color;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid $h2-ul-color;
+}
+
+h3 {
+    font-size: $h3-font-size;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+h5 {
+    font-size: $h5-font-size;
+}
+
+h6 {
+    font-size: $h6-font-size;
+    color: $h6-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: $bold-font-weight;
+    line-height: 1.25;
+}
+
+small {
+    font-size: 90%
+}
+
+code {
+    font-family: $code-font-family;
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: $code-font-size;
+    background-color: $code-bg-color;
+    border-radius: 3px;
+
+    br{
+        display: none;
+    }
+}
+
+del code {
+    text-decoration: inherit;
+}
+
+p, blockquote, ul, ol, table, pre {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+blockquote {
+    padding: 0 1em;
+    color: $blockquote-color;
+    border-left: 0.25em solid $blockquote-bar-color;
+
+    > :first-child{
+        margin-top: 0;
+    }
+
+    > :last-child{
+        margin-bottom: 0;
+    }
+}
+
+ul, ol {
+    padding-left: 2em;
+
+    &.no-list {
+        padding: 0;
+        list-style-type: none;
+    }
+
+    ol {
+        list-style-type: lower-roman;
+    }
+
+    ul, ol {
+        margin-top: 0;
+        margin-bottom: 0;
+
+        ol {
+            list-style-type: lower-alpha;
+        }
+    }
+}
+
+li {
+    word-wrap: break-all;
+
+    > p {
+        margin-top: 16px;
+    }
+
+    + li {
+        margin-top: .25em;
+    }
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: block;
+    width: 100%;
+    overflow: auto;
+
+    th {
+        font-weight: $bold-font-weight;
+    }
+
+    th, td{
+        padding: 0;
+        padding: 6px 13px;
+        border: 1px solid $table-cell-border-color;
+    }
+
+    tr {
+        background-color: $table-even-bg-color;
+        border-top: 1px solid $table-row-border-color;
+
+        &:nth-child(2n) {
+            background-color: $table-odd-bg-color;
+        }
+    }
+
+    img {
+        background-color: transparent;
+    }
+}
+
+pre {
+    font-family: $code-font-family;
+    font-size: $code-font-size;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: $pre-bg-color;
+    border-radius: 3px;
+    word-wrap: normal;
+
+    > code {
+        padding: 0;
+        margin: 0;
+        font-size: 100%;
+        word-break: normal;
+        white-space: pre;
+        background: transparent;
+        border: 0;
+    }
+
+    code {
+        display: inline;
+        max-width: auto;
+        padding: 0;
+        margin: 0;
+        overflow: visible;
+        line-height: inherit;
+        word-wrap: normal;
+        background-color: transparent;
+        border: 0;
+    }
+}
+
+.footer {
+    border-top: 1px $footer-border-color solid !important;
+    margin-top: 32px !important;
+    padding-top: 16px !important;
+    text-align: right !important;
+    color: $footer-color !important;
+}
+
+// ** TODO: Rename as .container
+.container-lg {
+    max-width: 1012px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 32px !important;
+    margin-bottom: 32px !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+}

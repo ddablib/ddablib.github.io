@@ -1,0 +1,50 @@
+// **TODO: rationalise some of the colours
+
+$border-color-1: #dfe2e5;
+$border-color-2: #e1e4e8;
+$faded-text-color: #6a737d;
+$bg-color: #ffffff;
+$darkened-bg-color: #f6f8fa;
+
+$body-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$body-font-size: 16px;
+$body-line-height: 1.5;
+$body-color: #24292e;
+$body-bg-color: $bg-color;
+
+$link-color: #0366d6;
+
+$bold-font-weight: 600;
+
+$hr-color: $border-color-1;
+$hr-bg-color: $border-color-2;
+$hr-margin:  20px 0;
+
+$h1-font-size: 32px;
+$h1-ul-color: #eaecef;
+$h2-font-size: 24px;
+$h2-ul-color: $h1-ul-color;
+$h3-font-size: 20px;
+$h4-font-size: 16px;
+$h5-font-size: 14px;
+$h6-font-size: 12px;
+$h6-color: $faded-text-color;
+
+$code-font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+$code-font-size: 85%;
+
+$footer-border-color: $border-color-2;
+$footer-color: #586069;
+
+$pre-bg-color: $darkened-bg-color;
+$code-bg-color: rgba(27,31,35,0.05);
+
+$table-cell-border-color: $border-color-1;
+$table-row-border-color: #c6cbd1;
+$table-even-bg-color: $bg-color;
+$table-odd-bg-color: $darkened-bg-color;
+
+$blockquote-bar-color: $border-color-1;
+$blockquote-color: $faded-text-color;
+
+$img-bg-color: $bg-color;
