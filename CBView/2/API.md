@@ -1,12 +1,10 @@
 # [Clipboard Viewer Component](../index.md) Programmers' Guide
 
+**Applies to:** ~>2.0
+
 ## Introduction
 
 This section of the _Clipboard Component Component_ documentation focusses on describing the usage of components's code.
-
-## Supported Versions
-
-~>2.0
 
 ## Contents
 
