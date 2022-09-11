@@ -6,7 +6,7 @@
 
 **Class:** [_TPJCBViewer_](./TPJCBViewer.md)
 
-**Applies to:** v2.x
+**Applies to:** ~>2.0
 
 ```pascal
 property TriggerOnCreation: Boolean;
