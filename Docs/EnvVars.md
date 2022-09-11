@@ -6,11 +6,11 @@ This is the home page for the on-line documentation of the DelphiDabbler [Enviro
 
 The unit enables the interrogating, manipulating and modifying the environment variables available to the current Windows process.
 
-The unit is compatible 32- and 64-bit versions of the Delphi Windows compiler and both the VCL and FireMonkey frameworks. It requires the Windows operating system.
+The unit is compatible with the 32 and 64 bit versions of the Delphi Windows compiler and both the VCL and FireMonkey frameworks. It requires the Windows operating system.
 
-**This documentation applies to the Environment Variables Unit v3.0 and later.**
-
-> Documentation for earlier versions is no longer available.
+> **This documentation applies to the Environment Variables Unit v3.0 and later.**
+>
+> Documentation for earlier versions is not available.
 
 ## Contents
 
