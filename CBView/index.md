@@ -4,15 +4,19 @@
 
 This is the home page for the on-line documentation of the DelphiDabbler [Clipboard Viewer Component](https://delphidabbler.com/software/cbview).
 
-The Clipboard Viewer component is a non-visual Delphi component notifies the user when the content of the Windows clipboard changes.
+The Clipboard Viewer component is a non-visual Delphi component that notifies the user when the content of the Windows clipboard changes.
 
-This is a Windows-only, 32 and 64 bit compatible, component that requires the VCL. It is not compatible with FireMonkey.
+The component is:
+* Windows only
+* 32 and 64 bit compatible
+* VCL compatible
+* **Not** compatible with FireMonkey
 
 ## Supported Versions
 
 This documentation applies to Clipboard Viewer Component v2 only.
 
-> Documentation for v1 is not available.
+> v1 is no longer supported and there is no documentation available.
 
 ## Contents
 
@@ -23,6 +27,6 @@ This documentation applies to Clipboard Viewer Component v2 only.
 ## Links
 
 * Back to [Documentation Home Page](../index.md)
-* [Clipboard Viewer Component web page](https://delphidabbler.com/software/cbview).
-* [Downloads](https://sourceforge.net/projects/ddablib/files/cbview/) -- Download current version here.
-* [Source code](https://github.com/ddablib/cbview) -- Current development tree.
+* [Clipboard Viewer Component web page](https://delphidabbler.com/software/cbview)
+* [Downloads](https://github.com/ddablib/cbview/releases)
+* [Source code](https://github.com/ddablib/cbview)
