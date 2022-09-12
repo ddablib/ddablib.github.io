@@ -15,7 +15,7 @@ title: "DDabLib Documentation" # the name of your site, e.g. ACME Corp.
 theme: null
 
 # Don't process these files
-exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, CNAME]
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, CNAME, private]
 
 plugins:
   # Render .md files without front matter
