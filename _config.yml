@@ -24,6 +24,9 @@ plugins:
   # Pull page title from the first Markdown heading when none is specified
   # https://github.com/benbalter/jekyll-titles-from-headings
   - jekyll-titles-from-headings
+  # Support GitHub flavoured emoji
+  # https://github.com/jekyll/jemoji
+  - jemoji
 
 optional_front_matter:
   # Remove .md files processed by jekyll-optional-front-matter that have been rendered as HTML
