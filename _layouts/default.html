@@ -13,6 +13,7 @@
   <meta property="og:description" content="{{ site.github.project_tagline }}">
   <link rel="canonical" href="{{ site.url}}{{ page.url }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="icon" href="/assets/img/favicon-16.png" type="image/png" sizes="16x16">
   <link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32">
@@ -39,5 +40,6 @@
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
   <script>anchors.add();</script>
+  {% include cookie-consent.html %}
 </body>
 </html>
