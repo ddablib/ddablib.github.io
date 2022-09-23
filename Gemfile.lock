@@ -263,6 +263,7 @@ DEPENDENCIES
   jekyll-optional-front-matter
   jekyll-redirect-from
   jekyll-titles-from-headings
+  jemoji
   tzinfo (~> 1.2.10)
   tzinfo-data
   wdm (~> 0.1.1)
