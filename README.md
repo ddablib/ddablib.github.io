@@ -1,18 +1,24 @@
 # ddablib.github.io
 
-This project contains the source code of the [DelphiDabbler Code Library](https://github.com/ddablib) (ddablib) documentation website.
-
-## ALPHA CODE
-
-This project is based on [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) and was copied from that project on 2022-09-06. All the `ddab-lib-docs` history was brought forward.
-
-This site is early in development at present and is being restructured. All page URLs are in the process of being changed.
-
-You are advised to continue to use the original documentation at [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) for the time being.
+This project contains the [source code](https://github.com/ddablib) of the _ddablib_ DelphiDabbler Code Library documentation website.
 
 The site has a custom URL: [https://lib-docs.delphidabbler.com/](https://lib-docs.delphidabbler.com/).
 
-> The GitHub Pages URL, [https://ddablib.github.io](https://ddablib.github.io), is also valid, but simply redirects to the custom URL.
+> The GitHub Pages URL, [https://ddablib.github.io](https://ddablib.github.io), is also valid, but shouldn't be used. It simply redirects to the custom URL.
+
+## &alpha; Code
+
+This site is early in development at present and is being restructured. Many page URLs are in the process of being changed.
+
+The project is based on [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) and was copied from that project on 2022-09-06. All the `ddab-lib-docs` history was brought forward.
+
+Documentation of the following projects have been completed:
+
+| Project | Starting page URL |
+|---------|-------------------|
+| Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
+
+For all other projects you are advised to continue to use the original documentation at [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) for the time being.
 
 ## Copyright & License
 
