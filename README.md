@@ -17,6 +17,7 @@ Documentation of the following projects have been completed:
 | Project | Starting page URL |
 |---------|-------------------|
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
+| Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
 
 For all other projects you are advised to continue to use the original documentation at [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) for the time being.
 
