@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJEnvVars_
 
+**Applies to:** ~>3.0
+
 ```pascal
 type
   {$IFDEF Supports_EOSError}

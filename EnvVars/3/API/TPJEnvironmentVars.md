@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJEnvVars_
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This is a _static class_ that provides methods for interogating, manipulating and modifying the environment variables available to the current process.

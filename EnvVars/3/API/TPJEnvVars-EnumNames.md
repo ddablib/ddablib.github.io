@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJEnvVars_](./TPJEnvVars.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 procedure EnumNames(Callback: TPJEnvVarsEnum; Data: Pointer);
 ```

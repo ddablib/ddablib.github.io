@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJEnvVars_
 
+**Applies to:** ~>3.0
+
 > ***Warning:*** All the routines described here are ***deprecated***. Each routine has analogue in the [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class that should be used in preference.
 
 _PJEnvVars_ contains several functions and procedures to assist in interogating and manipulating environment variables. They are:

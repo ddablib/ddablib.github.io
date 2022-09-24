@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJEnvVars_
 
+**Applies to:** ~>3.0
+
 The _PJEnvVars_ unit contains the following types that are required by the main classes.
 
 |  Type |  Description |

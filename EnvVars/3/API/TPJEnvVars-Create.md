@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJEnvVars_](./TPJEnvVars.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 constructor Create(AOwner: TComponent);
 ```

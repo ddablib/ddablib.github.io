@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJEnvironmentVars_](./TPJEnvironmentVars.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 class function Exists(const VarName: string): Boolean;
 ```

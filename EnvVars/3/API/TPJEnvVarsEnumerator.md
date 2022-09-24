@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJEnvVars_
 
+**Applies to:** ~>3.0
+
 ## Description
 
 Implements an enumerator for the names of all environment variable names in the current process.
