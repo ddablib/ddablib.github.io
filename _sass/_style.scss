@@ -267,3 +267,28 @@ pre {
     text-align: right !important;
     color: $footer-color !important;
 }
+
+.text-center {
+    text-align: center;
+}
+
+#flash-popup {
+    display: none;
+    // Invert usual colours
+    background-color: $flash-bg-color;
+    color: $flash-color;
+    padding: 0.25rem 1rem;
+    border-radius: 16px;
+
+    a {
+        color: $flash-link-color;
+    }
+
+    button {
+        background-color: $flash-button-bg-color;
+        color: $flash-button-color;
+        border: 1px solid $flash-button-border-color;
+        border-radius: 8px;
+        padding: 8px;
+    }
+}

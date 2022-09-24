@@ -51,3 +51,11 @@ $blockquote-bar-color: $border-color-1;
 $blockquote-color: $faded-text-color;
 
 $img-bg-color: $bg-color;
+
+// Flash message inverts main text and background colours
+$flash-color: $body-bg-color;
+$flash-bg-color: lighten($body-color, 5%);
+$flash-link-color: lighten($link-color, 30%);
+$flash-button-color: $bg-color;
+$flash-button-bg-color: $link-color;
+$flash-button-border-color: $flash-button-color;
