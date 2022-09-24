@@ -1,12 +1,12 @@
-# [Environment Variables Unit](../EnvVars.md) Programmers Guide
+# [Environment Variables Unit](../index.md) Programmers Guide
+
+**Applies to:** ~>3.0
 
 ## Introduction
 
-This section of the _Environment Variables Unit_ documentation focusses on describing the usage of unit's code.
+This section of the _Environment Variables Unit_ documentation describes the API exposed by the unit to programmers.
 
-> **This documentation refers to v3.0 or later of the unit only.**
->
-> Earlier versions are no longer supported and no documentation is available.
+## Contents
 
 The project is made up of two units:
 
@@ -14,8 +14,6 @@ The project is made up of two units:
 |------|-------------|
 | _PJEnvVars_ | The all the run time code. This includes a static class for manipulating environment vaiables, an environment variable enumerator, various supporting types and a ***deprecated*** component and related routines. See [Contents](#contents) below for details. |
 | _PJEnvVarsDsgn_ | ***Deprecated*** Registers the [_TPJEnvVars_](./API/TPJEnvVars.md) component  with the Delphi IDE. No further documentation for this unit is available. |
-
-## Contents
 
 This guide is divided into the following sections:
 
@@ -27,22 +25,7 @@ This guide is divided into the following sections:
 
 ## Conventions
 
-Identifiers in plain text appear like this: _Identifier_
-
-Identifiers in links appear like this: [_Identifier_](#conventions)
-
-Values and in-line code appear like this:
-
-* `42`
-* `'text'`
-* `True`
-* `X := 42;`
-
-Declarations and source code examples appear syntax highlighted like this:
-
-```pascal
-procedure Foo(const Bar: string);
-```
+This documentation complies with [these conventions](../../common/conventions.md).
 
 ## Links
 
