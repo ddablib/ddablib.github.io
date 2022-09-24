@@ -35,4 +35,4 @@ Some documentation pages apply only to a certain range of project versions. The 
 
 ## Links
 
-* [Home page](/index.md)
+* [Home page](../index.md)
