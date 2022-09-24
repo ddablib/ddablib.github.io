@@ -13,6 +13,7 @@
   <meta property="og:description" content="{{ site.github.project_tagline }}">
   <link rel="canonical" href="{{ site.url}}{{ page.url }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <script src="/assets/scripts/cookies.js"></script>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <link rel="icon" href="/assets/img/favicon-16.png" type="image/png" sizes="16x16">
@@ -23,6 +24,9 @@
 </head>
 <body>
   <div class="container">
+    {% unless site.ignore-flash == true %}
+    {% include flash.html %}
+    {% endunless %}
     <!-- Document Content -->
     {{ content }}
     <!-- End Document Content -->
@@ -41,5 +45,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
   <script>anchors.add();</script>
   {% include cookie-consent.html %}
+  <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+  <script src="/assets/scripts/flash-msg.js"></script>
 </body>
 </html>
