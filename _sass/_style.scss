@@ -292,3 +292,29 @@ pre {
         padding: 8px;
     }
 }
+
+// Adds an external link glyph to links whose hrefs start with http:// or
+// https://
+// If the link is a direct download that does not load another page then you can
+// specify the .direct-dl class replace the external link glyph with a cloud
+// download glyph.
+// http:// links display same glyphs as https://, but with an additional
+// warning symbol.
+// ** Requires Font Awesome v6.1.x
+
+// Styling for http:// and https:// link suffix glyphs
+a[href^="http"]::after {
+    font-family: $glyph-font-family;
+    margin-left: 4px;
+    font-size: 70%;
+}
+
+// Suffix glyphs for http:// URLs
+a[href^="http:"]::after {
+    content: "\f071\202f\f08e"
+}
+
+// Suffix gylphs for https:// URLs
+a[href^="https:"]::after {
+    content: "\f08e";
+}
