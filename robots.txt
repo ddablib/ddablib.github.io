@@ -2,3 +2,5 @@ User-agent: *
 Disallow: /assets/
 Disallow: /Docs/
 Disallow: /FAQs/
+
+Sitemap: https://lib-docs.delphidabbler.com/sitemap.xml
