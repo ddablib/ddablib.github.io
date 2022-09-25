@@ -33,13 +33,14 @@
     <!-- End Document Content -->
     <footer>
       <div class="footer">
+        <p>Copyright © {{ 'now' | date: "%Y" }}, [Peter Johnson](https://en.gravatar.com/delphidabbler). See the [credits page]({{ "/credits.html" | relative_url }}) for more information.</p>
         {%- assign closer = page.url | slice: -1, 1 -%}
         {%- if closer == '/' -%}
         {%- assign url = page.url | append: 'index.md' -%}
         {%- else -%}
         {%- assign url = page.url | replace: '.html', '.md' -%}
         {%- endif %}
-        This site is open source. <a href="https://github.com/ddablib/ddablib.github.io/edit/main{{ url }}">Improve this page</a>.
+        <p class="text-right"><a href="https://github.com/ddablib/ddablib.github.io/edit/main{{ url }}">Improve this page</a>.</p>
       </div>
     </footer>
   </div>
@@ -49,4 +50,3 @@
   <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
   <script src="/assets/scripts/flash-msg.js"></script>
 </body>
-</html>
