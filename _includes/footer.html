@@ -1,0 +1,12 @@
+<footer>
+  <div class="footer">
+    <p>Copyright &copy; {{ 'now' | date: "%Y" }}, <a href="https://en.gravatar.com/delphidabbler">Peter Johnson</a>. See the <a href="{{ '/credits.html' | relative_url }}">credits page</a> for more information.</p>
+    {%- assign closer = page.url | slice: -1, 1 -%}
+    {%- if closer == '/' -%}
+    {%- assign url = page.url | append: 'index.md' -%}
+    {%- else -%}
+    {%- assign url = page.url | replace: '.html', '.md' -%}
+    {%- endif %}
+    <p class="text-right"><a href="https://github.com/ddablib/ddablib.github.io/edit/main{{ url }}">Improve this page</a>.</p>
+  </div>
+</footer>
