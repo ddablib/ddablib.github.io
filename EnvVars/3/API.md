@@ -12,7 +12,7 @@ The project is made up of two units:
 
 | Unit | Description |
 |------|-------------|
-| _PJEnvVars_ | The all the run time code. This includes a static class for manipulating environment vaiables, an environment variable enumerator, various supporting types and a ***deprecated*** component and related routines. See [Contents](#contents) below for details. |
+| _PJEnvVars_ | All the run time code. This includes a static class for manipulating environment variables, an environment variable enumerator, various supporting types and a ***deprecated*** component and related routines. See below for details. |
 | _PJEnvVarsDsgn_ | ***Deprecated*** Registers the [_TPJEnvVars_](./API/TPJEnvVars.md) component  with the Delphi IDE. No further documentation for this unit is available. |
 
 This guide is divided into the following sections:
