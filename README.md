@@ -1,6 +1,6 @@
 # ddablib.github.io
 
-This project contains the [source code](https://github.com/ddablib) of the _ddablib_ DelphiDabbler Code Library documentation website.
+This project contains the source code of the _ddablib_ DelphiDabbler Code Library documentation website.
 
 The site has a custom URL: [https://lib-docs.delphidabbler.com/](https://lib-docs.delphidabbler.com/).
 
