@@ -7,17 +7,12 @@
 $( function() {
     var flash = $("#flash-popup");
     var closeBtn = $("#flash-popup-close");
-    console.log(closeBtn);
     if ( ! flash ) {
-        console.log('Not flash');
         return;
     }
     var id = flash.data('flash-id');
-    console.log('id = ' + id);
     var cookieName = 'dd-ddablib--flash-' + id;
-    console.log('cookieName = ' + cookieName);
     closeBtn.on('click', function () {
-        console.log('CLICK');
         Cookie.write(cookieName, "dismissed", 3650);
         flash.hide();
     });
