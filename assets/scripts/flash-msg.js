@@ -14,7 +14,7 @@ $( function() {
     }
     var id = flash.data('flash-id');
     console.log('id = ' + id);
-    var cookieName = 'dd_flash_' + id;
+    var cookieName = 'dd-ddablib--flash-' + id;
     console.log('cookieName = ' + cookieName);
     closeBtn.on('click', function () {
         console.log('CLICK');
