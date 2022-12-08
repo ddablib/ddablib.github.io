@@ -21,4 +21,4 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Security updates
 gem "commonmarker", ">= 0.23.6"    # Dependabot alert #1
-gem "nokogiri", "~> 1.13.9"        # Dependabot alert PR#44
+gem "nokogiri", "~> 1.13.10"       # Dependabot alert PR#44
