@@ -12,7 +12,7 @@ Here's a list of the available FAQs for the DelphiDabbler Code Library.
 
 ## Ask a Question
 
-If you have a question that needs answering please check the FAQs above **and** the [relevant library documentation](../README.md) - you may find an answer there.
+If you have a question that needs answering please check the FAQs above **and** the [relevant library documentation](https://github.com/ddablib/ddablib.github.io/blob/main/README.md) - you may find an answer there.
 
 If you still can't find an answer then please do the following:
 
