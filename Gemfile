@@ -20,6 +20,6 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Security updates
-gem "commonmarker", ">= 0.23.7"    # Dependabot alert PR#56
-gem "nokogiri", "~> 1.13.10"       # Dependabot alert PR#44
-gem "activesupport", "~> 7.0.4.3"  # Dependabot alert PR#57
+gem "commonmarker", ">= 0.23.7"
+gem "nokogiri", "~> 1.13.10"
+gem "activesupport", "~> 7.0.4.3"
