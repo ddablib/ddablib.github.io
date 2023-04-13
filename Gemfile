@@ -20,7 +20,7 @@ end
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Security updates
-gem "commonmarker", ">= 0.23.7"
+gem "commonmarker", ">= 0.23.9"
 gem "nokogiri", "~> 1.13.10"
 gem "activesupport", "~> 7.0.4.3"
 
