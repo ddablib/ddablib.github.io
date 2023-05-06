@@ -17,7 +17,7 @@ The library currently contains the following projects, all originally published 
 | [I/O Utilities Unit](./Docs/IOUtils.md) | Several classes that assist with various I/O related tasks, including working with pipes and inheritable file handles. |
 | [MD5 Message Digest Unit](./Docs/MD5.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
 | [Message Dialog Components](./Docs/MessageDialogComponents.md) | Components that wrap message dialogue boxes provided by the Delphi VCL and the Windows API. |
-| [Resource File Unit](./Docs/ResFileUnit.md) | Contains classes that encapsulate 32 bit binary resource files and the resources they contain. Can read and update raw resource file data. |
+| [Resource File Unit](./ResFile/index.md) | Contains classes that encapsulate 32 bit binary resource files and the resources they contain. Can read and update raw resource file data. |
 | [Shell Folders Unit](./Docs/ShellFoldersUnit.md) | Components, classes and routines to assist in working with shell folders. Includes a "Browse for Folder" dialogue box. |
 | [Stream Extension Classes](./Docs/Streams.md) | Classes that provide a means to wrap _TStream_ objects. Also provides implementations of the _IStream_ interface. |
 | [System Information Unit](./Docs/SystemInformationUnit.md) | Static classes that get information about the user's computer and operating system.  |

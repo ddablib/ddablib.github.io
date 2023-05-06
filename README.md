@@ -18,6 +18,7 @@ Documentation of the following projects have been completed:
 |---------|-------------------|
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
 | Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
+| Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
 
 Documentation of the following, unreleased, project is under construction:
 
