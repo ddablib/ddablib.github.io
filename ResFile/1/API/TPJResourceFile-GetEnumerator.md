@@ -1,10 +1,10 @@
-# GetEnumerator method #
+# GetEnumerator method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 **Introduced:** v1.1
 
@@ -12,9 +12,9 @@
 function GetEnumerator: TPJResourceFileEnumerator;
 ```
 
-Creates and returns a new enumerator of type _[TPJResourceFileEnumerator](TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** that can enumerate the resources contained in a _[TPJResourceFile](TPJResourceFile.md)_ instance.
+Creates and returns a new enumerator of type _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** that can enumerate the resources contained in a _[TPJResourceFile](./TPJResourceFile.md)_ instance.
 
-The purpose of _GetEnumerator_ is to enable a _[TPJResourceFile](TPJResourceFile.md)_ instance to be enumerated in a **for..in** loop construct. In such cases _GetEnumerator_ is called automatically and there is rarely any need call the method from code.
+The purpose of _GetEnumerator_ is to enable a _[TPJResourceFile](./TPJResourceFile.md)_ instance to be enumerated in a **for..in** loop construct. In such cases _GetEnumerator_ is called automatically and there is rarely any need call the method from code.
 
 On compilers that don't support **for..in** loops (i.e. Delphi 7 and earlier) you can call _GetEnumerator_ from code to get an enumerator instance and use that to perform the enumeration (usually using a **while** loop). Once the enumeration is complete you must free the enumerator object. However, it is usually simpler to use the traditional **for..do** loop to iterate over the indexes of the available entries.
 
@@ -22,7 +22,7 @@ On compilers that don't support **for..in** loops (i.e. Delphi 7 and earlier) yo
 
 Here is how to iterate the resource entries in Delphi 2005 and later.
 
-Assume there is a _[TPJResourceFile](TPJResourceFile.md)_ instance named _ResFile_ and a method _DoSomething_ that takes a _[TPJResourceEntry](TPJResourceEntry.md)_ parameter.
+Assume there is a _[TPJResourceFile](./TPJResourceFile.md)_ instance named _ResFile_ and a method _DoSomething_ that takes a _[TPJResourceEntry](./TPJResourceEntry.md)_ parameter.
 
 ```pascal
 var
@@ -36,7 +36,7 @@ begin
 end;
 ```
 
-Notice that neither _GetEnumerator_ nor the methods of _[TPJResourceFileEnumerator](TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** are called explicitly.
+Notice that neither _GetEnumerator_ nor the methods of _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** are called explicitly.
 
 **Example 2:**
 

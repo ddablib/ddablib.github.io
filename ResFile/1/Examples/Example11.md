@@ -1,4 +1,4 @@
-# Example #11: Validating a resource file<sup>v1.1</sup> #
+# Example #11: Validating a resource file<sup>v1.1</sup>
 
 _**Note:** The code in this example requires v1.1 of the Resource File Unit and Delphi 2009 or later._
 
@@ -102,6 +102,6 @@ Then it calls _ValidateResFile_ passing the resource file name and an array of r
 
 **Links:**
 
-  * [Next Example](ResFileExample12.md)
-  * [Previous Example](ResFileExample10.md)
-  * Back to [List of Examples](ResFileExamples.md)
+  * [Next Example](./Example12.md)
+  * [Previous Example](./Example10.md)
+  * Back to [List of Examples](../Examples.md)

@@ -1,6 +1,6 @@
-# Resource File Helper Routines #
+# Resource File Helper Routines
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
@@ -20,7 +20,7 @@ This is a clone of the `IS_INTRESOURCE` macro defined on MSDN that checks if a r
 
 **_Parameter:_**
 
-  * _ResID_: The resource identifier to be checked. May be either an numeric identifier (like those produced by _MakeIntResource_, or a name in the form of a null terminated string.
+  * _ResID_: The resource identifier to be checked. May be either an numeric identifier (like those produced by _MakeIntResource_, or a name in the form of a null terminated string).
 
 **_Returns:_**
 

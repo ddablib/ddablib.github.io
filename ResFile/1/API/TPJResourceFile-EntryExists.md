@@ -1,10 +1,10 @@
-# EntryExists method #
+# EntryExists method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 ```pascal
 function EntryExists(const ResType, ResName: PChar;

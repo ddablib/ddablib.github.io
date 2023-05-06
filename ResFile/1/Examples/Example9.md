@@ -1,8 +1,8 @@
-# Example #9: Saving a resource file #
+# Example #9: Saving a resource file
 
-Once you have created or modified a resource file object there comes a time when you need to save it somewhere. To do this we simply use the _[SaveToFile](TPJResourceFileSaveToFile.md)_ or _[SaveToStream](TPJResourceFileSaveToStream.md)_ methods of _[TPJResourceFile](TPJResourceFile.md)_.
+Once you have created or modified a resource file object there comes a time when you need to save it somewhere. To do this we simply use the _[SaveToFile](../API/TPJResourceFile-SaveToFile.md)_ or _[SaveToStream](../API/TPJResourceFile-SaveToStream.md)_ methods of _[TPJResourceFile](../API/TPJResourceFile.md)_.
 
-The following code shows how to use _[SaveToFile](TPJResourceFileSaveToFile.md)_:
+The following code shows how to use _[SaveToFile](../API/TPJResourceFile-SaveToFile.md)_:
 
 ```pascal
 var
@@ -15,7 +15,7 @@ begin
 end;
 ```
 
-The next code snippet shows how accomplish the same thing using _[SaveToStream](TPJResourceFileSaveToStream.md)_:
+The next code snippet shows how accomplish the same thing using _[SaveToStream](../API/TPJResourceFile-SaveToStream.md)_:
 
 ```pascal
 var
@@ -33,10 +33,10 @@ begin
 end;
 ```
 
-In real life we would just use the code in the first fragment, but this suffices as an example of using _[SaveToStream](TPJResourceFileSaveToStream.md)_.
+In real life we would just use the code in the first fragment, but this suffices as an example of using _[SaveToStream](../API/TPJResourceFile-SaveToStream.md)_.
 
 **Links:**
 
-  * [Next Example](ResFileExample10.md)
-  * [Previous Example](ResFileExample8.md)
-  * Back to [List of Examples](ResFileExamples.md)
+  * [Next Example](./Example10.md)
+  * [Previous Example](./Example8.md)
+  * Back to [List of Examples](../Examples.md)

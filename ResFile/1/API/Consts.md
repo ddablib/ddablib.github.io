@@ -1,6 +1,6 @@
-# Resource File Unit Constants #
+# Resource File Unit Constants
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 

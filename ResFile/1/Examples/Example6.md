@@ -1,8 +1,8 @@
-# Example #6: Adding a new resources to a file #
+# Example #6: Adding a new resources to a file
 
-We can add new resources to an existing file using _[TPJResourceFile](TPJResourceFile.md)_'s _[AddEntry](TPJResourceFileAddEntry.md)_ method. Each new resource must be uniquely named within the resource file (i.e. its combined resource type, name and language id must be unique), otherwise an exception will be raised.
+We can add new resources to an existing file using _[TPJResourceFile](../API/TPJResourceFile.md)_'s _[AddEntry](../API/TPJResourceFile-AddEntry.md)_ method. Each new resource must be uniquely named within the resource file (i.e. its combined resource type, name and language id must be unique), otherwise an exception will be raised.
 
-There are two versions of _[AddEntry](TPJResourceFileAddEntry.md)_. The first simply adds a new empty resource with zeroed header properties while the second version adds a renamed copy of an existing resource. Both versions of _[AddEntry](TPJResourceFileAddEntry.md)_ take an optional language identifier. If this is not specified then the resource is language neutral (_LanguageID_ = `0`).
+There are two versions of _[AddEntry](../API/TPJResourceFile-AddEntry.md)_. The first simply adds a new empty resource with zeroed header properties while the second version adds a renamed copy of an existing resource. Both versions of _[AddEntry](../API/TPJResourceFile-AddEntry.md)_ take an optional language identifier. If this is not specified then the resource is language neutral (_LanguageID_ = `0`).
 
 The following code snippet adds four new resource entries to an existing resource file object:
 
@@ -56,6 +56,6 @@ The entries we have created have the following properties:
 
 **Links:**
 
-  * [Next Example](ResFileExample7.md)
-  * [Previous Example](ResFileExample5.md)
-  * Back to [List of Examples](ResFileExamples.md)
+  * [Next Example](./Example7.md)
+  * [Previous Example](./Example5.md)
+  * Back to [List of Examples](../Examples.md)

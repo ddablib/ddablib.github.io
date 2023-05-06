@@ -1,10 +1,10 @@
-# IsValidResourceStream class method #
+# IsValidResourceStream class method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 ```pascal
 class function IsValidResourceStream(const Stm: TStream): Boolean;
@@ -12,7 +12,7 @@ class function IsValidResourceStream(const Stm: TStream): Boolean;
 
 This class method checks if a stream contains data representing a valid 32 bit resource file starting at the current position in the stream. This method checks that a 32 bit resource file header is present but does not validate the whole of the file. Note that the stream is **not** rewound to the starting position after the check is made.
 
-Use _IsValidResourceStream_ to test a stream for validity before loading it into a _[TPJResourceFile](TPJResourceFile.md)_ object.
+Use _IsValidResourceStream_ to test a stream for validity before loading it into a _[TPJResourceFile](./TPJResourceFile.md)_ object.
 
 **_Parameter:_**
 

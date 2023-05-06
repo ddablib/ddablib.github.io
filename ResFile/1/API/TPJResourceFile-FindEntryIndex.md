@@ -1,17 +1,17 @@
-# FindEntryIndex method #
+# FindEntryIndex method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 ```pascal
 function FindEntryIndex(const ResType, ResName: Pchar;
   const LangID: Word = $FFFF): Integer;
 ```
 
-Finds the index in the _[Entries](TPJResourceFileEntries.md)_ property of a resource entry with the given type, name and language id. The search can ignore the resource name or language id in which case first entry that matches the provided information is accepted.
+Finds the index in the _[Entries](./TPJResourceFile-Entries.md)_ property of a resource entry with the given type, name and language id. The search can ignore the resource name or language id in which case first entry that matches the provided information is accepted.
 
 **_Parameters:_**
 
@@ -21,4 +21,4 @@ Finds the index in the _[Entries](TPJResourceFileEntries.md)_ property of a reso
 
 **_Returns:_**
 
-The index of the found resource in the _[Entries](TPJResourceFileEntries.md)_ property or `-1` if no resource was found.
+The index of the found resource in the _[Entries](./TPJResourceFile-Entries.md)_ property or `-1` if no resource was found.

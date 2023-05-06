@@ -1,4 +1,4 @@
-# Example #10: Creating a resource file for use with Internet Explorer #
+# Example #10: Creating a resource file for use with Internet Explorer
 
 All the previous examples in this documentation are rather contrived examples that seek to focus on one or more related aspects of the functionality in the _PJResFile_ unit. This example is the first of three examples that aim to present useful code that uses several of the methods covered by other examples.
 
@@ -58,7 +58,7 @@ The comments in the code should explain what is happening.
 
 **Alternative Approach<sup>v1.1</sup>**
 
-The above code can be simplified when using v1.1 of the Resource File Unit because of its new _[LoadDataFromFile](TPJResourceEntryLoadDataFromFile.md)_ method. Using this method we can replace all the stream processing code between the `// Copy source file into resource data` comment and the end of the loop with a single line of code:
+The above code can be simplified when using v1.1 of the Resource File Unit because of its new _[LoadDataFromFile](../API/TPJResourceEntry-LoadDataFromFile.md)_ method. Using this method we can replace all the stream processing code between the `// Copy source file into resource data` comment and the end of the loop with a single line of code:
 
 ```pascal
       ...
@@ -71,6 +71,6 @@ The above code can be simplified when using v1.1 of the Resource File Unit becau
 
 **Links:**
 
-  * [Next Example](ResFileExample11.md)
-  * [Previous Example](ResFileExample9.md)
-  * Back to [List of Examples](ResFileExamples.md)
+  * [Next Example](./Example11.md)
+  * [Previous Example](./Example9.md)
+  * Back to [List of Examples](../Examples.md)

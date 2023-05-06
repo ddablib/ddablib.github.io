@@ -1,6 +1,6 @@
-# TPJResourceEntry #
+# TPJResourceEntry
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
@@ -10,7 +10,7 @@ _TPJResourceEntry_ objects are used to manipulate and interrogate resource entri
 
 This is done mainly via properties which give access to resource header information, allow some header information to be set, and give read/write access to the raw resource data via a _TStream_ or as a an array of bytes**<sup>v1.1</sup>**.
 
-Objects of this class must not be directly instantiated. _[TPJResourceFile](TPJResourceFile.md)_ automatically creates the required objects when loading a resource file. New, empty resource entry instances can be created by using one the overloaded _[AddEntry](TPJResourceFileAddEntry.md)_ methods provided by _[TPJResourceFile](TPJResourceFile.md)_. _TPJResourceEntry_ is actually an abstract class that provides an  interface for manipulating resource entries. The concrete class that implements the resource entry is private. This enforces the rule that all valid resource objects are created and accessed via _[TPJResourceFile](TPJResourceFile.md)_.
+Objects of this class must not be directly instantiated. _[TPJResourceFile](./TPJResourceFile.md)_ automatically creates the required objects when loading a resource file. New, empty resource entry instances can be created by using one the overloaded _[AddEntry](./TPJResourceFile-AddEntry.md)_ methods provided by _[TPJResourceFile](./TPJResourceFile.md)_. _TPJResourceEntry_ is actually an abstract class that provides an  interface for manipulating resource entries. The concrete class that implements the resource entry is private. This enforces the rule that all valid resource objects are created and accessed via _[TPJResourceFile](./TPJResourceFile.md)_.
 
 Care should be taken not to use a resource entry after the related resource file object has been cleared or destroyed, or a new resource file has been loaded, since all these actions free previous resource entries. It is safe to free a _TPJResourceEntry_ object directly by calling its _Free_ method. Doing so automatically removes the object from the resource file object it belongs to.
 
@@ -18,9 +18,9 @@ Care should be taken not to use a resource entry after the related resource file
 
 | **Method** | **Description** |
 |:-----------|:----------------|
-| _[ClearData](TPJResourceEntryClearData.md)_**<sup>v1.1</sup>** | Clears (deletes) the resource entry's raw data. |
-| _[IsMatching](TPJResourceEntryIsMatching.md)_ | Overloaded methods to check if the resource entry matches the type, name and language ID of another entry. |
-| _[LoadDataFromFile](TPJResourceEntryLoadDataFromFile.md)_**<sup>v1.1</sup>** | Loads the content of a file into the resource entry's raw data. |
+| _[ClearData](./TPJResourceEntry-ClearData.md)_**<sup>v1.1</sup>** | Clears (deletes) the resource entry's raw data. |
+| _[IsMatching](./TPJResourceEntry-IsMatching.md)_ | Overloaded methods to check if the resource entry matches the type, name and language ID of another entry. |
+| _[LoadDataFromFile](./TPJResourceEntry-LoadDataFromFile.md)_**<sup>v1.1</sup>** | Loads the content of a file into the resource entry's raw data. |
 
 ## Properties ##
 
@@ -40,4 +40,4 @@ Care should be taken not to use a resource entry after the related resource file
 
 **Footnote**
 
-† _TBytes_ is defined in _SysUtils_ on Delphi 2007 and later. For earlier compilers _TBytes_ is defined in the _[PJResFile](ResFileUnit.md)_ unit as `array of byte`.
+† _TBytes_ is defined in _SysUtils_ on Delphi 2007 and later. For earlier compilers _TBytes_ is defined in the _[PJResFile](../API.md)_ unit as `array of byte`.

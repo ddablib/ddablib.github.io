@@ -1,18 +1,18 @@
-# LoadFromFile method #
+# LoadFromFile method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 ```pascal
 procedure LoadFromFile(const FileName: TFileName);
 ```
 
-Loads a resource file from a named file. New _[TPJResourceEntry](TPJResourceEntry.md)_ objects are created for each resource in the file.
+Loads a resource file from a named file. New _[TPJResourceEntry](./TPJResourceEntry.md)_ objects are created for each resource in the file.
 
-Any _[TPJResourceEntry](TPJResourceEntry.md)_ objects that existed before calling _LoadFromFile_ are freed. You should be careful not to access any existing references to such objects after calling _LoadFromFile_.
+Any _[TPJResourceEntry](./TPJResourceEntry.md)_ objects that existed before calling _LoadFromFile_ are freed. You should be careful not to access any existing references to such objects after calling _LoadFromFile_.
 
 **_Parameter:_**
 

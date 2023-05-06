@@ -1,16 +1,16 @@
-# IndexOfEntry method #
+# IndexOfEntry method
 
-**Project:** [Resource File Unit](ResFileUnit.md)
+**Project:** [Resource File Unit](../API.md)
 
 **Unit:** _PJResFile_.
 
-**Class:** _[TPJResourceFile](TPJResourceFile.md)_
+**Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
 ```pascal
 function IndexOfEntry(const Entry: TPJResourceEntry): Integer;
 ```
 
-Gets the index number of a resource entry in the resource file's _[Entries](TPJResourceFileEntries.md)_ property.
+Gets the index number of a resource entry in the resource file's _[Entries](./TPJResourceFile-Entries.md)_ property.
 
 **_Parameter:_**
 
@@ -18,4 +18,4 @@ Gets the index number of a resource entry in the resource file's _[Entries](TPJR
 
 **_Returns:_**
 
-The index of the resource entry in the _[Entries](TPJResourceFileEntries.md)_ property or `-1` if not found.
+The index of the resource entry in the _[Entries](./TPJResourceFile-Entries.md)_ property or `-1` if not found.
