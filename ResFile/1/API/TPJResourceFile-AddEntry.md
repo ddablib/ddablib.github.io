@@ -6,6 +6,8 @@
 
 **Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
+**Applies to:** ~>1.0
+
 There are two overloaded _AddEntry_ methods. They are both used to create a new resource entry within the resource file represented by a _[TPJResourceFile](./TPJResourceFile.md)_ object.
 
 

@@ -12,6 +12,8 @@ These helper routines are to assist in manipulating resource identifiers. They c
 
 ## IsIntResource ##
 
+**Applies to:** ~>1.0
+
 ```pascal
 function IsIntResource(const ResID: PChar): Boolean;
 ```
@@ -27,6 +29,8 @@ This is a clone of the `IS_INTRESOURCE` macro defined on MSDN that checks if a r
   * `True` if _ResID_ is numeric or `False` if it is a null terminated string.
 
 ## IsEqualResID ##
+
+**Applies to:** ~>1.0
 
 ```pascal
 function IsEqualResID(const R1, R2: PChar): Boolean;
@@ -44,6 +48,8 @@ Checks for equality of two resource identifiers. To be equal the identifiers eit
   * `True` if the identifiers are equal and `False` otherwise.
 
 ## ResIDToStr ##
+
+**Applies to:** ~>1.0
 
 ```pascal
 function ResIDToStr(const ResID: PChar): string;

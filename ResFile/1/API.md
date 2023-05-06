@@ -22,7 +22,7 @@ _PJSysInfo_ provides the following classes, routines and constants.
 |:--------|:------------|
 | _[TPJResourceFile](./API/TPJResourceFile.md)_ | Class that encapsulates the contents of a whole resource file and provides methods and properties to search, enumerate and manipulate it. |
 | _[TPJResourceEntry](./API/TPJResourceEntry.md)_ | Class that encapsulates a single resource within a resource file and provides properties and methods to access its header record and its raw data and to compare it to other resources. |
-| _[TPJResourceFileEnumerator](./API/TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** | Class that implements an enumerator for _[TPJResourceFile](./API/TPJResourceFile.md)_ that enumerates all its resource entries. |
+| _[TPJResourceFileEnumerator](./API/TPJResourceFileEnumerator.md)_ _[~>1.1]_ | Class that implements an enumerator for _[TPJResourceFile](./API/TPJResourceFile.md)_ that enumerates all its resource entries. |
 | _[EPJResourceFile](./API/EPJResourceFile.md)_ | Class of exception raised by _[TPJResourceFile](./API/TPJResourceFile.md)_ and _[TPJResourceEntry](./API/TPJResourceEntry.md)_. |
 | [Helper Routines](./API/Routines.md) | Routines to assist in working with resource identifiers. |
 | [Constants](./API/Consts.md) | Various useful constants. |

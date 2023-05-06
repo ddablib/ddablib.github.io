@@ -6,7 +6,7 @@
 
 **Class:** _[TPJResourceEntry](./TPJResourceEntry.md)_
 
-**Introduced:** v1.1
+**Applies to:** ~>1.1
 
 ```pascal
 procedure LoadDataFromFile(const SrcFileName: TFileName;

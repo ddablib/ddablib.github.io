@@ -6,6 +6,8 @@
 
 **Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
+**Applies to:** ~>1.0
+
 ```pascal
 class function IsValidResourceStream(const Stm: TStream): Boolean;
 ```

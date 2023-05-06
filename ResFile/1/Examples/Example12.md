@@ -1,6 +1,6 @@
-# Example #12: Recording a compilation date in a resource file<sup>v1.1†</sup>
+# Example #12: Recording a compilation date in a resource file†
 
-_† **Note:** The first block of code in this example requires v1.1 of the Resource File Unit if compiled with Delphi 2009 or later. When compiled with an earlier compiler v1.0 will suffice._
+_† **Note:** [~>1.1] The first block of code in this example requires v1.1 of the Resource File Unit if compiled with Delphi 2009 or later. When compiled with an earlier compiler v1.0 will suffice._
 
 Sometimes it's useful for a program to "know" the date when it was last compiled. One way to do this is to include a resource in the program that contains the compile date. The program can then read the date from the resource when it needs it.
 
@@ -55,7 +55,7 @@ Here's how it works:
 
   1. _Load any existing file:_ Check if the resource file already exists and if so we load it.
   1. _Check if there's already a suitable resource:_ Check if the required resource already exists and if so we keep a reference to it so the data can be overwritten. If the required resource doesn't exist we create it.
-  1. _Store the current date in the resource:_ The current date is formatted and stored in _DateStr_. The next step depends on if a Unicode version of Delphi is being used or not. If so we simply convert _DateStr_ to its ANSI representation in a byte array and assign that to the _[DataBytes](../API/TPJResourceEntry.md#properties)_**<sup>v1.1</sup>** property, which overwrites any existing value. If a Unicode compiler is not being used we use _[Data](../API/TPJResourceEntry.md#properties)_ property instead, first clearing the stream, then write copying the (ANSI) string to it before reseting the stream pointer.
+  1. _Store the current date in the resource:_ The current date is formatted and stored in _DateStr_. The next step depends on if a Unicode version of Delphi is being used or not. If so we simply convert _DateStr_ to its ANSI representation in a byte array and assign that to the _[DataBytes](../API/TPJResourceEntry.md#properties)_ [~>1.1] property, which overwrites any existing value. If a Unicode compiler is not being used we use _[Data](../API/TPJResourceEntry.md#properties)_ property instead, first clearing the stream, then write copying the (ANSI) string to it before reseting the stream pointer.
   1. _Save the modified resource file:_ Any existing file is overwritten.
 
 Note that any existing resources in the file are preserved. If the resource file contained the "data" resource it is overwritten, but if the file had no such resource one is added. If the resource file didn't exist a new file is created with a single "date" resource.

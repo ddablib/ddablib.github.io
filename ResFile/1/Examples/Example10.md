@@ -56,9 +56,9 @@ The _Files_ parameter of the routine is a string list containing the (fully spec
 
 The comments in the code should explain what is happening.
 
-**Alternative Approach<sup>v1.1</sup>**
+**Alternative Approach [~>1.1]**
 
-The above code can be simplified when using v1.1 of the Resource File Unit because of its new _[LoadDataFromFile](../API/TPJResourceEntry-LoadDataFromFile.md)_ method. Using this method we can replace all the stream processing code between the `// Copy source file into resource data` comment and the end of the loop with a single line of code:
+The above code can be simplified when using v1.1 of the Resource File Unit because of its new _[LoadDataFromFile](../API/TPJResourceEntry-LoadDataFromFile.md)_ [~>1.1] method. Using this method we can replace all the stream processing code between the `// Copy source file into resource data` comment and the end of the loop with a single line of code:
 
 ```pascal
       ...

@@ -1,6 +1,4 @@
-# Example #11: Validating a resource file<sup>v1.1</sup>
-
-_**Note:** The code in this example requires v1.1 of the Resource File Unit and Delphi 2009 or later._
+# Example #11: Validating a resource file [~>1.1]
 
 Suppose you have a resource file that is included in a program that you are compiling. There may be resources that your program assumes will be present and will crash if they are not there. Most likely there will also be resources that Windows expects to find, such as the program icon.
 

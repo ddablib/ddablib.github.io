@@ -36,7 +36,7 @@ The details of each entry are formatted by Delphi's _Format_ function and added 
 
 You may have noticed that we have not freed any of the resource entry objects. This is not necessary since they are all freed automatically when the resource files object is freed.
 
-**Alternative Approach<sup>v1.1</sup>**
+**Alternative Approach [~>1.1]**
 
 A second approach to the problem uses the fact that v1.1 of the resource files unit implements an enumerator for _[TPJResourceFile](../API/TPJResourceFile.md)_. This means that we can use a **for..in** loop to enumerate the resources.
 

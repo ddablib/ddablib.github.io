@@ -5,8 +5,8 @@ While the code in the [Resource File Unit](../API.md) does not understand the va
 The following properties and methods of _[TPJResourceEntry](../API/TPJResourceEntry.md)_ are useful in reading, adding, updating and deleting the raw data:
 
   * The _[Data](../API/TPJResourceEntry.md#properties)_ property. This exposes the resource data as a _TStream_ which means that we can use normal stream handling techniques to read and modify the data.
-  * The _[DataBytes](../API/TPJResourceEntry.md#properties)_**<sup>v1.1</sup>** property makes the resource data available as a byte array.
-  * The _[ClearData](../API/TPJResourceEntry-ClearData.md)_**<sup>v1.1</sup>** method deletes the resource data.
+  * The _[DataBytes](../API/TPJResourceEntry.md#properties)_ [~>1.1] property makes the resource data available as a byte array.
+  * The _[ClearData](../API/TPJResourceEntry-ClearData.md)_ [~>1.1] method deletes the resource data.
 
 In the following section we show how manipulate data using these properties and method.
 
@@ -41,7 +41,7 @@ begin
 end;
 ```
 
-We first set the buffer to the required size by getting the size of the resource from the _[TPJResourceEntry](../API/TPJResourceEntry.md)_'s _[DataSize](../API/TPJResourceEntry.md#properties)_ property (you could also use the _[Data](../API/TPJResourceEntry.md#properties).Size_ property). We now ensure the resource data stream is positioned at the start (you can't assume this!) then read all the data into the buffer using _TStream_'s _ReadBuffer_ method. We then reposition the stream ready for the next use. Having processed the data in the buffer in some way we finally free it.
+We first set the buffer to the required size by getting the size of the resource from the _[TPJResourceEntry](../API/TPJResourceEntry.md)_'s _[DataSize](../API/TPJResourceEntry.md#properties)_ [~>1.1] property (you could also use the _[Data](../API/TPJResourceEntry.md#properties).Size_ property). We now ensure the resource data stream is positioned at the start (you can't assume this!) then read all the data into the buffer using _TStream_'s _ReadBuffer_ method. We then reposition the stream ready for the next use. Having processed the data in the buffer in some way we finally free it.
 
 It may be more convenient to copy the resource data to another stream before processing it. The next example illustrates this by storing the resource data in a file named `ResEntry.dat`:
 
@@ -68,7 +68,7 @@ end;
 
 Here we first open a stream onto a new file. We then use _TStream_'s _CopyFrom_ method to copy the whole of the resource data to the file stream. By specifying a size of `0` in the _CopyFrom_ method, _TStream_ automatically positions the resource data stream at the start and copies the whole stream, so we don't need to position it first. Once again we reset the resource data stream once we are done.
 
-Depending on how you want to manipulate the resource data it may be much simpler to use the _[DataBytes](../API/TPJResourceEntry.md#properties)_**<sup>v1.1</sup>** property to get an array of bytes to manipulate. Here's an example that is so simple it is hardly worth giving:
+Depending on how you want to manipulate the resource data it may be much simpler to use the _[DataBytes](../API/TPJResourceEntry.md#properties)_ [~>1.1] property to get an array of bytes to manipulate. Here's an example that is so simple it is hardly worth giving:
 
 ```pascal
 var
@@ -86,7 +86,7 @@ end;
 
 ## Deleting data ##
 
-The simplest way to delete the data is to call the _[TPJResourceEntry](../API/TPJResourceEntry.md)_._[ClearData](../API/TPJResourceEntry-ClearData.md)_**<sup>v1.1</sup>** method:
+The simplest way to delete the data is to call the _[TPJResourceEntry](../API/TPJResourceEntry.md)_._[ClearData](../API/TPJResourceEntry-ClearData.md)_ [~>1.1] method:
 
 ```pascal
 var
@@ -113,7 +113,7 @@ begin
 end;
 ```
 
-**Note:** You must set the _Size_ property of the entry's _[Data](../API/TPJResourceEntry.md#properties)_ property here: you can't set the _[DataSize](../API/TPJResourceEntry.md#properties)_ property since it is read only.
+**Note:** You must set the _Size_ property of the entry's _[Data](../API/TPJResourceEntry.md#properties)_ property here: you can't set the _[DataSize](../API/TPJResourceEntry.md#properties)_ [~>1.1] property since it is read only.
 
 ## Writing data ##
 
@@ -140,7 +140,7 @@ begin
 end;
 ```
 
-That's well and good when you want to write the text in its native encoding. When you want to write the text in another encoding, say UTF-8, that is when the _[DataBytes](../API/TPJResourceEntry.md#properties)_**<sup>v1.1</sup>** property really helps. Assuming you are using Delphi 2009 or later you can replace any existing data with the text `'Hello World'`, using UTF-8, like this:
+That's well and good when you want to write the text in its native encoding. When you want to write the text in another encoding, say UTF-8, that is when the _[DataBytes](../API/TPJResourceEntry.md#properties)_ [~>1.1] property really helps. Assuming you are using Delphi 2009 or later you can replace any existing data with the text `'Hello World'`, using UTF-8, like this:
 
 ```pascal
 var
@@ -177,7 +177,7 @@ end;
 
 Here we move the stream pointer to the end of the stream so the text we write is appended to any existing data.
 
-A similar thing using can be done using the _[DataBytes](../API/TPJResourceEntry.md#properties)_**<sup>v1.1</sup>** property. Assume the existing text is in UTF-8 and were want to append text in the same format. To do this we have to read the existing text, append the new text and then write the whole string back again, as follows:
+A similar thing using can be done using the _[DataBytes](../API/TPJResourceEntry.md#properties)_ [~>1.1] property. Assume the existing text is in UTF-8 and were want to append text in the same format. To do this we have to read the existing text, append the new text and then write the whole string back again, as follows:
 
 ```pascal
 var
@@ -194,7 +194,7 @@ begin
 end;
 ```
 
-Finally, you can add data to a resource's data by loading it directly from file using the _[LoadDataFromFile](../API/TPJResourceEntry-LoadDataFromFile.md)_**<sup>v1.1</sup>** method. This method can either replace a resource's current data with the content of a file or append the content of the file to the current data.
+Finally, you can add data to a resource's data by loading it directly from file using the _[LoadDataFromFile](../API/TPJResourceEntry-LoadDataFromFile.md)_ [~>1.1] method. This method can either replace a resource's current data with the content of a file or append the content of the file to the current data.
 
 Here's an example:
 

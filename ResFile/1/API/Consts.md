@@ -4,6 +4,8 @@
 
 **Unit:** _PJResFile_.
 
+**Applies to:** ~>1.0
+
 Some constants are defined to assist in setting some of the class properties.
 
 ## Memory Flags Constants ##

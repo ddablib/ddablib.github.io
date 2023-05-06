@@ -6,13 +6,13 @@
 
 **Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
-**Introduced:** v1.1
+**Applies to:** ~>1.1
 
 ```pascal
 function GetEnumerator: TPJResourceFileEnumerator;
 ```
 
-Creates and returns a new enumerator of type _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** that can enumerate the resources contained in a _[TPJResourceFile](./TPJResourceFile.md)_ instance.
+Creates and returns a new enumerator of type _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_ [~>1.1] that can enumerate the resources contained in a _[TPJResourceFile](./TPJResourceFile.md)_ instance.
 
 The purpose of _GetEnumerator_ is to enable a _[TPJResourceFile](./TPJResourceFile.md)_ instance to be enumerated in a **for..in** loop construct. In such cases _GetEnumerator_ is called automatically and there is rarely any need call the method from code.
 
@@ -36,7 +36,7 @@ begin
 end;
 ```
 
-Notice that neither _GetEnumerator_ nor the methods of _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_**<sup>v1.1</sup>** are called explicitly.
+Notice that neither _GetEnumerator_ nor the methods of _[TPJResourceFileEnumerator](./TPJResourceFileEnumerator.md)_ [~>1.1] are called explicitly.
 
 **Example 2:**
 

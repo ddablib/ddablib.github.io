@@ -6,6 +6,8 @@
 
 **Class:** _[TPJResourceFile](./TPJResourceFile.md)_
 
+**Applies to:** ~>1.0
+
 ```pascal
 function FindEntryIndex(const ResType, ResName: Pchar;
   const LangID: Word = $FFFF): Integer;

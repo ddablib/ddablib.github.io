@@ -6,6 +6,8 @@
 
 **Class:** _[TPJResourceEntry](./TPJResourceEntry.md)_
 
+**Applies to:** ~>1.0
+
 There are two overloaded _IsMatching_ methods. They are both used to check if a resource matches the one represented by the _[TPJResourceEntry](./TPJResourceEntry.md)_ object on which the method is called.
 
 Matching involves comparing the resource entries' names, types and language ids. In the first version of the method comparison of names and / or types can be omitted.
