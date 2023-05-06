@@ -23,3 +23,4 @@ The unit is not dependent on the VCL or on FireMonkey, so can be used with or wi
 ## Links
 
 * [Programmers' Guide](./API.md) -- Classes, methods etc.
+* [Examples](./Examples.md)
