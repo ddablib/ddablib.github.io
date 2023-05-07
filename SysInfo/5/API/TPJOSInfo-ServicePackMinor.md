@@ -1,4 +1,4 @@
-# ServicePackMinor class function #
+# ServicePackMinor class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function ServicePackMinor: Integer;
 ```
 
-## Description ##
+## Description
 
 On the NT platform from NT 4 service pack 6 onwards _ServicePackMinor_ returns the minor version number of any service pack applied to the operating system. Zero is returned if no service pack has been applied. On earlier versions of Windows NT or on the Windows 9x platform, zero is always returned.
 

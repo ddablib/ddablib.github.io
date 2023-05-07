@@ -1,4 +1,4 @@
-# ProcessorIdentifier class function #
+# ProcessorIdentifier class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function ProcessorIdentifier: string;
 ```
 
-## Description ##
+## Description
 
 Returns the identifier of the computer's processor.
 
@@ -20,7 +20,7 @@ On multi-processor systems the method returns the identifier of the 1st processo
 
 An example processor identifier is "`Intel64 Family 6 Model 58 Stepping 9`".
 
-**See also**
+## See Also
 
 * _[ProcessorName](./TPJComputerInfo-ProcessorName.md)_
 * _[ProcessorSpeedMHz](./TPJComputerInfo-ProcessorSpeedMHz.md)_ 

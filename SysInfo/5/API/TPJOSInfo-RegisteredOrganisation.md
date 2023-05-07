@@ -1,4 +1,4 @@
-# RegisteredOrganisation class function #
+# RegisteredOrganisation class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function RegisteredOrganisation: string;
 ```
 
-## Description ##
+## Description
 
 Returns the organisation to which Windows is registered.
 
@@ -20,6 +20,7 @@ The empty string is returned if no organisation has been reqistered.
 
 **Note the UK English spelling of "Organisation" in this method name.**
 
-**See also**
+## See Also
 
   * _[RegisteredOwner](./TPJOSInfo-RegisteredOwner.md)_
+  

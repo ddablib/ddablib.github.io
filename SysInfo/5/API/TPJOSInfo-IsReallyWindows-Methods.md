@@ -1,4 +1,4 @@
-# IsReallyWindowsXXX class methods #
+# IsReallyWindowsXXX class methods
 
 **Project:** [System Information Unit](../API.md).
 
@@ -27,7 +27,7 @@ class function IsReallyWindows8OrGreater: Boolean;
 class function IsReallyWindows8Point1OrGreater: Boolean;
 ```
 
-## Description ##
+## Description
 
 This set of methods check whether the operating system is that same as or greater (i.e. later) than a specified one, as follows:
 

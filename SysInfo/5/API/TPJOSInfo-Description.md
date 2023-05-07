@@ -1,4 +1,4 @@
-# Description class function #
+# Description class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function Description: string;
 ```
 
-## Description ##
+## Description
 
 Returns a description of the operating system. The description depends on the available information and the platform.
 

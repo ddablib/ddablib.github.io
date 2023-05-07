@@ -1,4 +1,4 @@
-# IsServer class function #
+# IsServer class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function IsServer: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns true if the operating system is a server system or False if not.
 

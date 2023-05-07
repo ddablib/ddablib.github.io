@@ -1,4 +1,4 @@
-# IsTabletPC class function #
+# IsTabletPC class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function IsTabletPC: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns true if Windows Tablet PC is installed or False if not.

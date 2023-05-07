@@ -1,4 +1,4 @@
-# Temp class function #
+# Temp class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function Temp: string;
 ```
 
-## Description ##
+## Description
 
 Returns the fully qualified path name of the temporary files folder. This is the folder where programs are expected to create their temporary files.
 

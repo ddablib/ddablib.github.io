@@ -1,4 +1,4 @@
-# TPJOSInfo #
+# TPJOSInfo
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,10 +12,10 @@ When the host program is run in compatibility mode many of _TPJOSInfo_'s methods
 
 [v5.0 ] _TPJOSInfo_ also provides some [new methods](./TPJOSInfo-IsReallyWindows-Methods.md) that can be used to query the operating system version regardless of any compatibility mode.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[BuildNumber](./TPJOSInfo-BuildNumber.md)_ | Gets the operating system build number. |
 | _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ [v5.0] | Checks if the OS can be "spoofed" by specifying a compatibility mode for the program. |
 | _[Description](./TPJOSInfo-Description.md)_ | Gets a full information about of an operating system version. |
@@ -61,10 +61,10 @@ When the host program is run in compatibility mode many of _TPJOSInfo_'s methods
 | _[ServicePackMajor](./TPJOSInfo-ServicePackMajor.md)_ | Gets the operating system's major service pack version number. |
 | _[ServicePackMinor](./TPJOSInfo-ServicePackMinor.md)_ | Gets the operating system's minor service pack version number. |
 
-## Properties ##
+## Properties
 
 _TPJOSInfo_ defines no properties.
 
-## Events ##
+## Events
 
 _TPJOSInfo_ defines no events.

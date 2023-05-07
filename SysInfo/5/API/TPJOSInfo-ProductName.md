@@ -1,4 +1,4 @@
-# ProductName class function #
+# ProductName class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function ProductName: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of the operating system product. The product can be thought of as the marketing name for the operating system. If the product can't be determined then the empty string is returned.
 

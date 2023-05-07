@@ -1,4 +1,4 @@
-# IsMediaCenter class function #
+# IsMediaCenter class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function IsMediaCenter: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns true if Windows Media Center is installed or False if not.

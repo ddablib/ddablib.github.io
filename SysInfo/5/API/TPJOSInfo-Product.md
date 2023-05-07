@@ -1,4 +1,4 @@
-# Product class function #
+# Product class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -20,7 +20,7 @@ type TPJOSProduct = (
 );
 ```
 
-## Description ##
+## Description
 
 Returns a value from the _TPJOSProduct_ enumeration that identifies the operating system product. Possible values of _TPJOSProduct_ are:
 

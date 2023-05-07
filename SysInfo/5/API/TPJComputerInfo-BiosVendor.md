@@ -1,4 +1,4 @@
-# BiosVendor class function #
+# BiosVendor class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,6 +12,6 @@
 class function BiosVendor: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of the vendor / manufacturer of the computer's BIOS.

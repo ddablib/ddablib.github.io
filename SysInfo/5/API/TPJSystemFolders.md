@@ -1,4 +1,4 @@
-# TPJSystemFolders #
+# TPJSystemFolders
 
 **Project:** [System Information Unit](../API.md).
 
@@ -6,10 +6,10 @@
 
 This is a static class that provies details of the full paths of various special system folders. All _TPJSystemFolders_'  functionality is exposed via static methods. Because it is static the class does not need to be instantiated before use.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[CommonFiles](./TPJSystemFolders-CommonFiles.md)_ | Gets the Common Files folder path. |
 | _[CommonFilesRedirect](./TPJSystemFolders-CommonFilesRedirect.md)_ [v4.0] | Gets the fully qualified name of the Common Files folder according to whether the host program and operating system are 32 or 64 bit. |
 | _[CommonFilesX86](./TPJSystemFolders-CommonFilesX86.md)_ [v4.0] | Gets the fully qualified name of the Common Files x86 folder. |
@@ -21,10 +21,10 @@ This is a static class that provies details of the full paths of various special
 | _[Temp](./TPJSystemFolders-Temp.md)_ | Gets the temporary files folder path. |
 | _[Windows](./TPJSystemFolders-Windows.md)_ | Gets the Windows folder path. |
 
-## Properties ##
+## Properties
 
 _TPJSystemFolders_ defines no properties.
 
-## Events ##
+## Events
 
 _TPJSystemFolders_ defines no events.

@@ -1,4 +1,4 @@
-# SystemWow64 class function #
+# SystemWow64 class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function SystemWow64: string;
 ```
 
-## Description ##
+## Description
 
 Returns the fully qualified path name of the system folder used by WOW64. This is the folder used to store shared 32 bit code on 64 bit Windows.
 

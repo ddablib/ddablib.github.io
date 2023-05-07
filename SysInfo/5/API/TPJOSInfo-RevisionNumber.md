@@ -1,4 +1,4 @@
-# RevisionNumber class function #
+# RevisionNumber class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,18 +12,18 @@
 class function RevisionNumber: Integer;
 ```
 
-## Description ##
+## Description
 
 Stores the operating system's revision number.
 
 If no revision number is found then `0` is returned.
 
-## Notes ##
+## Notes
 
 The revision number is read from the registry.
 
 Basic tests indicate that this value cannot be spoofed, but registry spoofing is known to vary between different OS versions, so this test result is not conclusive.
 
-**See also**
+## See Also
 
   * _[BuildNumber](./TPJOSInfo-BuildNumber.md)_

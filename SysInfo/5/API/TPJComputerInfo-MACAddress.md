@@ -1,4 +1,4 @@
-# MACAddress class function #
+# MACAddress class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function MACAddress: string;
 ```
 
-## Description ##
+## Description
 
 Returns the address of the first network card found in the host computer. The empty string is returned if no network card is detected.
 

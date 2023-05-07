@@ -1,4 +1,4 @@
-# ServicePack class function #
+# ServicePack class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function ServicePack: string;
 ```
 
-## Description ##
+## Description
 
 Returns a description of any operating system service pack. An empty string is returned if there is no service pack.
 

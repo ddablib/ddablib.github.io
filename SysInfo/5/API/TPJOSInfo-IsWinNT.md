@@ -1,4 +1,4 @@
-# IsWinNT class function #
+# IsWinNT class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function IsWinNT: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns True if an NT operating system is installed (including Windows 2000, Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 2003 Server, Windows 2008 Server, Windows 2008 Server R 2, Windows 2012 Server and Windows 2012 Server R 2), or False otherwise.
 

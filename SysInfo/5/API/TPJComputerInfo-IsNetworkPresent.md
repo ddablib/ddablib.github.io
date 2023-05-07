@@ -1,4 +1,4 @@
-# IsNetworkPresent class function #
+# IsNetworkPresent class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,6 +12,6 @@
 class function IsNetworkPresent: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns True if the computer is connected to a network or False if no network is present.

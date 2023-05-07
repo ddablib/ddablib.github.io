@@ -1,4 +1,4 @@
-# BootMode class function #
+# BootMode class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -14,7 +14,7 @@ class function BootMode: TPJBootMode;
 type TPJBootMode = (bmUnknown, bmNormal, bmSafeMode, bmSafeModeNetwork);
 ```
 
-## Description ##
+## Description
 
 Determines the operating system mode into which the the computer was booted.
 

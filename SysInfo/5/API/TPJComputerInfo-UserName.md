@@ -1,4 +1,4 @@
-# UserName class function #
+# UserName class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function UserName: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of currently logged in user.

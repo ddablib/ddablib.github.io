@@ -1,4 +1,4 @@
-# InstallationDate class function #
+# InstallationDate class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function InstallationDate: TDateTime;
 ```
 
-## Description ##
+## Description
 
 Returns the date the operating system was installed if known.
 

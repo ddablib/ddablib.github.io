@@ -1,4 +1,4 @@
-# HasPenExtensions class function #
+# HasPenExtensions class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function HasPenExtensions: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns true if Windows Pen Extensions are installed or False if not.

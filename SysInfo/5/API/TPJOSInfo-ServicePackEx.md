@@ -1,4 +1,4 @@
-# ServicePackEx class function #
+# ServicePackEx class function
 
 **Project:** [System Information Unit](../API.md).
 

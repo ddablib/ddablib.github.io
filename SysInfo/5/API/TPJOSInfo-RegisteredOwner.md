@@ -1,4 +1,4 @@
-# RegisteredOwner class function #
+# RegisteredOwner class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,10 +12,11 @@
 class function RegisteredOwner: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of the registered owner of the Windows installation.
 
-**See also**
+## See Also
 
   * _[RegisteredOrganisation](./TPJOSInfo-RegisteredOrganisation.md)_
+  

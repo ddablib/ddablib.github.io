@@ -1,4 +1,4 @@
-# IsWin9x class function #
+# IsWin9x class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function IsWin9x: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns True if a Windows 9x operating system is installed (i.e. Windows 95, Windows 98 or Windows Me) or False otherwise.
 

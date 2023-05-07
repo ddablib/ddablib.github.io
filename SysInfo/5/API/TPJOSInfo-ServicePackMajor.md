@@ -1,4 +1,4 @@
-# ServicePackMajor class function #
+# ServicePackMajor class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function ServicePackMajor: Integer;
 ```
 
-## Description ##
+## Description
 
 On the NT platform from NT 4 service pack 6 onwards _ServicePackMajor_ returns the major version number of any service pack applied to the operating system. Zero is returned if no service pack has been applied. On earlier versions of Windows NT or on the Windows 9x platform, zero is alwys returned.
 

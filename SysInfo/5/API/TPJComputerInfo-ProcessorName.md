@@ -1,4 +1,4 @@
-# ProcessorName class function #
+# ProcessorName class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function ProcessorName: string;
 ```
 
-## Description ##
+## Description
 
 Returns a descriptive name for the computer's processor.
 
@@ -20,7 +20,7 @@ On multi-processor systems the method returns the name of the 1st processor.
 
 An example processor name is "`Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz`".
 
-**See also**
+## See Also
 
 * _[ProcessorIdentifier](./TPJComputerInfo-ProcessorIdentifier.md)_
 * _[ProcessorSpeedMHz](./TPJComputerInfo-ProcessorSpeedMHz.md)_ 

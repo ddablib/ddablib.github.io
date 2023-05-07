@@ -1,4 +1,4 @@
-# BuildNumber class function #
+# BuildNumber class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function BuildNumber: Integer;
 ```
 
-## Description ##
+## Description
 
 Returns the build number of the operating system.
 
@@ -25,10 +25,11 @@ The method used to calculate the build number varies according to the version of
 * Before v5 the build number is obtained directly from the operating system.
 
 * From v5.0.0 to v5.1.0 the build number is determined as before unless _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`. In this case the build number is calculated rather than being obtained directly from the operating system. If the build number can't be calculated then a value will be read from the registry.
+
   >**_BUG: Unfortunately it appears that the operating system can return the build number of an earlier operating system than that physically stored in the registry._**
 
 * v5.2.0 and later use the same approach as for v5.0.0 except when the build number can't be calculated. In this case `0` is now returned to signal the error.
 
-**See also**
+## See Also
 
   * _[RevisionNumber](./TPJOSInfo-RevisionNumber.md)_

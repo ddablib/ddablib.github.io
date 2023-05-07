@@ -1,4 +1,4 @@
-# IsWindowsServer class function #
+# IsWindowsServer class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function IsWindowsServer: Boolean;
 ```
 
-## Description ##
+## Description
 
 Checks if the OS is a server version.
 

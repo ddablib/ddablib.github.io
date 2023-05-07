@@ -1,4 +1,4 @@
-# Processor class function #
+# Processor class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@ class function Processor: TPJProcessorArchitecture;
 type TPJProcessorArchitecture = (paUnknown, paX64, paIA64, paX86);
 ```
 
-## Description ##
+## Description
 
 Returns a value from the _TPJProcessorArchitecture_ enumeration that describes the type of processor installed in the computer. Values of TPJProcessorArchitecture are:
 

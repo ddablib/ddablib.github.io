@@ -1,4 +1,4 @@
-# IsRemoteSession class function #
+# IsRemoteSession class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,6 +12,6 @@
 class function IsRemoteSession: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns true if the program is running under a Windows Terminal Server as a remote client session.

@@ -1,4 +1,4 @@
-# Windows class function #
+# Windows class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function Windows: string;
 ```
 
-## Description ##
+## Description
 
 Returns the fully qualified path name of the Windows folder. This is the folder where Windows was installed.

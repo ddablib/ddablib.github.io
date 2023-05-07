@@ -1,4 +1,4 @@
-# TPJComputerInfo #
+# TPJComputerInfo
 
 **Project:** [System Information Unit](../API.md).
 
@@ -6,10 +6,10 @@
 
 This is a static class that provides information about the host computer. The class' functionality is all exposed via its static methods. Because it is static the class does not need to be instantiated before use.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[BiosVendor](TPJComputerInfo-BiosVendor.md)_ [v4.0] | Gets the name of the computer's BIOS vendor. |
 | _[BootMode](TPJComputerInfo-BootMode.md)_ [v3.1] | Determines the operating system mode into which the the computer was booted. |
 | _[ComputerName](TPJComputerInfo-ComputerName.md)_ | Gets the computer's name. |
@@ -27,10 +27,10 @@ This is a static class that provides information about the host computer. The cl
 | _[SystemProductName](TPJComputerInfo-SystemProductName.md)_ [v4.0] | Gets the computer's product or model name. |
 | _[UserName](TPJComputerInfo-UserName.md)_ | Gets the current user name. |
 
-## Properties ##
+## Properties
 
 _TPJComputerInfo_ defines no properties.
 
-## Events ##
+## Events
 
 _TPJComputerInfo_ defines no events.

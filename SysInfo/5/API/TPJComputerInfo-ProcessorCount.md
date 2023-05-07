@@ -1,4 +1,4 @@
-# ProcessorCount class function #
+# ProcessorCount class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function ProcessorCount: Integer;
 ```
 
-## Description ##
+## Description
 
 Returns the number of processors installed in the computer. Mutli-core processors will report each core as a separate processor.

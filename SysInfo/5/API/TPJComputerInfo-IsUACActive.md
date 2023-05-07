@@ -1,4 +1,4 @@
-# IsUACActive class function #
+# IsUACActive class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function IsUACActive: Boolean;
 ```
 
-## Description ##
+## Description
 
 Checks if UAC (user account control) is active on the host computer and returns True if so, or False if not.
 

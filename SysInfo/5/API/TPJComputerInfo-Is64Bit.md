@@ -1,4 +1,4 @@
-# Is64Bit class function #
+# Is64Bit class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function Is64Bit: Boolean;
 ```
 
-## Description ##
+## Description
 
 Returns True if the computer has one or more 64 bit processors or False otherwise.

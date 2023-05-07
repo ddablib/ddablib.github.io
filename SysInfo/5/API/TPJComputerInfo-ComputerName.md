@@ -1,4 +1,4 @@
-# ComputerName class function #
+# ComputerName class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function ComputerName: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of the computer on which the program is executing.

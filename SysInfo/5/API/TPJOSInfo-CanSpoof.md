@@ -1,4 +1,4 @@
-# CanSpoof class function #
+# CanSpoof class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function CanSpoof: Boolean;
 ```
 
-## Description ##
+## Description
 
 Checks if the reported operating can be "spoofed" when the program is running in compatibility mode.
 

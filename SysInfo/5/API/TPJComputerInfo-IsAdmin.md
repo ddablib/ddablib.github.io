@@ -1,4 +1,4 @@
-# IsAdmin class function #
+# IsAdmin class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function IsAdmin: Boolean;
 ```
 
-## Description ##
+## Description
 
 Checks if the current user has administrator privileges and returns True if so, or False if not.
 

@@ -1,4 +1,4 @@
-# SystemProductName class function #
+# SystemProductName class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function SystemProductName: string;
 ```
 
-## Description ##
+## Description
 
 Returns the model (product) name of the host computer.
 

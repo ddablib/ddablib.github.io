@@ -1,4 +1,4 @@
-# MinorVersion class function #
+# MinorVersion class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function MinorVersion: Integer;
 ```
 
-## Description ##
+## Description
 
 Returns the minor version number of the operating system.
 

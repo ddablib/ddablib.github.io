@@ -1,4 +1,4 @@
-# Platform class function #
+# Platform class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@ class function Platform: TPJOSPlatform;
 type TPJOSPlatform = (ospWinNT, ospWin9x, ospWin32s);
 ```
 
-## Description ##
+## Description
 
 Returns a value from the _TPJOSPlatform_ enumeration identifying the OS platform. Possible values are:
 

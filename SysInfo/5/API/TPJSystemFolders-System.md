@@ -1,4 +1,4 @@
-# System class function #
+# System class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,6 +10,6 @@
 class function System: string;
 ```
 
-## Description ##
+## Description
 
 Returns the fully qualified path name of the System folder. This is a sub folder of the Windows folder.

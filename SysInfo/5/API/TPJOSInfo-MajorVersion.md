@@ -1,4 +1,4 @@
-# MajorVersion class function #
+# MajorVersion class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function MajorVersion: Integer;
 ```
 
-## Description ##
+## Description
 
 Returns the major version number of the operating system.
 

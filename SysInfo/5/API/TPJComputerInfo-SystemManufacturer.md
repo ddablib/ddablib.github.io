@@ -1,4 +1,4 @@
-# SystemManufacturer class function #
+# SystemManufacturer class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -12,7 +12,7 @@
 class function SystemManufacturer: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of the host computer's manufacturer.
 

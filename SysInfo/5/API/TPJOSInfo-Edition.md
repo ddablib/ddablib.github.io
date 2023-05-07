@@ -1,4 +1,4 @@
-# Edition class function #
+# Edition class function
 
 **Project:** [System Information Unit](../API.md).
 
@@ -10,7 +10,7 @@
 class function Edition: string;
 ```
 
-## Description ##
+## Description
 
 Returns the name of a specific edition of an NT platform operating system product. An empty string is returned if no specific edition information is available or if the operating system is part of the Windows 9x platform. This method does not include the main product name - this can be found by using the _[ProductName](./TPJOSInfo-ProductName.md)_ method.
 
