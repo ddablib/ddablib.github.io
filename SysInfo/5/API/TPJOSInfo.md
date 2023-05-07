@@ -8,12 +8,6 @@
 
 This is a static class that gives access to information about the operating system on which the program is running. All the class' functionality is exposed through its static methods. Because it is static the class does not need to be instantiated before use.
 
-When the host program is run in compatibility mode many of _TPJOSInfo_'s methods will be spoofed into returning information about the emulated operating system.
-
-Compatibility mode has no effect on information returned by any of _TPJOSInfo_'s methods when running on Windows 8.1 or later. Use the _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ method to find out if the returned information _could_ have been spoofed.
-
-_TPJOSInfo_ also provides some [new methods](./TPJOSInfo-IsReallyWindows-Methods.md) that can be used to query the operating system version regardless of any compatibility mode.
-
 ## Methods
 
 | Method | Description |
