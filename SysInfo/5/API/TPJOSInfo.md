@@ -19,22 +19,22 @@ This is a static class that gives access to information about the operating syst
 | _[HasPenExtensions](./TPJOSInfo-HasPenExtensions.md)_ | Checks for Windows Pen Extensions. |
 | _[InstallationDate](./TPJOSInfo-InstallationDate.md)_ | Gets the date that Windows was installed. |
 | _[IsMediaCenter](./TPJOSInfo-IsMediaCenter.md)_ | Checks for Windows Media Center. |
-| _[IsReallyWindows2000OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 2000 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows2000SP1OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 2000 Service Pack 1 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows2000SP2OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 2000 Service Pack 2 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows2000SP3OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 2000 Service Pack 3 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows2000SP4OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 2000 Service Pack 4 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows7OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 7 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows7SP1OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 7 Service Pack 1 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows8OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 8 or greater. Ignores compatibility mode. |
-| _[IsReallyWindows8Point1OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows 8.1 or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsVistaOrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows Vista or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsVistaSP1OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows Vista Service Pack 1 or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsVistaSP2OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows Vista Service Pack 2 or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsXPOrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows XP or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsXPSP1OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows XP Service Pack 1 or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsXPSP2OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows XP Service Pack 2 or greater. Ignores compatibility mode. |
-| _[IsReallyWindowsXPSP3OrGreater](./TPJOSInfo-IsReallyWindows-Methods.md)_ | Checks whether the OS is Windows XP Service Pack 3 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows2000OrGreater](./TPJOSInfo-IsReallyWindows2000OrGreater.md)_ | Checks whether the OS is Windows 2000 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows2000SP1OrGreater](./TPJOSInfo-IsReallyWindows2000SP1OrGreater.md)_ | Checks whether the OS is Windows 2000 Service Pack 1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows2000SP2OrGreater](./TPJOSInfo-IsReallyWindows2000SP2OrGreater.md)_ | Checks whether the OS is Windows 2000 Service Pack 2 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows2000SP3OrGreater](./TPJOSInfo-IsReallyWindows2000SP3OrGreater.md)_ | Checks whether the OS is Windows 2000 Service Pack 3 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows2000SP4OrGreater](./TPJOSInfo-IsReallyWindows2000SP4OrGreater.md)_ | Checks whether the OS is Windows 2000 Service Pack 4 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows7OrGreater](./TPJOSInfo-IsReallyWindows7OrGreater.md)_ | Checks whether the OS is Windows 7 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows7SP1OrGreater](./TPJOSInfo-IsReallyWindows7SP1OrGreater.md)_ | Checks whether the OS is Windows 7 Service Pack 1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows8OrGreater](./TPJOSInfo-IsReallyWindows8OrGreater.md)_ | Checks whether the OS is Windows 8 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows8Point1OrGreater](./TPJOSInfo-IsReallyWindows8Point1OrGreater.md)_ | Checks whether the OS is Windows 8.1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsVistaOrGreater](./TPJOSInfo-IsReallyWindowsVistaOrGreater.md)_ | Checks whether the OS is Windows Vista or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsVistaSP1OrGreater](./TPJOSInfo-IsReallyWindowsVistaSP1OrGreater.md)_ | Checks whether the OS is Windows Vista Service Pack 1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsVistaSP2OrGreater](./TPJOSInfo-IsReallyWindowsVistaSP2OrGreater.md)_ | Checks whether the OS is Windows Vista Service Pack 2 or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsXPOrGreater](./TPJOSInfo-IsReallyWindowsXPOrGreater.md)_ | Checks whether the OS is Windows XP or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsXPSP1OrGreater](./TPJOSInfo-IsReallyWindowsXPSP1OrGreater.md)_ | Checks whether the OS is Windows XP Service Pack 1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsXPSP2OrGreater](./TPJOSInfo-IsReallyWindowsXPSP2OrGreater.md)_ | Checks whether the OS is Windows XP Service Pack 2 or greater. Ignores compatibility mode. |
+| _[IsReallyWindowsXPSP3OrGreater](./TPJOSInfo-IsReallyWindowsXPSP3OrGreater.md)_ | Checks whether the OS is Windows XP Service Pack 3 or greater. Ignores compatibility mode. |
 | _[IsRemoteSession](./TPJOSInfo-IsRemoteSession.md)_ | Checks for a Windows Terminal Server remote session. |
 | _[IsServer](./TPJOSInfo-IsServer.md)_ | Checks for a server operating system. |
 | _[IsTabletPC](./TPJOSInfo-IsTabletPC.md)_ | Checks for Windows Tablet PC. |
