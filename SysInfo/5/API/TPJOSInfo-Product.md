@@ -6,6 +6,8 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function Product: TPJOSProduct;
 
@@ -33,15 +35,15 @@ Returns a value from the _TPJOSProduct_ enumeration that identifies the operatin
 | `osWin2k` | Windows 2000. |
 | `osWinXP` | Windows XP. |
 | `osWinVista` | Windows Vista. |
-| `osWin7` [v3.1] | Windows 7. |
-| `osWin8` [v3.4]| Windows 8. |
-| `osWin8Point1` [v5.0] | Windows 8.1 - will only be returned if the host application is "manifested" as a Windows 8.1 application, otherwise `osWin8` will be returned for both Windows 8 and Windows 8.1. |
+| `osWin7` | Windows 7. |
+| `osWin8` | Windows 8. |
+| `osWin8Point1` | Windows 8.1 - will only be returned if the host application is "manifested" as a Windows 8.1 application, otherwise `osWin8` will be returned for both Windows 8 and Windows 8.1. |
 | `osWinSvr2003` | Windows Server 2003. |
 | `osWinSvr2003R2` | Windows Server 2003 R 2. |
 | `osWinSvr2008` | Windows Server 2008. |
-| `osWinSvr2008R2` [v3.1]| Windows Server 2008 R 2. |
-| `osWinSvr2012` [v3.4] | Windows Server 2012. |
-| `osWinSvr2012R2` [v5.0] | Windows Server 2012 R 2. - will only be returned if the host application is "manifested" as a Windows 8.1 / Windows 2012 R 2 application, otherwise `osWinSvr2012` will be returned for both Windows Server 2012 and Windows Server 2012. |
+| `osWinSvr2008R2`| Windows Server 2008 R 2. |
+| `osWinSvr2012` | Windows Server 2012. |
+| `osWinSvr2012R2` | Windows Server 2012 R 2. - will only be returned if the host application is "manifested" as a Windows 8.1 / Windows 2012 R 2 application, otherwise `osWinSvr2012` will be returned for both Windows Server 2012 and Windows Server 2012. |
 | `osWinLater` | An unknown version of Windows released after the most recent version of Windows identified above. |
 | `osUnknownWinNT` | An unknown product on the Windows NT platform. |
 | `osUnknownWin9x` | An unknown product on the Windows 9x platform. |
@@ -52,4 +54,4 @@ To find the string representation of the product name use the _[ProductName](./T
 
 When the program is run in compatibility mode, this method will return the product code of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the product code of the installed operating system, regardless of any compatibility mode.
+On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the product code of the installed operating system, regardless of any compatibility mode.

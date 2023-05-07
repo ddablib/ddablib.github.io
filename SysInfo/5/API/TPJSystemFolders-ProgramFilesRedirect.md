@@ -6,7 +6,7 @@
 
 **Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
-**Introduced:** v4.0
+**Applies to:** ~>5.0
 
 ```pascal
 class function ProgramFilesRedirect: string;

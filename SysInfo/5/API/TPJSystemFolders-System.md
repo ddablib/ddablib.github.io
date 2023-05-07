@@ -6,6 +6,8 @@
 
 **Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function System: string;
 ```

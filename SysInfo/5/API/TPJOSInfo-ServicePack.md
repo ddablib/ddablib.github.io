@@ -6,6 +6,8 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function ServicePack: string;
 ```
@@ -18,4 +20,4 @@ On the Windows 9x platform the system returns a code for each service pack. This
 
 When the program is run in compatibility mode, this method will return the service pack of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the service pack of the installed operating system, regardless of any compatibility mode.
+On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the service pack of the installed operating system, regardless of any compatibility mode.

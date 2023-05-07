@@ -6,7 +6,7 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 class function CanSpoof: Boolean;

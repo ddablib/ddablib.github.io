@@ -6,6 +6,8 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function ServicePackMajor: Integer;
 ```
@@ -18,4 +20,4 @@ The corresponding minor service pack version number is provided by the _[Service
 
 When the program is run in compatibility mode, this method will return the service pack major version of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the service pack major version of the installed operating system, regardless of any compatibility mode.
+On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the service pack major version of the installed operating system, regardless of any compatibility mode.

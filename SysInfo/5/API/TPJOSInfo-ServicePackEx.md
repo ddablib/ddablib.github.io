@@ -6,7 +6,7 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
-**Introduced:** v5.2
+**Applies to:** ~>5.2
 
 ```pascal
 class function ServicePackEx: string;

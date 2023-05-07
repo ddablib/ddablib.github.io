@@ -6,7 +6,7 @@
 
 **Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
-**Introduced:** v5.4
+**Applies to:** ~>5.4
 
 ```pascal
 class function ProcessorSpeedMHz: Cardinal;

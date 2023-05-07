@@ -6,6 +6,8 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function Platform: TPJOSPlatform;
 
@@ -26,4 +28,4 @@ If the platform is not recognised an _EPJSysInfo_ exception is raised.
 
 When the program is run in compatibility mode, this method will return the platform of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the platform of the installed operating system, regardless of any compatibility mode.
+On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the platform of the installed operating system, regardless of any compatibility mode.

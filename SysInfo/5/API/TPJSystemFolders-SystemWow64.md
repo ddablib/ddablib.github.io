@@ -6,7 +6,7 @@
 
 **Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
-**Introduced:** v3.1
+**Applies to:** ~>5.0
 
 ```pascal
 class function SystemWow64: string;

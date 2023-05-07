@@ -6,7 +6,7 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
-**Introduced:** v5.6
+**Applies to:** ~>5.6
 
 ```pascal
 class function RevisionNumber: Integer;

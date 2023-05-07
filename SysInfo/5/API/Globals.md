@@ -8,12 +8,12 @@ The _PJSysInfo_ unit defines several global variables containing extended operat
 
 The variables defined in _PJSysInfo_ are:
 
-  * [Win32PlatformEx](#win32platformex) [v5.0]
-  * [Win32MajorVersionEx](#win32majorversionex) [v5.0]
-  * [Win32MinorVersionEx](#win32minorversionex) [v5.0]
-  * [Win32BuildNumberEx](#win32buildnumberex) [v5.0]
-  * [Win32CSDVersionEx](#win32csdversionex) [v5.0]
-  * [Win32RevisionNumber](#win32revisionnumber) [v5.6]
+  * [Win32PlatformEx](#win32platformex)
+  * [Win32MajorVersionEx](#win32majorversionex)
+  * [Win32MinorVersionEx](#win32minorversionex)
+  * [Win32BuildNumberEx](#win32buildnumberex)
+  * [Win32CSDVersionEx](#win32csdversionex)
+  * [Win32RevisionNumber](#win32revisionnumber) [~>5.6]
   * [Win32HaveExInfo](#win32haveexinfo)
   * [Win32ServicePackMajor](#win32servicepackmajor)
   * [Win32ServicePackMinor](#win32servicepackminor)
@@ -24,7 +24,7 @@ The variables defined in _PJSysInfo_ are:
 
 ## Win32PlatformEx
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32PlatformEx: Integer;
@@ -40,7 +40,7 @@ _Win32Platform_, on the other hand, is always spoofed by compatibility mode.
 
 ## Win32MajorVersionEx
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32MajorVersionEx: LongWord;
@@ -54,7 +54,7 @@ Whether _Win32MajorVersionEx_ can be spoofed depends on the value returned by _[
 
 ## Win32MinorVersionEx
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32MinorVersionEx: LongWord;
@@ -68,7 +68,7 @@ Whether _Win32MinorVersionEx_ can be spoofed depends on the value returned by _[
 
 ## Win32BuildNumberEx
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32BuildNumberEx: Integer;
@@ -82,7 +82,7 @@ Whether _Win32BuildNumberEx_ can be spoofed depends on the value returned by _[T
 
 ## Win32CSDVersionEx
 
-**Introduced:** v5.0
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32CSDVersionEx: string;
@@ -96,7 +96,7 @@ Whether _Win32CSDVersionEx_ can be spoofed depends on the value returned by _[TP
 
 ## Win32RevisionNumber
 
-**Introduced:** v5.6
+**Applies to:** ~>5.6
 
 ```pascal
 var Win32RevisionNumber: Integer;
@@ -110,6 +110,8 @@ Basic tests indicate that this value cannot be spoofed, but registry spoofing is
 
 ## Win32HaveExInfo
 
+**Applies to:** ~>5.0
+
 ```pascal
 var Win32HaveExInfo: Boolean;
 ```
@@ -122,6 +124,8 @@ Compatibility modes have no effect on _Win32HaveExInfo_: its value depends on th
 
 ## Win32ServicePackMajor
 
+**Applies to:** ~>5.0
+
 ```pascal
 var Win32ServicePackMajor: string;
 ```
@@ -132,9 +136,11 @@ Note that this variable only stores valid information if the _[Win32HaveExInfo](
 
 Running the host program in compatibility mode _Win32ServicePackMajor_ is always spoofed to return the major version of any service pack that relates to the emulated operating system.
 
-[v5.0] When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ServicePackMajor_ and it will return the service pack major version of the actual operating system.
+When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ServicePackMajor_ and it will return the service pack major version of the actual operating system.
 
 ## Win32ServicePackMinor
+
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32ServicePackMinor: string;
@@ -146,9 +152,11 @@ Note that this variable only stores valid information if the _[Win32HaveExInfo](
 
 Running the host program in compatibility mode _Win32ServicePackMinor_ is always spoofed to return the minor version of any service pack that relates to the emulated operating system.
 
-[v5.0] When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ServicePackMinor_ and it will return the service pack minor version of the actual operating system.
+When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ServicePackMinor_ and it will return the service pack minor version of the actual operating system.
 
 ## Win32SuiteMask
+
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32SuiteMask: Integer;
@@ -160,9 +168,11 @@ Note that this variable only stores valid information if the _[Win32HaveExInfo](
 
 Compatibility mode has no effect on this value.
 
-[v5.0] When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` _Win32SuiteMask_ always returns `0`. You should get product information from the _[Win32ProductInfo](#win32productinfo)_ instead.
+When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` _Win32SuiteMask_ always returns `0`. You should get product information from the _[Win32ProductInfo](#win32productinfo)_ instead.
 
 ## Win32ProductType
+
+**Applies to:** ~>5.0
 
 ```pascal
 var Win32ProductType: Integer;
@@ -176,6 +186,8 @@ Compatibility mode has no effect on this value: running an emulation of a server
 
 ## Win32HaveProductInfo
 
+**Applies to:** ~>5.0
+
 ```pascal
 var Win32HaveProductInfo: Boolean;
 ```
@@ -188,6 +200,8 @@ Compatibility modes have no effect on _Win32HaveProductInfo_: its value depends 
 
 ## Win32ProductInfo
 
+**Applies to:** ~>5.0
+
 ```pascal
 var Win32ProductInfo: LongWord;
 ```
@@ -198,4 +212,4 @@ Note that this variable only stores valid information if the _[Win32HaveProductI
 
 Running the host program in compatibility mode _Win32ProductInfo_ is always spoofed to return the product information that relates to the emulated operating system. If the emulated operating system did not expose product information in this way the value will be `0`.
 
-[v5.0] When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ProductInfo_ and it will return product information relating to the actual operating system.
+When running on operating systems where _[TPJOSInfo.CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`, compatibility mode no longer spoofs _Win32ProductInfo_ and it will return product information relating to the actual operating system.

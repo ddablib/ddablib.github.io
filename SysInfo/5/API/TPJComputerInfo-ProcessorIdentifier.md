@@ -6,7 +6,7 @@
 
 **Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
-**Introduced:** v4.0
+**Applies to:** ~>5.0
 
 ```pascal
 class function ProcessorIdentifier: string;

@@ -6,6 +6,8 @@
 
 **Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 class function Edition: string;
 ```
@@ -18,4 +20,4 @@ For example for Windows 2000 Professional, _Edition_ will return 'Professional' 
 
 When the program is run in compatibility mode, this method will return the edition of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the edition of the installed operating system, regardless of any compatibility mode.
+On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the edition of the installed operating system, regardless of any compatibility mode.
