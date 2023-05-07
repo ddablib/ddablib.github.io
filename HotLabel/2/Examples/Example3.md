@@ -86,4 +86,5 @@ You should note that the concept of visiting URLs in hot label components differ
 
 ## Links
 
-* Back to [Hot Label Component Page](../../index.md)
+* [Previous Example](./Example2.md)
+* Back to [List of Examples](../Examples.md)

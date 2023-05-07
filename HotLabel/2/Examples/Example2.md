@@ -47,4 +47,6 @@ end;
 
 ## Links
 
-* Back to [Hot Label Component Page](../../index.md)
+* [Next Example](./Example3.md)
+* [Previous Example](./Example1.md)
+* Back to [List of Examples](../Examples.md)

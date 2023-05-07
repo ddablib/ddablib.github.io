@@ -46,4 +46,5 @@ Again, run the application and move the mouse cursor over the control to see the
 
 ## Links
 
-* Back to [Hot Label Component Page](../../index.md)
+* [Next Example](./Example2.md)
+* Back to [List of Examples](../Examples.md)
