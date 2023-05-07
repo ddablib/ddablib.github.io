@@ -16,7 +16,7 @@ The class has methods to:
 
 There is also an enumerator class the provides an alternative way to enumerate environment variable names.
 
-The unit also contains a component and stand-alone routines that provide some of the functionality of the static class. ***These are all deprecated*** and are provided for backward compatibility reasons only. They should not be used in new code.
+The unit also contains a component and stand-alone routines that provide some of the functionality of the static class. ⚠️ ***These are all deprecated*** and are provided for backward compatibility reasons only. They should not be used in new code.
 
 > In previous versions the component was registered with the Delphi IDE when this unit was included in a design time package. This is no longer the case. The component is registered only if `PJEnvVarsDsgn.pas` is included a _design_ package and `PJEnvVars.pas` is included in the same _design_ package or a _required_ package.
 

@@ -12,7 +12,7 @@
 property Values[Name: string]: string;
 ```
 
-> ***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.GetValue_](./TPJEnvironmentVars-GetValue.md) and [_TPJEnvironmentVars.SetValue_](./TPJEnvironmentVars-SetValue.md) static methods instead of the _Values_ property.*
+> ⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.GetValue_](./TPJEnvironmentVars-GetValue.md) and [_TPJEnvironmentVars.SetValue_](./TPJEnvironmentVars-SetValue.md) static methods instead of the _Values_ property.
 
 ## Description
 

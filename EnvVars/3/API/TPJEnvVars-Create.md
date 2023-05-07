@@ -12,7 +12,7 @@
 constructor Create(AOwner: TComponent);
 ```
 
-> ***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. The [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class should be used instead.*
+> ⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. The [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class should be used instead.
 
 ## Description
 

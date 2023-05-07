@@ -6,7 +6,7 @@
 
 **Applies to:** ~>3.0
 
-> ***Warning:*** *This component is **deprecated*** and is retained for backward compatibility only. New code should use the [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class instead.
+> ⚠️ This component is **deprecated** and is retained for backward compatibility only. New code should use the [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class instead.
 
 ## Description
 

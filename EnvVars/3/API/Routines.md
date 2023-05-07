@@ -6,7 +6,7 @@
 
 **Applies to:** ~>3.0
 
-> ***Warning:*** All the routines described here are ***deprecated***. Each routine has analogue in the [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class that should be used in preference.
+> ⚠️ All the routines described here are ***deprecated***. Each routine has analogue in the [_TPJEnvironmentVars_](./TPJEnvironmentVars.md) static class that should be used in preference.
 
 _PJEnvVars_ contains several functions and procedures to assist in interogating and manipulating environment variables. They are:
 
@@ -21,7 +21,7 @@ _PJEnvVars_ contains several functions and procedures to assist in interogating 
 
 ## CreateEnvBlock
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.CreateBlock_](./TPJEnvironmentVars-CreateBlock.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.CreateBlock_](./TPJEnvironmentVars-CreateBlock.md) instead.
 
 ```pascal
 function CreateEnvBlock(const NewEnv: TStrings;
@@ -39,7 +39,7 @@ Normal usage is to call _CreateEnvBlock_ with _Buffer_ set to `nil` to get the r
 
 ## DeleteEnvVar
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.Delete_](./TPJEnvironmentVars-Delete.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.Delete_](./TPJEnvironmentVars-Delete.md) instead.
 
 ```pascal
 function DeleteEnvVar(const VarName: string): Integer;
@@ -51,7 +51,7 @@ Returns a Windows error code on failure or `0` on success.
 
 ## EnvBlockSize
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.BlockSize_](./TPJEnvironmentVars-BlockSize.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.BlockSize_](./TPJEnvironmentVars-BlockSize.md) instead.
 
 ```pascal
 function EnvBlockSize: Integer;
@@ -63,7 +63,7 @@ This function returns the size of the current environment block in _characters_.
 
 ## ExpandEnvVars
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.Expand_](./TPJEnvironmentVars-Expand.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.Expand_](./TPJEnvironmentVars-Expand.md) instead.
 
 ```pascal
 function ExpandEnvVars(const Str: string): string;
@@ -73,7 +73,7 @@ Replaces any environment variables embedded in the given string with their value
 
 ## GetAllEnvVarNames
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.GetAllNames_](./TPJEnvironmentVars-GetAllNames.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.GetAllNames_](./TPJEnvironmentVars-GetAllNames.md) instead.
 
 ```pascal
 procedure GetAllEnvVarNames(const Names: TStrings); overload;
@@ -88,7 +88,7 @@ The second version creates and returns a dynamic string array containing the env
 
 ## GetAllEnvVars
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.GetAll_](./TPJEnvironmentVars-GetAll.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.GetAll_](./TPJEnvironmentVars-GetAll.md) instead.
 
 ```pascal
 function GetAllEnvVars(const Vars: TStrings): Integer;
@@ -100,7 +100,7 @@ The size of the environment block, in characters, is returned.
 
 ## GetEnvVarValue
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.GetValue_](./TPJEnvironmentVars-GetValue.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.GetValue_](./TPJEnvironmentVars-GetValue.md) instead.
 
 ```pascal
 function GetEnvVarValue(const VarName: string): string;
@@ -110,7 +110,7 @@ Returns the value of environment variable with the given name.
 
 ## SetEnvVarValue
 
-> ***Deprecated*** -- use [_TPJEnvironmentVars.SetValue_](./TPJEnvironmentVars-SetValue.md) instead.
+> ⚠️ ***Deprecated*** -- use [_TPJEnvironmentVars.SetValue_](./TPJEnvironmentVars-SetValue.md) instead.
 
 ```pascal
 function SetEnvVarValue(const VarName, VarValue: string): Integer;

@@ -12,7 +12,7 @@
 property Count: Integer;
 ```
 
-> ***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.Count_](./TPJEnvironmentVars-Count.md) static method instead.*
+> ⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.Count_](./TPJEnvironmentVars-Count.md) static method instead.
 
 ## Description
 
