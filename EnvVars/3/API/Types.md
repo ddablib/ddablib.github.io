@@ -10,7 +10,7 @@ The _PJEnvVars_ unit contains the following types that are required by the main 
 
 |  Type |  Description |
 |-------|--------------|
-| [_EPJEnvVars_](./EPJEnvVars.md) ***(deprecated)*** | Class of exception raised to report errors that occur when using the [_TPJEnvVars_](./TPJEnvVars.md) component. |
+| [_EPJEnvVars_](./EPJEnvVars.md) ⚠️ ***Deprecated.*** | Class of exception raised to report errors that occur when using the [_TPJEnvVars_](./TPJEnvVars.md) component. |
 | [_TPJEnvironmentVar_](./TPJEnvironmentVar.md) | Record that encapsulates an environment variable's name and value. |
 | [_TPJEnvironmentVarArray_](./TPJEnvironmentVarArray.md) | A dynamic array of [_TPJEnvironmentVar_](./TPJEnvironmentVar.md) records. |
 | [_TPJEnvVarsEnum_](./TPJEnvVarsEnum.md) | Type of callback method that is called when enumerating environment variable names in [_TPJEnvironmentVars.EnumNames_](./TPJEnvironmentVars-EnumNames.md) or [_TPJEnvVars.EnumNames_](./TPJEnvVars-EnumNames.md). |

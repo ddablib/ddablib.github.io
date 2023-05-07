@@ -15,7 +15,7 @@ type
   {$ENDIF}
 ```
 
-***Warning:*** _EPJEnvVars_ *is **deprecated**. It is used only by the [_TPJEnvVars_](./TPJEnvVars.md) component, which is itself deprecated. The exception class is retained for backward compatibility only.*
+> ⚠️ _EPJEnvVars_ is **deprecated**. It is used only by the [_TPJEnvVars_](./TPJEnvVars.md) component, which is itself deprecated. The exception class is retained for backward compatibility only.
 
 ## Decription
 

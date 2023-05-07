@@ -12,7 +12,7 @@
 function GetEnumerator: TPJEnvVarsEnumerator;
 ```
 
-***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated***. Use [_TPJEnvVarsEnumerator_](./TPJEnvVarsEnumerator.md) instances directly or use [_TPJEnvironmentVars.EnumNames_](./TPJEnvironmentVars-EnumNames.md) static method instead.
+⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use [_TPJEnvVarsEnumerator_](./TPJEnvVarsEnumerator.md) instances directly or use [_TPJEnvironmentVars.EnumNames_](./TPJEnvironmentVars-EnumNames.md) static method instead.
 
 ## Description
 

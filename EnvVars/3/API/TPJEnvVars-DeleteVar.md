@@ -12,7 +12,7 @@
 procedure DeleteVar(const Name: string);
 ```
 
-> ***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.Delete_](./TPJEnvironmentVars-Delete.md) static method in preference.*
+> ⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the [_TPJEnvironmentVars.Delete_](./TPJEnvironmentVars-Delete.md) static method in preference.
 
 ## Description
 

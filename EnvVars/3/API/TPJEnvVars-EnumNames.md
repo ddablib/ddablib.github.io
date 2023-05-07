@@ -12,7 +12,7 @@
 procedure EnumNames(Callback: TPJEnvVarsEnum; Data: Pointer);
 ```
 
-> ***Warning:*** *[_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the  [_TPJEnvironmentVars.EnumNames_](./TPJEnvironmentVars-EnumNames.md) static method instead.*
+> ⚠️ [_TPJEnvVars_](./TPJEnvVars.md) has been **deprecated**. Use the  [_TPJEnvironmentVars.EnumNames_](./TPJEnvironmentVars-EnumNames.md) static method instead.
 
 ## Description
 
