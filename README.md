@@ -20,6 +20,7 @@ Documentation of the following projects have been completed:
 | Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
+| System Information Unit | <https://lib-docs.delphidabbler.com/SysInfo/> |
 
 Documentation of the following, unreleased, project is under construction:
 
