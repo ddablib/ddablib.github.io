@@ -1,10 +1,10 @@
 # HighlightURL property #
 
-**Project:** [Hot Label Component](HotLabelComponent.md).
+**Project:** [Hot Label Component](../API.md).
 
 **Unit:** _PJHotLabel_.
 
-**Class:** _[TPJHotLabel](TPJHotLabel.md)_
+**Class:** _[TPJHotLabel](../API/TPJHotLabel.md)_
 
 ```pascal
 property HighlightURL: Boolean;

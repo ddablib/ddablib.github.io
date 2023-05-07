@@ -1,10 +1,10 @@
 # Examples: Using the OnCustomHint event. #
 
-These examples show how to use the _[OnCustomHint](TPJHotLabelOnCustomHint.md)_ event of _[TPJHotLabel](TPJHotLabel.md)_. We handle the event to display a hint containing some descriptive text along with the URL in brackets.
+These examples show how to use the _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event of _[TPJHotLabel](../API/TPJHotLabel.md)_. We handle the event to display a hint containing some descriptive text along with the URL in brackets.
 
 ## Example 1 ##
 
-Drop a _[TPJHotLabel](TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](TPJHotLabelOnCustomHint.md)_ event handler, completed as follows:
+Drop a _[TPJHotLabel](../API/TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event handler, completed as follows:
 
 ```pascal
 procedure TForm1.FormCreate(Sender: TObject);
@@ -24,7 +24,7 @@ end;
 
 ## Example 2 ##
 
-This example is similar to the first except we store the custom hint text in the Hint property rather than entering the text in the form unit. This keeps the form's text in the form file. Drop a _[TPJHotLabel](TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](TPJHotLabelOnCustomHint.md)_ event handler as before, and complete them as follows:
+This example is similar to the first except we store the custom hint text in the Hint property rather than entering the text in the form unit. This keeps the form's text in the form file. Drop a _[TPJHotLabel](../API/TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event handler as before, and complete them as follows:
 
 ```pascal
 procedure TForm1.FormCreate(Sender: TObject);
@@ -45,4 +45,4 @@ end;
 
 **Link:**
 
-  * Back to [Hot Label Component Page](HotLabelComponent.md)
+  * Back to [Hot Label Component Page](../../index.md)
