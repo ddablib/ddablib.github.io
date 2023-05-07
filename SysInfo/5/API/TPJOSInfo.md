@@ -28,6 +28,7 @@ This is a static class that gives access to information about the operating syst
 | _[IsReallyWindows7SP1OrGreater](./TPJOSInfo-IsReallyWindows7SP1OrGreater.md)_ | Checks whether the OS is Windows 7 Service Pack 1 or greater. Ignores compatibility mode. |
 | _[IsReallyWindows8OrGreater](./TPJOSInfo-IsReallyWindows8OrGreater.md)_ | Checks whether the OS is Windows 8 or greater. Ignores compatibility mode. |
 | _[IsReallyWindows8Point1OrGreater](./TPJOSInfo-IsReallyWindows8Point1OrGreater.md)_ | Checks whether the OS is Windows 8.1 or greater. Ignores compatibility mode. |
+| _[IsReallyWindows10OrGreater](./TPJOSInfo-IsReallyWindows10OrGreater.md) [~>5.1]_ | Checks whether the OS is Windows 10 or greater. Ignores compatibility mode. |
 | _[IsReallyWindowsVistaOrGreater](./TPJOSInfo-IsReallyWindowsVistaOrGreater.md)_ | Checks whether the OS is Windows Vista or greater. Ignores compatibility mode. |
 | _[IsReallyWindowsVistaSP1OrGreater](./TPJOSInfo-IsReallyWindowsVistaSP1OrGreater.md)_ | Checks whether the OS is Windows Vista Service Pack 1 or greater. Ignores compatibility mode. |
 | _[IsReallyWindowsVistaSP2OrGreater](./TPJOSInfo-IsReallyWindowsVistaSP2OrGreater.md)_ | Checks whether the OS is Windows Vista Service Pack 2 or greater. Ignores compatibility mode. |
