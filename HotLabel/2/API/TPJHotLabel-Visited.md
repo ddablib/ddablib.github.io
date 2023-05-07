@@ -1,4 +1,4 @@
-# Visited property #
+# Visited property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -12,7 +12,7 @@
 property Visited: Boolean;
 ```
 
-## Description ##
+## Description
 
 This property indicates whether the label is in its "visited" state (`True`) or not (`False`). When _Visited_ is `True` the label is displayed using the font specified by the _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_<sup>[v2.2]</sup>, whenever the label is not highlighted. When the property is `False` the display font reverts to that given by the _[Font](../API/TPJHotLabel-Font.md)_ property.
 

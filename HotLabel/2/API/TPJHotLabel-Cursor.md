@@ -1,4 +1,4 @@
-# Cursor property #
+# Cursor property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property Cursor: TCursor;
 ```
 
-## Description ##
+## Description
 
 _Cursor_ specifies the image used to represent the mouse pointer when it passes into the region covered by the control.
 

@@ -1,4 +1,4 @@
-# Font property #
+# Font property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property Font: TFont;
 ```
 
-## Description ##
+## Description
 
 _Font_ controls the attributes font used to display the label when it is not highlighted.
 

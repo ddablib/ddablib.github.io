@@ -1,4 +1,4 @@
-# HighlightURL property #
+# HighlightURL property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property HighlightURL: Boolean;
 ```
 
-## Description ##
+## Description
 
 _HighlightURL_ determines whether the label's text is highlighted when the mouse passes of the control.
 

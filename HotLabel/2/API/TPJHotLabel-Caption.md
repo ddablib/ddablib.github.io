@@ -1,4 +1,4 @@
-# Caption property #
+# Caption property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property Caption: TCaption;
 ```
 
-## Description ##
+## Description
 
 This property specifies a text string that that may be displayed in the label.
 

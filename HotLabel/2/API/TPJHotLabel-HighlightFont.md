@@ -1,4 +1,4 @@
-# HighlightFont property #
+# HighlightFont property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property HighlightFont: TFont;
 ```
 
-## Description ##
+## Description
 
 This property controls the appearance of the label when the mouse passes over it.
 

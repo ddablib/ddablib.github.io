@@ -1,8 +1,8 @@
-# Examples: Using Highlighting #
+# Examples: Using Highlighting
 
 These examples present two possible designs for _[TPJHotLabel](../API/TPJHotLabel.md)_ components that use text highlighting to indicate that the label is clickable.
 
-## Example 1 ##
+## Example 1
 
 This example uses a change in text decoration to highlight the text of the label when the mouse passes over it.
 
@@ -10,8 +10,8 @@ First we must enable highlighting by setting _[HighlightURL](../API/TPJHotLabel-
 
 Start a new application and place a _[TPJHotLabel](../API/TPJHotLabel.md)_ component on the form. Now select the component and use the object inspector to set the following property values:
 
-| **Property** | **Value** |
-|:-------------|:----------|
+| Property | Value |
+|:---------|:------|
 | Font.Color | `clBlue` |
 | Font.Style | `[]` |
 | HighlightFont.Color | `clBlue` |
@@ -30,7 +30,7 @@ PJHotLabel1.HighlightURL := True;
 
 Now compile and run the application and roll the mouse over the URL and see the highlighting. The un-highlighted label will display with no text decoration and it will become underlined when the mouse passes over it.
 
-## Example 2 ##
+## Example 2
 
 The second example uses component's default highlighting style where un-highlighted text is navy blue and underlined and highlighted text is red and also underlined.
 
@@ -42,6 +42,6 @@ PJHotLabel1.HighlightURL := True;
 
 Again, run the application and move the mouse cursor over the control to see the highlighting effect.
 
-**Link:**
+## Links
 
-  * Back to [Hot Label Component Page](../../index.md)
+* Back to [Hot Label Component Page](../../index.md)

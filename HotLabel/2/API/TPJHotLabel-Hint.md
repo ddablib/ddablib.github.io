@@ -1,4 +1,4 @@
-# Hint property #
+# Hint property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property Hint: string;
 ```
 
-## Description ##
+## Description
 
 _Hint_ contains a text string that can appear when the user moves the mouse over the control.
 

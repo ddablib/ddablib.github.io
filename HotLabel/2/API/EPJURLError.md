@@ -1,4 +1,4 @@
-# EPJURLError #
+# EPJURLError
 
 **Project:** [Hot Label Component](../API.md).
 

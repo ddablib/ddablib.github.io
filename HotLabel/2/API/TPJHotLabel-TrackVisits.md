@@ -1,4 +1,4 @@
-# TrackVisits property #
+# TrackVisits property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -12,7 +12,7 @@
 property TrackVisits: Boolean;
 ```
 
-## Description ##
+## Description
 
 The component has the ability to detect when its URL is visited<sup>†</sup>, and to automatically set its _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> property to `True` when that happens. This then changes the font used when the label is not highlighted to that specified by the _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_<sup>[v2.2]</sup> property.
 

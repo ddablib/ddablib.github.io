@@ -1,4 +1,4 @@
-# CaptionIsURL property #
+# CaptionIsURL property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property CaptionIsURL: Boolean;
 ```
 
-## Description ##
+## Description
 
 The _CaptionIsURL_ property is used to determine whether the _[Caption](../API/TPJHotLabel-Caption.md)_ property displays the URL assigned to the _[URL](../API/TPJHotLabel-URL.md)_ property or whether it can display descriptive text.
 

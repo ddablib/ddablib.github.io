@@ -1,4 +1,4 @@
-# Example: Tracking visits to URLs.<sup>[v2.2]</sup> #
+# Example: Tracking visits to URLs<sup>[v2.2]</sup>
 
 The component provides the _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> property to enable visits to the URLs associated with hot label components to be tracked. Furthermore, the _[TrackVisits](../API/TPJHotLabel-TrackVisits.md)_<sup>[v2.2]</sup> property enables the tracking to be done automatically whenever the label is clicked and the underlying action completes successfully.
 
@@ -76,12 +76,12 @@ This is not recommended for programs that are installed in the "Program Files" d
 
 That's all the code you need. Run the program, click one or more labels so that they change their state then close the program. Re-run it and you should find that the visited state of the hot labels has been preserved.
 
-**Remarks**
+## Remarks
 
 Although the code can handle hot label components being deleted or new ones being added it falls down if a component is renamed or a new component has the same name as one that has been deleted. A more involved system of choosing unique keys associated with each control will be needed to work round this, possibly using the _Tag_ property to store a value unique to each component.
 
 You should note that the concept of visiting URLs in hot label components differs from that which is used in browsers. In a browser it is the URL that is flagged as visited: if a URL has been visited then all links that reference the URL are rendered as visited. With hot label components this is not the case: it is the component that stores the visited state, not the URL. Therefore if more than one component has the same URL, visiting one does not flag the others as visited.
 
-**Link:**
+## Links
 
-  * Back to [Hot Label Component Page](../../index.md)
+* Back to [Hot Label Component Page](../../index.md)

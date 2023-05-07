@@ -1,4 +1,4 @@
-# URL property #
+# URL property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property URL: string;
 ```
 
-## Description ##
+## Description
 
 This property stores the URL that is to be accessed when the label is clicked. The default web browser or mail client are used to display the URL.
 

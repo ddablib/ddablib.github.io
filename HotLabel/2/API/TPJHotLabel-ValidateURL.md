@@ -1,4 +1,4 @@
-# ValidateURL property #
+# ValidateURL property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property ValidateURL: Boolean;
 ```
 
-## Description ##
+## Description
 
 This property determines whether the URL stored in the component is validated or not.
 

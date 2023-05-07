@@ -1,4 +1,4 @@
-# ParentFont property #
+# ParentFont property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -10,7 +10,7 @@
 property ParentFont: Boolean;
 ```
 
-## Description ##
+## Description
 
 This property determines where a control looks for its font information.
 

@@ -1,4 +1,4 @@
-# VisitedFont property #
+# VisitedFont property
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -12,7 +12,7 @@
 property VisitedFont: TFont;
 ```
 
-## Description ##
+## Description
 
 _VisitedFont_ controls the attributes font used to display the label when the _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> property is `True` and the label is not highlighted.
 

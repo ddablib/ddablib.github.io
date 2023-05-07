@@ -13,7 +13,7 @@ The _Hot Label Component_ is supplied in a single unit,  _PJHotLabel_.
 _PJHotLabel_ contains the following classes and other types. They are:
 
 | Type | Description |
-| -------- | --------- |
+|------|-------------|
 | _[TPJHotLabel](./API/TPJHotLabel.md)_ | The Hot Label Component itself. |
 | _[EPJURLError](./API/EPJURLError.md)_  | A custom exception that is raised by _[TPJHotLabel](./API/TPJHotLabel.md)_ when URL related errors are encountered. |
 | _TPJHLHintStyle_ | An enumeration of hint styles used by the _[HintStyle](./API/TPJHotLabel-HintStyle.md)_ property. See the property's documentation for details. |

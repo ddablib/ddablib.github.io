@@ -1,4 +1,4 @@
-# TPJHotLabel #
+# TPJHotLabel
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -8,11 +8,11 @@ This component provides a label that can access a user-defined URL when clicked.
 
 In addition to the properties of _TLabel_, from which this component descends, additional properties for working with URLs are provided. The effect of some of _TLabel_'s properties is modified in _TPJHotLabel_.
 
-### URLs and the Caption ###
+### URLs and the Caption
 
 The _[URL](../API/TPJHotLabel-URL.md)_ property is used for storing the URL to be accessed and the _[Caption](../API/TPJHotLabel-Caption.md)_ property can either store descriptive text or can reflect the URL, depending on the value of the _[CaptionIsURL](../API/TPJHotLabel-CaptionIsURL.md)_ property. When the _[ValidateURL](../API/TPJHotLabel-ValidateURL.md)_ property is `True` URLs are automatically validated, raising an exception if invalid.
 
-### Fonts and highlighting ###
+### Fonts and highlighting
 
 The label's _[Font](../API/TPJHotLabel-Font.md)_ property defaults to a font based on the parent font at the time the component is dropped on the form, but coloured navy blue. It should be noted that the _[Font](../API/TPJHotLabel-Font.md)_ property will not automatically reflect changes in the parent controls's font since _[ParentFont](../API/TPJHotLabel-ParentFont.md)_ defaults to `False`.
 
@@ -20,22 +20,22 @@ The label can be highlighted when the mouse passes over it. It does this only if
 
 From v2.2 the label can change its appearance to indicate its link has been visited. It does this when its _[Visited](../API/TPJHotLabel-Visited.md)_ property is `True`, in which case the _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_ property is used to set the label's font when in its un-highlighted state. _[Visited](../API/TPJHotLabel-Visited.md)_ is a writeable property so the user can set its value in code or in the object inspector. Further, if the _[TrackVisits](../API/TPJHotLabel-TrackVisits.md)_ property is `True` the label will automatically set _[Visited](../API/TPJHotLabel-Visited.md)_ to `True` (and change its appearance) when the label is clicked and the URL is processed without error. The value of _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_ is, by default, based on the default font used by the _[Font](../API/TPJHotLabel-Font.md)_ property, but with a different colour.
 
-### The cursor ###
+### The cursor
 
 The _[Cursor](../API/TPJHotLabel-Cursor.md)_ property defaults to `crHandPoint` rather than `crDefault` so that the expected "pointing hand" is displayed over a link.
 
-### Customising hints ###
+### Customising hints
 
 Useful, customisable, pop-up hints can be displayed when the mouse cursor hovers over the label. You can either display text from the _[Hint](../API/TPJHotLabel-Hint.md)_ property as normal, display the _[URL](../API/TPJHotLabel-URL.md)_ property value (useful when the URL is not displayed in the label) or customise the hint each time it is displayed. The _[HintStyle](../API/TPJHotLabel-HintStyle.md)_ property is used to specify the source of the hint text. Custom hints are set up by handling the _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event.
 
-## Methods ##
+## Methods
 
 _TPJHotLabel_ defines no new methods over and above those inherited from _TLabel_.
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[Caption](../API/TPJHotLabel-Caption.md)_ | Specifies a text string that that may be displayed in the label. How _[Caption](../API/TPJHotLabel-Caption.md)_ is used depends on the _[CaptionIsURL](../API/TPJHotLabel-CaptionIsURL.md)_ property. |
 | _[CaptionIsURL](../API/TPJHotLabel-CaptionIsURL.md)_ | Determine whether the text of the label's _[URL](../API/TPJHotLabel-URL.md)_ property is assigned to the _[Caption](../API/TPJHotLabel-Caption.md)_ property or whether _[Caption](../API/TPJHotLabel-Caption.md)_ can be used to display descriptive text. |
 | _[Cursor](../API/TPJHotLabel-Cursor.md)_ | Specifies the image used to represent the mouse pointer when it passes into the region covered by the control. |
@@ -51,8 +51,8 @@ _TPJHotLabel_ defines no new methods over and above those inherited from _TLabel
 | _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_<sup>[v2.2]</sup> | Specifies the label's font when in its visited state and not highlighted. |
 | _[ValidateURL](../API/TPJHotLabel-ValidateURL.md)_ | Determines whether the URL stored in the component is validated or not. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ | An event that enables the user to specify a custom hint to be displayed by the component. |

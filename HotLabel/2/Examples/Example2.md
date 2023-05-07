@@ -1,8 +1,8 @@
-# Examples: Using the OnCustomHint event. #
+# Examples: Using the OnCustomHint Event
 
 These examples show how to use the _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event of _[TPJHotLabel](../API/TPJHotLabel.md)_. We handle the event to display a hint containing some descriptive text along with the URL in brackets.
 
-## Example 1 ##
+## Example 1
 
 Drop a _[TPJHotLabel](../API/TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event handler, completed as follows:
 
@@ -22,7 +22,7 @@ begin
 end;
 ```
 
-## Example 2 ##
+## Example 2
 
 This example is similar to the first except we store the custom hint text in the Hint property rather than entering the text in the form unit. This keeps the form's text in the form file. Drop a _[TPJHotLabel](../API/TPJHotLabel.md)_ component on a form and create a _FormCreate_ and a _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event handler as before, and complete them as follows:
 
@@ -43,6 +43,6 @@ begin
 end;
 ```
 
-**Link:**
+## Links
 
-  * Back to [Hot Label Component Page](../../index.md)
+* Back to [Hot Label Component Page](../../index.md)

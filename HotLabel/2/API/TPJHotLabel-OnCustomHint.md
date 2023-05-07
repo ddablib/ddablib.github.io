@@ -1,4 +1,4 @@
-# OnCustomHint event #
+# OnCustomHint event
 
 **Project:** [Hot Label Component](../API.md).
 
@@ -15,7 +15,7 @@ type
 property OnCustomHint: TPJHLCustomHintEvent;
 ```
 
-## Description ##
+## Description
 
 _OnCustomHint_ is an event that enables the user to specify a custom hint to be displayed by the component.
 
