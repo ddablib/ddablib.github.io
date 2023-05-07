@@ -1,10 +1,10 @@
 # IsWinNT class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 ```pascal
 class function IsWinNT: Boolean;
@@ -16,4 +16,4 @@ Returns True if an NT operating system is installed (including Windows 2000, Win
 
 When the program is run in compatibility mode, this method will report whether the "emulated" operating system is a Windows NT operating system.
 
-[v5.0] On operating systems where _[CanSpoof](TPJOSInfoCanSpoof.md)_ returns `False` this method will always return `True`, because _[CanSpoof](TPJOSInfoCanSpoof.md)_ only ever returns `False` on NT systems.
+[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will always return `True`, because _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ only ever returns `False` on NT systems.

@@ -1,10 +1,10 @@
 # IsReallyWindowsXXX class methods #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 **Introduced:** v5.0
 
@@ -52,4 +52,4 @@ This set of methods check whether the operating system is that same as or greate
 
 Regardless of whether the program is running in compatibility these methods will always return information about the installed operating system.
 
-These methods are identical in function to the functions with similar names that are declared in `versionhelpers.h`: see http://msdn.microsoft.com/en-us/library/windows/desktop/dn424972.aspx for details.
+These methods are identical in function to the functions with similar names that are declared in `versionhelpers.h`: see <https://learn.microsoft.com/en-gb/windows/win32/sysinfo/version-helper-apis> for details.

@@ -1,10 +1,10 @@
 # ProcessorSpeedMHz class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJComputerInfo](TPJComputerInfo.md)_
+**Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
 **Introduced:** v5.4
 
@@ -22,5 +22,5 @@ If the processor speed cannot be found then `0` is returned.
 
 **See also**
 
-* _[ProcessorIdentifier](TPJComputerInfoProcessorIdentifier.md)_
-* _[ProcessorName](TPJComputerInfoProcessorName.md)_
+* _[ProcessorIdentifier](./TPJComputerInfo-ProcessorIdentifier.md)_
+* _[ProcessorName](./TPJComputerInfo-ProcessorName.md)_

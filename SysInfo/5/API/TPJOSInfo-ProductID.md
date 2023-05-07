@@ -1,10 +1,10 @@
 # ProductID class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 ```pascal
 class function ProductID: string;

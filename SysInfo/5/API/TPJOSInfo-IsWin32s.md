@@ -1,10 +1,10 @@
 # IsWin32s class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 ```pascal
 class function IsWin32s: Boolean;

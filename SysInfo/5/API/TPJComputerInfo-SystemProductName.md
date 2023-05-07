@@ -1,10 +1,10 @@
 # SystemProductName class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJComputerInfo](TPJComputerInfo.md)_
+**Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
 **Introduced:** v4.0
 
@@ -16,4 +16,4 @@ class function SystemProductName: string;
 
 Returns the model (product) name of the host computer.
 
-The returned name does not include the computer's manufacturer. To get that, use the _[SystemManufacturer](TPJComputerInfoSystemManufacturer.md)_ property.
+The returned name does not include the computer's manufacturer. To get that, use the _[SystemManufacturer](./TPJComputerInfo-SystemManufacturer.md)_ property.

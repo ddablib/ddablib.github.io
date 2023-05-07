@@ -1,10 +1,10 @@
 # Windows class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJSystemFolders](TPJSystemFolders.md)_
+**Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
 ```pascal
 class function Windows: string;

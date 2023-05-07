@@ -1,10 +1,10 @@
 # Product class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 ```pascal
 class function Product: TPJOSProduct;
@@ -48,8 +48,8 @@ Returns a value from the _TPJOSProduct_ enumeration that identifies the operatin
 | `osUnknownWin32s` | An operating system running on the Win32s platform. |
 | `osUnknown` | An unknown operating system on an unknown platform. |
 
-To find the string representation of the product name use the _[ProductName](TPJOSInfoProductName.md)_ method.
+To find the string representation of the product name use the _[ProductName](./TPJOSInfo-ProductName.md)_ method.
 
 When the program is run in compatibility mode, this method will return the product code of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](TPJOSInfoCanSpoof.md)_ returns `False` this method will return the product code of the installed operating system, regardless of any compatibility mode.
+[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the product code of the installed operating system, regardless of any compatibility mode.

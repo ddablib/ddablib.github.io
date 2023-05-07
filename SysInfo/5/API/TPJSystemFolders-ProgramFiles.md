@@ -1,10 +1,10 @@
 # ProgramFiles class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJSystemFolders](TPJSystemFolders.md)_
+**Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
 ```pascal
 class function ProgramFiles: string;
@@ -18,5 +18,5 @@ On 64 bit Windows, both 32 bit and 64 bit programs will report the same value, i
 
 **See also**
 
-  * _[ProgramFilesX86](TPJSystemFoldersProgramFilesX86.md)_
-  * _[ProgramFilesRedirect](TPJSystemFoldersProgramFilesRedirect.md)_
+  * _[ProgramFilesX86](./TPJSystemFolders-ProgramFilesX86.md)_
+  * _[ProgramFilesRedirect](./TPJSystemFolders-ProgramFilesRedirect.md)_

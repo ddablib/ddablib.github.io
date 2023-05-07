@@ -1,10 +1,10 @@
 # CommonFilesX86 class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJSystemFolders](TPJSystemFolders.md)_
+**Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
 **Introduced:** v4.0
 
@@ -20,5 +20,5 @@ No such folder exists on 32 bit Windows and so _CommonFilesX86_ returns the empt
 
 **See also**
 
-  * _[CommonFiles](TPJSystemFoldersCommonFiles.md)_
-  * _[CommonFilesRedirect](TPJSystemFoldersCommonFilesRedirect.md)_
+  * _[CommonFiles](./TPJSystemFolders-CommonFiles.md)_
+  * _[CommonFilesRedirect](./TPJSystemFolders-CommonFilesRedirect.md)_

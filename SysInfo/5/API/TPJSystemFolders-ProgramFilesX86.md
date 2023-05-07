@@ -1,10 +1,10 @@
 # ProgramFilesX86 class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJSystemFolders](TPJSystemFolders.md)_
+**Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
 **Introduced:** v4.0
 
@@ -20,5 +20,5 @@ No such folder exists on 32 bit Windows and so _ProgramFilesX86_ returns the emp
 
 **See also**
 
-  * _[ProgramFiles](TPJSystemFoldersProgramFiles.md)_
-  * _[ProgramFilesRedirect](TPJSystemFoldersProgramFilesRedirect.md)_
+  * _[ProgramFiles](./TPJSystemFolders-ProgramFiles.md)_
+  * _[ProgramFilesRedirect](./TPJSystemFolders-ProgramFilesRedirect.md)_

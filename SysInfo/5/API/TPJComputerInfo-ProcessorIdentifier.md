@@ -1,10 +1,10 @@
 # ProcessorIdentifier class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJComputerInfo](TPJComputerInfo.md)_
+**Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
 **Introduced:** v4.0
 
@@ -22,5 +22,5 @@ An example processor identifier is "`Intel64 Family 6 Model 58 Stepping 9`".
 
 **See also**
 
-* _[ProcessorName](TPJComputerInfoProcessorName.md)_
-* _[ProcessorSpeedMHz](TPJComputerInfoProcessorSpeedMHz.md)_ 
+* _[ProcessorName](./TPJComputerInfo-ProcessorName.md)_
+* _[ProcessorSpeedMHz](./TPJComputerInfo-ProcessorSpeedMHz.md)_ 

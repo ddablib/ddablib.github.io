@@ -1,6 +1,6 @@
 # TPJSystemFolders #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
@@ -10,16 +10,16 @@ This is a static class that provies details of the full paths of various special
 
 | **Method** | **Description** |
 |:-----------|:----------------|
-| _[CommonFiles](TPJSystemFoldersCommonFiles.md)_ | Gets the Common Files folder path. |
-| _[CommonFilesRedirect](TPJSystemFoldersCommonFilesRedirect.md)_ [v4.0] | Gets the fully qualified name of the Common Files folder according to whether the host program and operating system are 32 or 64 bit. |
-| _[CommonFilesX86](TPJSystemFoldersCommonFilesX86.md)_ [v4.0] | Gets the fully qualified name of the Common Files x86 folder. |
-| _[ProgramFiles](TPJSystemFoldersProgramFiles.md)_ | Gets the Program Files folder path. |
-| _[ProgramFilesRedirect](TPJSystemFoldersProgramFilesRedirect.md)_ [v4.0] | Gets the fully qualified name of the Program Files folder according to whether the host program and operating system are 32 or 64 bit. |
-| _[ProgramFilesX86](TPJSystemFoldersProgramFilesX86.md)_ [v4.0] | Gets the fully qualified name of the Program Files x86 folder. |
-| _[System](TPJSystemFoldersSystem.md)_ | Gets the System folder path. |
-| _[SystemWow64](TPJSystemFoldersSystemWow64.md)_ [v3.1] | Gets the System folder path used by WOW64. |
-| _[Temp](TPJSystemFoldersTemp.md)_ | Gets the temporary files folder path. |
-| _[Windows](TPJSystemFoldersWindows.md)_ | Gets the Windows folder path. |
+| _[CommonFiles](./TPJSystemFolders-CommonFiles.md)_ | Gets the Common Files folder path. |
+| _[CommonFilesRedirect](./TPJSystemFolders-CommonFilesRedirect.md)_ [v4.0] | Gets the fully qualified name of the Common Files folder according to whether the host program and operating system are 32 or 64 bit. |
+| _[CommonFilesX86](./TPJSystemFolders-CommonFilesX86.md)_ [v4.0] | Gets the fully qualified name of the Common Files x86 folder. |
+| _[ProgramFiles](./TPJSystemFolders-ProgramFiles.md)_ | Gets the Program Files folder path. |
+| _[ProgramFilesRedirect](./TPJSystemFolders-ProgramFilesRedirect.md)_ [v4.0] | Gets the fully qualified name of the Program Files folder according to whether the host program and operating system are 32 or 64 bit. |
+| _[ProgramFilesX86](./TPJSystemFolders-ProgramFilesX86.md)_ [v4.0] | Gets the fully qualified name of the Program Files x86 folder. |
+| _[System](./TPJSystemFolders-System.md)_ | Gets the System folder path. |
+| _[SystemWow64](./TPJSystemFolders-SystemWow64.md)_ [v3.1] | Gets the System folder path used by WOW64. |
+| _[Temp](./TPJSystemFolders-Temp.md)_ | Gets the temporary files folder path. |
+| _[Windows](./TPJSystemFolders-Windows.md)_ | Gets the Windows folder path. |
 
 ## Properties ##
 

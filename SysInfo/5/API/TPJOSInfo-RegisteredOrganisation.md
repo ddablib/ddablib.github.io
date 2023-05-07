@@ -1,10 +1,10 @@
 # RegisteredOrganisation class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 **Introduced:** v4.0
 
@@ -22,4 +22,4 @@ The empty string is returned if no organisation has been reqistered.
 
 **See also**
 
-  * _[RegisteredOwner](TPJOSInfoRegisteredOwner.md)_
+  * _[RegisteredOwner](./TPJOSInfo-RegisteredOwner.md)_

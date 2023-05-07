@@ -1,10 +1,10 @@
 # RevisionNumber class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 **Introduced:** v5.6
 
@@ -26,4 +26,4 @@ Basic tests indicate that this value cannot be spoofed, but registry spoofing is
 
 **See also**
 
-  * _[BuildNumber](TPJOSInfoBuildNumber.md)_
+  * _[BuildNumber](./TPJOSInfo-BuildNumber.md)_

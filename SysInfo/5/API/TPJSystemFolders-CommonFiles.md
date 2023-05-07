@@ -1,10 +1,10 @@
 # CommonFiles class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJSystemFolders](TPJSystemFolders.md)_
+**Class:** _[TPJSystemFolders](./TPJSystemFolders.md)_
 
 ```pascal
 class function CommonFiles: string;
@@ -18,5 +18,5 @@ On 64 bit Windows, both 32 bit and 64 bit programs will report the same value, i
 
 **See also**
 
-  * _[CommonFilesX86](TPJSystemFoldersCommonFilesX86.md)_
-  * _[CommonFilesRedirect](TPJSystemFoldersCommonFilesRedirect.md)_
+  * _[CommonFilesX86](./TPJSystemFolders-CommonFilesX86.md)_
+  * _[CommonFilesRedirect](./TPJSystemFolders-CommonFilesRedirect.md)_

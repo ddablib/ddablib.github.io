@@ -1,10 +1,10 @@
 # ProcessorName class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJComputerInfo](TPJComputerInfo.md)_
+**Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
 **Introduced:** v4.0
 
@@ -22,5 +22,5 @@ An example processor name is "`Intel(R) Core(TM) i7-3610QM CPU @ 2.30GHz`".
 
 **See also**
 
-* _[ProcessorIdentifier](TPJComputerInfoProcessorIdentifier.md)_
-* _[ProcessorSpeedMHz](TPJComputerInfoProcessorSpeedMHz.md)_ 
+* _[ProcessorIdentifier](./TPJComputerInfo-ProcessorIdentifier.md)_
+* _[ProcessorSpeedMHz](./TPJComputerInfo-ProcessorSpeedMHz.md)_ 

@@ -1,10 +1,10 @@
 # Description class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 ```pascal
 class function Description: string;
@@ -20,8 +20,8 @@ For NT platform operating systems the name of the operating system is provided (
 
 When the program is run in compatibility mode, this method will return the description of the "emulated" operating system.
 
-[v5.0] On operating systems where _[CanSpoof](TPJOSInfoCanSpoof.md)_ returns `False` this method will return the description of the installed operating system, regardless of any compatibility mode.
+[v5.0] On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False` this method will return the description of the installed operating system, regardless of any compatibility mode.
 
-_Description_ includes information about any service packs from the _[ServicePack](TPJOSInfoServicePack.md)_ property.
+_Description_ includes information about any service packs from the _[ServicePack](./TPJOSInfo-ServicePack.md)_ property.
 
-[v5.3] _Description_ now gets service pack information from the _[ServicePackEx](TPJOSInfoServicePackEx.md)_ property instead of _[ServicePack](TPJOSInfoServicePack.md)_. This ensures that _Description_ contains information about updates that aren't classed as service packs, for e.g. Windows 10 Version 1607.
+[v5.3] _Description_ now gets service pack information from the _[ServicePackEx](./TPJOSInfo-ServicePackEx.md)_ property instead of _[ServicePack](./TPJOSInfo-ServicePack.md)_. This ensures that _Description_ contains information about updates that aren't classed as service packs, for e.g. Windows 10 Version 1607.

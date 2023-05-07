@@ -1,10 +1,10 @@
 # Processor class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJComputerInfo](TPJComputerInfo.md)_
+**Class:** _[TPJComputerInfo](./TPJComputerInfo.md)_
 
 ```pascal
 class function Processor: TPJProcessorArchitecture;

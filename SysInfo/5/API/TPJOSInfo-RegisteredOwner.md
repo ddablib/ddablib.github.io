@@ -1,10 +1,10 @@
 # RegisteredOwner class function #
 
-**Project:** [System Information Unit](SystemInformationUnit.md).
+**Project:** [System Information Unit](../API.md).
 
 **Unit:** _PJSysInfo_.
 
-**Class:** _[TPJOSInfo](TPJOSInfo.md)_
+**Class:** _[TPJOSInfo](./TPJOSInfo.md)_
 
 **Introduced:** v4.0
 
@@ -18,4 +18,4 @@ Returns the name of the registered owner of the Windows installation.
 
 **See also**
 
-  * _[RegisteredOrganisation](TPJOSInfoRegisteredOrganisation.md)_
+  * _[RegisteredOrganisation](./TPJOSInfo-RegisteredOrganisation.md)_
