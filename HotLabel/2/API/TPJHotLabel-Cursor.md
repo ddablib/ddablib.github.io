@@ -6,6 +6,8 @@
 
 **Class:** _[TPJHotLabel](../API/TPJHotLabel.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 property Cursor: TCursor;
 ```

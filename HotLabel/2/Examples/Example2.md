@@ -1,5 +1,7 @@
 # Examples: Using the OnCustomHint Event
 
+**Applies to:** ~>2.0
+
 These examples show how to use the _[OnCustomHint](../API/TPJHotLabel-OnCustomHint.md)_ event of _[TPJHotLabel](../API/TPJHotLabel.md)_. We handle the event to display a hint containing some descriptive text along with the URL in brackets.
 
 ## Example 1

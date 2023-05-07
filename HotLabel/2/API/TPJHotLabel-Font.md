@@ -6,6 +6,8 @@
 
 **Class:** _[TPJHotLabel](../API/TPJHotLabel.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 property Font: TFont;
 ```
@@ -14,7 +16,7 @@ property Font: TFont;
 
 _Font_ controls the attributes font used to display the label when it is not highlighted.
 
-<sup>[v2.2]</sup> At run-time the _Font_ property is only displayed if the _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> property is `False`, otherwise the label's display font is that specified by the _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_<sup>[v2.2]</sup> property.
+[~>2.2] At run-time the _Font_ property is only displayed if the _[Visited](../API/TPJHotLabel-Visited.md)_ [~>2.2] property is `False`, otherwise the label's display font is that specified by the _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_ [~>2.2] property.
 
 To change to a new font, specify a new _TFont_ object. To modify a font, change the value of the _Color_, _Height_, _Name_, _Pitch_, _Size_, or _Style_ of the _TFont_ object.
 

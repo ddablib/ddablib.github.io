@@ -6,6 +6,8 @@
 
 **Class:** _[TPJHotLabel](../API/TPJHotLabel.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 property URL: string;
 ```
@@ -20,4 +22,4 @@ When the _[CaptionIsURL](../API/TPJHotLabel-CaptionIsURL.md)_ property is `True`
 
 The URL can be displayed in the component's _[Hint](../API/TPJHotLabel-Hint.md)_ property by setting the _[HintStyle](../API/TPJHotLabel-HintStyle.md)_ property to `hsURL`.
 
-The default value of this property is either `http://localhost`<sup>[v2.0]</sup>  or `http://example.com/`<sup>[v2.2]</sup>
+The default value of this property is either `http://localhost` [2.0 to ~>2.1.0]  or `http://example.com/` [~>2.2].

@@ -4,6 +4,8 @@
 
 **Unit:** _PJHotLabel_.
 
+**Applies to:** ~>2.0
+
 This component provides a label that can access a user-defined URL when clicked. The URL is displayed in the default browser or email client.
 
 In addition to the properties of _TLabel_, from which this component descends, additional properties for working with URLs are provided. The effect of some of _TLabel_'s properties is modified in _TPJHotLabel_.
@@ -45,10 +47,10 @@ _TPJHotLabel_ defines no new methods over and above those inherited from _TLabel
 | _[Hint](../API/TPJHotLabel-Hint.md)_ | Contains the text string that can appear when the user moves the mouse over the control. How _[Hint](../API/TPJHotLabel-Hint.md)_ is used depends on the _[HintStyle](../API/TPJHotLabel-HintStyle.md)_ property. |
 | _[HintStyle](../API/TPJHotLabel-HintStyle.md)_ | Determines the source of the text displayed in the component's hint. |
 | _[ParentFont](../API/TPJHotLabel-ParentFont.md)_ | Determines where the control looks for its font information. |
-| _[TrackVisits](../API/TPJHotLabel-TrackVisits.md)_<sup>[v2.2]</sup> | Determines whether or not the label automatically displays in its visible state when the user clicks the link. |
+| _[TrackVisits](../API/TPJHotLabel-TrackVisits.md) [~>2.2]_ | Determines whether or not the label automatically displays in its visible state when the user clicks the link. |
 | _[URL](../API/TPJHotLabel-URL.md)_ | Stores the URL that is to be accessed when the label is clicked. |
-| _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> | Determines whether or not the label is in its visited state. |
-| _[VisitedFont](../API/TPJHotLabel-VisitedFont.md)_<sup>[v2.2]</sup> | Specifies the label's font when in its visited state and not highlighted. |
+| _[Visited](../API/TPJHotLabel-Visited.md) [~>2.2]_ | Determines whether or not the label is in its visited state. |
+| _[VisitedFont](../API/TPJHotLabel-VisitedFont.md) [~>2.2]_ | Specifies the label's font when in its visited state and not highlighted. |
 | _[ValidateURL](../API/TPJHotLabel-ValidateURL.md)_ | Determines whether the URL stored in the component is validated or not. |
 
 ## Events

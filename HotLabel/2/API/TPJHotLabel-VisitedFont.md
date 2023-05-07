@@ -6,7 +6,7 @@
 
 **Class:** _[TPJHotLabel](../API/TPJHotLabel.md)_
 
-**Introduced:** v2.2
+**Applies to:** ~>2.2
 
 ```pascal
 property VisitedFont: TFont;
@@ -14,7 +14,7 @@ property VisitedFont: TFont;
 
 ## Description
 
-_VisitedFont_ controls the attributes font used to display the label when the _[Visited](../API/TPJHotLabel-Visited.md)_<sup>[v2.2]</sup> property is `True` and the label is not highlighted.
+_VisitedFont_ controls the attributes font used to display the label when the _[Visited](../API/TPJHotLabel-Visited.md)_ [~>2.2] property is `True` and the label is not highlighted.
 
 To change to a new font, specify a new _TFont_ object. To modify a font, change the value of the _Color_, _Height_, _Name_, _Pitch_, _Size_, or _Style_ of the _TFont_ object.
 

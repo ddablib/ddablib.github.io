@@ -1,5 +1,7 @@
 # Examples: Using Highlighting
 
+**Applies to:** ~>2.0
+
 These examples present two possible designs for _[TPJHotLabel](../API/TPJHotLabel.md)_ components that use text highlighting to indicate that the label is clickable.
 
 ## Example 1
