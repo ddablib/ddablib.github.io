@@ -19,6 +19,7 @@ Documentation of the following projects have been completed:
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
 | Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
+| Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
 | System Information Unit | <https://lib-docs.delphidabbler.com/SysInfo/> |
 
