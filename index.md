@@ -9,7 +9,7 @@ The library currently contains the following projects, all originally published 
 | [About Box Component](./Docs/AboutBox.md) | Non-visual component that encapsulates an About Box. Set properties or link to a [Version Information Component](./Docs/VerInfo.md) to customise the about box content. |
 | [Clipboard Viewer Component](./CBView/index.md) | Component that triggers an event whenever the contents of the clipboard change. |
 | [Console Application Runner Classes](./Docs/ConsoleApp.md) | Classes to control the execution of child console application processes and to redirect input and output where required. |
-| [Drop Files Components](./Docs/DropFilesComponents.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
+| [Drop Files Components](./DropFiles/index.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
 | [Environment Variables Unit](./EnvVars/index.md) | Contains a static class and supporting types for interrogating, modifying and enumerating the environment variables belonging to the current process. |
 | [Extended String Property Editor](./Docs/StringPE.md) | Property editor that allows multi-line and long _string_ and _TCaption_ properties to be edited at design time. |
 | [Fractions Unit](./Docs/Fractions.md) | Defines an advanced "record with methods" type that encapsulates fraction and related operations. |
