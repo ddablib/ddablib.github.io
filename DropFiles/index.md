@@ -9,7 +9,7 @@ The components are:
 * Windows only
 * 32 and 64 bit compatible
 * VCL compatible
-* **Not** FireMonket compatible
+* **Not** FireMonkey compatible
 
 ### Supported Versions
 
