@@ -17,6 +17,7 @@ Documentation of the following projects have been completed:
 | Project | Starting page URL |
 |---------|-------------------|
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
+| Drop Files Components | <https://lib-docs.delphidabbler.com/DropFiles/> |
 | Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
 | Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
