@@ -1,6 +1,6 @@
 # TPJDroppedFileFilter #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 

@@ -1,6 +1,6 @@
 # TPJExtFileFilterStyle enumeration #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
@@ -13,7 +13,7 @@ type
 
 ## Description ##
 
-This enumeration represents the kind of filtering performed by the _[TPJExtFileFilter](TPJExtFileFilter.md)_ component according to its _[Style](TPJExtFileFilterStyle.md)_ property. Possible values are:
+This enumeration represents the kind of filtering performed by the _[TPJExtFileFilter](./TPJExtFileFilter.md)_ component according to its _[Style](./TPJExtFileFilter-Style.md)_ property. Possible values are:
 
 | Style | Description |
 |:--------------------|:---------------------------------------------------------------------------------------------------------------|

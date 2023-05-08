@@ -1,10 +1,10 @@
 # Style property #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJExtFileFilter](TPJExtFileFilter.md)_
+**Class:** _[TPJExtFileFilter](./TPJExtFileFilter.md)_
 
 ```pascal
 property Style: TPJExtFileFilterStyle;
@@ -12,7 +12,7 @@ property Style: TPJExtFileFilterStyle;
 
 ## Description ##
 
-This property determines which kinds of file names have the extension filter applied. Possible values are given by the _[TPJExtFileFilterStyle](TPJExtFileFilterStyleEnum.md)_ enumeration.
+This property determines which kinds of file names have the extension filter applied. Possible values are given by the _[TPJExtFileFilterStyle](./TPJExtFileFilterStyle.md)_ enumeration.
 
 The default value is `fsFilterFilesOnly`.
 

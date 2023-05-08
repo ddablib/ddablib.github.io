@@ -1,10 +1,10 @@
 # Accept method #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJFileFilter](TPJFileFilter.md)_
+**Class:** _[TPJFileFilter](./TPJFileFilter.md)_
 
 ```pascal
 function Accept(

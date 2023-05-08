@@ -1,10 +1,10 @@
 # DropPoint property #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJFormDropFiles](TPJFormDropFiles.md)_
+**Class:** _[TPJFormDropFiles](./TPJFormDropFiles.md)_
 
 ```pascal
 property DropPoint: TPoint;

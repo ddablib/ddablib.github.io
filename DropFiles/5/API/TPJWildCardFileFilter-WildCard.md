@@ -1,10 +1,10 @@
 # WildCard property #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJWildCardFileFilter](TPJWildCardFileFilter.md)_
+**Class:** _[TPJWildCardFileFilter](./TPJWildCardFileFilter.md)_
 
 ```pascal
 property WildCard: string;

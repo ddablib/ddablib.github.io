@@ -1,6 +1,6 @@
 # TPJDropFilesOptions set and TPJDropFilesOption enumeration #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 

@@ -1,10 +1,10 @@
 # DropControl property #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJCtrlDropFiles](TPJCtrlDropFiles.md)_
+**Class:** _[TPJCtrlDropFiles](./TPJCtrlDropFiles.md)_
 
 ```pascal
 property DropControl: TControl;

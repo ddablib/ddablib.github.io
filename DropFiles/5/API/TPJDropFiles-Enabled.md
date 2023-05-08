@@ -1,10 +1,10 @@
 # Enabled property #
 
-**Project:** [Drop Files Components](DropFilesComponents.md).
+**Project:** [Drop Files Components](../API.md).
 
 **Unit:** _PJDropFiles_.
 
-**Class:** _[TPJDropFiles](TPJDropFiles.md)_
+**Class:** _[TPJDropFiles](./TPJDropFiles.md)_
 
 ```pascal
 property Enabled: Boolean;
