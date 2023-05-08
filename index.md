@@ -16,7 +16,7 @@ The library currently contains the following projects, all originally published 
 | [Hot Label Component](./HotLabel/index.md) | Label component that accesses a URL when clicked. The URL is displayed in the default web browser or email client. |
 | [I/O Utilities Unit](./Docs/IOUtils.md) | Several classes that assist with various I/O related tasks, including working with pipes and inheritable file handles. |
 | [MD5 Message Digest Unit](./Docs/MD5.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
-| [Message Dialog Components](./Docs/MessageDialogComponents.md) | Components that wrap message dialogue boxes provided by the Delphi VCL and the Windows API. |
+| [Message Dialog Components](./MsgDlg/index.md) | Components that wrap message dialogue boxes provided by the Delphi VCL and the Windows API. |
 | [Resource File Unit](./ResFile/index.md) | Contains classes that encapsulate 32 bit binary resource files and the resources they contain. Can read and update raw resource file data. |
 | [Shell Folders Unit](./Docs/ShellFoldersUnit.md) | Components, classes and routines to assist in working with shell folders. Includes a "Browse for Folder" dialogue box. |
 | [Stream Extension Classes](./Docs/Streams.md) | Classes that provide a means to wrap _TStream_ objects. Also provides implementations of the _IStream_ interface. |
