@@ -1,4 +1,4 @@
-# OnFileFilter event #
+# OnFileFilter event
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property OnFileFilter: TPJDroppedFileFilter;
 ```
 
-## Description ##
+## Description
 
 This event is triggered for each dropped file and folder handled by the control and has type _[TPJDroppedFileFilter](./TPJDroppedFileFilter.md)_. The file or folder can be omitted from the list of dropped files by altering the _Accept_ parameter of the event handler from True to False.
 

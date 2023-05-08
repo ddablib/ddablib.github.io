@@ -1,4 +1,4 @@
-# PassThrough property #
+# PassThrough property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property PassThrough: Boolean;
 ```
 
-## Description ##
+## Description
 
 _PassThrough_ causes drop files messages to be optionally passed through to the owning form.
 

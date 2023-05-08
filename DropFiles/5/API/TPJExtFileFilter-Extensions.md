@@ -1,4 +1,4 @@
-# Extensions property #
+# Extensions property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Extensions: string;
 ```
 
-## Description ##
+## Description
 
 Filters out files without specified extensions.
 
@@ -20,6 +20,6 @@ Multiple extensions can be stored in the property by separating them with semi-c
 
 Wildcards are not supported (see _[TPJWildCardFileFilter](./TPJWildCardFileFilter.md)_ for wildcard support). Only extensions that completely match those specified in the property (ignoring case) pass through the filter.  Whether the filter applies to file names, folder names or both depends on the value of the _[Style](./TPJExtFileFilter-Style.md)_ property.
 
-### Example ###
+## Example
 
 To filter for files with `.htm`, `.html` or `.shtml` extensions set _Extensions_ to `'.htm;.html;.shtml'`.

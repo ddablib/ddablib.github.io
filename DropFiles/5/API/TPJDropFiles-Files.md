@@ -1,4 +1,4 @@
-# Files property #
+# Files property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Files[Idx: Integer]: string;
 ```
 
-## Description ##
+## Description
 
 This read-only array property contains an indexed list of the fully specified names of the files dropped on the control or its child controls. The array is zero based. The _[Count](./TPJDropFiles-Count.md)_ property gives the number of files dropped. Attempts to access array elements outside the index range result in an exception being raised.
 

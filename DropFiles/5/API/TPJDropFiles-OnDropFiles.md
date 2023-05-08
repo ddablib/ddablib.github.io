@@ -1,4 +1,4 @@
-# OnDropFiles event #
+# OnDropFiles event
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property OnDropFiles: TNotifyEvent;
 ```
 
-## Description ##
+## Description
 
 This event is triggered after files have been dropped on the component and the files have been processed. When this event is triggered all the dropped files are available in the _[Files](./TPJDropFiles-Files.md)_  property.
 

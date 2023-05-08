@@ -1,4 +1,4 @@
-# Accept method #
+# Accept method
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -12,7 +12,7 @@ function Accept(
 ): Boolean; virtual; abstract;
 ```
 
-## Description ##
+## Description
 
 Checks whether a given file or folder passes though a filter.
 

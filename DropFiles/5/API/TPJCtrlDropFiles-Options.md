@@ -1,4 +1,4 @@
-# Options property #
+# Options property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Options: TPJDropFilesOptions;
 ```
 
-## Description ##
+## Description
 
 This property determines how dropped files are interpreted. The resulting files are made available through the _[Files](./TPJCtrlDropFiles-Files.md)_ property. The property can take any one or more of the values from the _[TPJDropFilesOptions](./TPJDropFilesOptions.md)_ set.
 

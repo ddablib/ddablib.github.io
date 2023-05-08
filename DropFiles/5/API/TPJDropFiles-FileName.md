@@ -1,4 +1,4 @@
-# FileName property #
+# FileName property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property FileName: string;
 ```
 
-## Description ##
+## Description
 
 The name of a file dropped on the control or its child controls.
 

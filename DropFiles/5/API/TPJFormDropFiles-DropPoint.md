@@ -1,4 +1,4 @@
-# DropPoint property #
+# DropPoint property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,6 +10,6 @@
 property DropPoint: TPoint;
 ```
 
-## Description ##
+## Description
 
 This property contains the mouse position in client coordinates of the form where the last files were dropped.

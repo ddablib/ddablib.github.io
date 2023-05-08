@@ -1,4 +1,4 @@
-# ManagedControl property #
+# ManagedControl property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,6 +10,6 @@
 property ManagedControl: TWinControl;
 ```
 
-## Description ##
+## Description
 
 _ManagedControl_ refers to the associated control for which file drops are managed. If this property is nil then no files drops are handled.

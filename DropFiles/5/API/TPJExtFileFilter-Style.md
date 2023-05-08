@@ -1,4 +1,4 @@
-# Style property #
+# Style property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Style: TPJExtFileFilterStyle;
 ```
 
-## Description ##
+## Description
 
 This property determines which kinds of file names have the extension filter applied. Possible values are given by the _[TPJExtFileFilterStyle](./TPJExtFileFilterStyle.md)_ enumeration.
 

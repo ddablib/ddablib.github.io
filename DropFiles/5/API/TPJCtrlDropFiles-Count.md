@@ -1,4 +1,4 @@
-# Count property #
+# Count property
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Count: Integer;
 ```
 
-## Description ##
+## Description
 
 This read only property returns the number of files dropped on the managed control.
 

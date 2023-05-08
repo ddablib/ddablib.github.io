@@ -1,4 +1,4 @@
-# TPJWildCardFileFilter #
+# TPJWildCardFileFilter
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -6,20 +6,20 @@
 
 _TPJWildCardFileFilter_ is a file filter component that descends from _[TPJFileFilter](./TPJFileFilter.md)_ for use with the drop files components that filters files according to a DOS-style wild card.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Accept](./TPJWildCardFileFilter-Accept.md)_ | Checks whether a given file or folder passes though the filter. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _Name_ | Inherited from _TComponent_. See Delphi help for details. |
 | _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 | _[WildCard](./TPJWildCardFileFilter-WildCard.md)_ | Filters files based on a wildcard string. |
 
-## Events ##
+## Events
 
 _TPJWildCardFileFilter_ defines no events.

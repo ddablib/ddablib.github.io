@@ -1,4 +1,4 @@
-# OnBeforeDrop event #
+# OnBeforeDrop event
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,7 +10,7 @@
 property OnBeforeDrop: TNotifyEvent;
 ```
 
-## Description ##
+## Description
 
 This event is triggered when files are dropped on the managed control, but before the files are processed. If the processing of files is likely to be a lengthy occurence then an hourglass or similar user interface device can be displayed here.
 

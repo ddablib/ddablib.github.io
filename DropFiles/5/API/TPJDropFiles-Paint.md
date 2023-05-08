@@ -1,4 +1,4 @@
-# Paint method #
+# Paint method
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -10,6 +10,6 @@
 procedure Paint; override;
 ```
 
-## Description ##
+## Description
 
 This method is automatically called to display the control during the processing of a `WM_PAINT` message. At run time the method does nothing. At design time it draws a dashed outline of the control.

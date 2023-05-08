@@ -1,4 +1,4 @@
-# TPJCtrlDropFiles #
+# TPJCtrlDropFiles
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -8,11 +8,11 @@ This non-visual component catches all `WM_DROPFILES` messages that are received 
 
 Use _TPJCtrlDropFiles_ when you want to take different actions depending on which control files are dropped on - you can use a different _TPJCtrlDropFiles_ component for each control that can receive file drops.
 
-## Methods ##
+## Methods
 
 _TPJCtrlDropFiles_ defines no new methods.
 
-## Properties ##
+## Properties
 
 | Property | Description |
 |:---------|:------------|
@@ -31,7 +31,7 @@ _TPJCtrlDropFiles_ defines no new methods.
 | _[PassThrough](./TPJCtrlDropFiles-PassThrough.md)_ | Causes drop files messages to be passed through to the owning form. |
 | _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 
-## Events ##
+## Events
 
 | Event | Description |
 |:------|:------------|

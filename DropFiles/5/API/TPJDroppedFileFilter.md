@@ -1,4 +1,4 @@
-# TPJDroppedFileFilter #
+# TPJDroppedFileFilter
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -11,7 +11,7 @@ TPJDroppedFileFilter = procedure(
 ) of object;
 ```
 
-## Description ##
+## Description
 
 Event handler type for _OnFileFilter_ events, triggered for each file and folder dropped after processing by any filter component. This event can be handled to apply custom filtering to each file and folder.
 

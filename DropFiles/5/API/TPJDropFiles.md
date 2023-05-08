@@ -1,4 +1,4 @@
-# TPJDropFiles #
+# TPJDropFiles
 
 **Project:** [Drop Files Components](../API.md).
 
@@ -8,16 +8,16 @@ This component provides a window which can accept files dragged and dropped from
 
 The main use for _TPJDropFiles_ is when you need to detect file drops on non-windowed components such as _TLabel_ or _TShape_. To do this drop a _TPJDropFiles_ on a form and then place the required non-windowed control on top of the _TPJDropFiles_, aligning and sizing both components as required.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Paint](./TPJDropFiles-Paint.md)_ | Paints the outline of the component at design time. Does nothing at run time. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _Align_ | Inherited from _TCustomControl_. See Delphi help for details. |
 | _Anchor_ | Inherited from _TCustomControl_. See Delphi help for details. |
 | _Constraints_ | Inherited from _TCustomControl_. See Delphi help for details. |
@@ -49,10 +49,10 @@ The main use for _TPJDropFiles_ is when you need to detect file drops on non-win
 | _Visible_ | Inherited from _TCustomControl_. See Delphi help for details. |
 | _Width_ | Inherited from _TCustomControl_. See Delphi help for details. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnBeforeDrop](./TPJDropFiles-OnBeforeDrop.md)_ | Event that occurs just before files dropped on the control are processed. |
 | _[OnDropFiles](./TPJDropFiles-OnDropFiles.md)_ | Event that occurs when files are dropped on the component's window. |
 | _[OnFileFilter](./TPJDropFiles-OnFileFilter.md)_ | Event that occurs for each file and folder processed and allows for custom filtering of files. |
