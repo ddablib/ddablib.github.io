@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 ```pascal
 type
   TPJExtFileFilterStyle = (

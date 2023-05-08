@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 _TPJFileFilter_ is an abstract base class for file filter components.
 
 ## Methods

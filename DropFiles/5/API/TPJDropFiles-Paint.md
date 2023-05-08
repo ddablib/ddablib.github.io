@@ -6,6 +6,8 @@
 
 **Class:** _[TPJDropFiles](./TPJDropFiles.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 procedure Paint; override;
 ```

@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 This non-visual component catches all `WM_DROPFILES` messages that are received by a control referenced by the _[ManagedControl](./TPJCtrlDropFiles-ManagedControl.md)_ property. The component therefore intercepts files dragged from Windows Explorer and dropped on the managed control.
 
 Use _TPJCtrlDropFiles_ when you want to take different actions depending on which control files are dropped on - you can use a different _TPJCtrlDropFiles_ component for each control that can receive file drops.

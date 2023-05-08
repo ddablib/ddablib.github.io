@@ -6,6 +6,8 @@
 
 **Class:** _[TPJFormDropFiles](./TPJFormDropFiles.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 property OnFileFilter: TPJDroppedFileFilter;
 ```

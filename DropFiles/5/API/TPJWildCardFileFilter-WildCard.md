@@ -6,6 +6,8 @@
 
 **Class:** _[TPJWildCardFileFilter](./TPJWildCardFileFilter.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 property WildCard: string;
 ```

@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 This component provides a window which can accept files dragged and dropped from Windows Explorer (the component handles `WM_DROPFILES` messages to do this). This control can contain child components (in a similar way to _TPanel_ components). Files dropped over any such child component are also accepted by the parent _TPJDropFiles_ component.
 
 The main use for _TPJDropFiles_ is when you need to detect file drops on non-windowed components such as _TLabel_ or _TShape_. To do this drop a _TPJDropFiles_ on a form and then place the required non-windowed control on top of the _TPJDropFiles_, aligning and sizing both components as required.

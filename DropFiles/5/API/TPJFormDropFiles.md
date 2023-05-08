@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 This non-visual component catches all `WM_DROPFILES` messages that are received by the form where it is placed. The component therefore intercepts files dragged from Windows Explorer and dropped anywhere on the form, including the non-client areas. Use _TPJFormDropFiles_ whenever you just need to catch files anywhere on the main window without bothering about which particular control the files are dropped on.
 
 ## Methods

@@ -6,6 +6,8 @@
 
 **Class:** _[TPJCtrlDropFiles](./TPJCtrlDropFiles.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 property DropControl: TControl;
 ```

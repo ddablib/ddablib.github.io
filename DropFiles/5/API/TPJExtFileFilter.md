@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 _TPJExtFileFilter_ is a file filter component that descends from _[TPJFileFilter](./TPJFileFilter.md)_ for use with the drop files components that filters files according to their extension.
 
 ## Methods

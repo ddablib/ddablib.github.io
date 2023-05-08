@@ -6,6 +6,8 @@
 
 **Class:** _[TPJExtFileFilter](./TPJExtFileFilter.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 function Accept(
   const FilePath: string; const IsFolder: Boolean

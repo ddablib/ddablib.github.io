@@ -4,6 +4,8 @@
 
 **Unit:** _PJDropFiles_.
 
+**Applies to:** ~>5.0
+
 ```pascal
 TPJDroppedFileFilter = procedure(
   Sender: TObject; const FileName: string; const IsFolder: Boolean;
