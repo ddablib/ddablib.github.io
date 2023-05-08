@@ -1,10 +1,10 @@
 # DlgType property #
 
-**Project:** [Message Dialogue Components](MessageDialogComponents.md).
+**Project:** [Message Dialogue Components](../API.md).
 
 **Unit:** _PJMessageDialog_.
 
-**Class:** _[TPJWinMsgDlg](TPJWinMsgDlg.md)_
+**Class:** _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_
 
 ```pascal
 property DlgType: LongWord;
@@ -12,9 +12,9 @@ property DlgType: LongWord;
 
 ## Description ##
 
-This property provides an alternative method to setting the _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ and _[Kind](TPJWinMsgDlgKind.md)_ properties using a subset of the constants used to customise the _MessageBox_ Windows API function via its _uType_ parameter. However, not all the API flags are supported.
+This property provides an alternative method to setting the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJWinMsgDlg-Kind.md)_ properties using a subset of the constants used to customise the _MessageBox_ Windows API function via its _uType_ parameter. However, not all the API flags are supported.
 
-_DlgType_ is never stored in a form file - it's value is determined by the _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ and _[Kind](TPJWinMsgDlgKind.md)_ property values and whether a help button is displayed. Changing any of these values modifies the value of _DlgType_. Conversely, setting _DlgType_ updates both the _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ and _[Kind](TPJWinMsgDlgKind.md)_ properties.
+_DlgType_ is never stored in a form file - it's value is determined by the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJWinMsgDlg-Kind.md)_ property values and whether a help button is displayed. Changing any of these values modifies the value of _DlgType_. Conversely, setting _DlgType_ updates both the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJWinMsgDlg-Kind.md)_ properties.
 
 Often the value of _DlgType_ will change as soon as it is set because of the presence of any unsupported values, whether a help button is displayed or if a required value has not been provided.
 
@@ -26,7 +26,7 @@ _DlgType_ supports a combination of various categories of constants that are ORd
 
 #### Button Group ####
 
-The buttons displayed in the dialogue box can be determined by specifying one, and only one, of the following constants. Setting one of these values also updates the _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ property.
+The buttons displayed in the dialogue box can be determined by specifying one, and only one, of the following constants. Setting one of these values also updates the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property.
 
 | **Constant** | **Buttons Displayed** | **New _ButtonGroup_ Value** |
 |:-------------|:----------------------|:----------------------------|
@@ -38,7 +38,7 @@ The buttons displayed in the dialogue box can be determined by specifying one, a
 | `MB_RETRYCANCEL` | Retry and Cancel | `bgRetryCancel` |
 | `MB_CANCELTRYCONTINUE` | Cancel, Try Again and Continue | `bgCancelTryContinue` |
 
-If any other value in the range `$00000000` to `$0000000F` is specified then _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ is set to `bgUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_BUTTONGROUP` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid button group first set _DlgType_ then perform the following test:
+If any other value in the range `$00000000` to `$0000000F` is specified then _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ is set to `bgUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_BUTTONGROUP` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid button group first set _DlgType_ then perform the following test:
 
 ```pascal
 begin
@@ -49,7 +49,7 @@ end;
 
 #### Dialogue Kind ####
 
-The kind of dialogue box (its icon, default title, etc.) is specified by ORing one of the following constants with one of those used to determine the button group. Setting one of these values updates the _[Kind](TPJWinMsgDlgKind.md)_ property.
+The kind of dialogue box (its icon, default title, etc.) is specified by ORing one of the following constants with one of those used to determine the button group. Setting one of these values updates the _[Kind](./TPJWinMsgDlg-Kind.md)_ property.
 
 | **Constant** | **Icon used** | **Default Title** | **New _Kind_ Value** |
 |:-------------|:--------------|:------------------|:---------------------|
@@ -61,9 +61,9 @@ The kind of dialogue box (its icon, default title, etc.) is specified by ORing o
 | `MB_ICONSTOP` | System error icon | "Error" | `mkError` |
 | `MB_ICONERROR` | System error icon | "Error" | `mkError` |
 | `MB_ICONHAND` | System error icon | "Error" | `mkError` |
-| `MB_USERICON` | Per _[IconResource](TPJWinMsgDlgIconResource.md)_ property | Per _Application.Title_ property | `mkUser` |
+| `MB_USERICON` | Per _[IconResource](./TPJWinMsgDlg-IconResource.md)_ property | Per _Application.Title_ property | `mkUser` |
 
-If any other value in the range `$00000010` to `$000000F0` is specified then _[Kind](TPJWinMsgDlgKind.md)_ is set to `mkUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_ICON` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid dialogue kind first set _DlgType_ then perform the following test:
+If any other value in the range `$00000010` to `$000000F0` is specified then _[Kind](./TPJWinMsgDlg-Kind.md)_ is set to `mkUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_ICON` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid dialogue kind first set _DlgType_ then perform the following test:
 
 ```pascal
 begin
@@ -74,7 +74,7 @@ end;
 
 #### Help Button ####
 
-In the standard Windows API call specifying `MB_HELP` causes a help button to be displayed. However, _[TPJWinMsgDlg](TPJWinMsgDlg.md)_ only displays a help button when the _[HelpContext](TPJWinMsgDlgHelpContext.md)_ property is non-zero, so supporting `MB_HELP` would break the component's normal behaviour. Consequently if _DlgType_ is set to a value that includes `MB_HELP`, the flag is ignored.
+In the standard Windows API call specifying `MB_HELP` causes a help button to be displayed. However, _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_ only displays a help button when the _[HelpContext](./TPJWinMsgDlg-HelpContext.md)_ property is non-zero, so supporting `MB_HELP` would break the component's normal behaviour. Consequently if _DlgType_ is set to a value that includes `MB_HELP`, the flag is ignored.
 
 Note though that `MB_HELP` may be included in _DlgType_ when it is read, depending on if a Help button will be displayed. See below for details.
 
@@ -84,15 +84,15 @@ The value returned when _DlgType_ is read does not directly relate to the value 
 
 Factors that determine the value of _DlgType_ are:
 
-  1. The _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ property.
-  1. The _[Kind](TPJWinMsgDlgKind.md)_ property.
+  1. The _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property.
+  1. The _[Kind](./TPJWinMsgDlg-Kind.md)_ property.
   1. Whether a help button will be displayed by the dialogue.
 
 Each of these factors is discussed separately below.
 
 #### Button Group ####
 
-The button group component of _DlgType_ is set according to the value of the _[ButtonGroup](TPJWinMsgDlgButtonGroup.md)_ property as per the following table:
+The button group component of _DlgType_ is set according to the value of the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property as per the following table:
 
 | **_ButtonGroup_ Value** | **Flag included in _DlgType_** |
 |:------------------------|:-------------------------------|
@@ -119,7 +119,7 @@ end;
 
 #### Dialogue Kind ####
 
-The component of _DlgType_ that identifies the kind of dialogue box displayed is set according to the value of the _[Kind](TPJWinMsgDlgKind.md)_ property as per the following table:
+The component of _DlgType_ that identifies the kind of dialogue box displayed is set according to the value of the _[Kind](./TPJWinMsgDlg-Kind.md)_ property as per the following table:
 
 | **_Kind_ Value** | **Flag included in _DlgType_** |
 |:-----------------|:-------------------------------|
@@ -146,7 +146,7 @@ end;
 
 #### Help Button ####
 
-If the dialogue box will show a help button (which is the case if and only if _[HelpContext](TPJWinMsgDlgHelpContext.md)_ is non zero) then `MB_HELP` is included in _DlgType_. Check for the presence of `MB_HELP` like this:
+If the dialogue box will show a help button (which is the case if and only if _[HelpContext](./TPJWinMsgDlg-HelpContext.md)_ is non zero) then `MB_HELP` is included in _DlgType_. Check for the presence of `MB_HELP` like this:
 
 ```pascal
 begin

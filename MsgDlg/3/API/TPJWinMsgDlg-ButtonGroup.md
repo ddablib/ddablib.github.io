@@ -1,10 +1,10 @@
 # ButtonGroup property #
 
-**Project:** [Message Dialogue Components](MessageDialogComponents.md).
+**Project:** [Message Dialogue Components](../API.md).
 
 **Unit:** _PJMessageDialog_.
 
-**Class:** _[TPJWinMsgDlg](TPJWinMsgDlg.md)_
+**Class:** _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_
 
 ```pascal
 type
@@ -28,13 +28,13 @@ The buttons which appear in the dialogue box depend on the value of this propert
 | `bgRetryCancel` | A Retry and a Cancel button. |
 | `bgYesNo` | A Yes and a No button. |
 | `bgYesNoCancel` | Yes, No and Cancel buttons. |
-| `bgUnknown` | An unsupported or unknown group of buttons. This item is for use in _[TPJVCLMsgDlg](TPJVCLMsgDlg.md)_ and should not be selected in _TPJWinMsgDlg_. If it is selected it has the same effect as `bgOK`. |
+| `bgUnknown` | An unsupported or unknown group of buttons. This item is for use in _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_ and should not be selected in _TPJWinMsgDlg_. If it is selected it has the same effect as `bgOK`. |
 | `bgCancelTryContinue` | Cancel, Try Again and Continue buttons. This button group requires the Windows NT platform and Windows 2000 or later. Behaves as `bgAbortRetryIgnore` when specified on OSs that do not support this button group. |
 
-Setting _ButtonGroup_ also updates the _[DlgType](TPJWinMsgDlgDlgType.md)_ property and vice versa. See the _[DlgType page](TPJWinMsgDlgDlgType.md)_ for full details.
+Setting _ButtonGroup_ also updates the _[DlgType](./TPJWinMsgDlg-DlgType.md)_ property and vice versa. See the _[DlgType page](./TPJWinMsgDlg-DlgType.md)_ for full details.
 
-To include a help button in the dialogue box set the _[HelpContext](TPJWinMsgDlgHelpContext.md)_ property to some non-zero value.
+To include a help button in the dialogue box set the _[HelpContext](./TPJWinMsgDlg-HelpContext.md)_ property to some non-zero value.
 
-A value associated with the button that was clicked is returned from the _[Execute](TPJWinMsgDlgExecute.md)_ method.
+A value associated with the button that was clicked is returned from the _[Execute](./TPJWinMsgDlg-Execute.md)_ method.
 
 The default value of the property is `bgOK`.

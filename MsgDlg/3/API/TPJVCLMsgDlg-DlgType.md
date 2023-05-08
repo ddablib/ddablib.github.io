@@ -1,10 +1,10 @@
 # DlgType property #
 
-**Project:** [Message Dialogue Components](MessageDialogComponents.md).
+**Project:** [Message Dialogue Components](../API.md).
 
 **Unit:** _PJMessageDialog_.
 
-**Class:** _[TPJVCLMsgDlg](TPJVCLMsgDlg.md)_
+**Class:** _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_
 
 ```pascal
 property DlgType: LongWord;
@@ -12,9 +12,9 @@ property DlgType: LongWord;
 
 ## Description ##
 
-This property provides an alternative method to setting the _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ and _[Kind](TPJVCLMsgDlgKind.md)_ properties using a subset of the constants used to customise the _MessageBox_ Windows API function via its _uType_ parameter. However, not all the API flags are supported.
+This property provides an alternative method to setting the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJVCLMsgDlg-Kind.md)_ properties using a subset of the constants used to customise the _MessageBox_ Windows API function via its _uType_ parameter. However, not all the API flags are supported.
 
-_DlgType_ is never stored in a form file - it's value is determined by the _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ and _[Kind](TPJVCLMsgDlgKind.md)_ property values and whether a help button is displayed. Changing any of these values modifies the value of _DlgType_. Conversely, setting _DlgType_ can update one or more of the _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_, _[Buttons](TPJVCLMsgDlgButtons.md)_ and _[Kind](TPJVCLMsgDlgKind.md)_ properties.
+_DlgType_ is never stored in a form file - it's value is determined by the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJVCLMsgDlg-Kind.md)_ property values and whether a help button is displayed. Changing any of these values modifies the value of _DlgType_. Conversely, setting _DlgType_ can update one or more of the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_, _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ and _[Kind](./TPJVCLMsgDlg-Kind.md)_ properties.
 
 Often the value of _DlgType_ will change as soon as it is set because of the presence of any unsupported values, whether a help button is displayed or if a required value has not been provided.
 
@@ -26,7 +26,7 @@ _DlgType_ supports a combination of various categories of constants that are ORd
 
 #### Button Group ####
 
-The buttons displayed in the dialogue box can be determined by specifying one, and only one, of the following constants. Setting one of these values also updates the _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ property, which in turn updates the _[Buttons](TPJVCLMsgDlgButtons.md)_ property.
+The buttons displayed in the dialogue box can be determined by specifying one, and only one, of the following constants. Setting one of these values also updates the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ property, which in turn updates the _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ property.
 
 | **Constant** | **Buttons Displayed** | **New _ButtonGroup_ Value** |
 |:-------------|:----------------------|:----------------------------|
@@ -38,7 +38,7 @@ The buttons displayed in the dialogue box can be determined by specifying one, a
 | `MB_RETRYCANCEL` | Retry and Cancel | `bgRetryCancel` |
 | `MB_CANCELTRYCONTINUE` | Cancel, Try Again and Continue | `bgCancelTryContinue` |
 
-If any other value in the range `$00000000` to `$0000000F` is specified then _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ is set to `bgUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_BUTTONGROUP` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid button group first set _DlgType_ then perform the following test:
+If any other value in the range `$00000000` to `$0000000F` is specified then _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ is set to `bgUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_BUTTONGROUP` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid button group first set _DlgType_ then perform the following test:
 
 ```pascal
 begin
@@ -49,7 +49,7 @@ end;
 
 #### Dialogue Kind ####
 
-The kind of dialogue box (its icon, default title, etc.) is specified by ORing one of the following constants with one of those used to determine the button group. Setting one of these values updates the _[Kind](TPJVCLMsgDlgKind.md)_ property.
+The kind of dialogue box (its icon, default title, etc.) is specified by ORing one of the following constants with one of those used to determine the button group. Setting one of these values updates the _[Kind](./TPJVCLMsgDlg-Kind.md)_ property.
 
 | **Constant** | **Icon used** | **Default Title** | **New _Kind_ Value** |
 |:-------------|:--------------|:------------------|:---------------------|
@@ -61,9 +61,9 @@ The kind of dialogue box (its icon, default title, etc.) is specified by ORing o
 | `MB_ICONSTOP` | System error icon | "Error" | `mkError` |
 | `MB_ICONERROR` | System error icon | "Error" | `mkError` |
 | `MB_ICONHAND` | System error icon | "Error" | `mkError` |
-| `MB_USERICON` | Per _[IconResource](TPJVCLMsgDlgIconResource.md)_ property | Per _Application.Title_ property | `mkUser` |
+| `MB_USERICON` | Per _[IconResource](./TPJVCLMsgDlg-IconResource.md)_ property | Per _Application.Title_ property | `mkUser` |
 
-If any other value in the range `$00000010` to `$000000F0` is specified then _[Kind](TPJVCLMsgDlgKind.md)_ is set to `mkUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_ICON` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid dialogue kind first set _DlgType_ then perform the following test:
+If any other value in the range `$00000010` to `$000000F0` is specified then _[Kind](./TPJVCLMsgDlg-Kind.md)_ is set to `mkUnknown` and the value in _DlgType_ is replaced by `UNKNOWN_ICON` (defined in _PJMessageDialog.pas_). To check for an unknown or invalid dialogue kind first set _DlgType_ then perform the following test:
 
 ```pascal
 begin
@@ -74,11 +74,11 @@ end;
 
 #### Help Button ####
 
-In the standard Windows API call specifying `MB_HELP` causes a help button to be displayed. In this component including `MB_HELP` in _DlgType_ causes `mbHelp` to be included in the _[Buttons](TPJVCLMsgDlgButtons.md)_ property. This may or may not cause a help button to be displayed, according to whether `mdoAutoHelpBtn` is included in the _[Options](TPJVCLMsgDlgOptions.md)_ property.
+In the standard Windows API call specifying `MB_HELP` causes a help button to be displayed. In this component including `MB_HELP` in _DlgType_ causes `mbHelp` to be included in the _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ property. This may or may not cause a help button to be displayed, according to whether `mdoAutoHelpBtn` is included in the _[Options](./TPJVCLMsgDlg-Options.md)_ property.
 
 Including `MB_HELP` in _DlgType_ does not necessarily mean it will be included in the property when read. See the "Help Button" description in the "Reading _DlgType_" section below for details.
 
-**Note:** Because of the way the _[Buttons](TPJVCLMsgDlgButtons.md)_ and _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ properties interact, including `MB_HELP` in _DlgType_ can cause _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ to be set to `bgUnknown`. To avoid this make sure you include `mdoGroupIgnoresHelp` in the _[Options](TPJVCLMsgDlgOptions.md)_ property.
+**Note:** Because of the way the _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ and _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ properties interact, including `MB_HELP` in _DlgType_ can cause _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ to be set to `bgUnknown`. To avoid this make sure you include `mdoGroupIgnoresHelp` in the _[Options](./TPJVCLMsgDlg-Options.md)_ property.
 
 ### Reading _DlgType_ ###
 
@@ -86,15 +86,15 @@ The value returned when _DlgType_ is read does not directly relate to the value 
 
 Factors that determine the value of _DlgType_ are:
 
-  1. The _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ property.
-  1. The _[Kind](TPJVCLMsgDlgKind.md)_ property.
+  1. The _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ property.
+  1. The _[Kind](./TPJVCLMsgDlg-Kind.md)_ property.
   1. Whether a help button will be displayed by the dialogue.
 
 Each of these factors is discussed separately below.
 
 #### Button Group ####
 
-The button group component of _DlgType_ is set according to the value of the _[ButtonGroup](TPJVCLMsgDlgButtonGroup.md)_ property as per the following table:
+The button group component of _DlgType_ is set according to the value of the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ property as per the following table:
 
 | **_ButtonGroup_ Value** | **Flag included in _DlgType_** |
 |:------------------------|:-------------------------------|
@@ -121,7 +121,7 @@ end;
 
 #### Dialogue Kind ####
 
-The component of _DlgType_ that identifies the kind of dialogue box displayed is set according to the value of the _[Kind](TPJVCLMsgDlgKind.md)_ property as per the following table:
+The component of _DlgType_ that identifies the kind of dialogue box displayed is set according to the value of the _[Kind](./TPJVCLMsgDlg-Kind.md)_ property as per the following table:
 
 | **_Kind_ Value** | **Flag included in _DlgType_** |
 |:-----------------|:-------------------------------|
@@ -148,10 +148,10 @@ end;
 
 #### Help Button ####
 
-If the dialogue box will show a help button when displayed then `MB_HELP` is included in _DlgType_. This occurs in the following circumstances, depending on the _[Options](TPJVCLMsgDlgOptions.md)_ property:
+If the dialogue box will show a help button when displayed then `MB_HELP` is included in _DlgType_. This occurs in the following circumstances, depending on the _[Options](./TPJVCLMsgDlg-Options.md)_ property:
 
-  * `mdoAutoHelpBtn` is included in _[Options](TPJVCLMsgDlgOptions.md)_ **and** _[HelpContext](TPJVCLMsgDlgHelpContext.md)_ is non-zero.
-  * `mdoAutoHelpBtn` is **not** included in _[Options](TPJVCLMsgDlgOptions.md)_ **and** `mrHelp` is included in _[Buttons](TPJVCLMsgDlgButtons.md)_.
+  * `mdoAutoHelpBtn` is included in _[Options](./TPJVCLMsgDlg-Options.md)_ **and** _[HelpContext](./TPJVCLMsgDlg-HelpContext.md)_ is non-zero.
+  * `mdoAutoHelpBtn` is **not** included in _[Options](./TPJVCLMsgDlg-Options.md)_ **and** `mrHelp` is included in _[Buttons](./TPJVCLMsgDlg-Buttons.md)_.
 
 These rules mean that the presence of `MB_HELP` when setting _DlgType_ does not necessarily mean `MB_HELP` will be present when reading the property.
 

@@ -1,10 +1,10 @@
 # OnHelp event #
 
-**Project:** [Message Dialogue Components](MessageDialogComponents.md).
+**Project:** [Message Dialogue Components](../API.md).
 
 **Unit:** _PJMessageDialog_.
 
-**Class:** _[TPJVCLMsgDlg](TPJVCLMsgDlg.md)_
+**Class:** _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_
 
 ```pascal
 property OnHelp: TNotifyEvent;

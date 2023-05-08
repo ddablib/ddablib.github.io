@@ -1,10 +1,10 @@
 # Execute method #
 
-**Project:** [Message Dialogue Components](MessageDialogComponents.md).
+**Project:** [Message Dialogue Components](../API.md).
 
 **Unit:** _PJMessageDialog_.
 
-**Class:** _[TPJWinMsgDlg](TPJWinMsgDlg.md)_
+**Class:** _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_
 
 ```pascal
 function Execute: Integer;
