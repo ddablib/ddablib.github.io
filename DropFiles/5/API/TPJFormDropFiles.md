@@ -6,13 +6,15 @@
 
 **Applies to:** ~>5.0
 
-This non-visual component catches all `WM_DROPFILES` messages that are received by the form where it is placed. The component therefore intercepts files dragged from Windows Explorer and dropped anywhere on the form, including the non-client areas. Use _TPJFormDropFiles_ whenever you just need to catch files anywhere on the main window without bothering about which particular control the files are dropped on.
+This non-visual component catches all `WM_DROPFILES` messages that are received by the form on which it is placed. The component therefore intercepts files dragged from Windows Explorer and dropped anywhere on the form, including the non-client areas. Use _TPJFormDropFiles_ whenever you just need to catch files anywhere on the main window without bothering about which particular control the files are dropped on.
 
 ## Methods
 
 _TPJFormDropFiles_ defines no new methods.
 
 ## Properties
+
+Only those properties added or modified by _TPJFormDropFiles_ are listed here. All other inherited properties are omitted.
 
 | Property | Description |
 |:---------|:------------|
@@ -25,9 +27,7 @@ _TPJFormDropFiles_ defines no new methods.
 | _[Filter](./TPJFormDropFiles-Filter.md)_ | References a file filter component used to filter the names of dropped files. |
 | _[ForegroundOnDrop](./TPJFormDropFiles-ForegroundOnDrop.md)_ | Causes the form to be brought to the front when files are dropped. |
 | _[IsFolder](./TPJFormDropFiles-IsFolder.md)_ | Tells whether each of the dropped files is a folder or a file. |
-| _Name_ | Inherited from _TComponent_. See Delphi help for details. |
 | _[Options](./TPJFormDropFiles-Options.md)_ | Determines how the dropped files are processed and which files are stored in the _[Files](./TPJFormDropFiles-Files.md)_ property. |
-| _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 
 ## Events
 

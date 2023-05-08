@@ -16,10 +16,10 @@ _TPJWildCardFileFilter_ is a file filter component that descends from _[TPJFileF
 
 ## Properties
 
+Only those properties added or modified by _TPJWildCardFileFilter_ are listed here. All other inherited properties are omitted.
+
 | Property | Description |
 |:---------|:------------|
-| _Name_ | Inherited from _TComponent_. See Delphi help for details. |
-| _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 | _[WildCard](./TPJWildCardFileFilter-WildCard.md)_ | Filters files based on a wildcard string. |
 
 ## Events

@@ -16,12 +16,12 @@ _TPJExtFileFilter_ is a file filter component that descends from _[TPJFileFilter
 
 ## Properties
 
+Only those properties added or modified by TPJExtFileFilter are listed here. All other inherited properties are omitted.
+
 | Property | Description |
 |:---------|:------------|
 | _[Extensions](./TPJExtFileFilter-Extensions.md)_ | Filters out files without the specified extensions. |
-| _Name_ | Inherited from _TComponent_. See Delphi help for details. |
 | _[Style](./TPJExtFileFilter-Style.md)_ | Determines the type of file the filter acts upon. |
-| _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 
 ## Events
 

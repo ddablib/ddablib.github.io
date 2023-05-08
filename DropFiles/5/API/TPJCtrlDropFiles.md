@@ -16,6 +16,8 @@ _TPJCtrlDropFiles_ defines no new methods.
 
 ## Properties
 
+Only those properties added or modified by _TPJCtrlDropFiles_ are listed here. All other inherited properties are omitted.
+
 | Property | Description |
 |:---------|:------------|
 | _[Count](./TPJCtrlDropFiles-Count.md)_ | This read-only property returns the number of files dropped on the managed control. |
@@ -28,10 +30,8 @@ _TPJCtrlDropFiles_ defines no new methods.
 | _[ForegroundOnDrop](./TPJCtrlDropFiles-ForegroundOnDrop.md)_ | Causes the parent form to be brought to the front when files are dropped. |
 | _[IsFolder](./TPJCtrlDropFiles-IsFolder.md)_ | Tells whether each of the dropped files is a folder or a file. |
 | _[ManagedControl](./TPJCtrlDropFiles-ManagedControl.md)_ | References the managed control. |
-| _Name_ | Inherited from _TComponent_. See Delphi help for details. |
 | _[Options](./TPJCtrlDropFiles-Options.md)_ | Determines how the dropped files are processed and which files are stored in the _[Files](./TPJCtrlDropFiles-Files.md)_ property. |
 | _[PassThrough](./TPJCtrlDropFiles-PassThrough.md)_ | Causes drop files messages to be passed through to the owning form. |
-| _Tag_ | Inherited from _TComponent_. See Delphi help for details. |
 
 ## Events
 
