@@ -4,6 +4,8 @@
 
 **Unit:** _PJMessageDialog_.
 
+**Applies to:** ~>3.0
+
 _TPJWinMsgDlg_ provides a customisable Windows message dialogue box. The component wraps the Windows _MessageBoxIndirect_ API call.
 
 Its properties are a subset of those of _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_. _TPJWinMsgDlg_ is recommended for new projects requiring a Windows message box. If even greater control over the appearance of the dialogue is required then use _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_.

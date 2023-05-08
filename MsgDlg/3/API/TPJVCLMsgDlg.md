@@ -4,6 +4,8 @@
 
 **Unit:** _PJMessageDialog_.
 
+**Applies to:** ~>3.0
+
 _TPJVCLMsgDlg_ provides a customisable message dialogue box that is based on that provided by the Delphi _CreateMessageDialog_ function. The component provides a similar (but extended) interface to the _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_ component but uses a different method to display the dialogue box. This component is recommended when a finer degree of control to that provided by _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_ is required.
 
 The text displayed in the dialogue box is determined by the _[Text](./TPJVCLMsgDlg-Text.md)_ property. Various button groupings can be displayed using the _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ and/or _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ properties. Setting a non-zero _[HelpContext](./TPJVCLMsgDlg-HelpContext.md)_ causes a help button to be displayed. The _[Kind](./TPJVCLMsgDlg-Kind.md)_ property allows a choice of various standard dialogue boxes and icons to be displayed. A user defined icon extracted from a named resource, specified by _[IconResource](./TPJVCLMsgDlg-IconResource.md)_ can also be displayed. The window title can be customised using the _[Title](./TPJVCLMsgDlg-Title.md)_ property, otherwise a default title is used that is related to the kind of icon being displayed. The _[MakeSound](./TPJVCLMsgDlg-MakeSound.md)_ property determines whether an appropriate system sound is generated when the dialogue is displayed. It is possible to set how the dialogue box is to be aligned to screen or form using the _[Align](./TPJVCLMsgDlg-Align.md)_ property in combination with the _[OffsetLeft](./TPJVCLMsgDlg-OffsetLeft.md)_ and _[OffsetTop](./TPJVCLMsgDlg-OffsetTop.md)_ properties.

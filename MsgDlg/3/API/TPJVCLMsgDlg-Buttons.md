@@ -6,6 +6,8 @@
 
 **Class:** _[TPJVCLMsgDlg](./TPJVCLMsgDlg.md)_
 
+**Applies to:** ~>3.0
+
 ```pascal
 type
   TMsgDlgButton = (

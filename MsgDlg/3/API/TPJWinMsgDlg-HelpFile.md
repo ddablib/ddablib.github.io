@@ -6,6 +6,8 @@
 
 **Class:** _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_
 
+**Applies to:** ~>3.0
+
 ```pascal
 property HelpFile: string;
 ```
