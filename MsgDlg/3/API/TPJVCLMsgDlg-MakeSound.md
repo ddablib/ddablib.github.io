@@ -1,4 +1,4 @@
-# MakeSound property #
+# MakeSound property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property MakeSound: Boolean;
 ```
 
-## Description ##
+## Description
 
 Set _MakeSound_ to `True` to play a sound when the dialogue is displayed. If _MakeSound_ is `False` then no sound is played.
 

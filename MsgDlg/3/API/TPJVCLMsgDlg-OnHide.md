@@ -1,4 +1,4 @@
-# OnHide event #
+# OnHide event
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -15,7 +15,7 @@ type
 property OnHide: TPJVCLMsgDlgFormEvent;
 ```
 
-## Description ##
+## Description
 
 The _OnHide_ event is triggered just after the component's dialogue box is hidden when it is closed. A reference to the component itself is passed to the event handler's _Sender_ parameter while the _Dlg_ parameter references the dialogue box form.
 

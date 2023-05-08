@@ -1,4 +1,4 @@
-# DlgType property #
+# DlgType property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property DlgType: LongWord;
 ```
 
-## Description ##
+## Description
 
 This property provides an alternative method to setting the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ and _[Kind](./TPJWinMsgDlg-Kind.md)_ properties using a subset of the constants used to customise the _MessageBox_ Windows API function via its _uType_ parameter. However, not all the API flags are supported.
 
@@ -20,16 +20,16 @@ Often the value of _DlgType_ will change as soon as it is set because of the pre
 
 Reading and writing the property are dealt with separately below.
 
-### Setting _DlgType_ ###
+### Setting _DlgType_
 
 _DlgType_ supports a combination of various categories of constants that are ORd together.
 
-#### Button Group ####
+#### Button Group
 
 The buttons displayed in the dialogue box can be determined by specifying one, and only one, of the following constants. Setting one of these values also updates the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property.
 
-| **Constant** | **Buttons Displayed** | **New _ButtonGroup_ Value** |
-|:-------------|:----------------------|:----------------------------|
+| Constant | Buttons Displayed | New _ButtonGroup_ Value |
+|:---------|:------------------|:------------------------|
 | `MB_OK` | A single OK button | `bgOK` |
 | `MB_OKCANCEL` | OK and Cancel | `bgOKCancel` |
 | `MB_ABORTRETRYIGNORE` | Abort, Retry and Cancel | `bgAbortRetryIgnore` |
@@ -47,12 +47,12 @@ begin
 end;
 ```
 
-#### Dialogue Kind ####
+#### Dialogue Kind
 
 The kind of dialogue box (its icon, default title, etc.) is specified by ORing one of the following constants with one of those used to determine the button group. Setting one of these values updates the _[Kind](./TPJWinMsgDlg-Kind.md)_ property.
 
-| **Constant** | **Icon used** | **Default Title** | **New _Kind_ Value** |
-|:-------------|:--------------|:------------------|:---------------------|
+| Constant | Icon used | Default Title | New _Kind_ Value |
+|:---------|:----------|:--------------|:-----------------|
 | `MB_ICONEXCLAMATION` | System exclamation icon | "Warning" | `mkWarning` |
 | `MB_ICONWARNING` | System exclamation icon | "Warning" | `mkWarning` |
 | `MB_ICONINFORMATION` | System information icon | "Information" | `mkInformation` |
@@ -72,30 +72,30 @@ begin
 end;
 ```
 
-#### Help Button ####
+#### Help Button
 
 In the standard Windows API call specifying `MB_HELP` causes a help button to be displayed. However, _[TPJWinMsgDlg](./TPJWinMsgDlg.md)_ only displays a help button when the _[HelpContext](./TPJWinMsgDlg-HelpContext.md)_ property is non-zero, so supporting `MB_HELP` would break the component's normal behaviour. Consequently if _DlgType_ is set to a value that includes `MB_HELP`, the flag is ignored.
 
 Note though that `MB_HELP` may be included in _DlgType_ when it is read, depending on if a Help button will be displayed. See below for details.
 
-### Reading _DlgType_ ###
+### Reading _DlgType_
 
 The value returned when _DlgType_ is read does not directly relate to the value set. This is because the value of _DlgType_ is not stored and its value when read is calculated from the values of various other properties. Consequently any unsupported flags are stripped away. Furthermore _DlgType_ introduces some new flags to indicate errors.
 
 Factors that determine the value of _DlgType_ are:
 
   1. The _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property.
-  1. The _[Kind](./TPJWinMsgDlg-Kind.md)_ property.
-  1. Whether a help button will be displayed by the dialogue.
+  2. The _[Kind](./TPJWinMsgDlg-Kind.md)_ property.
+  3. Whether a help button will be displayed by the dialogue.
 
 Each of these factors is discussed separately below.
 
-#### Button Group ####
+#### Button Group
 
 The button group component of _DlgType_ is set according to the value of the _[ButtonGroup](./TPJWinMsgDlg-ButtonGroup.md)_ property as per the following table:
 
-| **_ButtonGroup_ Value** | **Flag included in _DlgType_** |
-|:------------------------|:-------------------------------|
+| _ButtonGroup_ Value | Flag included in _DlgType_ |
+|:--------------------|:---------------------------|
 | `bgAbortRetryIgnore` | `MB_ABORTRETRYIGNORE` |
 | `bgOK` | `MB_OK` |
 | `bgOKCancel` | `MB_OKCANCEL` |
@@ -117,12 +117,12 @@ begin
 end;
 ```
 
-#### Dialogue Kind ####
+#### Dialogue Kind
 
 The component of _DlgType_ that identifies the kind of dialogue box displayed is set according to the value of the _[Kind](./TPJWinMsgDlg-Kind.md)_ property as per the following table:
 
-| **_Kind_ Value** | **Flag included in _DlgType_** |
-|:-----------------|:-------------------------------|
+| _Kind_ Value | Flag included in _DlgType_* |
+|:-------------|:---------------------------|
 | `mkWarning` | `MB_ICONWARNING` |
 | `mkInformation` | `MB_ICONINFORMATION` |
 | `mkQuery` | `MB_ICONQUESTION` |
@@ -144,7 +144,7 @@ begin
 end;
 ```
 
-#### Help Button ####
+#### Help Button
 
 If the dialogue box will show a help button (which is the case if and only if _[HelpContext](./TPJWinMsgDlg-HelpContext.md)_ is non zero) then `MB_HELP` is included in _DlgType_. Check for the presence of `MB_HELP` like this:
 

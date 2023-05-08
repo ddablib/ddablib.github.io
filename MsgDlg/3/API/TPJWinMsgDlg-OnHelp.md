@@ -1,4 +1,4 @@
-# OnHelp event #
+# OnHelp event
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property OnHelp: TNotifyEvent;
 ```
 
-## Description ##
+## Description
 
 The _OnHelp_ event is triggered when the user requests help in a dialogue either by clicking a help button or by pressing F1. If _OnHelp_ is handled then the component's default help processing is inhibited - the event handler must display the required help.
 

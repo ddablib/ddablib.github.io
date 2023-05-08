@@ -1,4 +1,4 @@
-# TPJVCLMsgDlg #
+# TPJVCLMsgDlg
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,17 +10,17 @@ The text displayed in the dialogue box is determined by the _[Text](./TPJVCLMsgD
 
 The dialogue box can be invoked with the _[Execute](./TPJVCLMsgDlg-Execute.md)_ method or an instance of the dialogue can be created using the _[CreateDialog](./TPJVCLMsgDlg-CreateDialog.md)_ method. In the latter case the user has responsibility for showing and hiding the dialogue and destroying the instance.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[CreateDialog](./TPJVCLMsgDlg-CreateDialog.md)_ | Creates instance of  the dialogue box and returns a reference to it. |
 | _[Execute](./TPJVCLMsgDlg-Execute.md)_ | Displays the dialogue box and returns information about the button pressed to close it. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[Align](./TPJVCLMsgDlg-Align.md)_ | Determines the on screen alignment of the dialogue box. |
 | _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ | Determines which buttons appear in the dialogue box. |
 | _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ | Determines the buttons displayed in the dialogue box . Provides finer control than _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_. |
@@ -37,10 +37,10 @@ The dialogue box can be invoked with the _[Execute](./TPJVCLMsgDlg-Execute.md)_ 
 | _[Text](./TPJVCLMsgDlg-Text.md)_ | The text that is displayed in the dialogue box. |
 | _[Title](./TPJVCLMsgDlg-Title.md)_ | The dialogue box's window title. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnHelp](./TPJVCLMsgDlg-OnHelp.md)_ | Event triggered when a user requests help in a dialogue box. |
 | _[OnHide](./TPJVCLMsgDlg-OnHide.md)_ | Event triggered just after the component's dialogue box is hidden. |
 | _[OnShow](./TPJVCLMsgDlg-OnShow.md)_ | Event triggered just before the component's dialogue box is displayed. |

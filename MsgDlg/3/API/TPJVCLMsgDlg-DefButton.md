@@ -1,4 +1,4 @@
-# DefButton property #
+# DefButton property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -16,7 +16,7 @@ type
 property DefButton: TMsgDlgButton;
 ```
 
-## Description ##
+## Description
 
 The _DefButton_ property specifies which button is to be the default button in the dialogue. If the chosen button is not displayed in the dialogue then the first (leftmost) button is the default.
 

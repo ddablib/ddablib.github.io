@@ -1,4 +1,4 @@
-# Title property #
+# Title property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -13,6 +13,6 @@ type
 property Title: TCaption;
 ```
 
-## Description ##
+## Description
 
 Set this property to customise the string that is displayed as the dialogue box window title. Leaving this property empty causes a default title to be displayed that depends on the value of the _[Kind](./TPJVCLMsgDlg-Kind.md)_ property.

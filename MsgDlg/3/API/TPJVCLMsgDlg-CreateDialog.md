@@ -1,4 +1,4 @@
-# CreateDialog method #
+# CreateDialog method
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 function CreateDialog: TForm;
 ```
 
-## Description ##
+## Description
 
 The _CreateDialog_ method creates an instance of a dialogue box and returns it. This instance is customised according to the component's properties. However, no sound is played by this method regardless of the state of the _[MakeSound](./TPJVCLMsgDlg-MakeSound.md)_ property.
 

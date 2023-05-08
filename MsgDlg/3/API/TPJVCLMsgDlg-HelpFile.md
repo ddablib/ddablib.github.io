@@ -1,4 +1,4 @@
-# HelpFile property #
+# HelpFile property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property HelpFile: string;
 ```
 
-## Description ##
+## Description
 
 Set the _HelpFile_ property to specify the help file to be used when a Help button is clicked or F1 is pressed in the dialogue. If _HelpFile_ is set to the empty string then the help file associated with the parent form or application is used.
 

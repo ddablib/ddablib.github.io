@@ -1,4 +1,4 @@
-# ButtonGroup property #
+# ButtonGroup property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -16,7 +16,7 @@ type
 property ButtonGroup: TPJMsgDlgButtonGroup;
 ```
 
-## Description ##
+## Description
 
 The buttons which appear in the dialogue box depend on the value of this property and on the associated _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ property.
 
@@ -28,8 +28,8 @@ Setting _ButtonGroup_ also updates the _[DlgType](./TPJVCLMsgDlg-DlgType.md)_ pr
 
 The possible values of _ButtonGroup_ are as follows:
 
-| **Value** | **Buttons used** |
-|:----------|:-----------------|
+| Value | Buttons used |
+|:------|:-------------|
 | `bgAbortRetryIgnore` | Abort, Retry and Ignore buttons. |
 | `bgOK` | A single OK button. |
 | `bgOKCancel` | An OK and a Cancel button. |
@@ -42,7 +42,7 @@ The possible values of _ButtonGroup_ are as follows:
 To include a help button in the dialogue box do one of two things:
 
   1. Set the _[HelpContext](./TPJVCLMsgDlg-HelpContext.md)_ property to some non-zero value and include `mdoAutoHelpBtn` in the _[Options](./TPJVCLMsgDlg-Options.md)_ property, or
-  1. Include the `mbHelp` button value in the _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ property.
+  2. Include the `mbHelp` button value in the _[Buttons](./TPJVCLMsgDlg-Buttons.md)_ property.
 
 If a cancel button is included in the group whether it appears or not depends on whether the `mdoInhibitCancel` value is included in the _[Options](./TPJVCLMsgDlg-Options.md)_ property.
 

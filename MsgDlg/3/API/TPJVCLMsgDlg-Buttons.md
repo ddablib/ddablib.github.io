@@ -1,4 +1,4 @@
-# Buttons property #
+# Buttons property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -18,7 +18,7 @@ type TMsgDlgButtons = set of TMsgDlgBtn;
 property Buttons: TMsgDlgButtons;
 ```
 
-## Description ##
+## Description
 
 The _Buttons_ property records the set of buttons that are to appear in the dialogue box. This property is more flexible that the related _[ButtonGroup](./TPJVCLMsgDlg-ButtonGroup.md)_ property - it supports additional buttons in any combination.
 
@@ -30,8 +30,8 @@ Because of the link between _Buttons_ and _[ButtonGroup](./TPJVCLMsgDlg-ButtonGr
 
 The set of available buttons (_TMsgDlgButtons_) is defined in the _Dialogs_ unit and is as follows:
 
-| **Value** | **Button caption** | **ModalResult** |
-|:----------|:-------------------|:----------------|
+| Value | Button caption | ModalResult |
+|:------|:---------------|:------------|
 | `mbYes` | "Yes" | `mrYes` |
 | `mbNo` | "No" | `mrNo` |
 | `mbOK` | "OK" | `mrOK` |

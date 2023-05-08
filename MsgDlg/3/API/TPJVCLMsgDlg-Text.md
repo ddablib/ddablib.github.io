@@ -1,4 +1,4 @@
-# Text property #
+# Text property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Text: string;
 ```
 
-## Description ##
+## Description
 
 Set this property to the text that you wish to display in the body on the dialogue box. The default is to display nothing.
 

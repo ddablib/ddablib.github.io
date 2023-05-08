@@ -1,4 +1,4 @@
-# IconResource property #
+# IconResource property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,7 +10,7 @@
 property IconResource: string;
 ```
 
-## Description ##
+## Description
 
 Set _IconResource_ to identify the resource to be used to display a user defined icon in the dialogue box. If _IconResource_ is left blank then the default resource name "MAINICON" is used. The icon resource must be contained in the executable file. If such a resource cannot be found then no icon is displayed.
 

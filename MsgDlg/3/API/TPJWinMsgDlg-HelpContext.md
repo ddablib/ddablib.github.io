@@ -1,4 +1,4 @@
-# HelpContext property #
+# HelpContext property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -13,7 +13,7 @@ type
 property HelpContext: THelpContext;
 ```
 
-## Description ##
+## Description
 
 Set the _HelpContext_ property to the context number of the relevant topic in the help file specified by the _[HelpFile](./TPJWinMsgDlg-HelpFile.md)_ property. When a non-zero help context number is specified a help button is displayed in the dialogue box which calls context sensitive help with the given help context when pressed.
 

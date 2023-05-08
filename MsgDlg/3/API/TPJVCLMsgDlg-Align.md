@@ -1,4 +1,4 @@
-# Align property #
+# Align property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -15,12 +15,12 @@ type
 property Align: TPJMsgDlgAlign;
 ```
 
-## Description ##
+## Description
 
 The _Align_ property determines the alignment of the dialogue box relative to either the screen or the owner form. The various values it can take are described below:
 
-| **Value** | **Description** |
-|:----------|:----------------|
+| Value | Description |
+|:------|:------------|
 | `mdaScreenCentre` | The dialogue is centred over the screen. |
 | `mdaScreenOffset` | The dialogue is offset from the top left corner of the screen by the amount given by the values of the _[OffsetLeft](./TPJVCLMsgDlg-OffsetLeft.md)_ and _[OffsetTop](./TPJVCLMsgDlg-OffsetTop.md)_ properties. |
 | `mdaFormCentre` | The dialogue is centred over the owning form. If no owning form can be found the dialogue is centred on the screen. |

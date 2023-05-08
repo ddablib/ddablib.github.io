@@ -1,4 +1,4 @@
-# Execute method #
+# Execute method
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -10,12 +10,12 @@
 function Execute: Integer;
 ```
 
-## Description ##
+## Description
 
 Call _Execute_ to display the dialogue box. _Execute_ returns a value associated with the button that was clicked to close the dialogue box as follows:
 
-| **Button clicked** | **Return value** |
-|:-------------------|:-----------------|
+| Button clicked | Return value |
+|:---------------|:-------------|
 | Abort | `IDABORT` (3) |
 | Cancel | `IDCANCEL` (2) |
 | Continue | `IDCONTINUE` (11) |

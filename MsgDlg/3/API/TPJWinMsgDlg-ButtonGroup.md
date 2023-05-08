@@ -1,4 +1,4 @@
-# ButtonGroup property #
+# ButtonGroup property
 
 **Project:** [Message Dialogue Components](../API.md).
 
@@ -16,12 +16,12 @@ type
 property ButtonGroup: TPJMsgDlgButtonGroup;
 ```
 
-## Description ##
+## Description
 
 The buttons which appear in the dialogue box depend on the value of this property. The possible values are:
 
-| **Value** | **Buttons used** |
-|:----------|:-----------------|
+| Value | Buttons used |
+|:------|:-------------|
 | `bgAbortRetryIgnore` | Abort, Retry and Ignore buttons. |
 | `bgOK` | A single OK button. |
 | `bgOKCancel` | An OK and a Cancel button. |
