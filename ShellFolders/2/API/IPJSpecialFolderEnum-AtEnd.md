@@ -1,10 +1,10 @@
 # AtEnd method
 
-**Project:** [Shell Folders Unit](ShellFoldersUnit.md).
+**Project:** [Shell Folders Unit](../API.md).
 
 **Unit:** _PJShellFolders_.
 
-**Interface:** _[IPJSpecialFolderEnum](IPJSpecialFolderEnum.md)_
+**Interface:** _[IPJSpecialFolderEnum](./IPJSpecialFolderEnum.md)_
 
 **Applies to:** ~>2.0
 

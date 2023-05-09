@@ -1,10 +1,10 @@
 # AtEnd method
 
-**Project:** [Shell Folders Unit](ShellFoldersUnit.md).
+**Project:** [Shell Folders Unit](../API.md).
 
 **Unit:** _PJShellFolders_.
 
-**Class:** _[TPJSpecialFolderEnum](TPJSpecialFolderEnum.md)_
+**Class:** _[TPJSpecialFolderEnum](./TPJSpecialFolderEnum.md)_
 
 **Applies to:** ~>2.0
 

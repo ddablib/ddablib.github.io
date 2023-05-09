@@ -1,10 +1,10 @@
 # FolderName property
 
-**Project:** [Shell Folders Unit](ShellFoldersUnit.md).
+**Project:** [Shell Folders Unit](../API.md).
 
 **Unit:** _PJShellFolders_.
 
-**Class:** _[TPJBrowseDialog](TPJBrowseDialog.md)_
+**Class:** _[TPJBrowseDialog](./TPJBrowseDialog.md)_
 
 **Applies to:** ~>2.0
 
@@ -24,4 +24,4 @@ _FolderName_ is set to the empty string when no folder has yet been selected by 
 
 ## See Also
 
-* _[DisplayName](TPJBrowseDialogDisplayName.md)_
+* _[DisplayName](./TPJBrowseDialog-DisplayName.md)_
