@@ -1,4 +1,4 @@
-# DisplayName property #
+# DisplayName property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property DisplayName: string;
 ```
 
-## Description ##
+## Description
 
 This property gives the display name of the special folder specified by the _[FolderID](TPJSpecialFolderInfoFolderID.md)_ property. For physical folders (_[IsVirtual](TPJSpecialFolderInfoIsVirtual.md)_ is false), _DisplayName_ often (but not always) has the same value as the _[Path](TPJSpecialFolderInfoPath.md)_ property.
 

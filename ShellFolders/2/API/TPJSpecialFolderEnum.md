@@ -1,4 +1,4 @@
-# TPJSpecialFolderEnum #
+# TPJSpecialFolderEnum
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -12,20 +12,20 @@ _TPJSpecialFolderEnum_ implements the _[IPJSpecialFolderEnum](IPJSpecialFolderEn
 
 An [example](PJShellFoldersExample.md) of using _TPJSpecialFolderEnum_ is provided.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[AtEnd](TPJSpecialFolderEnumAtEnd.md)_ | Tests whether the end of the enumeration has been reached. |
 | _[Count](TPJSpecialFolderEnumCount.md)_ | Returns the number of special folder identifiers in the enumeration. |
 | _[Create](TPJSpecialFolderEnumCreate.md)_ | Constructs and intialises a _TPJSpecialFolderEnum_ object. |
 | _[Init](TPJSpecialFolderEnumInit.md)_ | Reinitialises the enumeration. |
 | _[Next](TPJSpecialFolderEnumNext.md)_ | Returns the next identifier in the enumeration. |
 
-## Properties ##
+## Properties
 
 _TPJSpecialFolderEnum_ defines no properties.
 
-## Events ##
+## Events
 
 _TPJSpecialFolderEnum_ defines no events.

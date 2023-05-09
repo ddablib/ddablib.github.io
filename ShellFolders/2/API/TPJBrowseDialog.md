@@ -1,4 +1,4 @@
-# TPJBrowseDialog #
+# TPJBrowseDialog
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -6,16 +6,16 @@
 
 This component permits the Windows _Browse for Folders_ dialog box to be displayed. _TPJBrowseDialog_ also enables the dialog box to be customised. The dialog box is displayed at run time when the _[Execute](TPJBrowseDialogExecute.md)_ method is called. The path and display name of the folder selected when the user OKs are made available via the component's properties.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Execute](TPJBrowseDialogExecute.md)_ | Displays the _Browse for Folders_ dialog. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[DisplayName](TPJBrowseDialogDisplayName.md)_ | Displays the name of the selected folder. |
 | _[FolderName](TPJBrowseDialogFolderName.md)_ | Contains the path to the folder selected in the dialog box. |
 | _[Handle](TPJBrowseDialogHandle.md)_ | The window handle of the dialog box. |
@@ -27,10 +27,10 @@ This component permits the Windows _Browse for Folders_ dialog box to be display
 | _[RootFolderID](TPJBrowseDialogRootFolderID.md)_ | Determines the root folder displayed in the dialog box. |
 | _[Title](TPJBrowseDialogTitle.md)_ | Specifies the text displayed in the dialog's title bar. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnClose](TPJBrowseDialogOnClose.md)_ | Triggered when the dialog closes. |
 | _[OnHelp](TPJBrowseDialogOnHelp.md)_ | Triggered whenever help is requested from the browse for folders dialog box and is available. |
 | _[OnInitialise](TPJBrowseDialogOnInitialise.md)_ | Triggered when the dialog initialises. |

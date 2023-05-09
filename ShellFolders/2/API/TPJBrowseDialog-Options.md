@@ -1,4 +1,4 @@
-# Options property #
+# Options property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -17,12 +17,12 @@ type TPJBrowseDlgOptions = set of TPJBrowseDlgOption;
 property Options: TPJBrowseDlgOptions;
 ```
 
-## Description ##
+## Description
 
 Use the _Options_ property to customize the appearance and functionality of the dialog. One or more of the following values can be assigned to the property:
 
-| **Value** | **Meaning** |
-|:----------|:------------|
+| Value | Meaning |
+|:------|:--------|
 | `boShowHelp` | Displays a help button in the dialog box. When the user clicks the button the application's help file is activated at the topic given by the component's _[HelpContext](TPJBrowseDialogHelpContext.md)_ or _[HelpKeyword](TPJBrowseDialogHelpKeyword.md)_ properties. When _[HelpContext](TPJBrowseDialogHelpContext.md)_ is 0 or _[HelpKeyword](TPJBrowseDialogHelpKeyword.md)_ is the empty string the button is disabled. If _Options_ does not include `boContextHelp` then pressing F1 has the same effect as clicking the _Help_ button. **Note:** This option is ignored when `boNewStyleDlg` is included in _Options_. |
 | `boContextHelp` | Displays a **?** button in the dialog's title bar. Clicking the **?** button and then clicking a control in the dialog brings up context sensitive popup help on each control in a window. Pressing F1 has the same effect. In this case the help relates to the currently active control. **Note:** this option only works on some operating systems. It does not work on Windows Vista, for example. |
 | `boStatusText` | Permits status information to be displayed in the dialog box in response to selection changes. To cause this text to appear either the _[OnSelChange](TPJBrowseDialogOnSelChange.md)_ or the _[OnSelChangeEx](TPJBrowseDialogOnSelChangeEx.md)_ event must be handled and the required text sent back to the dialog box via the event handler's _StatusText_ parameter. **Note:** This option is ignored when `boNewStyleDlg` is included in _Options_. |

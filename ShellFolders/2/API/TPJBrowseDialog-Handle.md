@@ -1,4 +1,4 @@
-# Handle property #
+# Handle property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property Handle: THandle;
 ```
 
-## Description ##
+## Description
 
 This property provides access to the _Browse for Folder_ dialog box's window handle while the _[Execute](TPJBrowseDialogExecute.md)_ method is active. At other times _Handle_ is set to 0. _Handle_ therefore only references a valid window handle when the dialog box is displayed.
 

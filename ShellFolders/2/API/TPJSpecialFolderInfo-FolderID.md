@@ -1,4 +1,4 @@
-# FolderID property #
+# FolderID property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property FolderID: Integer;
 ```
 
-## Description ##
+## Description
 
 Setting _FolderID_ to an appropriate `CSIDL_` value gets information about a special folder. When the property is set the information about the folder is stored in the component's run time read only properties.
 

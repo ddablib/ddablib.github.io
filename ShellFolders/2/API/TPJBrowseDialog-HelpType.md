@@ -1,4 +1,4 @@
-# HelpType property #
+# HelpType property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -13,7 +13,7 @@ type
 property HelpType: THelpType;
 ```
 
-## Description ##
+## Description
 
 This property determines whether the _[HelpContext](TPJBrowseDialogHelpContext.md)_ or _[HelpKeyword](TPJBrowseDialogHelpKeyword.md)_ properties are used to identify the associated help topic.
 

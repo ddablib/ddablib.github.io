@@ -1,4 +1,4 @@
-# RootFolderID property #
+# RootFolderID property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property RootFolderID: Integer;
 ```
 
-## Description ##
+## Description
 
 _RootFolderID_ specifies the identifier of the special folder that is used as the root of the folder tree displayed in the dialog box. The property defaults to `CSIDL_DESKTOP`.
 

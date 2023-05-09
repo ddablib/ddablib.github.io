@@ -1,4 +1,4 @@
-# OnInitialise event #
+# OnInitialise event
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property OnInitialise: TNotifyEvent;
 ```
 
-## Description ##
+## Description
 
 _OnInitialise_ occurs when the dialog initialises.
 

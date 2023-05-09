@@ -1,4 +1,4 @@
-# AtEnd method #
+# AtEnd method
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 function AtEnd: Boolean;
 ```
 
-## Description ##
+## Description
 
 _AtEnd_ tests whether the end of the enumeration has been reached.
 

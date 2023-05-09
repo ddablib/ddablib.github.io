@@ -1,4 +1,4 @@
-# Count method #
+# Count method
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,6 +10,6 @@
 function Count: Integer;
 ```
 
-## Description ##
+## Description
 
 _Count_ returns the number of special folder identifier values in the enumeration.

@@ -1,4 +1,4 @@
-# OnHelp event #
+# OnHelp event
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -14,7 +14,7 @@ type
 property OnHelp: TPJBrowseHelpEvent;
 ```
 
-## Description ##
+## Description
 
 This event is triggered whenever help is requested and is available. Its purpose is to enable the user to intercept help requests before they are passed to the _Application_ object for processing and, optionally, to prevent _Application_ from receiving the request.
 
@@ -22,5 +22,5 @@ Help can be requested by clicking any visible and enabled help button or by pres
 
 The event handler's parameters are described below:
 
-  * _Sender_ provides a reference to the calling component and can be cast to _[TPJBrowseDialog](TPJBrowseDialog.md)_ to gain access to the _[HelpContext](TPJBrowseDialogHelpContext.md)_, _[HelpKeyword](TPJBrowseDialogHelpKeyword.md)_ and _[HelpType](TPJBrowseDialogHelpType.md)_ properties.
-  * _Cancel_ is false when the event handler is called which means the help request will be passed to the _Application_ object. To prevent this set _Cancel_ to true.
+* _Sender_ provides a reference to the calling component and can be cast to _[TPJBrowseDialog](TPJBrowseDialog.md)_ to gain access to the _[HelpContext](TPJBrowseDialogHelpContext.md)_, _[HelpKeyword](TPJBrowseDialogHelpKeyword.md)_ and _[HelpType](TPJBrowseDialogHelpType.md)_ properties.
+* _Cancel_ is false when the event handler is called which means the help request will be passed to the _Application_ object. To prevent this set _Cancel_ to true.

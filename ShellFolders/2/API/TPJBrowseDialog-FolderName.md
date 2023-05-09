@@ -1,4 +1,4 @@
-# FolderName property #
+# FolderName property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property FolderName: string;
 ```
 
-## Description ##
+## Description
 
 This property contains the path to the folder selected in the dialog box.
 
@@ -20,5 +20,6 @@ When the user OKs the dialog box _FolderName_ is updated. For physical folders (
 
 _FolderName_ is set to the empty string when no folder has yet been selected by the user.
 
-**See also:**
-  * _[DisplayName](TPJBrowseDialogDisplayName.md)_
+## See Also
+
+* _[DisplayName](TPJBrowseDialogDisplayName.md)_

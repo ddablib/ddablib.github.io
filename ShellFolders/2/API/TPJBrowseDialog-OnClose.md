@@ -1,4 +1,4 @@
-# OnClose event #
+# OnClose event
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property OnClose: TNotifyEvent;
 ```
 
-## Description ##
+## Description
 
 This event occurs when the dialog closes.
 

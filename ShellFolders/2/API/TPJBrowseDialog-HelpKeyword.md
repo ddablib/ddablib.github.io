@@ -1,4 +1,4 @@
-# HelpKeyword property #
+# HelpKeyword property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property HelpKeyword: string;
 ```
 
-## Description ##
+## Description
 
 _HelpKeyword_ contains a keyword keyword that determines which help topic appears when the user requests help. _HelpKeyword_ has effect only if the following conditions are met:
 

@@ -1,4 +1,4 @@
-# Title property #
+# Title property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -13,7 +13,7 @@ type
 property Title: TCaption;
 ```
 
-## Description ##
+## Description
 
 Use _Title_ to specify the text that appears in the _Browse for Folder_ dialog's title bar.
 

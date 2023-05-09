@@ -1,4 +1,4 @@
-# Path property #
+# Path property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property Path: string;
 ```
 
-## Description ##
+## Description
 
 The _Path_ property stores the directory of the special folder currently specified in _[FolderID](TPJSpecialFolderInfoFolderID.md)_.
 

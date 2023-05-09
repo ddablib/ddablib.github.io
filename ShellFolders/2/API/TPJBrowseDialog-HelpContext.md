@@ -1,4 +1,4 @@
-# HelpContext property #
+# HelpContext property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -13,7 +13,7 @@ type
 property HelpContext: THelpContext;
 ```
 
-## Description ##
+## Description
 
 This property contains an integer value that determines which help topic appears when the user requests help. _HelpContext_ has effect only if the following conditions are met:
 

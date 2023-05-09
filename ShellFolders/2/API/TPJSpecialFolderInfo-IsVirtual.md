@@ -1,4 +1,4 @@
-# IsVirtual property #
+# IsVirtual property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property IsVirtual: Boolean;
 ```
 
-## Description ##
+## Description
 
 Use _IsVirtual_ to determine if the current special folder is virtual or not.
 

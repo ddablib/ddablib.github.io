@@ -1,4 +1,4 @@
-# Create method #
+# Create method
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,6 +10,6 @@
 constructor Create;
 ```
 
-## Description ##
+## Description
 
 This constructor intialises the enumeration when the object is constructed. Therefore the _[Init](TPJSpecialFolderEnumInit.md)_ method does not need to be called before enumerating the special folder identifier values.

@@ -1,4 +1,4 @@
-# Headline property #
+# Headline property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property Headline: string;
 ```
 
-## Description ##
+## Description
 
 Stores text to be displayed in the _Browse for Folder_ dialog box.
 

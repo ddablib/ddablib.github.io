@@ -1,4 +1,4 @@
-# IsSupported property #
+# IsSupported property
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -10,7 +10,7 @@
 property IsSupported: Boolean;
 ```
 
-## Description ##
+## Description
 
 Use _IsSupported_ to determine if the current special folder is supported by the operating system.
 

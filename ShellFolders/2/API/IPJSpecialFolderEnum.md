@@ -1,4 +1,4 @@
-# IPJSpecialFolderEnum #
+# IPJSpecialFolderEnum
 
 **Project:** [Shell Folders Unit](ShellFoldersUnit.md).
 
@@ -6,10 +6,10 @@
 
 _IPJSpecialFolderEnum_ interface to an object that can enumerate the shell's special folder identifiers. _[TPJSpecialFolderEnum](TPJSpecialFolderEnum.md)_ implements the interface.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[AtEnd](IPJSpecialFolderEnumAtEnd.md)_ | Tests whether the end of the enumeration has been reached. |
 | _[Count](IPJSpecialFolderEnumCount.md)_ | Returns the number of special folder identifiers in the enumeration. |
 | _[Init](IPJSpecialFolderEnumInit.md)_ | Reinitialises the enumeration. |
