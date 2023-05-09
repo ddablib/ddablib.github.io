@@ -12,7 +12,7 @@ This site is early in development at present and is being restructured. Many pag
 
 The project is based on [delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs) and was copied from that project on 2022-09-06. All the `ddab-lib-docs` history was brought forward.
 
-Documentation of the following projects have been completed:
+Documentation of the following projects has been completed:
 
 | Project | Starting page URL |
 |---------|-------------------|
@@ -22,6 +22,7 @@ Documentation of the following projects have been completed:
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
 | Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
+| Shell Folders Unit |  <https://lib-docs.delphidabbler.com/ShellFolders/> |
 | System Information Unit | <https://lib-docs.delphidabbler.com/SysInfo/> |
 
 Documentation of the following, unreleased, project is under construction:
