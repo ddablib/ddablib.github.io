@@ -6,6 +6,8 @@
 
 **Class:** _[TPJSpecialFolderInfo](TPJSpecialFolderInfo.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 property DisplayName: string;
 ```

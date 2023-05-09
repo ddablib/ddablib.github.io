@@ -4,6 +4,8 @@
 
 **Unit:** _PJShellFolders_.
 
+**Applies to:** ~>2.0
+
 The following public routines are defined in _PJShellFolders_:
 
 * [IsValidSpecialFolderId](#isvalidspecialfolderid)

@@ -6,6 +6,8 @@
 
 **Class:** _[TPJBrowseDialog](TPJBrowseDialog.md)_
 
+**Applies to:** ~>2.3
+
 ```pascal
 type
   TPJBrowseValidationFailedEvent = procedure(Sender: TObject;

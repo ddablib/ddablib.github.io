@@ -4,6 +4,8 @@
 
 **Unit:** _PJShellFolders_.
 
+**Applies to:** ~>2.0
+
 Windows defines integer identifiers to represent the shell's special folders. _TPJSpecialFolderEnum_ is a class that enumerates the values of all the special folder identifiers.
 
 The key method is the _[Next](TPJSpecialFolderEnumNext.md)_ method which returns a sequence of identifiers each time it called. The _[Init](TPJSpecialFolderEnumInit.md)_ methods re-intialises the enumeration and the _[AtEnd](TPJSpecialFolderEnumAtEnd.md)_ methods returns true when all the identifiers have been returned. The number of identifiers in the enumeration are given by the _[Count](TPJSpecialFolderEnumCount.md)_ method.

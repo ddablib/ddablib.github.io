@@ -4,6 +4,8 @@
 
 **Unit:** _PJShellFolders_.
 
+**Applies to:** ~>2.0
+
 _IPJSpecialFolderEnum_ interface to an object that can enumerate the shell's special folder identifiers. _[TPJSpecialFolderEnum](TPJSpecialFolderEnum.md)_ implements the interface.
 
 ## Methods

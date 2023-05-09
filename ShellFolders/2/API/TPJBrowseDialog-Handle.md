@@ -6,8 +6,16 @@
 
 **Class:** _[TPJBrowseDialog](TPJBrowseDialog.md)_
 
+**Applies to:** >=2.0.0 & <= 2.3.0
+
 ```pascal
 property Handle: THandle;
+```
+
+**Applies to:** ~>2.3.1, ~>2.4
+
+```pascal
+property Handle: HWND;
 ```
 
 ## Description

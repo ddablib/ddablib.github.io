@@ -6,6 +6,8 @@
 
 **Class:** _[TPJSpecialFolderEnum](TPJSpecialFolderEnum.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 constructor Create;
 ```

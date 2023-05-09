@@ -4,6 +4,8 @@
 
 **Unit:** _PJShellFolders_.
 
+**Applies to:** ~>2.0
+
 _TPJSpecialFolderInfo_ is a non-visual component that provides information about a Windows special folders.
 
 To get information about a special folder set the _[FolderID](TPJSpecialFolderInfoFolderID.md)_ property to the required special folder id. The run time only properties of the component can then be used to read off information about the folder. Test _[IsSupported](TPJSpecialFolderInfoIsSupported.md)_ to check if the folder is supported on the current platform. If the folder is not supported then both _[Path](TPJSpecialFolderInfoPath.md)_ and _[DisplayName](TPJSpecialFolderInfoDisplayName.md)_ are empty. If _[IsVirtual](TPJSpecialFolderInfoIsVirtual.md)_ is true then the folder is virtual and the Path property will be empty. If _[IsVirtual](TPJSpecialFolderInfoIsVirtual.md)_ is false then the folder exists in the file system and the folder's path is given by the _[Path](TPJSpecialFolderInfoPath.md)_ property. _[DisplayName](TPJSpecialFolderInfoDisplayName.md)_ gives the name used for the folder - for non-virtual folders this often has the same value as _[Path](TPJSpecialFolderInfoPath.md)_.

@@ -6,6 +6,8 @@
 
 **Interface:** _[IPJSpecialFolderEnum](IPJSpecialFolderEnum.md)_
 
+**Applies to:** ~>2.0
+
 ```pascal
 function Count: Integer;
 ```
