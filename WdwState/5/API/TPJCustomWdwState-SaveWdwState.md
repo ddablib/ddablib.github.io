@@ -1,10 +1,10 @@
 # SaveWdwState method #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
-**Class:** _[TPJCustomWdwState](TPJCustomWdwState.md)_
+**Class:** _[TPJCustomWdwState](./TPJCustomWdwState.md)_
 
 ```pascal
 procedure SaveWdwState(
@@ -20,4 +20,4 @@ This virtual abstract method must be overridden by descendant components to save
 
 The position of the window is given by the _Left_ and _Top_ parameters, the size by the _Width_ and _Height_ parameters and the state by the _State_ parameter. _State_ is the ordinal value of a member of the _TWindowState_ enumeration: `wsMinimized`, `wsMaximized` or `wsNormal`. The parameter values should be saved in a way that allows them to be identified and associated with the window when read back in.
 
-_SaveWdwState_ is called internally by the _[Save](TPJCustomWdwStateSave.md)_ method.
+_SaveWdwState_ is called internally by the _[Save](./TPJCustomWdwState-Save.md)_ method.

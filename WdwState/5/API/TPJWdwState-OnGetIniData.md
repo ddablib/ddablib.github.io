@@ -1,10 +1,10 @@
 # OnGetIniData event #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
-**Class:** _[TPJWdwState](TPJWdwState.md)_
+**Class:** _[TPJWdwState](./TPJWdwState.md)_
 
 ```pascal
 type
@@ -23,15 +23,15 @@ The event is triggered in the following circumstances:
 
   * Just before the ini file is read when restoring a window.
   * Just before the ini file is written when saving window information.
-  * <sup>v5.5</sup> When the _[IniFilePath](TPJWdwStateIniFilePath.md)_ method is called.
+  * <sup>v5.5</sup> When the _[IniFilePath](./TPJWdwState-IniFilePath.md)_ method is called.
 
-The name of the ini file and the section within it are passed as var parameters to the event handler, allowing the user to change the values, and hence the location where the window data is recorded.  The values passed to the event handler are the same as those of the _[IniFileName](TPJWdwStateIniFileName.md)_ and _[Section](TPJWdwStateSection.md)_ properties.
+The name of the ini file and the section within it are passed as var parameters to the event handler, allowing the user to change the values, and hence the location where the window data is recorded.  The values passed to the event handler are the same as those of the _[IniFileName](./TPJWdwState-IniFileName.md)_ and _[Section](./TPJWdwState-Section.md)_ properties.
 
 Changing the values of the event's parameters _does not_ change the value of the related properties.
 
-The purpose of the event is to enable the _[AutoSaveRestore](TPJCustomWdwStateAutoSaveRestore.md)_ property to be used without setting the _[IniFileName](TPJWdwStateIniFileName.md)_ and _[Section](TPJWdwStateSection.md)_ properties at design time - i.e. handling the event allows either or both of the default _[IniFileName](TPJWdwStateIniFileName.md)_ and _[Section](TPJWdwStateSection.md)_ names to be overridden.
+The purpose of the event is to enable the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property to be used without setting the _[IniFileName](./TPJWdwState-IniFileName.md)_ and _[Section](./TPJWdwState-Section.md)_ properties at design time - i.e. handling the event allows either or both of the default _[IniFileName](./TPJWdwState-IniFileName.md)_ and _[Section](./TPJWdwState-Section.md)_ names to be overridden.
 
-_[TPJWdwState](TPJWdwState.md)_'s behaviour when the event handler returns depends on the values of the parameters it returns. This behaviour changed at v5.5, as described below.
+_[TPJWdwState](./TPJWdwState.md)_'s behaviour when the event handler returns depends on the values of the parameters it returns. This behaviour changed at v5.5, as described below.
 
 ### v5.4.2 and earlier ###
 
@@ -47,8 +47,8 @@ Changing the _ASection_ parameter changes the name of the section used to store 
 
 ### v5.5.0 and later ###
 
-Changing the values of the _AIniFileName_ or _ASection_ parameters has exactly the same effect on the ini file and section names as setting the _[IniFileName](TPJWdwStateIniFileName.md)_ or _[Section](TPJWdwStateSection.md)_ properties to the same values. The full name of the ini file is also influenced by the value of the _[IniRootDir](TPJWdwStateIniRootDir.md)_ property. See the documentation of those properties for details.
+Changing the values of the _AIniFileName_ or _ASection_ parameters has exactly the same effect on the ini file and section names as setting the _[IniFileName](./TPJWdwState-IniFileName.md)_ or _[Section](./TPJWdwState-Section.md)_ properties to the same values. The full name of the ini file is also influenced by the value of the _[IniRootDir](./TPJWdwState-IniRootDir.md)_ property. See the documentation of those properties for details.
 
 If the path to the ini file does not exist it is created, if possible, when the component first attempts to write data to the file. If the required directories can't be created an exception will be raised.
 
-**Note:** _OnGetIniData_ is not fired if a handler is assigned to the _[OnGetIniDataEx](TPJWdwStateOnGetIniDataEx.md)_ event - you should only provide an event handler one event or the other, not both.
+**Note:** _OnGetIniData_ is not fired if a handler is assigned to the _[OnGetIniDataEx](./TPJWdwState-OnGetIniDataEx.md)_ event - you should only provide an event handler one event or the other, not both.

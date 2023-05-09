@@ -1,10 +1,10 @@
 # MinimizeDelay property #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
-**Class:** _[TPJCustomWdwState](TPJCustomWdwState.md)_
+**Class:** _[TPJCustomWdwState](./TPJCustomWdwState.md)_
 
 ```pascal
 property MinimizeDelay: Integer;

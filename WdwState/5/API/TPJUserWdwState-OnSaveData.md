@@ -1,10 +1,10 @@
 # OnSaveData event #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
-**Class:** _[TPJUserWdwState](TPJUserWdwState.md)_
+**Class:** _[TPJUserWdwState](./TPJUserWdwState.md)_
 
 ```pascal
 type
@@ -19,7 +19,7 @@ property OnSaveData: TPJWdwStateSaveData;
 
 _OnSaveData_ is triggered when the component is saving the window's size, position and state and needs to store the information in persistent storage.
 
-The user must handle this event by writing the data passed in the fields of the _Data_ parameter to persistent storage. The _Data_ parameter is a record of type _[TPJWdwStateData](TPJWdwStateData.md)_.
+The user must handle this event by writing the data passed in the fields of the _Data_ parameter to persistent storage. The _Data_ parameter is a record of type _[TPJWdwStateData](./TPJWdwStateData.md)_.
 
 **See Also:**
-> _[OnReadData](TPJUserWdwStateOnReadData.md)_ event.
+> _[OnReadData](./TPJUserWdwState-OnReadData.md)_ event.

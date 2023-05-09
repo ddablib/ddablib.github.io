@@ -1,10 +1,10 @@
 # Section property #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
-**Class:** _[TPJWdwState](TPJWdwState.md)_
+**Class:** _[TPJWdwState](./TPJWdwState.md)_
 
 ```pascal
 property Section: string;

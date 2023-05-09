@@ -1,6 +1,6 @@
 # TPJRegRootKey type #
 
-**Project:** [Window State Components](WindowStateComponents.md).
+**Project:** [Window State Components](../API.md).
 
 **Unit:** _PJWdwState_.
 
@@ -30,4 +30,4 @@ Each value represents a value defined by one of the _HKEY\_xxx_ constants as fol
 | `hkCurrentConfig` | `HKEY_CURRENT_CONFIG` |
 | `hkDynData` | `HKEY_DYN_DATA` |
 
-_TPJRegRootKey_ is used as the type for the _[TPJRegWdwState](TPJRegWdwState.md).[RootKeyEx](TPJRegWdwStateRootKeyEx.md)_**<sup>v5.6</sup>** property and the _RootKeyEx_ parameter of the _[TPJRegWdwState](TPJRegWdwState.md).[OnGetRegDataEx](TPJRegWdwStateOnGetRegDataEx.md)_**<sup>v5.6</sup>** event.
+_TPJRegRootKey_ is used as the type for the _[TPJRegWdwState](./TPJRegWdwState.md).[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>** property and the _RootKeyEx_ parameter of the _[TPJRegWdwState](./TPJRegWdwState.md).[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** event.
