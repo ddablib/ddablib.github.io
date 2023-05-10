@@ -6,13 +6,15 @@
 
 **Class:** _[TPJRegWdwState](./TPJRegWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 property SubKey: string;
 ```
 
 ## Description
 
-This property defines the subkey under which the window's size, position and state information is stored in the registry. This subkey is stored under the root key defined by the _[RootKey](./TPJRegWdwState-RootKey.md)_ or _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>** property.
+This property defines the subkey under which the window's size, position and state information is stored in the registry. This subkey is stored under the root key defined by the _[RootKey](./TPJRegWdwState-RootKey.md)_ or _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_ [~>5.6] property.
 
 To ensure that the sub key is relative to the root and not the current key the subkey should begin with a '\' character.
 

@@ -4,6 +4,8 @@
 
 **Unit:** _PJWdwState_.
 
+**Applies to:** ~>5.0
+
 This non-visual component enables the size, position and state of the form on which it is placed to be saved to and read to any persistent storage. The user is responsible for loading and saving the data. This is done by handling the _[OnReadData](./TPJUserWdwState-OnReadData.md)_ and _[OnSaveData](./TPJUserWdwState-OnSaveData.md)_ events. The component is provided in case the user wishes to save control the storage used or the format in which data is written. To use the the registry or an ini file _[TPJRegWdwState](./TPJRegWdwState.md)_ or _[TPJWdwState](./TPJWdwState.md)_ respectively can be used.
 
 The _[Save](./TPJUserWdwState-Save.md)_ method saves the window information while _[Restore](./TPJUserWdwState-Restore.md)_ reads information in and sets the owning form window's size, position and state.
@@ -40,8 +42,8 @@ _TPJUserWdwState_ exposes the following methods, properties and events, some of 
 
 | Event | Description |
 |:------|:------------|
-| _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_**<sup>v5.4</sup>** | Event triggered after window has been restored and its state set. |
-| _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_**<sup>v5.4</sup>** | Event triggered after the window is sized but before it is physically restored. |
+| _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md) [~>5.4]_ | Event triggered after window has been restored and its state set. |
+| _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md) [~>5.4]_ | Event triggered after the window is sized but before it is physically restored. |
 | _[OnReadData](./TPJUserWdwState-OnReadData.md)_ | Event triggered when the component needs the user to read data from persistent storage. |
 | _[OnSaveData](./TPJUserWdwState-OnSaveData.md)_ | Event triggered when the component needs the user to save data to persistent storage. |
 

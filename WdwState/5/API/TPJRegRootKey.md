@@ -4,7 +4,7 @@
 
 **Unit:** _PJWdwState_.
 
-**Introduced:** v5.6
+**Applies to:** ~>5.6
 
 ```pascal
 type
@@ -30,4 +30,4 @@ Each value represents a value defined by one of the _HKEY\_xxx_ constants as fol
 | `hkCurrentConfig` | `HKEY_CURRENT_CONFIG` |
 | `hkDynData` | `HKEY_DYN_DATA` |
 
-_TPJRegRootKey_ is used as the type for the _[TPJRegWdwState](./TPJRegWdwState.md).[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>** property and the _RootKeyEx_ parameter of the _[TPJRegWdwState](./TPJRegWdwState.md).[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** event.
+_TPJRegRootKey_ is used as the type for the _[TPJRegWdwState](./TPJRegWdwState.md).[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_ [~>5.6] property and the _RootKeyEx_ parameter of the _[TPJRegWdwState](./TPJRegWdwState.md).[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_ [~>5.6] event.

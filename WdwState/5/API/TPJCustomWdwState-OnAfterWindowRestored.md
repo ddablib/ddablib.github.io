@@ -6,7 +6,7 @@
 
 **Class:** _[TPJCustomWdwState](./TPJCustomWdwState.md)_
 
-**Introduced:** v5.4
+**Applies to:** ~>5.4
 
 ```pascal
 property OnAfterWindowRestored: TNotifyEvent;
@@ -20,4 +20,4 @@ Handle this event if you need to determine the state of the restored window or i
 
 ## See Also
 
-* _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_ **<sup>v5.4</sup>**
+* _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_ [~>5.4]

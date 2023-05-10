@@ -4,6 +4,8 @@
 
 **Unit:** _PJWdwState_.
 
+**Applies to:** ~>5.0
+
 This is the abstract base class for the _[TPJWdwState](./TPJWdwState.md)_, _[TPJRegWdwState](./TPJRegWdwState.md)_ and _[TPJUserWdwState](./TPJUserWdwState.md)_ components. It provides the common functionality and properties of the derived components. _[TPJWdwState](./TPJWdwState.md)_, _[TPJRegWdwState](./TPJRegWdwState.md)_ and _[TPJUserWdwState](./TPJUserWdwState.md)_ simply add the methods and / or events used to store and read window state information along with any properties and events relevant to the desired storage.
 
 _TPJCustomWdwState_ can be used as a base class for further window state components that use other forms of storage. To derive a new component you must override the protected abstract methods _[ReadWdwState](./TPJCustomWdwState-ReadWdwState.md)_ and _[SaveWdwState](./TPJCustomWdwState-SaveWdwState.md)_ to read and save window size, position and state information via the desired storage medium.
@@ -44,5 +46,5 @@ _TPJCustomWdwState_ exposes the following methods, properties and events in addi
 
 | Event | Description |
 |:------|:------------|
-| _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_ **<sup>v5.4</sup>** | Event triggered after window has been restored and its state set. |
-| _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_ **<sup>v5.4</sup>** | Event triggered after the window is sized but before it is physically restored. |
+| _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md) [~>5.4]_ | Event triggered after window has been restored and its state set. |
+| _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md) [~>5.4]_ | Event triggered after the window is sized but before it is physically restored. |

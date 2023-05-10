@@ -6,6 +6,8 @@
 
 **Class:** _[TPJUserWdwState](./TPJUserWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 type
   TPJWdwStateReadData = procedure(

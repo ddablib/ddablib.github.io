@@ -6,6 +6,8 @@
 
 **Class:** _[TPJWdwState](./TPJWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 procedure Save;
 ```
@@ -22,18 +24,20 @@ If the _[AutoSaveRestore](TPJCustomWdwState-AutoSaveRestore.md)_ property is tru
 
 ## Remarks
 
-### v5.4.2 and earlier
+The process used to determine what the ini file name to use changed at v5.5:
 
-The ini file name is determined by the _[IniFileName](TPJWdwState-IniFileName.md)_ property and the section within it used to store window state data is stored is determined by the _[Section](TPJWdwState-Section.md)_ property.
+* <5.5
 
-Any _[OnGetIniData](TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
+    The ini file name is determined by the _[IniFileName](TPJWdwState-IniFileName.md)_ property and the section within it used to store window state data is stored is determined by the _[Section](TPJWdwState-Section.md)_ property.
 
-If any of the directories in the path to the ini file name are not present then the save will fail and may raise an exception.
+    Any _[OnGetIniData](TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
 
-### v5.5.0 and later
+    If any of the directories in the path to the ini file name are not present then the save will fail and may raise an exception.
 
-The ini file name is determined by both the _[IniRootDir](TPJWdwState-IniRootDir.md)_ and _[IniFileName](TPJWdwState-IniFileName.md)_ properties and the section within the ini file used to store window state data is stored is determined by the _[Section](TPJWdwState-Section.md)_ property.
+* ~>5.5
 
-Any _[OnGetIniDataEx](TPJWdwState-OnGetIniDataEx.md)_ or _[OnGetIniData](TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
+    The ini file name is determined by both the _[IniRootDir](TPJWdwState-IniRootDir.md)_ and _[IniFileName](TPJWdwState-IniFileName.md)_ properties and the section within the ini file used to store window state data is determined by the _[Section](TPJWdwState-Section.md)_ property.
 
-If any of the directories in the path to the ini file name are not present they will be created.
+    Any _[OnGetIniDataEx](TPJWdwState-OnGetIniDataEx.md)_ or _[OnGetIniData](TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
+
+    If any of the directories in the path to the ini file name are not present they will be created.

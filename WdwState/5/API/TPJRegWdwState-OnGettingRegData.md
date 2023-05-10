@@ -6,7 +6,7 @@
 
 **Class:** _[TPJRegWdwState](./TPJRegWdwState.md)_
 
-**Introduced:** v5.1
+**Applies to:** ~>5.1
 
 ```pascal
 type
@@ -23,4 +23,4 @@ _OnGettingRegData_ allows the user to read additional registry data when the com
 
 The event is triggered just after the window's state information is read from the registry. The event makes available a reference to the _TRegistry_ object used to read the data. This object can be used to read any additional application defined information from the registry.
 
-For example, the size of some controls that appear on the main form may be read. Such data will have been written using the _[OnPuttingRegData](./TPJRegWdwState-OnPuttingRegData.md)_ **<sup>v5.1</sup>** event.
+For example, the size of some controls that appear on the main form may be read. Such data will have been written using the _[OnPuttingRegData](./TPJRegWdwState-OnPuttingRegData.md)_ [~>5.1] event.

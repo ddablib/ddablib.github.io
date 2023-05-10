@@ -6,7 +6,7 @@
 
 **Class:** _[TPJRegWdwState](./TPJRegWdwState.md)_
 
-**Introduced:** v5.6
+**Applies to:** ~>5.6
 
 ```pascal
 type
@@ -19,11 +19,11 @@ property OnGetRegDataEx: TPJWdwStateGetRegDataEx;
 
 ## Description
 
-This event is triggered just before the registry is read when restoring and saving a window. The current values of the _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>5.6</sup>** and _[SubKey](./TPJRegWdwState-SubKey.md)_ properties are passed as var parameters of the same name to the event handler, allowing the user to change the values, and hence the location within the registry where the window data is recorded.
+This event is triggered just before the registry is read when restoring and saving a window. The current values of the _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_ [~>5.6] and _[SubKey](./TPJRegWdwState-SubKey.md)_ properties are passed as var parameters of the same name to the event handler, allowing the user to change the values, and hence the location within the registry where the window data is recorded.
 
-The _RootKeyEx_ parameter can be set to any of the values from the _[TPJRegRootKey](./TPJRegRootKey.md)_**<sup>v5.5</sup>** enumeration.
+The _RootKeyEx_ parameter can be set to any of the values from the _[TPJRegRootKey](./TPJRegRootKey.md)_ [~>5.6] enumeration.
 
-The purpose of the event is to enable the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property to be used without setting the _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>5.6</sup>** and _[SubKey](./TPJRegWdwState-SubKey.md)_ properties at design time  - i.e. handling the event allows either or both of the default _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>5.6</sup>** and _[SubKey](./TPJRegWdwState-SubKey.md)_ values to be overridden.
+The purpose of the event is to enable the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property to be used without setting the _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_ [~>5.6] and _[SubKey](./TPJRegWdwState-SubKey.md)_ properties at design time  - i.e. handling the event allows either or both of the default _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_ [~>5.6] and _[SubKey](./TPJRegWdwState-SubKey.md)_ values to be overridden.
 
 ### Alternative Event
 

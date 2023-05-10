@@ -6,6 +6,8 @@
 
 **Class:** _[TPJWdwState](./TPJWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 property Section: string;
 ```

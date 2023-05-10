@@ -6,7 +6,7 @@
 
 **Class:** _[TPJWdwState](./TPJWdwState.md)_
 
-**Introduced:** v5.5
+**Applies to:** ~>5.5
 
 ```pascal
 type

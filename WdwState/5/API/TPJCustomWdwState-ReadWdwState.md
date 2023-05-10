@@ -6,6 +6,8 @@
 
 **Class:** _[TPJCustomWdwState](./TPJCustomWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 procedure ReadWdwState(
   var Left, Top, Width, Height, State: Integer

@@ -6,7 +6,7 @@
 
 **Class:** _[TPJCustomWdwState](./TPJCustomWdwState.md)_
 
-**Introduced:** v5.4
+**Applies to:** ~>5.4
 
 ```pascal
 property OnAfterWindowSized: TNotifyEvent;
@@ -20,4 +20,4 @@ Handle this event if you need to determine the _normal_ size and position of the
 
 ## See Also
 
-* _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_ **<sup>v5.4</sup>**
+* _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_ [~>5.4]

@@ -6,6 +6,8 @@
 
 **Class:** _[TPJWdwState](./TPJWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 procedure Restore;
 ```
@@ -20,14 +22,16 @@ If the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property is t
 
 ## Remarks
 
-### v5.4.2 and earlier
+The process used to determine what the ini file name to use changed at v5.5:
 
-The ini file name is determined by the _[IniFileName](./TPJWdwState-IniFileName.md)_ property and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
+* <5.5
 
-Any _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
+    The ini file name is determined by the _[IniFileName](./TPJWdwState-IniFileName.md)_ property and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
 
-### v5.5.0 and later
+    Any _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
 
-The ini file name is determined by both the _[IniRootDir](./TPJWdwState-IniRootDir.md)_ and _[IniFileName](./TPJWdwState-IniFileName.md)_ properties and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
+* ~>5.5
 
-Any _[OnGetIniDataEx](./TPJWdwState-OnGetIniDataEx.md)_ or _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
+    The ini file name is determined by both the _[IniRootDir](./TPJWdwState-IniRootDir.md)_ and _[IniFileName](./TPJWdwState-IniFileName.md)_ properties and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
+
+    Any _[OnGetIniDataEx](./TPJWdwState-OnGetIniDataEx.md)_ or _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.

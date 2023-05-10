@@ -6,6 +6,8 @@
 
 **Class:** _[TPJUserWdwState](TPJUserWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 procedure SaveWdwState(
   const Left, Top, Width, Height, State: Integer

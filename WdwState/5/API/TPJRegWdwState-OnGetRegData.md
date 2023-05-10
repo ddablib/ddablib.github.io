@@ -6,6 +6,8 @@
 
 **Class:** _[TPJRegWdwState](./TPJRegWdwState.md)_
 
+**Applies to:** ~>5.0
+
 ```pascal
 type
   TPJWdwStateGetRegData = procedure(
@@ -25,6 +27,6 @@ The purpose of the event is to enable the _[AutoSaveRestore](./TPJCustomWdwState
 
 ### Alternative Event
 
-The _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** event provides an alternative way of to change the registry root- and sub-keys. It is similar to _OnGetRegData_ except that the root key is specified as one of the value from the _[TPJRegRootKey](./TPJRegRootKey.md)_**<sup>v5.6</sup>** enumeration.
+The _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_** [~>5.6] event provides an alternative way of to change the registry root- and sub-keys. It is similar to _OnGetRegData_ except that the root key is specified as one of the value from the _[TPJRegRootKey](./TPJRegRootKey.md)_ [~>5.6] enumeration.
 
-**Note:** You should choose which of _OnGetRegData_ and _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** to handle, but should not handle both events. If you do then _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** will be triggered and _OnGetRegData_ will be ignored.
+**Note:** You should choose which of _OnGetRegData_ and _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_ [~>5.6] to handle, but should not handle both events. If you do then _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_ [~>5.6] will be triggered and _OnGetRegData_ will be ignored.
