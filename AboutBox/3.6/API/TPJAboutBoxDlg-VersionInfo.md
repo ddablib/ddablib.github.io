@@ -14,7 +14,7 @@ property VersionInfo: TPJVersionInfo;
 
 This property allows information from a string information block in a program file's _VERSIONINFO_ resource to be displayed in the dialog box.
 
-To enable this to happen a [_TPJVersionInfo_](../../VerInfo/API/TPJVersionInfo.md) component must be placed on the form and this property must reference it. The _TPJVersionInfo_ component's [_FileName_](../../VerInfo/API/TPJVersionInfo-FileName.md) property must be set to the name of the executable file from which version information is to be extracted, or set to '' to get the version information of the parent executable file.
+To enable this to happen a [_TPJVersionInfo_](../../../VerInfo/3/API/TPJVersionInfo.md) component must be placed on the form and this property must reference it. The _TPJVersionInfo_ component's [_FileName_](../../../VerInfo/3/API/TPJVersionInfo-FileName.md) property must be set to the name of the executable file from which version information is to be extracted, or set to '' to get the version information of the parent executable file.
 
 The following table shows which version information string values are used, along with the properties whose values they replace:
 

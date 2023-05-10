@@ -1,4 +1,4 @@
-# [About Box Component](../AboutBox.md) Programmers' Guide
+# [About Box Component](../index.md) Programmers' Guide
 
 ## Introduction
 

@@ -1,4 +1,4 @@
-# [About Box Component](../AboutBox.md) Overview 
+# [About Box Component](../index.md) Overview 
 
 ## Description
 
@@ -18,7 +18,7 @@ The dialogue's position can be specified relative to the screen, desktop or pare
 
 ### Required component
 
-In order to compile, _TPJAboutBoxDlg_ requires that a DelphiDabbler [_Version Information Component_](../VerInfo/Overview.md) is installed.
+In order to compile, _TPJAboutBoxDlg_ requires that a DelphiDabbler [_Version Information Component_](../../VerInfo/index.md) is installed.
 
 ### Demo program
 

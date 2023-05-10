@@ -21,12 +21,12 @@ This documentation applies to About Box Component ~>3.6.
 
 ## Contents
 
-* [Overview](./AboutBox/Overview.md)
-* [Programmer's Guide](./AboutBox/API.md)
+* [Overview](./3.6/Overview.md)
+* [Programmer's Guide](./3.6/API.md)
 
 ## Links
 
 * Back to [Documentation Home Page](../index.md)
 * [About Box Component Web Page](https://delphidabbler.com/software/aboutbox)
-* [Downloads](https://sourceforge.net/projects/ddablib/files/aboutbox/)
+* [Releases](https://github.com/ddablib/aboutbox/releases)
 * [Source Code](https://github.com/ddablib/aboutbox)

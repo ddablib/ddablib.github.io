@@ -6,7 +6,7 @@
 
 This non-visual component encapsulates an About Box in a non-visual component. It is displayed by calling its [_Execute_](./TPJAboutBoxDlg-Execute.md) method. It has string properties to display five different pieces of information in the about box. They are: [_Copyright_](./TPJAboutBoxDlg-Copyright.md), [_Notes_](./TPJAboutBoxDlg-Notes.md), [_ProgramName_](./TPJAboutBoxDlg-ProgramName.md), [_Title_](./TPJAboutBoxDlg-Title.md) and [_Version_](./TPJAboutBoxDlg-Version.md).
 
-Alternatively, the about box can display information from a _VERSIONINFO_ resource included in a program file. This is achieved by setting the [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) property to reference a [_TPJVersionInfo_](../../VerInfo/API/TPJVersionInfo.md) component which extracts the required version information from an executable file.
+Alternatively, the about box can display information from a _VERSIONINFO_ resource included in a program file. This is achieved by setting the [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) property to reference a [_TPJVersionInfo_](../../../VerInfo/3/API/TPJVersionInfo.md) component which extracts the required version information from an executable file.
 
 The application's icon is displayed in the dialog box. This is the icon specified by the _Icon_ property of the _TApplication_ object. If no icon has been specified for the application then default Delphi icon is used.
 
@@ -42,7 +42,7 @@ The [_HelpContext_](./TPJAboutBoxDlg-HelpContext.md) property allows Windows Hel
 | [_UseOSStdFonts_](./TPJAboutBoxDlg-UseOSStdFonts.md) | Specifies whether the dialog box should use the system's default font. |
 | [_UseOwnerAsParent_](./TPJAboutBoxDlg-UseOwnerAsParent.md) | Determines if the dialog box should to be forced to be a child window of any owning control. |
 | [_Version_](./TPJAboutBoxDlg-Version.md) | The version number information to be displayed in the dialog box. |
-| [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) | Reference to any [_TPJVersionInfo_](../../VerInfo/API/TPJVersionInfo.md) component that provides the text displayed in the about box. |
+| [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) | Reference to any [_TPJVersionInfo_](../../../VerInfo/3/API/TPJVersionInfo.md) component that provides the text displayed in the about box. |
 
 ## Events
 
