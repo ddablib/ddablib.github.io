@@ -1,4 +1,4 @@
-# TPJWdwState #
+# TPJWdwState
 
 **Project:** [Window State Components](../API.md).
 
@@ -18,10 +18,10 @@ It is only possible to have one instance of a _TPJWdwState_ component on any one
 
 _TPJWdwState_ exposes the following methods, properties and events, some of which are inherited unchanged from _[TPJCustomWdwState](./TPJCustomWdwState.md)_.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Create](./TPJCustomWdwState-Create.md)_ | Class constructor that permits only one instance of the component to be placed on a form. |
 | _[CreateStandAlone](./TPJCustomWdwState-CreateStandAlone.md)_ | Class constructor for use when creating components at run time. |
 | _[IniFilePath](./TPJWdwState-IniFilePath.md)_**<sup>v5.5</sup>** | Returns the fully specified name of the ini file used to store window state information. |
@@ -30,10 +30,10 @@ _TPJWdwState_ exposes the following methods, properties and events, some of whic
 | _[Save](./TPJWdwState-Save.md)_ | Saves the size, position and state of the window to an ini file. |
 | _[SaveWdwState](./TPJWdwState-SaveWdwState.md)_ | Overridden method that writes a window's size, position and state to an ini file. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ | Determines whether the window's size, position and state is automatically restored on creation and stored on destruction. |
 | _[IgnoreState](./TPJCustomWdwState-IgnoreState.md)_ | Determines whether the window's saved state (maximised, normal or minimised) is applied on restoration. This property is deprecated - use the _[Options](./TPJCustomWdwState-Options.md)_ property instead. |
 | _[IniFileName](./TPJWdwState-IniFileName.md)_ | Determines the name of the ini file used to record window information. If this file name is relative then its root directory is given by the _[IniRootDir](./TPJWdwState-IniRootDir.md)_**<sup>v5.5</sup>** property. |
@@ -42,10 +42,10 @@ _TPJWdwState_ exposes the following methods, properties and events, some of whic
 | _[Options](./TPJCustomWdwState-Options.md)_ | Determines how the component interprets the window display data read from storage. |
 | _[Section](./TPJWdwState-Section.md)_ | Specifies the name of the section within an ini file to be used to store window information. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_**<sup>v5.4</sup>** | Event triggered after window has been restored and its state set. |
 | _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_**<sup>v5.4</sup>** | Event triggered after the window is sized but before it is physically restored. |
 | _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ | Event that allows user to change the name of the ini file and the section within it where window information is stored. |

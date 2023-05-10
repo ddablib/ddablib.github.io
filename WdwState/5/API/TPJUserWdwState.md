@@ -1,4 +1,4 @@
-# TPJUserWdwState #
+# TPJUserWdwState
 
 **Project:** [Window State Components](../API.md).
 
@@ -16,10 +16,10 @@ It is only possible to have one instance of a _TPJUserWdwState_ component on any
 
 _TPJUserWdwState_ exposes the following methods, properties and events, some of which are inherited unchanged from _[TPJCustomWdwState](./TPJCustomWdwState.md)_.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Create](./TPJCustomWdwState-Create.md)_ | Class constructor that permits only one instance of the component to be placed on a form. |
 | _[CreateStandAlone](./TPJCustomWdwState-CreateStandAlone.md)_ | Class constructor for use when creating components at run time. |
 | _[ReadWdwState](./TPJUserWdwState-ReadWdwState.md)_ | Overridden method that triggers the _[OnReadData](./TPJUserWdwState-OnReadData.md)_ event. |
@@ -27,19 +27,19 @@ _TPJUserWdwState_ exposes the following methods, properties and events, some of 
 | _[Save](./TPJUserWdwState-Save.md)_ | Saves the size, position and state of the window to user specified storage. |
 | _[SaveWdwState](./TPJUserWdwState-SaveWdwState.md)_ | Overridden method that triggers the _[OnSaveData](./TPJUserWdwState-OnSaveData.md)_ event. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ | Determines whether the window's size, position and state is automatically restored on creation and stored on destruction. |
 | _[IgnoreState](./TPJCustomWdwState-IgnoreState.md)_ | Determines whether the window's saved state (maximised, normal or minimised) is applied on restoration. This property is deprecated - use the _[Options](./TPJCustomWdwState-Options.md)_ property instead. |
 | _[MinimizeDelay](./TPJCustomWdwState-MinimizeDelay.md)_ | Sets the delay between displaying a normalised form on screen and minimising it if required. |
 | _[Options](./TPJCustomWdwState-Options.md)_ | Determines how the component interprets the window display data read from storage. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_**<sup>v5.4</sup>** | Event triggered after window has been restored and its state set. |
 | _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_**<sup>v5.4</sup>** | Event triggered after the window is sized but before it is physically restored. |
 | _[OnReadData](./TPJUserWdwState-OnReadData.md)_ | Event triggered when the component needs the user to read data from persistent storage. |

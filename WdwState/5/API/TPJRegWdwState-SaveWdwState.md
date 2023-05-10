@@ -1,4 +1,4 @@
-# SaveWdwState method #
+# SaveWdwState method
 
 **Project:** [Window State Components](../API.md).
 
@@ -12,7 +12,7 @@ procedure SaveWdwState(
 ); override;
 ```
 
-## Description ##
+## Description
 
 _SaveWdwState_ is used to write a window's size, position and state to the registry.
 

@@ -1,4 +1,4 @@
-# RootKey property #
+# RootKey property
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 property RootKey: HKEY;
 ```
 
-## Description ##
+## Description
 
 This property allows the user to specify the registry root key under which the window size, position and state information is recorded. The information is saved in a subkey of this root key determined by the _[SubKey](./TPJRegWdwState-SubKey.md)_ property. If _RootKey_ is set to an invalid _HKEY_ value an exception is raised. Valid values are:
 
@@ -30,7 +30,7 @@ The property defaults to `HKEY_CURRENT_USER`.
 
 **Note:** The registry root key can also be specified by handling _[OnGetRegData](./TPJRegWdwState-OnGetRegData.md)_ or _[OnGetRegDataEx](./TPJRegWdwState-OnGetRegDataEx.md)_**<sup>v5.6</sup>** events. If this is done then the value of _RootKey_ is ignored.
 
-### Alternative Property ###
+### Alternative Property
 
 The _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>** property provides an alternative way of setting the registry root key. Instead of taking an _HKEY_ value it takes a value from the _[TPJRegRootKey](./TPJRegRootKey.md)_**<sup>v5.6</sup>** enumeration, making it impossible to specify an invalid value.
 

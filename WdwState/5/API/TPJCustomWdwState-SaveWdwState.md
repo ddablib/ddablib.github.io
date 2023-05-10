@@ -1,4 +1,4 @@
-# SaveWdwState method #
+# SaveWdwState method
 
 **Project:** [Window State Components](../API.md).
 
@@ -12,7 +12,7 @@ procedure SaveWdwState(
 ); virtual; abstract;
 ```
 
-## Description ##
+## Description
 
 Protected method used to write a window's size, position and state to storage.
 

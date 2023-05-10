@@ -1,4 +1,4 @@
-# Restore method #
+# Restore method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Restore;
 ```
 
-## Description ##
+## Description
 
 This method restores the size and position of the owning form's window according to value saved in persistent storage. The _[OnReadData](./TPJUserWdwState-OnReadData.md)_ event is triggered by this method. The user must handle the event by reading and passing back the required window state data.
 

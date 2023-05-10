@@ -1,4 +1,4 @@
-# OnPuttingRegData event #
+# OnPuttingRegData event
 
 **Project:** [Window State Components](../API.md).
 
@@ -17,7 +17,7 @@ type
 property OnPuttingRegData: TPJWdwStateRegAccessEvent;
 ```
 
-## Description ##
+## Description
 
 _OnPuttingRegData_ allows user to write additional registry data when the component writes window state information.
 

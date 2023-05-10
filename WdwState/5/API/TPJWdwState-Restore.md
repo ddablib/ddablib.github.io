@@ -1,4 +1,4 @@
-# Restore method #
+# Restore method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Restore;
 ```
 
-## Description ##
+## Description
 
 This method restores the size and position of the owning form's window according to value saved in a specified section of an ini file. If the ini file or section do not exist then this method has no effect.
 
@@ -18,15 +18,15 @@ Various values of the _[Options](./TPJCustomWdwState-Options.md)_ property may c
 
 If the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property is true _Restore_ is called automatically when the window is created.
 
-## Remarks ##
+## Remarks
 
-### v5.4.2 and earlier ###
+### v5.4.2 and earlier
 
 The ini file name is determined by the _[IniFileName](./TPJWdwState-IniFileName.md)_ property and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
 
 Any _[OnGetIniData](./TPJWdwState-OnGetIniData.md)_ event handler can override any of these property values.
 
-### v5.5.0 and later ###
+### v5.5.0 and later
 
 The ini file name is determined by both the _[IniRootDir](./TPJWdwState-IniRootDir.md)_ and _[IniFileName](./TPJWdwState-IniFileName.md)_ properties and the section within it that contains the window state data is determined by the _[Section](./TPJWdwState-Section.md)_ property.
 

@@ -1,4 +1,4 @@
-# OnReadWdwState event #
+# OnReadWdwState event
 
 **Project:** [Window State Components](../API.md).
 
@@ -15,7 +15,7 @@ type
 property OnReadWdwState: TPJWdwStateReadEvent;
 ```
 
-## Description ##
+## Description
 
 This event is triggered just after the window placement, size and state data is read from storage but before displaying the window. The data can be modified in the event handler before the window is displayed, enabling the size, placement and state of the window to be changed.
 

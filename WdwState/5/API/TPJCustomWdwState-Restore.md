@@ -1,4 +1,4 @@
-# Restore method #
+# Restore method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Restore;
 ```
 
-## Description ##
+## Description
 
 This method restores the size, position and state of the owning form's window according to saved values.
 

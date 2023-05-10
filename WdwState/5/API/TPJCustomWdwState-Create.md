@@ -1,4 +1,4 @@
-# Create method #
+# Create method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 constructor Create(AOwner: TComponent);
 ```
 
-## Description ##
+## Description
 
 This class constructor permits only one instance of a component derived from _TPJCustomWdwState_ to be placed on a form at any one time. This restriction is enforced since it makes no sense to have more that one component saving and restoring the window's size, position and state.
 

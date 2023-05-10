@@ -1,4 +1,4 @@
-# AutoSaveRestore property #
+# AutoSaveRestore property
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 property AutoSaveRestore: Boolean;
 ```
 
-## Description ##
+## Description
 
 Determines whether the window's size, position and state is automatically restored on creation and stored on destruction.
 

@@ -1,4 +1,4 @@
-# IniRootDir property #
+# IniRootDir property
 
 **Project:** [Window State Components](../API.md).
 
@@ -17,25 +17,24 @@ type
 property IniRootDir: TPJWdwStateIniRootDir;
 ```
 
-## Description ##
+## Description
 
 This property determines the root directory to be used for any relative ini file name specified by the _[IniFileName](./TPJWdwState-IniFileName.md)_ property.
 
 Possible values are:
 
 | Value | Notes |
-|:---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:------|:------|
 | `rdAppDataDir` | Places the ini file in a _sub-directory_ of the per user application directory, i.e. `%appdata%`. If the file name given by _[IniFileName](./TPJWdwState-IniFileName.md)_ does not specify the required sub-directory then the file is stored in the `%appdata%\DelphiDabbler\WindowStateStore` directory. |
 | `rdProgramDataDir` | Places the ini file in a _sub-directory_ of the common application data directory, i.e. `%programdata%`. If the file name given by _[IniFileName](./TPJWdwState-IniFileName.md)_ does not specify the required sub-directory then the file is stored in the `%programdata%\DelphiDabbler\WindowStateStore` directory. |
 | `rdExeDir` | Places the ini file in the same directory as the program's executable file. This option should not be used for programs stored in the _Program Files_ directory - see below. |
 | `rdWindowsDir` | Places the ini file in the Windows system directory, i.e. `%systemroot%`. This option should only be used for backwards compatibility with earlier versions of the component - see below. |
 
-
 In cases where _[IniFileName](./TPJWdwState-IniFileName.md)_ is an absolute path _IniRootDir_ is ignored.
 
 The full file path of the ini file can be found by calling the _[IniFilePath](./TPJWdwState-IniFilePath.md)_ method.
 
-## Remarks ##
+## Remarks
 
 The value of _IniRootDir_ can be overridden at run time if you handle either the _[OnGetIniDataEx](./TPJWdwState-OnGetIniDataEx.md)_ event. This can be useful when the _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ property is `True` and you want to specify the root directory at run time. In this case setting _IniRootDir_ at run time will not work because the form will be restored before you have an opportunity to change the property value. However the _[OnGetIniDataEx](./TPJWdwState-OnGetIniDataEx.md)_ event is triggered before the form restores, enabling the root directory to be specified.
 

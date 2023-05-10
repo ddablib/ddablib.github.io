@@ -1,4 +1,4 @@
-# IgnoreState property #
+# IgnoreState property
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 property IgnoreState: Boolean;
 ```
 
-## Description ##
+## Description
 
 **PROPERTY DEPRECATED**
 

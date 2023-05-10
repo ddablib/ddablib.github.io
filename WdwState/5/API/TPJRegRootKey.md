@@ -1,4 +1,4 @@
-# TPJRegRootKey type #
+# TPJRegRootKey type
 
 **Project:** [Window State Components](../API.md).
 
@@ -14,14 +14,14 @@ type
   );
 ```
 
-## Description ##
+## Description
 
 This enumerated type has an entry for each supported type of registry root key.
 
 Each value represents a value defined by one of the _HKEY\_xxx_ constants as follows:
 
-| **TPJRegRootKey value** | **HKEY constant** |
-|:------------------------|:------------------|
+| TPJRegRootKey value | HKEY constant |
+|:--------------------|:--------------|
 | `hkClassesRoot` | `HKEY_CLASSES_ROOT` |
 | `hkCurrentUser` | `HKEY_CURRENT_USER` |
 | `hkLocalMachine` | `HKEY_LOCAL_MACHINE` |

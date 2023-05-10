@@ -1,4 +1,4 @@
-# Section property #
+# Section property
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 property Section: string;
 ```
 
-## Description ##
+## Description
 
 This property names the section within the ini file in which the window's size, position and state information is recorded.
 

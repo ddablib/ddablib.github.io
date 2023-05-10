@@ -1,4 +1,4 @@
-# Save method #
+# Save method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Save;
 ```
 
-## Description ##
+## Description
 
 This method saves the state, size and position of the owning form's window to persistent storage. The _[OnSaveData](./TPJUserWdwState-OnSaveData.md)_ event is triggered by this method. The user must handle the event by saving the provided window state data.
 

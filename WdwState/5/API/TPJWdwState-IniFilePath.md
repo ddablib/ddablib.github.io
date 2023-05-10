@@ -1,4 +1,4 @@
-# IniFilePath method #
+# IniFilePath method
 
 **Project:** [Window State Components](../API.md).
 
@@ -12,7 +12,7 @@
 function IniFilePath: string
 ```
 
-## Description ##
+## Description
 
 This method returns the fully specified file name of the ini file used to store window state information.
 

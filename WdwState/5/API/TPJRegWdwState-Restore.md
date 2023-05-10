@@ -1,4 +1,4 @@
-# Restore method #
+# Restore method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Restore;
 ```
 
-## Description ##
+## Description
 
 This method restores the size and position of the owning form's window according to value saved in a specified part of the Windows registry. The root and sub keys of the registry where the information is stored are specfied by the _[RootKey](./TPJRegWdwState-RootKey.md)_ or _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>**  and _[SubKey](./TPJRegWdwState-SubKey.md)_ properties. If the key does not exist in the registry then this method has no effect.
 

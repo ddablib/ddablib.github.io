@@ -1,4 +1,4 @@
-# CreateStandAlone method #
+# CreateStandAlone method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 constructor CreateStandAlone(AOwner: TForm);
 ```
 
-## Description ##
+## Description
 
 This constructor is used when creating instances of components dynamically at run time. It allows only one instance of a component derived from _TPJCustomWdwState_ to be created for any form. The _AOwner_ parameter must specify a valid owner form that is the window whose state is to be saved and restored. _AOwner_ must not be nil.
 

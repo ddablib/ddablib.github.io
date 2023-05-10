@@ -1,4 +1,4 @@
-# MinimizeDelay property #
+# MinimizeDelay property
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 property MinimizeDelay: Integer;
 ```
 
-## Description ##
+## Description
 
 Sets the delay between displaying a normalised form on screen and minimising it if required.
 

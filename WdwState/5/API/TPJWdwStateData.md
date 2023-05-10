@@ -1,4 +1,4 @@
-# TPJWdwStateData #
+# TPJWdwStateData
 
 **Project:** [Window State Components](../API.md).
 
@@ -15,14 +15,14 @@ type
   end;
 ```
 
-## Description ##
+## Description
 
 This record type collects together the window size, position and state data that must be saved to and read from persistent storage by the _[OnReadData](./TPJUserWdwState-OnReadData.md)_ and _[OnSaveData](./TPJUserWdwState-OnSaveData.md)_ events of the _[TPJUserWdwState](./TPJUserWdwState.md)_ component.
 
 The fields are as follows:
 
 | Field | Description |
-|:-------|:------------------------------------------------------------|
+|:------|:------------|
 | _Left_ | Position of left hand side of window in screen coordinates. |
 | _Top_ | Position of top of window in screen coordinates. |
 | _Width_ | Width of window in pixels. |

@@ -1,4 +1,4 @@
-# TPJRegWdwState #
+# TPJRegWdwState
 
 **Project:** [Window State Components](../API.md).
 
@@ -22,10 +22,10 @@ It is only possible to have one instance of a _TPJRegWdwState_ component on any 
 
 _TPJRegWdwState_ exposes the following methods, properties and events, some of which are inherited unchanged from _[TPJCustomWdwState](./TPJCustomWdwState.md)_.
 
-## Methods ##
+## Methods
 
-| **Method** | **Description** |
-|:-----------|:----------------|
+| Method | Description |
+|:-------|:------------|
 | _[Create](./TPJCustomWdwState-Create.md)_ | Class constructor that permits only one instance of the component to be placed on a form. |
 | _[CreateStandAlone](./TPJCustomWdwState-CreateStandAlone.md)_ | Class constructor for use when creating components at run time. |
 | _[ReadWdwState](./TPJRegWdwState-ReadWdwState.md)_ | Overridden method that reads a window's size, position and state from the registry. |
@@ -33,10 +33,10 @@ _TPJRegWdwState_ exposes the following methods, properties and events, some of w
 | _[Save](./TPJRegWdwState-Save.md)_ | Saves the size, position and state of the window to the registry. |
 | _[SaveWdwState](./TPJRegWdwState-SaveWdwState.md)_ | Overridden method that writes a window's size, position and state to the registry. |
 
-## Properties ##
+## Properties
 
-| **Property** | **Description** |
-|:-------------|:----------------|
+| Property | Description |
+|:---------|:------------|
 | _[AutoSaveRestore](./TPJCustomWdwState-AutoSaveRestore.md)_ | Determines whether the window's size, position and state is automatically restored on creation and stored on destruction. |
 | _[IgnoreState](./TPJCustomWdwState-IgnoreState.md)_ | Determines whether the window's saved state (maximised, normal or minimised) is applied on restoration. This property is deprecated - use the _[Options](./TPJCustomWdwState-Options.md)_ property instead. |
 | _[MinimizeDelay](./TPJCustomWdwState-MinimizeDelay.md)_ | Sets the delay between displaying a normalised form on screen and minimising it if required. |
@@ -45,10 +45,10 @@ _TPJRegWdwState_ exposes the following methods, properties and events, some of w
 | _[RootKeyEx](./TPJRegWdwState-RootKeyEx.md)_**<sup>v5.6</sup>** | Similar to _[RootKey](./TPJRegWdwState-RootKey.md)_ except that instead of taking an _HKEY_ value it takes a value from the _[TPJRegRootKey](./TPJRegRootKey.md)_**<sup>v5.6</sup>** enumeration. |
 | _[SubKey](./TPJRegWdwState-SubKey.md)_ | Determines the registry sub key under which the window's size, position and state information is stored. |
 
-## Events ##
+## Events
 
-| **Event** | **Description** |
-|:----------|:----------------|
+| Event | Description |
+|:------|:------------|
 | _[OnAfterWindowRestored](./TPJCustomWdwState-OnAfterWindowRestored.md)_**<sup>v5.4</sup>** | Event triggered after window has been restored and its state set. |
 | _[OnAfterWindowSized](./TPJCustomWdwState-OnAfterWindowSized.md)_**<sup>v5.4</sup>** | Event triggered after the window is sized but before it is physically restored. |
 | _[OnGetRegData](./TPJRegWdwState-OnGetRegData.md)_ | Event that allows user to change the registry key where window information is stored. The registry root key is specified by it _HKEY_ value. |

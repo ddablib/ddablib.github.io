@@ -1,4 +1,4 @@
-# OnGettingRegData event #
+# OnGettingRegData event
 
 **Project:** [Window State Components](../API.md).
 
@@ -17,7 +17,7 @@ type
 property OnGettingRegData: TPJWdwStateRegAccessEvent;
 ```
 
-## Description ##
+## Description
 
 _OnGettingRegData_ allows the user to read additional registry data when the component reads window state information.
 

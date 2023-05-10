@@ -1,4 +1,4 @@
-# ReadWdwState method #
+# ReadWdwState method
 
 **Project:** [Window State Components](../API.md).
 
@@ -12,7 +12,7 @@ procedure ReadWdwState(
 ); override;
 ```
 
-## Description ##
+## Description
 
 _ReadWdwState_ is used  used to read a window's size, position and state from the registry.
 

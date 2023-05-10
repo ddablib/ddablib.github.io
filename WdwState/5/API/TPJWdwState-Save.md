@@ -1,4 +1,4 @@
-# Save method #
+# Save method
 
 **Project:** [Window State Components](../API.md).
 
@@ -10,7 +10,7 @@
 procedure Save;
 ```
 
-## Description ##
+## Description
 
 This method saves the state, size and position of the owning form's window in an ini file.
 
@@ -20,9 +20,9 @@ For MDI child forms the window's top and left coordinates are relative to the MD
 
 If the _[AutoSaveRestore](TPJCustomWdwState-AutoSaveRestore.md)_ property is true then _Save_ is called automatically when the window is destroyed.
 
-## Remarks ##
+## Remarks
 
-### v5.4.2 and earlier ###
+### v5.4.2 and earlier
 
 The ini file name is determined by the _[IniFileName](TPJWdwState-IniFileName.md)_ property and the section within it used to store window state data is stored is determined by the _[Section](TPJWdwState-Section.md)_ property.
 
@@ -30,7 +30,7 @@ Any _[OnGetIniData](TPJWdwState-OnGetIniData.md)_ event handler can override any
 
 If any of the directories in the path to the ini file name are not present then the save will fail and may raise an exception.
 
-### v5.5.0 and later ###
+### v5.5.0 and later
 
 The ini file name is determined by both the _[IniRootDir](TPJWdwState-IniRootDir.md)_ and _[IniFileName](TPJWdwState-IniFileName.md)_ properties and the section within the ini file used to store window state data is stored is determined by the _[Section](TPJWdwState-Section.md)_ property.
 
