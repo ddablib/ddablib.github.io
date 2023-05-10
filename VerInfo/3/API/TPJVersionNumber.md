@@ -25,6 +25,27 @@ Common uses for these fields are shown in the comments in the record definition 
 
 When compiled with Delphi 2006 and later _TPJVersionNumber_ has some additional functionality. This functionality depends on the availability of advanced records, which were introduced with Delphi 2006.
 
+The revised record declaration is:
+
+```pascal
+// ~>3.3 version of TPJVersionNumber
+TPJVersionNumber = record
+  V1: Word;   // Major version number
+  V2: Word;   // Minor version number
+  V3: Word;   // Revision version number
+  V4: Word;   // Build number
+  {$IFDEF Supports_AdvancedRecords} // Delphi 2006 & later
+  class operator Implicit(Ver: TPJVersionNumber): string;
+  class operator LessThanOrEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator LessThan(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator GreaterThan(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator GreaterThanOrEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator Equal(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator NotEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  {$ENDIF}
+end;
+```
+
 #### String Assignment
 
 A _TPJVersionNumber_ record can be assigned to a string variable. The version number is stored in the string as a dotted quad.
