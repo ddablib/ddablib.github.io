@@ -1,5 +1,7 @@
 # Example 2: Using the _FixedFileInfo_ property
 
+**Applies to:** ~>3.0
+
 This extended example shows how to use the _[FixedFileInfo](../API/TPJVersionInfo-FixedFileInfo.md)_ property. It displays descriptions of the values of some of the fields of the structure returned by the _FixedFileInfo_ property in a memo. Most of the example is taken up with code that maps fixed file info codes onto descriptive names. The real meat of the example comes in the form creation event handler at the end of the code.
 
 A [similar example](./Example1.md) shows how to achieve the same results using various specialised fixed file information properties.

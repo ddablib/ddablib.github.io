@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJVersionInfo_
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This class defines a non-visual component that exposes version resource information contained in an executable file.

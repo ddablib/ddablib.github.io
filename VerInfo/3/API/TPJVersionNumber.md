@@ -4,6 +4,8 @@
 
 ***Unit:*** _PJVersionInfo_
 
+**Applies to:** ~>3.0
+
 ```pascal
 TPJVersionNumber = record
   V1: Word;   // Major version number
@@ -19,9 +21,30 @@ _V1_ represents the most significant version number and _V4_ represents the leas
 
 Common uses for these fields are shown in the comments in the record definition above.
 
-### Enhanced Functionality [v3.3]
+### Enhanced Functionality [~>3.3]
 
 When compiled with Delphi 2006 and later _TPJVersionNumber_ has some additional functionality. This functionality depends on the availability of advanced records, which were introduced with Delphi 2006.
+
+The revised record declaration is:
+
+```pascal
+// ~>3.3 version of TPJVersionNumber
+TPJVersionNumber = record
+  V1: Word;   // Major version number
+  V2: Word;   // Minor version number
+  V3: Word;   // Revision version number
+  V4: Word;   // Build number
+  {$IFDEF Supports_AdvancedRecords} // Delphi 2006 & later
+  class operator Implicit(Ver: TPJVersionNumber): string;
+  class operator LessThanOrEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator LessThan(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator GreaterThan(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator GreaterThanOrEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator Equal(Ver1, Ver2: TPJVersionNumber): Boolean;
+  class operator NotEqual(Ver1, Ver2: TPJVersionNumber): Boolean;
+  {$ENDIF}
+end;
+```
 
 #### String Assignment
 
@@ -45,7 +68,7 @@ end;
 
 You cannot reverse this assignment - a string cannot be assigned to a _TPJVersionNumber_ record.
 
-Users of Delphi 2005 and earlier can use the [_VerNumToStr_](./Routines.md#vernumtostr) routine to convert a _TPJVersionNumber_ to a string.
+Users of Delphi 2005 and earlier can use the [_VerNumToStr_](./Routines.md#vernumtostr) [~>3.3] routine to convert a _TPJVersionNumber_ to a string.
 
 #### Operator Overloads
 
@@ -77,4 +100,4 @@ begin
 end;
 ```
 
-Users of Delphi 2005 and earlier can use the [_CompareVerNums_](./Routines.md#comparevernums) routine to compare two version numbers.
+Users of Delphi 2005 and earlier can use the [_CompareVerNums_](./Routines.md#comparevernums) [~>3.3] routine to compare two version numbers.

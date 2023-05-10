@@ -1,5 +1,7 @@
 # [Version Information Component](../index.md) Overview
 
+**Applies to:** ~>3.0
+
 This project contains a component, [_TPJVersionInfo_](./API/TPJVersionInfo.md), which is a non-visual component that reads any version information contained in a 32 bit or 64 bit Windows executable file.
 
 The component reads information from a designated file's [VERSIONINFO resource](https://learn.microsoft.com/en-gb/windows/win32/menurc/versioninfo-resource). 

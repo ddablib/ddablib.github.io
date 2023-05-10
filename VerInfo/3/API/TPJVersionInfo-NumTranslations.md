@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJVersionInfo_](./TPJVersionInfo.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 property NumTranslations: Integer;
 ```

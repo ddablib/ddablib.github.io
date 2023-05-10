@@ -1,5 +1,7 @@
 # [Version Information Component](../index.md) Examples
 
+**Applies to:** ~>3.0
+
 The following examples of using the [Version Information Component](../index.md) are available:
 
 * [Example 1](./Examples/Example1.md) - Using the various fixed file information properties
