@@ -24,6 +24,7 @@ Documentation of the following projects has been completed:
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
 | Shell Folders Unit |  <https://lib-docs.delphidabbler.com/ShellFolders/> |
 | System Information Unit | <https://lib-docs.delphidabbler.com/SysInfo/> |
+| Version Information Component | <https://lib-docs.delphidabbler.com/VerInfo/> |
 | Window State Components | <https://lib-docs.delphidabbler.com/WdwState/> |
 
 Documentation of the following, unreleased, project is under construction:
