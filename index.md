@@ -21,7 +21,7 @@ The library currently contains the following projects, all originally published 
 | [Shell Folders Unit](./ShellFolders/index.md) | Components, classes and routines to assist in working with shell folders. Includes a "Browse for Folder" dialogue box. |
 | [Stream Extension Classes](./Docs/Streams.md) | Classes that provide a means to wrap _TStream_ objects. Also provides implementations of the _IStream_ interface. |
 | [System Information Unit](./SysInfo/index.md/) | Static classes that get information about the user's computer and operating system.  |
-| [Version Information Component](./Docs/VerInfo.md) | Component that accesses version information embedded in program files, DLLs etc. |
+| [Version Information Component](./VerInfo/index.md) | Component that accesses version information embedded in program files, DLLs etc. |
 | [Window State Components](./WdwState/index.md) | Three components that save and restore window size, state and position using ini files, the registry or user-defined storage. |
 
 Each library project has its own source code repository on [GitHub](https://github.com/ddablib).

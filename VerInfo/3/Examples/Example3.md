@@ -33,7 +33,7 @@ end;
 
 When the form is displayed details of languages and character sets for each translation are displayed in the list box.
 
-**Links:**
+## Links
 
 * Back to the [Examples List](../Examples.md)
-* Back to the [Main Component Page](../../VerInfo.md)
+* Back to the [Main Component Page](../../index.md)

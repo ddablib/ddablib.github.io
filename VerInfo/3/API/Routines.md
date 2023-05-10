@@ -16,7 +16,7 @@ function VerNumToStr(const Ver: TPJVersionNumber): string;
 
 ### VerNumToStr description
 
-Converts the given [_TPJVersionNumber_](TPJVersionNumber.md) record into a dotted quad string and returns it.
+Converts the given [_TPJVersionNumber_](./TPJVersionNumber.md) record into a dotted quad string and returns it.
 
 ### VerNumToStr example
 
@@ -38,7 +38,7 @@ end;
 
 ### VerNumToStr remarks
 
-Users of Delphi 2006 and later can simply assign a [_TPJVersionNumber_](TPJVersionNumber.md) record to a string to get exactly the same effect. There is never any need to call _VerNumToStr_.
+Users of Delphi 2006 and later can simply assign a [_TPJVersionNumber_](./TPJVersionNumber.md) record to a string to get exactly the same effect. There is never any need to call _VerNumToStr_.
 
 ## CompareVerNums
 

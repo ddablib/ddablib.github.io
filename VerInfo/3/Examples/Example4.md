@@ -109,7 +109,7 @@ end;
 
 When the first button is clicked the memo is populated with string information extracted from the Windows Calculator program while clicking the second button uses a different method to extract and displays string information about the NotePad program.
 
-**Links:**
+## Links
 
 * Back to the [Examples List](../Examples.md)
-* Back to the [Main Component Page](../../VerInfo.md)
+* Back to the [Main Component Page](../../index.md)

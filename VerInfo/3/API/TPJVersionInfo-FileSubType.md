@@ -22,30 +22,30 @@ The value of _FileSubType_ depends on the file type identified by the [_FileType
 
 When [_FileType_](./TPJVersionInfo-FileType.md) has value `VFT_FONT` (a font file) then valid values of _FileSubType_ are:
 
-Flag                 | Description
----------------------|-------------
-`VFT2_UNKNOWN`       | Font type is unknown.
-`VFT2_FONT_RASTER`   | A raster font.
-`VFT2_FONT_VECTOR`   | A vector font.
-`VFT2_FONT_TRUETYPE` | A TrueType font.
+| Flag                 | Description |
+|:---------------------|:------------|
+| `VFT2_UNKNOWN`       | Font type is unknown. |
+| `VFT2_FONT_RASTER`   | A raster font. |
+| `VFT2_FONT_VECTOR`   | A vector font. |
+| `VFT2_FONT_TRUETYPE` | A TrueType font. |
 
 ### Device Drivers
 
 When [_FileType_](./TPJVersionInfo-FileType.md) has value `VFT_DRV` (a device driver) then _FileSubType_ can take one of the following values:
 
-Flag                   | Description
------------------------|-------------
-`VFT2_UNKNOWN`         | Driver type is unknown.
-`VFT2_DRV_PRINTER`     | Printer driver.
-`VFT2_DRV_KEYBOARD`    | Keyboard driver.
-`VFT2_DRV_LANGUAGE`    | Language driver.
-`VFT2_DRV_DISPLAY`     | Display driver.
-`VFT2_DRV_MOUSE`       | Mouse driver.
-`VFT2_DRV_NETWORK`     | Network driver.
-`VFT2_DRV_SYSTEM`      | System driver.
-`VFT2_DRV_INSTALLABLE` | Installable driver.
-`VFT2_DRV_SOUND`       | Sound driver.
-`VFT2_DRV_COMM`        | Communications driver.
+| Flag                   | Description |
+|:-----------------------|:------------|
+| `VFT2_UNKNOWN`         | Driver type is unknown. |
+| `VFT2_DRV_PRINTER`     | Printer driver. |
+| `VFT2_DRV_KEYBOARD`    | Keyboard driver. |
+| `VFT2_DRV_LANGUAGE`    | Language driver. |
+| `VFT2_DRV_DISPLAY`     | Display driver. |
+| `VFT2_DRV_MOUSE`       | Mouse driver. |
+| `VFT2_DRV_NETWORK`     | Network driver. |
+| `VFT2_DRV_SYSTEM`      | System driver. |
+| `VFT2_DRV_INSTALLABLE` | Installable driver. |
+| `VFT2_DRV_SOUND`       | Sound driver. |
+| `VFT2_DRV_COMM`        | Communications driver. |
 
 ### Virtual Device Drivers
 
