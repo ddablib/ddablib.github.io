@@ -16,4 +16,4 @@ The _Version_ property defines the version number (or other text) to appear on t
 
 The default value of this property is an empty string, which displays nothing.
 
-Note: If the [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) property is not nil then _Version_ is ignored.
+**Note**: If the [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) property is not nil then _Version_ is ignored.

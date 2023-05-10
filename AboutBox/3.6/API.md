@@ -22,7 +22,7 @@ This section of the _About Box Component_ documentation describes the API expose
 ### Enumerated Types 
 
 | Type | Descriptions |
-|------|--------------|
+|:-----|:-------------|
 | _TPJAboutBtnPlacing_ | Determines horizontal placement of OK button in about dialog. This is the type of the [_ButtonPlacing_](./API/TPJAboutBoxDlg-ButtonPlacing.md) property. |
 | _TPJAboutBtnKinds_ | Determines caption of about dialog's OK button. This is the type of the [_ButtonKind_](./API/TPJAboutBoxDlg-ButtonKind.md) property. |
 | _TPJAboutBtnGlyphs_ | Determines what, if any, glyph is displayed on about dialog's OK button. This is the type of the [_ButtonGlyph_](./API/TPJAboutBoxDlg-ButtonGlyph.md) property. |

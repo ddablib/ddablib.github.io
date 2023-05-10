@@ -17,13 +17,13 @@ The [_HelpContext_](./TPJAboutBoxDlg-HelpContext.md) property allows Windows Hel
 ## Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Execute_](./TPJAboutBoxDlg-Execute.md) | Displays the about box. |
 
 ## Properties
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_ButtonGlyph_](./TPJAboutBoxDlg-ButtonGlyph.md) | Determines which, if any, glyph is displayed on the dialog's close button. |
 | [_ButtonHeight_](./TPJAboutBoxDlg-ButtonHeight.md) | Specifies the height of the dialog's close button. |
 | [_ButtonKind_](./TPJAboutBoxDlg-ButtonKind.md) | Determines the text displayed on the dialog's close button. |

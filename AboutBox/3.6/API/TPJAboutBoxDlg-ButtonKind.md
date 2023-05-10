@@ -19,7 +19,7 @@ type TPJAboutBtnKinds = (
 The About box contains one button which is used to close the dialog box. The button can display different text to indicate its use. The _ButtonKind_ property is used to determine which text to display. Valid values for the property and their meanings are as follows:
 
 |   Value   |   Text   |
-|-----------|----------|
+|:----------|:---------|
 | _abkOK_ | `OK` |
 | _abkDone_ | `Done` |
 | _abkClose_ | `Close` |

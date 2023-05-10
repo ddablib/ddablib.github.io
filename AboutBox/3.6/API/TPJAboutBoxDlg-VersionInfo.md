@@ -19,7 +19,7 @@ To enable this to happen a [_TPJVersionInfo_](../../../VerInfo/3/API/TPJVersionI
 The following table shows which version information string values are used, along with the properties whose values they replace:
 
 | _VERSIONINFO_ string  | Replaces property |
-|-----------------------|-------------------|
+|:----------------------|:------------------|
 | ProductName | [_ProgramName_](./TPJAboutBoxDlg-ProgramName.md) |
 | ProductVersion | [_Version_](./TPJAboutBoxDlg-Version.md) |
 | LegalCopyright | [_Copyright_](./TPJAboutBoxDlg-Copyright.md) |
