@@ -50,7 +50,7 @@ _OriginalFileName_ | Returns the 'OriginalFileName' string file information stri
 | _PrivateBuild_ | Returns the 'PrivateBuild' string file information string. This property is an alias for [_StringFileInfo[`'PrivateBuild'`]_](./TPJVersionInfo-StringFileInfo.md). |
 | _ProductName_ | Returns the 'ProductName' string file information string. This property is an alias for [_StringFileInfo[`'ProductName'`]_](./TPJVersionInfo-StringFileInfo.md). |
 | _ProductVersion_ | Returns the 'ProductVersion' string file information string. This property is an alias for [_StringFileInfo[`'ProductVersion'`]_](./TPJVersionInfo-StringFileInfo.md). |
-| [_ProductVersionNumber_](./TPJVersionInfo-ProductVersionNumber.md) | Gets the version number of the product to which a file relates as a [TPJVersionNumber](./TPJVersionNumber.md) record. |
+| [_ProductVersionNumber_](./TPJVersionInfo-ProductVersionNumber.md) | Gets the version number of the product to which a file relates as a [_TPJVersionNumber_](./TPJVersionNumber.md) record. |
 | _SpecialBuild_ | Returns the 'SpecialBuild' string file information string. This property is an alias for [_StringFileInfo[`'SpecialBuild'`]_](./TPJVersionInfo-StringFileInfo.md). |
 | [_StringFileInfo_](./TPJVersionInfo-StringFileInfo.md) | String indexed array property that returns the value of string information with the given name. |
 

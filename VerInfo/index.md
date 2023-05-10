@@ -29,5 +29,5 @@ This documentation applies to Version Information Component v3.
 
 * Back to [Documentation Home Page](../index.md)
 * [Version Information Component web page](https://delphidabbler.com/software/verinfo).
-* [Downloads](https://github.com/ddablib/verinfo/releases) -- Download current version here.
-* [Source code](https://github.com/ddablib/verinfo) -- Current development tree.
+* [Releases](https://github.com/ddablib/verinfo/releases)
+* [Source code](https://github.com/ddablib/verinfo)
