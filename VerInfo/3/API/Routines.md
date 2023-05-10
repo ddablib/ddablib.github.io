@@ -8,7 +8,7 @@ These functions are provided mainly for users of Delphi 2005 and earlier who don
 
 ## VerNumToStr
 
-***Introduced:*** v3.3
+**Applies to:** ~>3.3
 
 ```pascal
 function VerNumToStr(const Ver: TPJVersionNumber): string;
@@ -42,7 +42,7 @@ Users of Delphi 2006 and later can simply assign a [_TPJVersionNumber_](./TPJVer
 
 ## CompareVerNums
 
-***Introduced:*** v3.3
+**Applies to:** ~>3.3
 
 ```pascal
 function CompareVerNums(const Ver1, Ver2: TPJVersionNumber): Integer;
