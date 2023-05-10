@@ -1,4 +1,4 @@
-# [Version Information Component](../index.md) Examples #
+# [Version Information Component](../index.md) Examples
 
 The following examples of using the [Version Information Component](../index.md) are available:
 
