@@ -150,4 +150,4 @@ end;
 **Links:**
 
 * Back to the [Examples List](../Examples.md)
-* Back to the [Main Component Page](../../VerInfo.md)
+* Back to the [Main Component Page](../../index.md)

@@ -1,4 +1,4 @@
-# [Version Information Component](../VerInfo.md) Programmers Guide
+# [Version Information Component](../index.md) Programmers Guide
 
 ## Introduction
 

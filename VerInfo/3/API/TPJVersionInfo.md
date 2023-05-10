@@ -8,7 +8,7 @@
 
 This class defines a non-visual component that exposes version resource information contained in an executable file.
 
-The component reads information from the file's [_VERSIONINFO_](http://msdn.microsoft.com/en-us/library/aa381058) resource. If the file has no such resource then the component returns no information. Use the [_HaveInfo_](./TPJVersionInfo-HaveInfo.md) property to find whether the component has been able to get version information from the file.
+The component reads information from the file's [VERSIONINFO resource](https://learn.microsoft.com/en-gb/windows/win32/menurc/versioninfo-resource). If the file has no such resource then the component returns no information. Use the [_HaveInfo_](./TPJVersionInfo-HaveInfo.md) property to find whether the component has been able to get version information from the file.
 
 The file from which resource information is gleaned is determined by the [_FileName_](./TPJVersionInfo-FileName.md) property. This is the only design-time property added by this component. Other properties are available at run time only and are used to manipulate and read the version information.
 

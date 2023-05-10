@@ -1,8 +1,8 @@
-# [Version Information Component](../VerInfo.md) Overview
+# [Version Information Component](../index.md) Overview
 
 This project contains a component, [_TPJVersionInfo_](./API/TPJVersionInfo.md), which is a non-visual component that reads any version information contained in a 32 bit or 64 bit Windows executable file.
 
-The component reads information from a designated file's [_VERSIONINFO_](http://msdn.microsoft.com/en-us/library/aa381058) resource. The required file is specified in the component's [_FileName_](./API/TPJVersionInfo-FileName.md) property. Setting [_FileName_](./API/TPJVersionInfo-FileName.md) to the empty string fetches version information for the executable file containing the component. The boolean [_HaveInfo_](./API/TPJVersionInfo-HaveInfo.md) property indicates whether the file contains version information. This component can access variable file information for each language provided in the resource.
+The component reads information from a designated file's [VERSIONINFO resource](https://learn.microsoft.com/en-gb/windows/win32/menurc/versioninfo-resource). The required file is specified in the component's [_FileName_](./API/TPJVersionInfo-FileName.md) property. Setting [_FileName_](./API/TPJVersionInfo-FileName.md) to the empty string fetches version information for the executable file containing the component. The boolean [_HaveInfo_](./API/TPJVersionInfo-HaveInfo.md) property indicates whether the file contains version information. This component can access variable file information for each language provided in the resource.
 
 Run-time properties enable access to to version information. Properties enable:
 
