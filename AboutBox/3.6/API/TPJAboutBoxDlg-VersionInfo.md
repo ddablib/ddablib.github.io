@@ -6,6 +6,8 @@
 
 **Class:** [_TPJAboutBoxDlg_](./TPJAboutBoxDlg.md)
 
+**Applies to:** ~>3.6
+
 ```pascal
 property VersionInfo: TPJVersionInfo;
 ```

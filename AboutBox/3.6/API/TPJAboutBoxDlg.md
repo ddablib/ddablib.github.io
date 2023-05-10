@@ -4,6 +4,8 @@
 
 **Unit:** _PJAbout_.
 
+**Applies to:** ~>3.6
+
 This non-visual component encapsulates an About Box in a non-visual component. It is displayed by calling its [_Execute_](./TPJAboutBoxDlg-Execute.md) method. It has string properties to display five different pieces of information in the about box. They are: [_Copyright_](./TPJAboutBoxDlg-Copyright.md), [_Notes_](./TPJAboutBoxDlg-Notes.md), [_ProgramName_](./TPJAboutBoxDlg-ProgramName.md), [_Title_](./TPJAboutBoxDlg-Title.md) and [_Version_](./TPJAboutBoxDlg-Version.md).
 
 Alternatively, the about box can display information from a _VERSIONINFO_ resource included in a program file. This is achieved by setting the [_VersionInfo_](./TPJAboutBoxDlg-VersionInfo.md) property to reference a [_TPJVersionInfo_](../../../VerInfo/3/API/TPJVersionInfo.md) component which extracts the required version information from an executable file.

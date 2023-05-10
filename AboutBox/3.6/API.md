@@ -1,5 +1,7 @@
 # [About Box Component](../index.md) Programmers' Guide
 
+**Applies to:** ~>3.6
+
 ## Introduction
 
 This section of the _About Box Component_ documentation describes the API exposed by the unit to programmers.

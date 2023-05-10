@@ -1,5 +1,7 @@
 # [About Box Component](../index.md) Overview 
 
+**Applies to:** ~>3.6
+
 ## Description
 
 > This page provides an overview of the features of the About Box Component. If you are looking for information on programming with the component please see the [Programmers' Guide](./API.md).
