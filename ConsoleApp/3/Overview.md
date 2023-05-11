@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../ConsoleApp.md) Overview
+# [Console Application Runner Classes](../index.md) Overview
 
 > This page provides an overview of the features of the Console Application Runner Classes. If you are looking for information on programming with the classes please see the [Programmers' Guide](./API.md).
 
@@ -29,6 +29,14 @@ Information about the running process can be read and a console application's ex
 If a console application fails to execute information about the error is provided.
 
 [_TPJConsoleApp_](./API/TPJConsoleApp.md) descends from [_TPJCustomConsoleApp_](./API/TPJCustomConsoleApp.md), which provides all the functionality of the derived class, except that all properties are protected. [_TPJCustomConsoleApp_](./API/TPJCustomConsoleApp.md) should be used if you need to create subclasses. Subclasses should make the required properties public.
+
+## Compatibility
+
+The unit can be compiled with any Delphi compiler from Delphi 7 through to 11.3. It is compatible with 32 bit and 64 bit Windows targets.
+
+The code is compatible with both the VCL and FMX frameworks.
+
+Non-Windows platforms are not supported due to the code's reliance on the Windows API.
 
 ## Links
 
