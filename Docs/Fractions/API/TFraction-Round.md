@@ -23,17 +23,17 @@ var
   F: TFraction;
 begin
   F := TFraction.Create(17, 3);
-  Assert(Trunc(F) = 6);
+  Assert(Round(F) = 6);
   F := TFraction.Create(-17, 3);
-  Assert(Trunc(F) = -6);
+  Assert(Round(F) = -6);
   F := TFraction.Create(-58, 7);
-  Assert(Trunc(F) = -8);
+  Assert(Round(F) = -8);
   F := TFraction.Create(3, 1);
-  Assert(Trunc(F) = 3);
+  Assert(Round(F) = 3);
   F := TFraction.Create(-3, 1);
-  Assert(Trunc(F) = -3);
+  Assert(Round(F) = -3);
   F := TFraction.Create(0, 1);
-  Assert(Trunc(F) = 0);
+  Assert(Round(F) = 0);
 end;
 ```
 
