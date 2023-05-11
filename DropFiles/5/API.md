@@ -42,6 +42,9 @@ This section of the _Drop Files Components_ documentation describes the API expo
 | _TPJExtFileFilterExtPE_ | Property editor for the _[Extensions](./API/TPJExtFileFilter-Extensions.md)_ property of the _[TPJExtFileFilter](./API/TPJExtFileFilter.md)_ component. This editor displays a dialogue box where extensions can be added, removed and saved in the correct format. |
 | _TPJDropFilesCE_ | Component editor that causes an event handler for the _OnDropFiles_ events of the drop file components to be opened in the designer when the components are double-clicked. The default action without this component editor is to open the rarely used _OnBeforeDrop_ event handler, which is not very useful. |
 
+## Conventions
+
+This documentation complies with [these conventions](../../common/conventions.md).
 ## Links
 
 * [Overview](./Overview.md)
