@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../ConsoleApp.md) Examples
+# [Console Application Runner Classes](../index.md) Examples
 
 ## Introduction
 
@@ -8,7 +8,7 @@ They show how to undertake various common tasks using the classes provided in th
 
 Most examples require the use of a suitable command line application. Source code of the applications referred to in the examples is is provided in [Appendix 2](./Appendices/Appendix2.md).
 
-Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes](../IOUtils.md) project in order to compile.
+Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes](../../Docs/IOUtils.md) project in order to compile.
 
 ## Contents
 
@@ -28,4 +28,10 @@ Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes
 
 ## Demo programs
 
-Demo programs relating to each of the examples are included with the Console Application Runner Classes [download](https://sourceforge.net/projects/ddablib/files/consoleapp/).
+Demo programs relating to each of the examples are included with the Console Application Runner Classes [download](https://github.com/ddablib/consoleapp/releases).
+
+## Links
+
+* [Overview](./Overview.md)
+* [Programmer's Guide](./API.md)
+* [Appendicies](./Appendices.md)
