@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ```pascal
 type
@@ -21,4 +21,3 @@ Type of the [_TPJConsoleApp.ConsoleColors_](./TPJCustomConsoleApp-ConsoleColors.
 * [_TPJConsoleApp.ConsoleColors_](./TPJCustomConsoleApp-ConsoleColors.md) property
 * [_TPJConsoleColor_](./TPJConsoleColor.md) enumerated type
 * [_MakeConsoleColors_](./Routines.md#makeconsolecolors) routine
-* [Type Definitions List](./Types.md)

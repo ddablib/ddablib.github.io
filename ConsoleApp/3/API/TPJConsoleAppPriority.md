@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ```pascal
 type
@@ -27,5 +27,4 @@ Values are:
 
 ## See Also
 
-* [Type Definitions List](./Types.md)
 * [Programmers' Guide](../API.md)

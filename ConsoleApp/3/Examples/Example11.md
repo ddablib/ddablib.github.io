@@ -15,7 +15,7 @@ Before that we'll create the main example program framework that is required to 
 
 ## Common Code
 
-To begin with start a new Delphi GUI application project, and add [_PJConsoleApp_](../API/PJConsoleApp.md) to the the main form's uses statement.
+To begin with start a new Delphi GUI application project, and add _PJConsoleApp_ to the the main form's uses statement.
 
 Now drop a _TButton_ on the form, name it `btnRun` and give it the following _OnClick_ event handler:
 

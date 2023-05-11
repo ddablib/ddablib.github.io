@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 The following routines are declared in the library:
 

@@ -22,7 +22,7 @@ We will use the following helper classes to avoid a considerable amount of compl
 * [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md): to open the input file with an [inheritable](../InheritableHandles.md) handle.
 * [_TPJAnsiSBCSPipeFilter_](../../../Docs/IOUtils/API/TPJAnsiSBCSPipeFilter.md): to parse the output from the pipe into lines of text. This class text from a single byte ANSI character set to be output through the pipe.
 
-First add the [_PJConsoleApp_](../API/PJConsoleApp.md), [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md), [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) and [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) units to the uses statement.
+First add the _PJConsoleApp_, [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md), [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) and [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) units to the uses statement.
 
 Now add the following declarations to the form class' private section:
 

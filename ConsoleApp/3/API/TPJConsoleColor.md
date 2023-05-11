@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ```pascal
 type
@@ -28,4 +28,3 @@ The value names are similar to the equivalent _TColor_ constants, but have diffe
 
 * [_TPJConsoleColors_](./TPJConsoleColors.md) record.
 * [_TPJConsoleApp.ConsoleColors_](TPJCustomConsoleApp-ConsoleColors.md) property.
-* [Type Definitions List](./Types.md)

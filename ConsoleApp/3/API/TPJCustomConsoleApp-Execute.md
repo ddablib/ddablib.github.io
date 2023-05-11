@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ***Classes:*** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 

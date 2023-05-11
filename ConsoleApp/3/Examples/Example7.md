@@ -16,7 +16,7 @@ Because working with pipes can be quite complicated we will use the [_TPJPipe_](
 
 To see the code working, create a new Delphi GUI application and drop a button and two memos on the form. As with [Example 6](./Example6.md), _Memo1_ will receive text to be processed and _Memo2_ will display the results.
 
-Make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md) then create an _OnClick_ event handler for the button as follows:
+Make sure that the uses statement includes _PJConsoleApp_ and [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md) then create an _OnClick_ event handler for the button as follows:
 
 Add the following code to the form class' private section:
 

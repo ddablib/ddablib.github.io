@@ -25,7 +25,7 @@ We will use the helper class [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFile
 
 > [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md) is included in the [I/O Utitlity Classes](../../../Docs/IOUtils/API.md) download in `PJFileHandle.pas`.
 
-First make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
+First make sure that the uses statement includes  _PJConsoleApp_ and [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
 
 ```pascal
 procedure TForm1.Button1Click(Sender: TObject);

@@ -12,7 +12,7 @@ This example is similar to example [Example 8](../Examples/Example8.md): it send
 
 > We use our old friend `Echoer.exe` again. Running `Echoer` with the `-u` switch causes the program to write its output in Unicode. Note though that input must still be ANSI text.
 
-Start a new Delphi GUI application. Drop a _TMemo_ and a _TButton_ on the form and add [_PJConsoleApp_](../API/PJConsoleApp.md), [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md), [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) and [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) to the uses statement in the interface section.
+Start a new Delphi GUI application. Drop a _TMemo_ and a _TButton_ on the form and add _PJConsoleApp_, [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md), [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) and [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) to the uses statement in the interface section.
 
 Now add the following code to the private section of the form class:
 

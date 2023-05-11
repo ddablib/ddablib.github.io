@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ## Description
 
@@ -74,5 +74,4 @@ All events are protected
 
 ## See Also
 
-* [Classes List](./Classes.md)
 * [Programmers' Guide](../API.md)

@@ -2,7 +2,7 @@
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
-***Unit:*** [_PJConsoleApp_](./PJConsoleApp.md)
+***Unit:*** _PJConsoleApp_
 
 ## Description
 
@@ -58,5 +58,4 @@ _TPJConsoleApp_ descends from [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).
 
 ## See Also
 
-* [Classes List](./Classes.md)
 * [Programmers' Guide](../API.md)
