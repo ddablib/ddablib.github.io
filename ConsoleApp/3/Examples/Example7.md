@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 7: Redirecting standard i/o using pipes
+# [Console Application Runner Classes](../../index.md) Example 7: Redirecting standard i/o using pipes
 
 As useful as redirecting files can be (see [Example 6](./Example6.md)), it is not always very convenient for our application to have to exchange data with a console application by writing input data to a file and then reading a processed file. It is much more useful if we can pass the raw data directly to a console app for processing and to read the processed data back from the console application. We can do this using pipes. It's more convoluted than using files, but worth it.
 
@@ -10,13 +10,13 @@ To redirect a console application's input and output we need two pipes:
 
 The read handle of the first pipe and the write handle of the second pipe must be [inheritable](../InheritableHandles.md).
 
-Because working with pipes can be quite complicated we will use the [_TPJPipe_](../../IOUtils/API/TPJPipe.md) helper class to help simplify things. This class simplifies peeking, reading and writing pipes but and can also create pipe handles that are  [inheritable](../InheritableHandles.md).
+Because working with pipes can be quite complicated we will use the [_TPJPipe_](../../../Docs/IOUtils/API/TPJPipe.md) helper class to help simplify things. This class simplifies peeking, reading and writing pipes but and can also create pipe handles that are  [inheritable](../InheritableHandles.md).
 
-> [_TPJPipe_](../../IOUtils/API/TPJPipe.md) is included in the [I/O Utitlity Classes](../../IOUtils/API.md) download in `PJPipe.pas`.
+> [_TPJPipe_](../../../Docs/IOUtils/API/TPJPipe.md) is included in the [I/O Utitlity Classes](../../../Docs/IOUtils/API.md) download in `PJPipe.pas`.
 
 To see the code working, create a new Delphi GUI application and drop a button and two memos on the form. As with [Example 6](./Example6.md), _Memo1_ will receive text to be processed and _Memo2_ will display the results.
 
-Make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJPipe_](../../IOUtils/API/PJPipe.md) then create an _OnClick_ event handler for the button as follows:
+Make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md) then create an _OnClick_ event handler for the button as follows:
 
 Add the following code to the form class' private section:
 
@@ -27,7 +27,7 @@ Add the following code to the form class' private section:
     procedure WorkHandler(Sender: TObject);
 ```
 
-Here, _fOutPipe_ is a the [_TPJPipe_](../../IOUtils/API/TPJPipe.md) object used to pipe processed data from the console application and _fOutStream_ is a stream that receives data from _fOutPipe_. _WorkHandler_ is an [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event handler that is implemented like this:
+Here, _fOutPipe_ is a the [_TPJPipe_](../../../Docs/IOUtils/API/TPJPipe.md) object used to pipe processed data from the console application and _fOutStream_ is a stream that receives data from _fOutPipe_. _WorkHandler_ is an [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event handler that is implemented like this:
 
 ```pascal
 procedure TForm1.WorkHandler(Sender: TObject);
@@ -90,7 +90,7 @@ begin
 end;
 ```
 
-First of all we create the input pipe of the required size and write the contents of _Memo1_ to it. We call the pipe's [_CloseWriteHandle_](../../IOUtils/API/TPJPipe-CloseWriteHandle.md) method when all the data is written to it. This effectively signals end-of-file on the pipe. Without this the console application would endlessly wait for more data when all the pipe data had been read.
+First of all we create the input pipe of the required size and write the contents of _Memo1_ to it. We call the pipe's [_CloseWriteHandle_](../../../Docs/IOUtils/API/TPJPipe-CloseWriteHandle.md) method when all the data is written to it. This effectively signals end-of-file on the pipe. Without this the console application would endlessly wait for more data when all the pipe data had been read.
 
 Next we create the output pipe (with default size) and the stream to receive output. As we have seen, the pipe's data is copied to the stream in _WorkHandler_. It is because they are used in this separate method that we declare _fOutPipe_ and _fOutStream_ as fields of the class rather than as local variables of _Button1Click_.
 
@@ -108,4 +108,4 @@ Run the program. Type some text in _Memo1_ and click the button to see the proce
 * [Next example](./Example8.md)
 * [Previous example](./Example6.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

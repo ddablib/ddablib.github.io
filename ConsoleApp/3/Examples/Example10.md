@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 10: Using TPJConsoleApp from console applications
+# [Console Application Runner Classes](../../index.md) Example 10: Using TPJConsoleApp from console applications
 
 All our example applications so far have been Windows GUI applications. You shouldn't get the impression that you can only use [_TPJConsoleApp_](../API/TPJConsoleApp.md) with GUI applications - it works perfectly well with console applications and this example will show.
 
@@ -123,4 +123,4 @@ Run the application with various parameters and note its behaviour. See the tabl
 * [Next example](./Example11.md)
 * [Previous example](./Example9.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

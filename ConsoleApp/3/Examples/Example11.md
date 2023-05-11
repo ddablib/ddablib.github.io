@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 11: Customising the appearance of the console
+# [Console Application Runner Classes](../../index.md) Example 11: Customising the appearance of the console
 
 [_TPJConsoleApp_](../API/TPJConsoleApp.md) can be used to customise the appearance of any new console window displayed by a console application. This example shows how to modify the console window's size, position, title and foreground and background colours.
 
@@ -158,4 +158,4 @@ Rebuild the application one last time and run it. Clear the checkbox and enter v
 * [Next example](./Example12.md)
 * [Previous example](./Example10.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

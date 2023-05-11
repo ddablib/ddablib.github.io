@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 1: ExecAndWait
+# [Console Application Runner Classes](../../index.md) Example 1: ExecAndWait
 
 ***Project:*** [Console Application Runner Classes](../API.md)
 
@@ -92,4 +92,4 @@ This behaviour may be what you want, but what if the console app freezes? Your a
 
 * [Next example](./Example2.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

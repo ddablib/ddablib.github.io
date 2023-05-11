@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 13: Customising a console app's environment block. [v3.1]
+# [Console Application Runner Classes](../../index.md) Example 13: Customising a console app's environment block. [v3.1]
 
 > This example requires v3.1.0 or later of the Console Application Runner Classes
 
@@ -124,4 +124,4 @@ All that remains is to compile both apps then run the GUI program, enter some en
 
 * [Previous example](./Example12.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

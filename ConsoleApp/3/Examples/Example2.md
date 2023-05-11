@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 2: A better ExecAndWait
+# [Console Application Runner Classes](../../index.md) Example 2: A better ExecAndWait
 
 As noted in [Example 1](./Example1.md), it's often worth letting a GUI program remain interactive - may be to display a progress bar or whatever.
 
@@ -51,4 +51,4 @@ Run the program. Try to switch back to the GUI while the console app is running.
 * [Next example](./Example3.md)
 * [Previous example](./Example1.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

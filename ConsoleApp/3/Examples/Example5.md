@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 5: Terminating an application
+# [Console Application Runner Classes](../../index.md) Example 5: Terminating an application
 
 In [Example 4](./Example4.md) we learned how to set a maximum time to run for a console application and how to forcibly terminate it if it timed out. Unfortunately it's not always possible to second guess how long an application will need to run, and so we may be forced to set the [_MaxExecTime_](../API/TPJCustomConsoleApp-MaxExecTime.md) property to _INFINITE_. In these cases it may be appropriate to give the user the choice to terminate the process.
 
@@ -68,4 +68,4 @@ Now check the check box and run the console application again, pressing the term
 * [Next example](./Example6.md)
 * [Previous example](./Example4.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

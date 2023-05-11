@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 3: Indicating progress
+# [Console Application Runner Classes](../../index.md) Example 3: Indicating progress
 
 It is common to want to display some kind of progress indicator while another application is running. This example shows how to do that using [_TPJConsoleApp_](../API/TPJConsoleApp.md). Our application needs to handle the [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event to get notified whenever the console application yields control in order to update a progress bar.
 
@@ -53,4 +53,4 @@ Click the button to run the console application, switch back to the main form an
 * [Next example](./Example4.md)
 * [Previous example](./Example2.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 6: Redirecting standard i/o using files
+# [Console Application Runner Classes](../../index.md) Example 6: Redirecting standard i/o using files
 
 Console applications are often used with redirected input and output. It is quite common for a console application to process content read from standard input and to write the processed data to standard output. When we want to process files we must redirect the input file to standard input and redirect standard output to an output file.
 
@@ -21,11 +21,11 @@ Note that `Echoer` expects to receive ANSI text on standard input and writes ANS
 
 Start a new GUI application and drop a button and two memos on the main form. The text to be processed will be entered in _Memo1_. We will then write the memo content to an ANSI text file, process the file using `Echoer.exe` which will write an output file, then load that file into _Memo2_.
 
-We will use the helper class [_TPJFileHandle_](../../IOUtils/API/TPJFileHandle.md) to open the files and obtain their handles. The advantage of using this class is that it opens files with the required inheritable handles. It also closes the handles when the class is freed. You don't have to use the class, but if you don't use must open the required files yourself, ensuring they have inheritable handles. You must also close the handles when they are no longer needed. Some sample code is in [Appendix 1](../Appendices/Appendix1.md).
+We will use the helper class [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md) to open the files and obtain their handles. The advantage of using this class is that it opens files with the required inheritable handles. It also closes the handles when the class is freed. You don't have to use the class, but if you don't use must open the required files yourself, ensuring they have inheritable handles. You must also close the handles when they are no longer needed. Some sample code is in [Appendix 1](../Appendices/Appendix1.md).
 
-> [_TPJFileHandle_](../../IOUtils/API/TPJFileHandle.md) is included in the [I/O Utitlity Classes](../../IOUtils/API.md) download in `PJFileHandle.pas`.
+> [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md) is included in the [I/O Utitlity Classes](../../../Docs/IOUtils/API.md) download in `PJFileHandle.pas`.
 
-First make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJFileHandle_](../../IOUtils/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
+First make sure that the uses statement includes [_PJConsoleApp_](../API/PJConsoleApp.md) and [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
 
 ```pascal
 procedure TForm1.Button1Click(Sender: TObject);
@@ -75,4 +75,4 @@ The sample code above works well with both Unicode and non-Unicode versions of D
 * [Next example](./Example7.md)
 * [Previous example](./Example5.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

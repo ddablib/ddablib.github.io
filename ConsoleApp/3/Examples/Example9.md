@@ -1,6 +1,6 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 9: Subclassing TPJConsoleApp
+# [Console Application Runner Classes](../../index.md) Example 9: Subclassing TPJConsoleApp
 
-> This example requires the [_TPJPipe_](../../IOUtils/API/TPJPipe.md) class from the [PJPipe.pas](../../IOUtils/API/PJPipe.md) unit. The unit is included in the [I/O Utitlity Classes](https://delphidabbler.com/software/ioutils) download.
+> This example requires the [_TPJPipe_](../../../Docs/IOUtils/API/TPJPipe.md) class from the [PJPipe.pas](../../../Docs/IOUtils/API/PJPipe.md) unit. The unit is included in the [I/O Utitlity Classes](https://delphidabbler.com/software/ioutils) download.
 
 Most of the previous examples have had to handle events to provide some of the needed functionality. In the later examples they have also had to manipulate pipes. This is all very well, but it does rather clutter up the main form code. There are a couple of alternatives that move the messy code out of the form:
 
@@ -145,4 +145,4 @@ Run the application. It should perform exactly the same as [Example 7](../Exampl
 * [Next example](./Example10.md)
 * [Previous example](./Example8.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)

@@ -1,4 +1,4 @@
-# [Console Application Runner Classes](../../ConsoleApp.md) Example 4: Timing out
+# [Console Application Runner Classes](../../index.md) Example 4: Timing out
 
 All the examples to date have allowed a console application to run for as long as it required. This was done by setting [_TPJConsoleApp_](../API/TPJConsoleApp.md)'s [_MaxExecTime_](../API/TPJCustomConsoleApp-MaxExecTime.md) property to _INFINITE_. In this example we will look at how to set a maximum time for a console application to run and examine what happens when it times out.
 
@@ -69,4 +69,4 @@ Finally, set the maximum execution time to be longer than the console applicatio
 * [Next example](./Example5.md)
 * [Previous example](./Example3.md)
 * [Examples contents](../Examples.md)
-* [Start page](../../ConsoleApp.md)
+* [Start page](../../index.md)
