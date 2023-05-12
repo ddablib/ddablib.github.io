@@ -6,14 +6,25 @@ This is the home page for the on-line documentation of the [DelphiDabbler I/O Ut
 
 These classes are designed to assist in various I/O related tasks.
 
+The classes are:
+
+* Windows only
+* 32 & 64 bit compatible
+* VCL compatible
+* FireMonkey compatible
+
+## Supported Versions
+
+This documentation applies to I/O Utility Classes v1.
+
 ## Contents
 
-* [Overview](./IOUtils/Overview.md)
-* [Programmer's Guide](./IOUtils/API.md) -- Classes, methods, properties etc.
+* [Overview](./1/Overview.md)
+* [Programmer's Guide](./1/API.md)
 
 ## Links
 
 * Back to [Documentation Home Page](../index.md)
-* [I/O Utility Classes Web Page](https://delphidabbler.com/software/ioutils) -- Install notes, change log, license etc.
-* [Downloads](https://sourceforge.net/projects/ddablib/files/ioutils/) -- Download current version here.
-* [Source Code](https://github.com/ddablib/ioutils) -- Current development tree.
+* [I/O Utility Classes Web Page](https://delphidabbler.com/software/ioutils)
+* [Releases](https://github.com/ddablib/ioutils/releases)
+* [Source Code](https://github.com/ddablib/ioutils)
