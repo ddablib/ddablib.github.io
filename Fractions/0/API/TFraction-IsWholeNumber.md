@@ -1,10 +1,10 @@
 # IsWholeNumber method
 
-***Project:*** [Fractions](../API.md)
+**Project:** [Fractions](../API.md)
 
-***Unit:*** _DelphiDabbler.Lib.Fractions_
+**Unit:** _DelphiDabbler.Lib.Fractions_
 
-***Record:*** [_TFraction_](./TFraction.md)
+**Record:** [_TFraction_](./TFraction.md)
 
 **Applies to:** ~>0.1
 
@@ -37,7 +37,7 @@ begin
 end;
 ```
 
-### Note
+##= Note
 
 Another test for a whole number fraction is to check whether its [_FractionalPart_](./TFraction-FractionalPart.md) property is equal to 0. If this property is zero then the fraction is a whole number.
 

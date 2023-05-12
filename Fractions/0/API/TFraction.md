@@ -1,8 +1,8 @@
 # TFraction record
 
-***Project:*** [Fractions](../API.md)
+**Project:** [Fractions](../API.md)
 
-***Unit:*** _DelphiDabbler.Lib.Fractions_
+**Unit:** _DelphiDabbler.Lib.Fractions_
 
 **Applies to:** ~>0.1
 
@@ -27,7 +27,7 @@ Furthermore a _TFraction_ variable can be instantiated by assigning a variable o
 The following read-only properties are exposed.
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_Numerator_](./TFraction-Numerator.md) | The fraction's numerator. |
 | [_Denominator_](./TFraction-Denominator.md) | The fraction's denominator. |
 | [_WholeNumberPart_](./TFraction-WholeNumberPart.md) | The whole number part of the fraction when considered as a mixed fraction. |
@@ -38,7 +38,7 @@ The following read-only properties are exposed.
 The operators are overloaded by the record
 
 | Operator | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_Implicit_](./TFraction-Implicit.md) | Enables a _TFraction_ record to be cast / assigned from integer and floating point types and to floating point types (not integers). |
 | [_Equal_](./TFraction-Equal.md) | Enables two _TFraction_ records to be compared for equality using the `=` operator. |
 | [_NotEqual_](./TFraction-NotEqual.md) | Enables two _TFraction_ records to be compared for inequality using the `<>` operator. |
@@ -64,13 +64,13 @@ _TFraction_ defines several methods. Some are static class methods that operate 
 #### Constructor
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Create_](./TFraction-Create.md) | Constructs a _TFraction_ instance from a given numerator and denominator.  |
 
 #### Instance Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_CompareTo_](./TFraction-CompareTo.md) | Compares the fraction to another and returns a value indicating which fraction is greatest or if they are equal. |
 | [_Convert_](./TFraction-Convert.md) | Converts the fraction into an equivalent one in which the numerator and denominator are a given integer multiple of their original values. |
 | [_HasCommonFactor_](./TFraction-HasCommonFactor.md) | Checks if a given integer is a common factor of the fraction. |
@@ -85,7 +85,7 @@ _TFraction_ defines several methods. Some are static class methods that operate 
 #### Class Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Abs_](./TFraction-Abs.md) | Returns the absolute value of a given fraction. |
 | [_Compare_](./TFraction-Compare.md) | Compares two fractions and returns a value indicating which of the two is greater or if they equal. |
 | [_LCD_](./TFraction-LCD.md) | Computes the least common denominator of two fractions. |

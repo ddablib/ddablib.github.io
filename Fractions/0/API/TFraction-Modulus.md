@@ -1,10 +1,10 @@
 # Modulus operator overload
 
-***Project:*** [Fractions](../API.md)
+**Project:** [Fractions](../API.md)
 
-***Unit:*** _DelphiDabbler.Lib.Fractions_
+**Unit:** _DelphiDabbler.Lib.Fractions_
 
-***Record:*** [_TFraction_](./TFraction.md)
+**Record:** [_TFraction_](./TFraction.md)
 
 **Applies to:** ~>0.1
 
