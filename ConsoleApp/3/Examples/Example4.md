@@ -62,7 +62,7 @@ Now check the check box and repeat the process. Once again the program should ti
 
 Finally, set the maximum execution time to be longer than the console application will run (`6000` is good if using `Timed`). Click the button to run the console application. The memo will be updated as before until the console application completes. Normal completion will be reported in the memo.
 
-> ***Warning:*** Windows may not clean up normally after forcible termination of an application. This is what happens when an application times out when [_KillTimedOutProcess_](../API/TPJCustomConsoleApp-KillTimedOutProcess.md) is _True_. Look up [_TerminateProcess_](http://msdn.microsoft.com/en-us/library/ms686714.aspx) in the Windows API documentation for further information.
+> ***Warning:*** Windows may not clean up normally after forcible termination of an application. This is what happens when an application times out when [_KillTimedOutProcess_](../API/TPJCustomConsoleApp-KillTimedOutProcess.md) is _True_. Look up [_TerminateProcess_](https://learn.microsoft.com/en-gb/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess) in the Windows API documentation for further information.
 
 ## Links
 

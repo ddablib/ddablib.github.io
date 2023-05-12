@@ -22,6 +22,6 @@ The default property value is _True_.
 
 ## Remarks
 
-The Windows API [_TerminateProcess_](http://msdn.microsoft.com/en-us/library/ms686714.aspx) function is used to forcibly kill child processes. This function does not perform a clean shut-down of the application. See Windows API documentation for details.
+The Windows API [_TerminateProcess_](https://learn.microsoft.com/en-gb/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess) function is used to forcibly kill child processes. This function does not perform a clean shut-down of the application. See Windows API documentation for details.
 
 The property is public in [_TPJConsoleApp_](./TPJConsoleApp.md) and protected in [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).
