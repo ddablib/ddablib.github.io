@@ -18,6 +18,7 @@ Documentation of the following projects has been completed:
 |---------|-------------------|
 | About Box Component | <https://lib-docs.delphidabbler.com/AboutBox/> |
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
+| Console Application Runner Classes | <https://lib-docs.delphidabbler.com/ConsoleApp/> |
 | Drop Files Components | <https://lib-docs.delphidabbler.com/DropFiles/> |
 | Environment Variables Unit | <https://lib-docs.delphidabbler.com/EnvVars/> |
 | Extended String Property Editor | <https://lib-docs.delphidabbler.com/StringPE/> |
