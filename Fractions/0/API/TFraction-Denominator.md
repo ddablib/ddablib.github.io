@@ -1,4 +1,4 @@
-# TFraction Denominator property
+# Denominator property
 
 ***Project:*** [Fractions](../API.md)
 
