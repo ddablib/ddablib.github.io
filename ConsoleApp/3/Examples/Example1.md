@@ -1,7 +1,5 @@
 # [Console Application Runner Classes](../../index.md) Example 1: ExecAndWait
 
-**Project:** [Console Application Runner Classes](../API.md)
-
 You will no doubt have seen a lot of code on the Internet that shows how to execute a console application and wait for it to complete. It will probably look something like this:
 
 ```pascal
