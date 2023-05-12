@@ -1,37 +1,28 @@
-# [Fractions Unit](../Fractions.md) Programmers Guide
+# [Fractions Unit](../index.md) Programmers Guide
 
 ## Introduction
 
-This section of the _Fractions Unit_ documentation focusses on describing the [_TFraction_](./API/TFraction.md) advanced record, its methods and properties.
-
-There is just one unit in this project, named _DelphiDabbler.Lib.Fractions_, that contains all the code.
+This section of the _Fractions Unit_ documentation describes the API exposed by the unit to programmers.
 
 ## Contents
 
-This guide describes just the one record:
+### Units
 
-* [_TFraction_](./API/TFraction.md).
+| Unit | Description |
+|:-----|:------------|
+| _DelphiDabbler.Lib.Fractions_ | The only unit in this project. Contains just the [_TFraction_](./API/TFraction.md) advanced record. |
+
+### Types
+
+| Type | Description |
+|:-----|:------------|
+| [_TFraction_](./API/TFraction.md) | Advanced record that encapsulates a vulgar fraction and defines various mathematical operations on it. |
 
 ## Conventions
 
-Identifiers in plain text appear like this: _Identifier_
-
-Identifiers in links appear like this: [_Identifier_](#conventions)
-
-Values and in-line code appear like this:
-
-* `42`
-* `'text'`
-* `True`
-* `X := 42;`
-
-Declarations and source code examples appear syntax highlighted like this:
-
-```pascal
-procedure Foo(const Bar: string);
-```
+This documentation complies with [these conventions](../../common/conventions.md).
 
 ## Links
 
-* [Project Overview](./Overview.md) -- details of the purpose of the unit.
+* [Project Overview](./Overview.md)
 * [Credits](./Credits.md)
