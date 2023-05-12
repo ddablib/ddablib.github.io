@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 8: Capturing console output in a GUI
 
+**Applies to:** ~>3.0
+
 You may have seen applications (_Inno Setup_ springs to mind), that display output from a console application in real time in a GUI control. In this example we'll see how to use [_TPJConsoleApp_](../API/TPJConsoleApp.md) to do this.
 
 Here is an overview of what we will do:

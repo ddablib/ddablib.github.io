@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 6: Redirecting standard i/o using files
 
+**Applies to:** ~>3.0
+
 Console applications are often used with redirected input and output. It is quite common for a console application to process content read from standard input and to write the processed data to standard output. When we want to process files we must redirect the input file to standard input and redirect standard output to an output file.
 
 Redirection from the command line is done using the `<` and `>` redirection operators (and similar). For example, to get `MyApp.exe` to read `In.txt` and write `Out.txt` we would use:

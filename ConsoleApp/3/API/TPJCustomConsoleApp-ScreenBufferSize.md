@@ -6,6 +6,8 @@
 
 **Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 property ScreenBufferSize: TSize;
 ```

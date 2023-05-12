@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 10: Using TPJConsoleApp from console applications
 
+**Applies to:** ~>3.0
+
 All our example applications so far have been Windows GUI applications. You shouldn't get the impression that you can only use [_TPJConsoleApp_](../API/TPJConsoleApp.md) with GUI applications - it works perfectly well with console applications and this example will show.
 
 Start a new Delphi console application. Now create a new unit in the project and save it as `UMain.pas`. Add the following class declaration to the new unit's interface:

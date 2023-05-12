@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 4: Timing out
 
+**Applies to:** ~>3.0
+
 All the examples to date have allowed a console application to run for as long as it required. This was done by setting [_TPJConsoleApp_](../API/TPJConsoleApp.md)'s [_MaxExecTime_](../API/TPJCustomConsoleApp-MaxExecTime.md) property to _INFINITE_. In this example we will look at how to set a maximum time for a console application to run and examine what happens when it times out.
 
 The amount of time available for a console application to run is limited by setting the [_MaxExecTime_](../API/TPJCustomConsoleApp-MaxExecTime.md) property (in milliseconds). If this time expires before the console application completes then the [_Execute_](../API/TPJCustomConsoleApp-Execute.md) method returns _False_, the [_ErrorCode_](../API/TPJCustomConsoleApp-ErrorCode.md) property is set to `$20000001` ([_cAppErrorTimeOut_](../API/Constants.md#capperrortimeout)) and the [_ErrorMessage_](../API/TPJCustomConsoleApp-ErrorMessage.md) property stores an explanatory string. However, the console application may keep running. Whether this happens depends on the value of the [_KillTimedOutProcess_](../API/TPJCustomConsoleApp-KillTimedOutProcess.md) property. If it is _True_ the timed-out process is forcibly terminated. When the property is _False_ the process is left executing, but the link between [_TPJConsoleApp_](../API/TPJConsoleApp.md) and the process is broken.

@@ -1,14 +1,14 @@
-# [Console Application Runner Classes](../../index.md) Example 13: Customising a console app's environment block. [v3.1]
+# [Console Application Runner Classes](../../index.md) Example 13: Customising a console app's environment block.
 
-> This example requires v3.1.0 or later of the Console Application Runner Classes
+**Applies to:** ~>3.1
 
 By default any console app process started by [_TPJConsoleApp_](../API/TPJConsoleApp.md) etc. will inherit a copy of the environment variables of the parent process.
 
 > It is beyond the scope of this example to explain environment blocks and environment varaibles in detail. To learn about them please see the article "[How to access environment variables](https://delphidabbler.com/articles/article-6)".
 
-This can be changed by creating a new _environment block_ and storing a pointer to it in the [_Environment_](../API/TPJCustomConsoleApp-Environment.md) property. An environment block can be either in ANSI format where each character is one byte (the default) or in Unicode format where each character occupies two bytes.
+This can be changed by creating a new _environment block_ and storing a pointer to it in the [_Environment_](../API/TPJCustomConsoleApp-Environment.md) property. An environment block can be either in ANSI format where each character is one byte (the default) or in Unicode format where each character occupies two bytes. Whether ANSI or Unicode format is used depends on the value of the [_UnicodeEnvironment_](../API/TPJCustomConsoleApp-UnicodeEnvironment.md) Boolean property.
 
-> Prior to v3.1.0 the [_Environment_](../API/TPJCustomConsoleApp-Environment.md) property only supported ANSI environment blocks, but v3.1.0 added the [_UnicodeEnvironment_](../API/TPJCustomConsoleApp-UnicodeEnvironment.md) Boolean property that lets you specify whether the environment block is ANSI (`False`) or Unicode (`True`). For reasons of backward compatibility [_UnicodeEnvironment_](../API/TPJCustomConsoleApp-UnicodeEnvironment.md) defaults to `False`.
+> Prior to ~>3.1 the [_Environment_](../API/TPJCustomConsoleApp-Environment.md) property only supported ANSI environment blocks.
 
 This example shows how to pass a custom environment block to a console application using the [_Environment_](../API/TPJCustomConsoleApp-Environment.md) and [_UnicodeEnvironment_](../API/TPJCustomConsoleApp-UnicodeEnvironment.md) properties.
 

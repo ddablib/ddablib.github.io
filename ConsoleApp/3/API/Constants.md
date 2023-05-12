@@ -4,6 +4,8 @@
 
 **Unit:** _PJConsoleApp_
 
+**Applies to:** ~>3.0
+
 The following constants are declared in the library.
 
 * [_cOneSecInMS_](#conesecinms)

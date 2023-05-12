@@ -6,6 +6,8 @@
 
 **Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 property Environment: Pointer;
 ```
@@ -30,8 +32,8 @@ To give a console application its own environment block you must:
 
 > See [this article](https://delphidabbler.com/articles/article-6) and its demo code for information on setting up environment blocks.
 
-**[Up to v3.0.1]** The environment variables contained in the block must be encoded as a sequnece of _AnsiChar_ characters regardless of whether a Unicode or ANDI Delphi compiler is used.
+**[>=3.0 & <3.1]** The environment variables contained in the block must be encoded as a sequence of _AnsiChar_ characters regardless of whether a Unicode or ANSI Delphi compiler is used.
 
-**[From v3.1]** The environment variables contained in the block must be stored as a sequence of _WideChar_ characters if the [_UnicodeEnvironment_](./TPJCustomConsoleApp-UnicodeEnvironment.md) property is _True_ or as a sequence of _AnsiChar_ characters otherwise. ***Important:*** The memory allocated for the block must allow for the size of characters used.
+**[~>3.1]** The environment variables contained in the block must be stored as a sequence of _WideChar_ characters if the [_UnicodeEnvironment_](./TPJCustomConsoleApp-UnicodeEnvironment.md) property is _True_ or as a sequence of _AnsiChar_ characters otherwise. ***Important:*** The memory allocated for the block must allow for the size of characters used.
 
 The property is public in [_TPJConsoleApp_](./TPJConsoleApp.md) and protected in [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).

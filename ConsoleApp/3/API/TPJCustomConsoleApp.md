@@ -4,6 +4,8 @@
 
 **Unit:** _PJConsoleApp_
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This is the base class for [_TPJConsoleApp_](./TPJConsoleApp.md). It implements all the functionality of that class, but declares all properties and events as protected. [_TPJConsoleApp_](./TPJConsoleApp.md) simply redeclares all the properties and events as public.
@@ -56,7 +58,7 @@ All properties are protected.
 | [_ThreadAttrs_](./TPJCustomConsoleApp-ThreadAttrs.md) | Security and inheritance attributes for the console application's primary thread. |
 | [_TimeSlice_](./TPJCustomConsoleApp-TimeSlice.md) | Length of each time slice for a timed sliced console application. |
 | [_TimeToLive_](./TPJCustomConsoleApp-TimeToLive.md) | Amount of time a console application has left to run before timing out. |
-| [_UnicodeEnvironment_](./TPJCustomConsoleApp-UnicodeEnvironment.md) [v3.1] | Determines whether environment block referenced by [_Environment_](./TPJCustomConsoleApp-Environment.md) is in Unicode or ANSI. |
+| [_UnicodeEnvironment_](./TPJCustomConsoleApp-UnicodeEnvironment.md) [~>3.1] | Determines whether environment block referenced by [_Environment_](./TPJCustomConsoleApp-Environment.md) is in Unicode or ANSI. |
 | [_UseNewConsole_](./TPJCustomConsoleApp-UseNewConsole.md) | Determines if a console application opens a new console window when run.|
 | [_Visible_](./TPJCustomConsoleApp-Visible.md) | Determines whether the console application is to be displayed. |
 | [_WindowPosition_](./TPJCustomConsoleApp-WindowPosition.md) | Position of console window on screen. |

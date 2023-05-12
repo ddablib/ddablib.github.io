@@ -6,13 +6,10 @@
 
 **Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
-```pascal
-function Execute(const CmdLine, CurrentDir: string = _): Boolean; overload;
-```
-
-**Introduced v2.0:**
+**Applies to:** ~>3.0
 
 ```pascal
+function Execute(const CmdLine, CurrentDir: string = ''): Boolean; overload;
 function Execute: Boolean; overload;
 ```
 

@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md)  Appendix 2: Console application source code
 
+**Applies to:** ~>3.0
+
 This appendix provides Delphi Pascal source code for two console applications that can be used with the various Console Application Runner Classes examples.
 
 The source code is designed to work with Delphi 7 and later compilers. It works with both Unicode and non-Unicode versions of the compiler. The code _may_ compile with earlier compilers but this has not been tried.

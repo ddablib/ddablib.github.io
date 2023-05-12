@@ -6,7 +6,7 @@
 
 **Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
-**Introduced:** v3.1
+**Applies to:** ~>3.1
 
 ```pascal
 property UnicodeEnvironment: Boolen;

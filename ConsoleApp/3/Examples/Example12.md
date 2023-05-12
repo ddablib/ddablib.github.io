@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 12: Handling Unicode output from console applications
 
+**Applies to:** ~>3.0
+
 > This demo uses classes from the [_PJPipe_](../../../Docs/IOUtils/API/PJPipe.md), [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) & [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md). These units are included in the [I/O Utitlity Classes](../../../Docs/IOUtils/API.md) download.
 
 If you are not using a Unicode version of Delphi the _UnicodeString_ type must be declared as _WideString_. Adding the [_PJPipeFilters_](../../../Docs/IOUtils/API/PJPipeFilters.md) unit to the uses statement in the interface will do this for you.

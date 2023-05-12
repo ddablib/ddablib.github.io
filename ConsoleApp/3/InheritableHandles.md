@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../ConsoleApp.md) Inheritable Handles
 
+**Applies to:** ~>3.0
+
 When we use [_TPJConsoleApp_](./API/TPJConsoleApp.md) to redirect the input and/or output of a child process we create handles to the redirected resources (files or pipes) and pass those handles to the child process. This is done by setting [_TPJConsoleApp_](./API/TPJConsoleApp.md)'s [_StdIn_](./API/TPJCustomConsoleApp-StdIn.md), [_StdOut_](./API/TPJCustomConsoleApp-StdOut.md) and [_StdErr_](./API/TPJCustomConsoleApp-StdErr.md) properties.
 
 The handles are created in the context of the application that is using [_TPJConsoleApp_](./API/TPJConsoleApp.md) and are used in the context of the console application running as a child process. The child process is said to _inherit_ the handles.

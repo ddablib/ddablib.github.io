@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 5: Terminating an application
 
+**Applies to:** ~>3.0
+
 In [Example 4](./Example4.md) we learned how to set a maximum time to run for a console application and how to forcibly terminate it if it timed out. Unfortunately it's not always possible to second guess how long an application will need to run, and so we may be forced to set the [_MaxExecTime_](../API/TPJCustomConsoleApp-MaxExecTime.md) property to _INFINITE_. In these cases it may be appropriate to give the user the choice to terminate the process.
 
 [_TPJConsoleApp_](../API/TPJConsoleApp.md) provides the [_Terminate_](../API/TPJCustomConsoleApp-Terminate.md) method for just this purpose. Calling [_Terminate_](../API/TPJCustomConsoleApp-Terminate.md) causes the [_Execute_](../API/TPJCustomConsoleApp-Execute.md) method to return _False_, the [_ErrorCode_](../API/TPJCustomConsoleApp-ErrorCode.md) property to have value `$20000002` ([_cAppErrorTerminated_](../API/Constants.md#capperrorterminated)) and the [_ErrorMessage_](../API/TPJCustomConsoleApp-ErrorMessage.md) property to store a suitable message. If the [_KillTimedOutProcess_](../API/TPJCustomConsoleApp-KillTimedOutProcess.md) property is _False_ the process is actually left executing, just the link between [_TPJConsoleApp_](../API/TPJConsoleApp.md) and the process is broken. However when [_KillTimedOutProcess_](../API/TPJCustomConsoleApp-KillTimedOutProcess.md) is _True_ the application is forcibly terminated.

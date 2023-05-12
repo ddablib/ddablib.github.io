@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 7: Redirecting standard i/o using pipes
 
+**Applies to:** ~>3.0
+
 As useful as redirecting files can be (see [Example 6](./Example6.md)), it is not always very convenient for our application to have to exchange data with a console application by writing input data to a file and then reading a processed file. It is much more useful if we can pass the raw data directly to a console app for processing and to read the processed data back from the console application. We can do this using pipes. It's more convoluted than using files, but worth it.
 
 To redirect a console application's input and output we need two pipes:

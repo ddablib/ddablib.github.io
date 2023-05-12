@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 2: A better ExecAndWait
 
+**Applies to:** ~>3.0
+
 As noted in [Example 1](./Example1.md), it's often worth letting a GUI program remain interactive - may be to display a progress bar or whatever.
 
 To do this you need to handle [_TPJConsoleApp_](../API/TPJConsoleApp.md)'s [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event.

@@ -4,6 +4,8 @@
 
 **Unit:** _PJConsoleApp_
 
+**Applies to:** ~>3.0
+
 ```pascal
 type
   TPJConsoleAppPriority = (

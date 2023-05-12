@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../../index.md) Example 3: Indicating progress
 
+**Applies to:** ~>3.0
+
 It is common to want to display some kind of progress indicator while another application is running. This example shows how to do that using [_TPJConsoleApp_](../API/TPJConsoleApp.md). Our application needs to handle the [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event to get notified whenever the console application yields control in order to update a progress bar.
 
 Start a new Delphi GUI application, drop a progress bar and a button on the form. Set the progress bar's _Max_ property to `10`. As in [Example 2](./Example2.md) we're going to need an [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event handler, so create the private method:

@@ -1,5 +1,7 @@
 # [Console Application Runner Classes](../index.md) Examples
 
+**Applies to:** ~>3.0
+
 ## Introduction
 
 This section provides numerous examples to help understand the behaviour and use of the Console Application Runner Classes.
@@ -24,7 +26,7 @@ Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes
 * [Example 10](./Examples/Example10.md): Using [_TPJConsoleApp_](./API/TPJConsoleApp.md) from console applications.
 * [Example 11](./Examples/Example11.md): Customising the appearance of the console.
 * [Example 12](./Examples/Example12.md): Handling Unicode output from console applications.
-* [Example 13](./Examples/Example13.md): Customising a console app's environment block. [v3.1]
+* [Example 13](./Examples/Example13.md): Customising a console app's environment block. [~>3.1]
 
 ## Demo programs
 
