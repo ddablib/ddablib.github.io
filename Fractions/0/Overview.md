@@ -1,5 +1,7 @@
 # [Fractions Unit](../index.md) Overview
 
+**Applies to:** ~>0.1
+
 > This page provides an overview of the features of the Fractions Unit. If you are looking for information on programming with the unit please see the [Programmers’ Guide](./API.md).
 
 This unit contains an encapsulation of a fraction and arthrithmetic performed on it.

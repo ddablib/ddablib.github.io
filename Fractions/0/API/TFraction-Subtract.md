@@ -6,7 +6,7 @@
 
 ***Record:*** [_TFraction_](./TFraction.md)
 
-***Introduced:*** v0.1
+**Applies to:** ~>0.1
 
 ```pascal
 class operator Subtract(const A, B: TFraction): TFraction;

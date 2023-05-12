@@ -4,7 +4,7 @@
 
 ***Unit:*** _DelphiDabbler.Lib.Fractions_
 
-***Introduced:*** v0.1
+**Applies to:** ~>0.1
 
 ## Description
 

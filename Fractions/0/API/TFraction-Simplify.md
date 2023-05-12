@@ -6,7 +6,7 @@
 
 ***Record:*** [_TFraction_](./TFraction.md)
 
-***Introduced:*** v0.1
+**Applies to:** ~>0.1
 
 ```pascal
 function Simplify(const CommonFactor: Int64): TFraction; overload;

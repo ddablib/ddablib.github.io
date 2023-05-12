@@ -1,5 +1,7 @@
 # [Fractions Unit](../index.md) Programmers Guide
 
+**Applies to:** ~>0.1
+
 ## Introduction
 
 This section of the _Fractions Unit_ documentation describes the API exposed by the unit to programmers.
