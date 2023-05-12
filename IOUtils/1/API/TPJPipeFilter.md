@@ -36,7 +36,3 @@ This is an abstract base class for all classes that filter data read from pipes.
 ### Events
 
 _TPJPipeFilter_ exposes no events.
-
-## Links
-
-* [Classes List](./Classes.md)

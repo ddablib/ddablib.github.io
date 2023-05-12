@@ -25,7 +25,3 @@ _TBytes_ is declared as `array of Byte` only if it is not already declared in an
 ### Footnote 2
 
 _UnicodeString_ is declared as `WideString` only if it is not already declared. (It is a native type on Delphi 2009 and later).
-
-## Links
-
-* [_Units List_](./Units.md)

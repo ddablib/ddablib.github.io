@@ -26,8 +26,7 @@ This event handler type is used for the [_OnText_](./TPJUnicodeBMPPipeFilter-OnT
 
 Note that the _UnicodeString_ type must be defined to use event handlers of this type. On Delphi 2009 _UnicodeString_ is a native type while the [_PJPipeFilters_](./PJPipeFilters.md) unit defines _UnicodeString_ as _WideString_ on Delphi 2007 and earlier.
 
-## Links
+## See Also
 
 * [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
 * [_TPJAnsiTextReadEvent_](./TPJAnsiTextReadEvent.md)
-* [Type Definitions List](./Types.md)

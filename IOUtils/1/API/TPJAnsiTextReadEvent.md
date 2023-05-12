@@ -24,8 +24,7 @@ The parameters are:
 
 This event handler type is used for the [_OnText_](./TPJAnsiSBCSPipeFilter-OnText.md) and [_OnLineEnd_](./TPJAnsiSBCSPipeFilter-OnLineEnd.md) events of [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md).
 
-## Links
+## See Also
 
 * [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
 * [_TPJUnicodeTextReadEvent_](./TPJUnicodeTextReadEvent.md)
-* [Type Definitions List](./Types.md)

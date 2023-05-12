@@ -40,7 +40,3 @@ _TPJPipe_ provides methods to check the number of bytes in a readable pipe, read
 ### Events
 
 _TPJPipe_ exposes no events.
-
-## Links
-
-* [Classes List](./Classes.md)

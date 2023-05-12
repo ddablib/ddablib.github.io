@@ -27,7 +27,3 @@ If there is a need to read or write the file you can either create a _THandleStr
 ### Events
 
 _TPJFileHandle_ exposes no events.
-
-## Links
-
-* [Classes List](./Classes.md)

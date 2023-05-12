@@ -51,7 +51,3 @@ The only method introduced in this class is an override of _TObject.AfterConstru
 | [_OnText_](./TPJAnsiSBCSPipeFilter-OnText.md) | Event triggered whenever valid text is read from pipe. |
 
 No events are inherited.
-
-## Links
-
-* [Classes List](./Classes.md)
