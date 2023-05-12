@@ -44,7 +44,7 @@ begin
 end;
 ```
 
-This is the same code we used in [_Example 2_](./Example2.md) - all the changes are in the [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event handler.
+This is the same code we used in [Example 2](./Example2.md) - all the changes are in the [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event handler.
 
 > We're using `Timed.exe` from [Appendix 2](../Appendices/Appendix2.md) again - change it if you wish.
 
