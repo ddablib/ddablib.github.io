@@ -12,7 +12,7 @@ The library currently contains the following projects, all originally published 
 | [Drop Files Components](./DropFiles/index.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
 | [Environment Variables Unit](./EnvVars/index.md) | Contains a static class and supporting types for interrogating, modifying and enumerating the environment variables belonging to the current process. |
 | [Extended String Property Editor](./StringPE/index.md) | Property editor that allows multi-line and long _string_ and _TCaption_ properties to be edited at design time. |
-| [Fractions Unit](./Docs/Fractions.md) | Defines an advanced "record with methods" type that encapsulates fraction and related operations. |
+| [Fractions Unit](./Fractions/index.md) | Defines an advanced "record with methods" type that encapsulates fraction and related operations. |
 | [Hot Label Component](./HotLabel/index.md) | Label component that accesses a URL when clicked. The URL is displayed in the default web browser or email client. |
 | [I/O Utilities Unit](./Docs/IOUtils.md) | Several classes that assist with various I/O related tasks, including working with pipes and inheritable file handles. |
 | [MD5 Message Digest Unit](./Docs/MD5.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
