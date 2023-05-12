@@ -1,10 +1,10 @@
 # Visible property
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
-***Classes:*** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
+**Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
 ```pascal
 property Visible: Boolean;

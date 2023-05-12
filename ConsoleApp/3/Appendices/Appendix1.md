@@ -1,4 +1,3 @@
-
 # [Console Application Runner Classes](../../index.md)  Appendix 1: Creating inheritable handles
 This appendix contains some example code that can be used to create [inheritable handles] to files and pipes.
 

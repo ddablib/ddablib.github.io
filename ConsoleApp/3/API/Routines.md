@@ -1,8 +1,8 @@
 # Helper Routines
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
 The following routines are declared in the library:
 

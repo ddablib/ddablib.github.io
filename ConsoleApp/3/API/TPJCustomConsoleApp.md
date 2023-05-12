@@ -1,8 +1,8 @@
 # TPJCustomConsoleApp class
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
 ## Description
 
@@ -15,7 +15,7 @@ If you intend to sub-class [_TPJConsoleApp_](./TPJConsoleApp.md) you should actu
 #### Public
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Execute_](./TPJCustomConsoleApp-Execute.md) | Executes the console application. |
 | [_Terminate_](./TPJCustomConsoleApp-Terminate.md) | Attempts to terminate the console application process. |
 
@@ -24,7 +24,7 @@ If you intend to sub-class [_TPJConsoleApp_](./TPJConsoleApp.md) you should actu
 Implementers of new derived classes may need to override these methods. All other users can safely ignore them.
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_DoComplete_](./TPJCustomConsoleApp-DoComplete.md) | Triggers the [_OnComplete_](./TPJCustomConsoleApp-OnComplete.md) event. |
 | [_DoStart_](./TPJCustomConsoleApp-DoStart.md) | Triggers the [_OnStart_](./TPJCustomConsoleApp-OnStart.md) event. |
 | [_DoWork_](./TPJCustomConsoleApp-DoWork.md) | Triggers the [_OnWork_](./TPJCustomConsoleApp-OnWork.md) event. |
@@ -34,7 +34,7 @@ Implementers of new derived classes may need to override these methods. All othe
 All properties are protected.
 
 | Property | Description |
-|----------|-------------|
+|:---------|:-------------|
 | [_CommandLine_](./TPJCustomConsoleApp-CommandLine.md) | Command line used to execute a console application. |
 | [_ConsoleColors_](./TPJCustomConsoleApp-ConsoleColors.md) | Foreground and background colours used in console window. |
 | [_ConsoleTitle_](./TPJCustomConsoleApp-ConsoleTitle.md) | Title to be displayed in any new console window. |
@@ -67,7 +67,7 @@ All properties are protected.
 All events are protected
 
 | Event | Description |
-|-------|-------------|
+|:------|:------------|
 | [_OnComplete_](./TPJCustomConsoleApp-OnComplete.md) | Triggered when an application completes or times out. |
 | [_OnStart_](./TPJCustomConsoleApp-OnStart.md) | Triggered after a console application process is created and just before it starts executing. |
 | [_OnWork_](./TPJCustomConsoleApp-OnWork.md) | Triggered when the executing application yields control to this class. Permits necessary work to be completed. |

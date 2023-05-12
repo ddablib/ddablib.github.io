@@ -1,10 +1,10 @@
 # ErrorCode property
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
-***Classes:*** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
+**Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
 ```pascal
 property ErrorCode: LongWord;
@@ -17,7 +17,7 @@ This read only property provides information about any error that occurred while
 Error codes either correspond to Windows error codes or are set by this class. Error codes set by the class have bit 29 set†. The error codes specific to the console application runner classes are:
 
 | Error code (hex) | Constant | Description |
-|------------------|----------|-------------|
+|:-----------------|:---------|:------------|
 | `$20000001` | [_cAppErrorTimeOut_](./Constants.md#capperrortimeout) | Application timed out (see the [_MaxExecTime_](./TPJCustomConsoleApp-MaxExecTime.md) property). |
 | `$20000002` | [_cAppErrorTerminated_](./Constants.md#capperrorterminated) | Application was forcibly terminated (see the [_Terminate_](./TPJCustomConsoleApp-Terminate.md) method). |
 

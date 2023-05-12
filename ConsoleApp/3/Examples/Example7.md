@@ -98,8 +98,7 @@ Now we choose a small value for [_TimeSlice_](../API/TPJCustomConsoleApp-TimeSli
 
 Finally we load _Memo2_ from the output stream.
 
->
-Once again this example uses the `Echoer.exe` console application from [Appendix 2](../Appendices/Appendix2.md). Any programs that reads ANSI text from standard input and writes ANSI text to standard output can be substituted.
+> Once again this example uses the `Echoer.exe` console application from [Appendix 2](../Appendices/Appendix2.md). Any programs that reads ANSI text from standard input and writes ANSI text to standard output can be substituted.
 
 Run the program. Type some text in _Memo1_ and click the button to see the processed text appear in _Memo2_, this time without writing any intermediate files.
 

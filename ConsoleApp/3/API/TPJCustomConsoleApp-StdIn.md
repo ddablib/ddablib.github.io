@@ -1,10 +1,10 @@
 # StdIn property
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
-***Classes:*** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
+**Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
 ```pascal
 property StdIn: THandle;
@@ -25,5 +25,5 @@ The default property value is `0`.
 When redirecting, the input handle can be attached to any object that is open for reading. Normally this will be a file or a pipe.
 
 > The [I/O Utility Classes](../../../Docs/IOUtils/API.md) library project has classes that are designed to help with opening pipes and files with [inheritable handles](../InheritableHandles.md).
->
+
 The property is public in [_TPJConsoleApp_](./TPJConsoleApp.md) and protected in [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).

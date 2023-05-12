@@ -14,8 +14,7 @@ When redirecting programmatically we can't use `>` and `<` on the command line, 
 
 To demonstrate this we need a console application that processes text from standard input and writes the processed text to standard output.
 
->
-This example uses `Echoer.exe` to process the text. The source code for `Echoer` can be found in [Appendix 2](../Appendices/Appendix2.md). If you have a suitable alternative application substitute it in the code below.
+> This example uses `Echoer.exe` to process the text. The source code for `Echoer` can be found in [Appendix 2](../Appendices/Appendix2.md). If you have a suitable alternative application substitute it in the code below.
 
 Note that `Echoer` expects to receive ANSI text on standard input and writes ANSI text to standard output. Any alternative application must do the same.
 
@@ -67,8 +66,7 @@ We have not created an [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event ha
 
 Run the application, enter some text in _Memo1_ and click the button. The resulting processed file will be displayed in _Memo2_. The files `Eg6-in.txt` and `Eg6-out.txt` will have been created.
 
->
-The sample code above works well with both Unicode and non-Unicode versions of Delphi. This is because the _LoadFromFile_ and _SaveToFile_ methods that the memo controls use for writing and reading the files create ANSI text files in both cases. In non-Unicode Delphis this is the only possible action and in Unicode Delphis it is the default action if no encoding is specified.
+> The sample code above works well with both Unicode and non-Unicode versions of Delphi. This is because the _LoadFromFile_ and _SaveToFile_ methods that the memo controls use for writing and reading the files create ANSI text files in both cases. In non-Unicode Delphis this is the only possible action and in Unicode Delphis it is the default action if no encoding is specified.
 
 ## Links
 

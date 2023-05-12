@@ -6,7 +6,7 @@ Here is an overview of what we will do:
 
 * Use a console application that processes text on standard input and writes processed output to standard output. We will redirect standard input to a lengthy text file.
 
-> We will use `Echoer.exe` from [Appendix 2](../Appendices/Appendix2.md) once more. Again you can use another application provided it processes ANSI text from standard input and writes ANSI text to standard output.
+  > We will use `Echoer.exe` from [Appendix 2](../Appendices/Appendix2.md) once more. Again you can use another application provided it processes ANSI text from standard input and writes ANSI text to standard output.
 
 * Display the console applications' standard output in a memo control. To do this we will redirect standard output to a pipe and read the pipe in an [_OnWork_](../API/TPJCustomConsoleApp-OnWork.md) event, passing output to a helper class that updates the memo control.
 

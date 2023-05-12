@@ -1,8 +1,8 @@
 # TPJConsoleApp class
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
 ## Description
 
@@ -13,14 +13,14 @@ _TPJConsoleApp_ descends from [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).
 ### Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Execute_](./TPJCustomConsoleApp-Execute.md) | Executes the console application. |
 | [_Terminate_](./TPJCustomConsoleApp-Terminate.md) | Attempts to terminate the console application process. |
 
 ### Properties
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_CommandLine_](./TPJCustomConsoleApp-CommandLine.md) | Command line used to execute a console application. |
 | [_ConsoleColors_](./TPJCustomConsoleApp-ConsoleColors.md) | Foreground and background colours used in console window. |
 | [_ConsoleTitle_](./TPJCustomConsoleApp-ConsoleTitle.md) | Title to be displayed in any new console window. |
@@ -51,7 +51,7 @@ _TPJConsoleApp_ descends from [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md).
 ### Events
 
 | Event | Description |
-|-------|-------------|
+|:------|:------------|
 | [_OnComplete_](./TPJCustomConsoleApp-OnComplete.md) | Triggered when an application completes or times out. |
 | [_OnStart_](./TPJCustomConsoleApp-OnStart.md) | Triggered after a console application process is created and just before it starts executing. |
 | [_OnWork_](./TPJCustomConsoleApp-OnWork.md) | Triggered when the executing application yields control to this class. Permits necessary work to be completed. |

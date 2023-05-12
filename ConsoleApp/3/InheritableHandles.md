@@ -8,7 +8,6 @@ A child process can only inherit handles that have been made _inheritable_. This
 
 The following code shows how to do this:
 
-
 ```pascal
 var
   Security: TSecurityAttributes;

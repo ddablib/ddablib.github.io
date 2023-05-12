@@ -1,8 +1,8 @@
 # TPJConsoleAppPriority type
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
 ```pascal
 type
@@ -18,7 +18,7 @@ _TPJConsoleAppPriority_ is the type of the [_TPJCustomConsoleApp.Priority_](./TP
 Values are:
 
 | Value | Description |
-|-------|-------------|
+|:------|:------------|
 | _cpDefault_ | Default priority. Normally _cpNormal_ is used unless the parent process has priority _cpIdle_ in which case _cpIdle_ is used. |
 | _cpHigh_ | High priority. Use for time-critical tasks (processor intensive). |
 | _cpNormal_ | Normal priority for applications with no specific scheduling needs. |

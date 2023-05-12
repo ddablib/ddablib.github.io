@@ -1,16 +1,16 @@
 # Execute method
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
-***Classes:*** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
+**Classes:** [_TPJCustomConsoleApp_](./TPJCustomConsoleApp.md), [_TPJConsoleApp_](./TPJConsoleApp.md)
 
 ```pascal
 function Execute(const CmdLine, CurrentDir: string = _): Boolean; overload;
 ```
 
-*Introduced v2.0:*
+**Introduced v2.0:**
 
 ```pascal
 function Execute: Boolean; overload;

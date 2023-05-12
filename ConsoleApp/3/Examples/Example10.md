@@ -89,7 +89,7 @@ _WorkHandler_ checks to see if the console application is sharing the main progr
 The _ParseCommandLine_ method checks the command line for valid commands and sets the appropriate field values. Valid parameters are:
 
 | Parameter | Description |
-|-----------|-------------|
+|:----------|:------------|
 | `-v` | The child process is visible. If this switch is not provided the child process is not visible. If the child process is displayed in the host program's console this switch is ignored. |
 | `-n` | Displays the child process in its own console window. If this switch is not provided the child process outputs to the host's console window. |
 | `<title>` | Text to be displayed in the console window's title bar. If not supplied the child process' console window has its default title. Any title is ignored if the child process does not have its own console. Quote any title that contains spaces. |

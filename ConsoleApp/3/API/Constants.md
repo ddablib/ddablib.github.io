@@ -1,8 +1,8 @@
 # Constants
 
-***Project:*** [Console Application Runner Classes](../API.md)
+**Project:** [Console Application Runner Classes](../API.md)
 
-***Unit:*** _PJConsoleApp_
+**Unit:** _PJConsoleApp_
 
 The following constants are declared in the library.
 
@@ -32,7 +32,7 @@ Number of milliseconds in a minute. This can be useful when setting the [_TPJCus
 
 ## cDefTimeSlice
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ```pascal
 cDefTimeSlice = 50;
