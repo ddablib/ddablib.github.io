@@ -1,12 +1,12 @@
 # Process methods
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Class:*** [_TPJMD5_](./TPJMD5.md)
+**Class:** [_TPJMD5_](./TPJMD5.md)
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ```pascal
 procedure Process(const X: TBytes; const StartIdx, Count: Cardinal);
@@ -44,8 +44,6 @@ Similar groups of methods are described below:
 * [WideString version](#widestring-version)
 * [Unicode string versions](#unicode-string-versions)
 * [TStream versions](#tstream-versions)
-
---------------------------------------------
 
 ### Byte array versions
 
@@ -90,8 +88,6 @@ begin
 end;
 ```
 
---------------------------------------------
-
 ### Untyped buffer version
 
 ```pascal
@@ -124,8 +120,6 @@ begin
 end;
 ```
 
---------------------------------------------
-
 ### ANSI string version
 
 ```pascal
@@ -133,8 +127,6 @@ procedure Process(const S: RawByteString); overload;
 ```
 
 Adds the ordinal value of all the characters from an ANSI string _S_ to the current hash. _S_ can have any code page.
-
---------------------------------------------
 
 ### ShortString version
 
@@ -144,8 +136,6 @@ procedure Process(const S: ShortString); overload;
 
 Adds the ordinal value of all the characters from the _ShortString_ _S_ to the current hash.
 
---------------------------------------------
-
 ### WideString version
 
 ```pascal
@@ -153,8 +143,6 @@ procedure Process(const S: WideString); overload;
 ```
 
 Adds the ordinal value of all the _WideChar_ characters from the _WideString_ parameter _S_ to the current hash.
-
---------------------------------------------
 
 ### Unicode string versions
 
@@ -206,8 +194,6 @@ begin
   end;
 end;
 ```
-
---------------------------------------------
 
 ### TStream versions
 

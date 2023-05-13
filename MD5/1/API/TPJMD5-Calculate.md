@@ -1,12 +1,12 @@
 # Calculate methods
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Class:*** [_TPJMD5_](./TPJMD5.md)
+**Class:** [_TPJMD5_](./TPJMD5.md)
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ```pascal
 class function Calculate(const X: TBytes; const StartIdx, Count: Cardinal):
@@ -47,8 +47,6 @@ Similar groups of methods are described below:
 * [WideString version](#widestring-version)
 * [Unicode string versions](#unicode-string-versions)
 * [TStream versions](#tstream-versions)
-
---------------------------------------------
 
 ### Byte array versions
 
@@ -94,8 +92,6 @@ begin
 end;
 ```
 
---------------------------------------------
-
 ### Untyped buffer version
 
 ```pascal
@@ -115,8 +111,6 @@ begin
   Result := TPJMD5.Calculate(A[0], SizeOf(LongWord) * Length(A));
 end;
 ```
-
---------------------------------------------
 
 ### ANSI string version
 
@@ -141,8 +135,6 @@ begin
 end;
 ```
 
---------------------------------------------
-
 ### ShortString version
 
 ```pascal
@@ -151,8 +143,6 @@ class function Calculate(const S: ShortString): TPJMD5Digest; overload;
 
 Calculates a digest from the ordinal values of the characters of a short string _S_.
 
---------------------------------------------
-
 ### WideString version
 
 ```pascal
@@ -160,8 +150,6 @@ class function Calculate(const S: WideString): TPJMD5Digest; overload;
 ```
 
 Calculates a digest from the ordinal values of the _WideChar_ characters of the _WideString_ parameter, _S_.
-
---------------------------------------------
 
 ### Unicode string versions
 
@@ -172,8 +160,6 @@ class function Calculate(const S: UnicodeString): TPJMD5Digest; overload;
 ```
 
 Each of these methods creates a digest of a Unicode string _S_. Before processing the string it is converted to a sequence of bytes. The first version uses the encoding passed in the _Encoding_ parameter to perform the conversion while the second version uses the _TEncoding.Default_ encoding.
-
---------------------------------------------
 
 ### TStream versions
 

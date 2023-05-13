@@ -1,10 +1,10 @@
 # EPJMD5 exception class
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ## Description
 

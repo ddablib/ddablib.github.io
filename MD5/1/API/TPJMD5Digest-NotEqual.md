@@ -1,12 +1,12 @@
 # NotEqual operator overloads
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Class:*** [_TPJMD5_](./TPJMD5.md)
+**Class:** [_TPJMD5_](./TPJMD5.md)
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ```pascal
 class operator NotEqual(const D1, D2: TPJMD5Digest): Boolean;
@@ -45,8 +45,8 @@ end;
 
 A [_TPJMD5Digest_](./TPJMD5Digest.md) record is considered unequal to a Unicode string if:
 
-1. The string is not 32 characters long -- ***or***
-2. The string contains any characters that are not valid hexadecimal characters (both upper and lower case letters `A` to `F` are permitted) -- ***or***
+1. The string is not 32 characters long -- **or**
+2. The string contains any characters that are not valid hexadecimal characters (both upper and lower case letters `A` to `F` are permitted) -- **or**
 3. The sequence of bytes represented by the string is different to the bytes of the [_TPJMD5Digest_](./TPJMD5Digest.md) record's _Bytes_ field.
 
 #### Unicode example
@@ -76,7 +76,7 @@ end;
 
 A [_TPJMD5Digest_](./TPJMD5Digest.md) record is considered unequal to a _TBytes_ array if:
 
-1. The byte array does not have 16 elements -- ***or***
+1. The byte array does not have 16 elements -- **or**
 2. The bytes of the byte array differ from those of the [_TPJMD5Digest_](./TPJMD5Digest.md) record's _Bytes_ field.
 
 #### TBytes example
@@ -115,7 +115,7 @@ end;
 
 #### TBytes note
 
-Although a byte array with more than 16 elements can be assigned to a [_TPJMD5Digest_](./TPJMD5Digest.md), the two items ***do not*** compare equal:
+Although a byte array with more than 16 elements can be assigned to a [_TPJMD5Digest_](./TPJMD5Digest.md), the two items **do not** compare equal:
 
 ```pascal
 var

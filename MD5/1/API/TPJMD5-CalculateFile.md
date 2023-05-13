@@ -1,12 +1,12 @@
 # CalculateFile method
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Class:*** [_TPJMD5_](./TPJMD5.md)
+**Class:** [_TPJMD5_](./TPJMD5.md)
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ```pascal
 class function CalculateFile(const FileName: TFileName): TPJMD5Digest;

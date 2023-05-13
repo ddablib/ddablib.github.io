@@ -1,10 +1,10 @@
 # TPJMD5 class
 
-***Project:*** [MD5 Message Digest Unit](../API.md)
+**Project:** [MD5 Message Digest Unit](../API.md)
 
-***Unit:*** _PJMD5_
+**Unit:** _PJMD5_
 
-***Introduced:*** v1.0
+**Introduced:** v1.0
 
 ## Description
 
@@ -17,7 +17,7 @@ The MD5 hash is exposed as a record of type [_TPJMD5Digest_](./TPJMD5Digest.md) 
 ### Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Create_](./TPJMD5-Create.md) | Object constructor. |
 | [_Calculate_](./TPJMD5-Calculate.md) | There are numerous overloaded versions of [_Calculate_](./TPJMD5-Calculate.md) for several different data types. These are class methods that create an MD5 hash directly from data passed to them. Each method returns the resulting hash as a [_TPJMD5Digest_](./TPJMD5Digest.md) record. |
 | [_CalculateFile_](./TPJMD5-CalculateFile.md) | This class method is similar to the [_Calculate_](./TPJMD5-Calculate.md) methods except that it calculates and returns the MD5 hash of the contents of a file. |
@@ -29,7 +29,7 @@ The MD5 hash is exposed as a record of type [_TPJMD5Digest_](./TPJMD5Digest.md) 
 ### Properties
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_Digest_](./TPJMD5-Digest.md) | Read only property that finalizes and provides access to the MD5 hash as a [_TPJMD5Digest_](./TPJMD5Digest.md) record. |
 | [_ReadBufferSize_](./TPJMD5-ReadBufferSize.md) | Gets and sets the size of buffer used when reading data from files and streams. |
 | [_Finalized_](./TPJMD5-Finalized.md) | Read only property that indicates if the MD5 hash has been finalized. |
@@ -41,5 +41,5 @@ _TPJMD5_ exposes no events.
 ### Class Constants
 
 | Constant | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_DefReadBufferSize_](TPJMD5-DefReadBufferSize.md) | Default buffer size used when reading streams and files. |
