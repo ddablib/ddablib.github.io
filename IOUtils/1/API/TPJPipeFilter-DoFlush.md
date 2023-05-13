@@ -31,10 +31,10 @@ Here is the code from [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md):
 ```pascal
 procedure TPJUnicodeBMPPipeFilter.DoFlush;
 begin
-  if fPartialLine <> _ then
+  if fPartialLine <> '' then
   begin
     DoLineEnd(fPartialLine);
-    fPartialLine := _;
+    fPartialLine := '';
   end;
 end;
 ```
