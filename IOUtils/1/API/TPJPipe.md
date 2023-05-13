@@ -14,7 +14,7 @@ _TPJPipe_ provides methods to check the number of bytes in a readable pipe, read
 
 ### Note 
 
-† Inheritable handles have a particular use in the [Console Application Runner Classes](../../ConsoleApp/API.md) for piping the output or input of console applications to and from the host application.
+† Inheritable handles have a particular use in the [Console Application Runner Classes](../../../ConsoleApp/index.md) for piping the output or input of console applications to and from the host application.
 
 ### Methods
 
