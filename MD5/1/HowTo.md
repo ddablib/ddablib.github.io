@@ -1,4 +1,4 @@
-# [MD5 Message Digest Unit](../MD5.md) How-to Guide
+# [MD5 Message Digest Unit](../index.md) How-to Guide
 
 This guide consists of various topics to help you understand how to get the best out of the MD5 Message Digest unit.
 
