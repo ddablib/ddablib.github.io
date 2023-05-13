@@ -24,6 +24,7 @@ Documentation of the following projects has been completed:
 | Extended String Property Editor | <https://lib-docs.delphidabbler.com/StringPE/> |
 | Fractions Unit |  <https://lib-docs.delphidabbler.com/Fractions/> |
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
+| I/O Utilities Unit | <https://lib-docs.delphidabbler.com/IOUtils/> |
 | Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
 | Shell Folders Unit |  <https://lib-docs.delphidabbler.com/ShellFolders/> |
