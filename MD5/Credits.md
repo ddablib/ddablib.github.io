@@ -1,10 +1,8 @@
-# [MD5 Message Digest Unit](../MD5.md) Credits
+# [MD5 Message Digest Unit](./index.md) Credits
 
 This work is derived from the RSA Data Security, Inc. MD5 Message-Digest Algorithm.
 
 RSA Data Security's copyright notice is included in this project's documentation. The notice must be included with any redistribution of this work or any derived work. It is quoted below.
-
-## RSA Data Security's copyright notice
 
 > Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.
 >
@@ -24,8 +22,3 @@ of any kind.
 >
 > These notices must be retained in any copies of any part of this documentation
 and/or software.
-
-## Links
-
-* [Programmers' Guide](./API.md)
-* [How-to Guide](./HowTo.md)
