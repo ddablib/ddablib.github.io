@@ -1,10 +1,10 @@
 # Flush method
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Class:*** [_TPJPipeFilter_](./TPJPipeFilter.md)
+**Class:** [_TPJPipeFilter_](./TPJPipeFilter.md)
 
 **Applies to:** ~>1.0
 
@@ -24,7 +24,7 @@ Actions resulting from calling this method depend on the implementation of desce
 
 Implementers of new filter classes should note that the required actions must be implemented in the override of the abstract [_DoFlush_](./TPJPipeFilter-DoFlush.md) method.
 
-Implementations should ensure that multiple calls to _Flush_ between pipe reads have the same effect as calling the method once. For example, assuming that F is and instance of a [_TPJPipeFilter_](./TPJPipeFilter.md) concrete descendant class, this code:
+Implementations should ensure that multiple calls to _Flush_ between pipe reads have the same effect as calling the method once. For example, assuming that F is an instance of a [_TPJPipeFilter_](./TPJPipeFilter.md) concrete descendant class, this code:
 
 ```pascal
 ...

@@ -1,10 +1,10 @@
 # HaveUnprocessedData method
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Classes:*** [_TPJPipeFilter_](./TPJPipeFilter.md), [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md), [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
+**Classes:** [_TPJPipeFilter_](./TPJPipeFilter.md), [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md), [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
 
 **Applies to:** ~>1.0
 

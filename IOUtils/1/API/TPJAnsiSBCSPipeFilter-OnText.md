@@ -1,10 +1,10 @@
 # OnText event
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Class:*** [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
+**Class:** [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
 
 **Applies to:** ~>1.0
 
@@ -28,7 +28,7 @@ In the event that [_ReadPipe_](./TPJAnsiSBCSPipeFilter-ReadPipe.md) reads an emp
 
 The event is never triggered by the [_Flush_](./TPJAnsiSBCSPipeFilter-Flush.md) method.
 
-## Links
+## See Also
 
 * [_TPJAnsiTextReadEvent_](./TPJAnsiTextReadEvent.md)
 * [_OnLineEnd_](./TPJAnsiSBCSPipeFilter-OnLineEnd.md) event

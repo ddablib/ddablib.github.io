@@ -1,10 +1,10 @@
 # OnText event
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Class:*** [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
+**Class:** [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
 
 **Applies to:** ~>1.0
 
@@ -30,7 +30,7 @@ The event handler is never triggered by the [_Flush_](./TPJUnicodeBMPPipeFilter-
 
 Note that the _UnicodeString_ type must be defined to use this event. This is a native type on Delphi 2009 or later. For Delphi 2007 and earlier the [_PJPipeFilters_](./PJPipeFilters.md) unit defines _UnicodeString_ as _WideString_.
 
-## Links
+## See Also
 
 * [_TPJUnicodeTextReadEvent_](./TPJUnicodeTextReadEvent.md)
 * [_OnLineEnd_](./TPJUnicodeBMPPipeFilter-OnLineEnd.md) property

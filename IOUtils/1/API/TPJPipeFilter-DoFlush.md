@@ -1,10 +1,10 @@
 # DoFlush abstract method
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Class:*** [_TPJPipeFilter_](./TPJPipeFilter.md)
+**Class:** [_TPJPipeFilter_](./TPJPipeFilter.md)
 
 **Applies to:** ~>1.0
 
@@ -14,7 +14,7 @@ procedure DoFlush; virtual; abstract;
 
 ## Description
 
-Flushes any ***valid*** unprocessed data from any internal buffers.
+Flushes any **valid** unprocessed data from any internal buffers.
 
 Not all filters necessarily have any valid buffered data. If this is the case they need only provide a stub, do nothing, implementation of this method.
 

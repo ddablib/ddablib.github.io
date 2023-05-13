@@ -1,6 +1,6 @@
 # PJFileHandle unit
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
 **Applies to:** ~>1.0
 

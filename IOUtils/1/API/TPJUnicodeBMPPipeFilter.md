@@ -1,8 +1,8 @@
 # TPJUnicodeBMPPipeFilter class
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
 **Applies to:** ~>1.0
 
@@ -16,39 +16,39 @@ The class works only with Unicode text from the [Basic Multilingual Plane](https
 
 _TPJUnicodeBMPPipeFilter_ descends from [_TPJPipeFilter_](./TPJPipeFilter.md).
 
-### Methods
+## Methods
 
-#### Methods introduced in this class
+### Methods introduced in this class
 
 The only method introduced in this class is an override of _TObject.AfterConstruction_ to set default property values. There is no need to call this method directly.
 
-#### Methods inherited from TPJPipeFilter
+### Methods inherited from TPJPipeFilter
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Create_](./TPJPipeFilter-Create.md) | Object constructor. Sets up object to filter a specified pipe. |
 | [_ReadPipe_](./TPJUnicodeBMPPipeFilter-ReadPipe.md) | Reads all available data from the pipe. |
 | [_Flush_](./TPJUnicodeBMPPipeFilter-Flush.md) | Flushes any unprocessed buffered data. |
 | [_HaveUnprocessedData_](./TPJPipeFilter-HaveUnprocessedData.md) | Checks there is currently any buffered, unprocessed, data. |
 
-### Properties
+## Properties
 
-#### Properties introduced in this class
+### Properties introduced in this class
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_EOLMarker_](./TPJUnicodeBMPPipeFilter-EOLMarker.md) | End of line marker used when parsing text into lines. |
 
-#### Properties inherited from TPJPipeFilter
+### Properties inherited from TPJPipeFilter
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_Pipe_](./TPJPipeFilter-Pipe.md) | Read only property providing access to the pipe that is being filtered. |
 
 ### Events
 
 | Event | Description |
-|-------|-------------|
+|:------|:------------|
 | [_OnLineEnd_](./TPJUnicodeBMPPipeFilter-OnLineEnd.md) | Event triggered when each end of line is reached. |
 | [_OnText_](./TPJUnicodeBMPPipeFilter-OnText.md) | Event triggered whenever valid text is read from pipe. |
 

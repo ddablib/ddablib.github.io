@@ -1,10 +1,10 @@
 # OnLineEnd event
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
+**Unit:** [_PJPipeFilters_](./PJPipeFilters.md)
 
-***Class:*** [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
+**Class:** [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
 
 **Applies to:** ~>1.0
 
@@ -41,22 +41,18 @@ The [_EOLMarker_](./TPJUnicodeBMPPipeFilter-EOLMarker.md) property is set to `<E
 * The _ReadPipe_ method is called and reads text [[1]](#footnote-1) `Lorem ip` from the pipe.
   * _OnLineEnd_ is not triggered because the text contains no end of line marker (`<EOL>`).
   * The text is recorded for later use in a "carry forward" buffer.
-
 * _ReadPipe_ is called and reads `sum<EOL>intellegam<EOL>dis` from the pipe.
   * The text is appended to the carried forward text to get `Lorem ipsum<EOL>intellegam<EOL>dis`, which is then processed.
   * _OnLineEnd_ is triggered with parameter `Lorem ipsum`. The following `<EOL>` is discarded.
   * _OnLineEnd_ is triggered again with parameter `intellegam`. The following `<EOL>` is again discarded.
   * The text `dis` is left over and recorded in the carry forward buffer.
-
 * _ReadPipe_ is called and reads `sentias<EOL>te sea` from the pipe.
   * The text is appended to the carried forward text to get `dissentias<EOL>te sea`, which is processed.
   * _OnLineEnd_ is triggered with parameter `dissentias` and the following `<EOL>` is discarded.
   * The remaining text `te sea` is recorded in the carry forward buffer.
-
 * The _Flush_ method is called.
   * _OnLineEnd_ is triggered with carried forward text `te sea` as its parameter.
   * The carry forward buffer is cleared.
-
 * The object is destroyed, which automatically calls _Flush_ once more.
   * Nothing happens because the carry forward buffer is empty.
 
@@ -66,7 +62,7 @@ The [_EOLMarker_](./TPJUnicodeBMPPipeFilter-EOLMarker.md) property is set to `<E
 
 Of course _ReadPipe_ actually reads binary data from the pipe and converts that data into a Unicode text string.
 
-## Links
+## See Also
 
 * [_TPJUnicodeTextReadEvent_](./TPJUnicodeTextReadEvent.md)
 * [_OnText_](./TPJUnicodeBMPPipeFilter-OnText.md) property

@@ -1,10 +1,10 @@
 # WriteHandle property
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJPipe_](./PJPipe.md)
+**Unit:** [_PJPipe_](./PJPipe.md)
 
-***Class:*** [_TPJPipe_](./TPJPipe.md)
+**Class:** [_TPJPipe_](./TPJPipe.md)
 
 **Applies to:** ~>1.0
 

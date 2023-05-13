@@ -1,8 +1,8 @@
 # TPJFileHandle class
 
-***Project:*** [I/O Utility Classes](../API.md)
+**Project:** [I/O Utility Classes](../API.md)
 
-***Unit:*** [_PJFileHandle_](./PJFileHandle.md)
+**Unit:** [_PJFileHandle_](./PJFileHandle.md)
 
 **Applies to:** ~>1.0
 
@@ -14,18 +14,18 @@ The class was designed with the sole purpose of making it easier to obtain inher
 
 If there is a need to read or write the file you can either create a _THandleStream_ using the handle or you can use pass the handle to suitable handle file access routines from Delphi's _SysUtils_ and _Windows_ units.
 
-### Methods
+## Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Create_](./TPJFileHandle-Create.md) | Overloaded constructors. Each opens or creates a file and records its handle. |
 
-### Properties
+## Properties
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_Handle_](./TPJFileHandle-Handle.md) | Handle used to access file. |
 
-### Events
+## Events
 
 _TPJFileHandle_ exposes no events.
