@@ -4,7 +4,7 @@
 
 This appendix contains some example code that can be used to create [inheritable handles] to files and pipes.
 
-> If you don't want to get involved with all this low level stuff you can just use _TPJPipe_ and _TPJFileHandle_ from the [I/O Utility Classes](../../../Docs/IOUtils.md) to open pipes and files respectively with inheritable handles.
+> If you don't want to get involved with all this low level stuff you can just use _TPJPipe_ and _TPJFileHandle_ from the [I/O Utility Classes](../../../IOUtils/index.md) to open pipes and files respectively with inheritable handles.
 
 ## Pipes
 

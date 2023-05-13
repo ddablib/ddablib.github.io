@@ -22,11 +22,11 @@ Note that `Echoer` expects to receive ANSI text on standard input and writes ANS
 
 Start a new GUI application and drop a button and two memos on the main form. The text to be processed will be entered in _Memo1_. We will then write the memo content to an ANSI text file, process the file using `Echoer.exe` which will write an output file, then load that file into _Memo2_.
 
-We will use the helper class [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md) to open the files and obtain their handles. The advantage of using this class is that it opens files with the required inheritable handles. It also closes the handles when the class is freed. You don't have to use the class, but if you don't use must open the required files yourself, ensuring they have inheritable handles. You must also close the handles when they are no longer needed. Some sample code is in [Appendix 1](../Appendices/Appendix1.md).
+We will use the helper class [_TPJFileHandle_](../../../IOUtils/1/API/TPJFileHandle.md) to open the files and obtain their handles. The advantage of using this class is that it opens files with the required inheritable handles. It also closes the handles when the class is freed. You don't have to use the class, but if you don't use must open the required files yourself, ensuring they have inheritable handles. You must also close the handles when they are no longer needed. Some sample code is in [Appendix 1](../Appendices/Appendix1.md).
 
-> [_TPJFileHandle_](../../../Docs/IOUtils/API/TPJFileHandle.md) is included in the [I/O Utitlity Classes](../../../Docs/IOUtils/API.md) download in `PJFileHandle.pas`.
+> [_TPJFileHandle_](../../../IOUtils/1/API/TPJFileHandle.md) is included in the [I/O Utitlity Classes](../../../IOUtils/1/API.md) download in `PJFileHandle.pas`.
 
-First make sure that the uses statement includes  _PJConsoleApp_ and [_PJFileHandle_](../../../Docs/IOUtils/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
+First make sure that the uses statement includes  _PJConsoleApp_ and [_PJFileHandle_](../../../IOUtils/1/API/PJFileHandle.md) then create an _OnClick_ event handler for the button as follows:
 
 ```pascal
 procedure TForm1.Button1Click(Sender: TObject);

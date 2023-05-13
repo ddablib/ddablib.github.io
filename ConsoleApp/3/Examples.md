@@ -10,7 +10,7 @@ They show how to undertake various common tasks using the classes provided in th
 
 Most examples require the use of a suitable command line application. Source code of the applications referred to in the examples is is provided in [Appendix 2](./Appendices/Appendix2.md).
 
-Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes](../../Docs/IOUtils.md) project in order to compile.
+Examples 6, 7, 8, 9 & 12 require one or more units from the [I/O Utility Classes](../../IOUtils/index.md) project in order to compile.
 
 ## Contents
 
