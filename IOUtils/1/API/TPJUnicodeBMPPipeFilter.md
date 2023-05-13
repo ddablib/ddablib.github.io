@@ -4,6 +4,8 @@
 
 ***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
 
+**Applies to:** ~>1.0
+
 ## Description
 
 This pipe filter class constructs valid Unicode strings from chunks of data read from a pipe.

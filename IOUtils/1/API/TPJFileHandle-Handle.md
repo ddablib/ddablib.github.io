@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJFileHandle_](./TPJFileHandle.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 property Handle: THandle;
 ```

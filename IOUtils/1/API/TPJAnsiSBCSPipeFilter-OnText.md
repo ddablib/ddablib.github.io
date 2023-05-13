@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 property OnText: TPJAnsiTextReadEvent;
 ```

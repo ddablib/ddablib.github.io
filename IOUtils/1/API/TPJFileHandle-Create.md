@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJFileHandle_](./TPJFileHandle.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 constructor Create(const FileName: string; const Mode: LongWord;
   const Inheritable: Boolean = True); overload;

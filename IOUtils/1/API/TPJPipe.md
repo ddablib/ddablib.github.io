@@ -4,6 +4,8 @@
 
 ***Unit:*** [_PJPipe_](./PJPipe.md)
 
+**Applies to:** ~>1.0
+
 ## Description
 
 This class provides a wrapper round a Windows un-named pipe.

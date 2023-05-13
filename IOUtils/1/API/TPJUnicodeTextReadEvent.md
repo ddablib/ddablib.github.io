@@ -4,6 +4,8 @@
 
 ***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 type
   TPJUnicodeTextReadEvent = procedure(Sender: TObject;

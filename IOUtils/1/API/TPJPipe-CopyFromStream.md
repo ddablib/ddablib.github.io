@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJPipe_](./TPJPipe.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 procedure CopyFromStream(const Stm: TStream; Count: LongWord = 0);
 ```

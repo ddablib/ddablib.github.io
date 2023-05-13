@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJPipe_](./TPJPipe.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 function WriteData(const Buf; const BufSize: LongWord): LongWord;
 ```

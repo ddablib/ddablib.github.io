@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 property OnText: TPJUnicodeTextReadEvent;
 ```

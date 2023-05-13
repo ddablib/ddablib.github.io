@@ -6,6 +6,8 @@
 
 ***Classes:*** [_TPJPipeFilter_](./TPJPipeFilter.md), [_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md), [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 property Pipe: TPJPipe;
 ```

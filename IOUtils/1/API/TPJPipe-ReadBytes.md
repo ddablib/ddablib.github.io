@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJPipe_](./TPJPipe.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 function ReadBytes(const Count: LongWord = 0): TBytes;
 ```

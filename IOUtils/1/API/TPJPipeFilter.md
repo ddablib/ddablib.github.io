@@ -4,6 +4,8 @@
 
 ***Unit:*** [_PJPipeFilters_](./PJPipeFilters.md)
 
+**Applies to:** ~>1.0
+
 ## Description
 
 This is an abstract base class for all classes that filter data read from pipes. It defines common methods and properties along with some abstract methods to be overridden in sub classes.

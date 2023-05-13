@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJPipe_](./TPJPipe.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 constructor Create(const Size: LongWord; const Inheritable: Boolean = True);
   overload;

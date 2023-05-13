@@ -4,6 +4,8 @@
 
 ***Unit:*** [_PJFileHandle_](./PJFileHandle.md)
 
+**Applies to:** ~>1.0
+
 ## Description
 
 This helper class can create or open files in various access and sharing modes with specified security and provide access to the file handle.

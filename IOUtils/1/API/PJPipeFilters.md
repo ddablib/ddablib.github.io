@@ -2,6 +2,8 @@
 
 ***Project:*** [I/O Utility Classes](../API.md)
 
+**Applies to:** ~>1.0
+
 ## Description
 
 This unit contains classes that filter or format output from pipes.

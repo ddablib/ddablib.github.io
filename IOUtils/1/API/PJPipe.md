@@ -4,6 +4,8 @@
 
 ## Description
 
+**Applies to:** ~>1.0
+
 This unit contains code that encapsulates an un-named pipe and can read and write the pipe.
 
 ## Declarations

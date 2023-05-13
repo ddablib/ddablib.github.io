@@ -6,6 +6,8 @@
 
 ***Class:*** [_TPJPipeFilter_](./TPJPipeFilter.md)
 
+**Applies to:** ~>1.0
+
 ```pascal
 procedure DoFlush; virtual; abstract;
 ```
