@@ -10,7 +10,7 @@ This pipe filter class constructs valid ANSI strings from chunks of data read fr
 
 An event is triggered for each string read. Strings are also parsed into lines that are divided by a specified end of line marker. Each complete line read is notified to the user via another event.
 
-The class only works for [Single Byte Character Set](http://en.wikipedia.org/wiki/SBCS) (SBCS) strings, i.e. those that take exactly one byte per character. It is the caller's responsibility to interpret the string's code page correctly.
+The class only works for [Single Byte Character Set](https://en.wikipedia.org/wiki/SBCS) (SBCS) strings, i.e. those that take exactly one byte per character. It is the caller's responsibility to interpret the string's code page correctly.
 
 _TPJAnsiSBCSPipeFilter_ descends from [_TPJPipeFilter_](./TPJPipeFilter.md)
 

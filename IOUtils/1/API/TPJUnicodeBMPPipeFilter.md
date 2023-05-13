@@ -10,7 +10,7 @@ This pipe filter class constructs valid Unicode strings from chunks of data read
 
 Data chunks may or may not be split on valid Unicode character boundaries. An event is triggered for each string read. Strings are also parsed into lines that are split by a specified end of line marker. Each line is notified to the user via another event.
 
-The class works only with Unicode text from the [Basic Multilingual Plane](http://en.wikipedia.org/wiki/Basic_Multilingual_Plane#Basic_Multilingual_Plane.md) (BMP).
+The class works only with Unicode text from the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Basic_Multilingual_Plane#Basic_Multilingual_Plane.md) (BMP).
 
 _TPJUnicodeBMPPipeFilter_ descends from [_TPJPipeFilter_](./TPJPipeFilter.md).
 

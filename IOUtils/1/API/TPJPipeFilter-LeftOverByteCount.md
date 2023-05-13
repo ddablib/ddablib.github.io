@@ -24,7 +24,7 @@ The type of the _RawData_ byte array parameter is _TBytes_. In versions of Delph
 
 ## Examples
 
-[_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md) reads Unicode strings comprising characters from the [Basic Multilingual Plane](http://en.wikipedia.org/wiki/Basic_Multilingual_Plane#Basic_Multilingual_Plane), which means that that each character always occupies two bytes.
+[_TPJUnicodeBMPPipeFilter_](./TPJUnicodeBMPPipeFilter.md) reads Unicode strings comprising characters from the [Basic Multilingual Plane](https://en.wikipedia.org/wiki/Basic_Multilingual_Plane#Basic_Multilingual_Plane), which means that that each character always occupies two bytes.
 
 Therefore if _RawData_ has an odd number of bytes the last byte is meaningless until more data is read and so this last byte needs to be carried forward. In this case `1` is returned from the function. If an even number of bytes is read then all the bytes encode characters and can be processed, so `0` is returned.
 
@@ -38,7 +38,7 @@ begin
 end;
 ```
 
-The implementation in [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md) is simpler. Because the class reads [single byte character sets](http://en.wikipedia.org/wiki/SBCS), where every byte represents a different character, it can always process all the bytes in _RawData_. Therefore the implementation of this method in [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md) is simply:
+The implementation in [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md) is simpler. Because the class reads [single byte character sets](https://en.wikipedia.org/wiki/SBCS), where every byte represents a different character, it can always process all the bytes in _RawData_. Therefore the implementation of this method in [_TPJAnsiSBCSPipeFilter_](./TPJAnsiSBCSPipeFilter.md) is simply:
 
 ```pascal
 function TPJAnsiSBCSPipeFilter.LeftOverByteCount(
