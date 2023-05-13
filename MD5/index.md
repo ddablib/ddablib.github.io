@@ -21,14 +21,14 @@ This documentation applies to MD5 Message Digest Unit v1.
 
 ## Contents
 
-* [Overview](./MD5/Overview.md)
-* [Programmers' Guide](./MD5/API.md)
-* [How-to Guide](./MD5/HowTo.md)
-* [Credits](./MD5/Credits.md)
+* [Overview](./1/Overview.md)
+* [Programmers' Guide](./1/API.md)
+* [How-to Guide](./1/HowTo.md)
+* [Credits](./Credits.md)
 
 ## Links
 
 * Back to [Documentation Home Page](../index.md)
 * [MD5 Message Digest Unit web page](https://delphidabbler.com/software/md5)
-* [Downloads](https://sourceforge.net/projects/ddablib/files/md5/) -- Download current version here.
-* [Source code](https://github.com/ddablib/md5) -- Current development tree.
+* [Releases](https://github.com/ddablib/md5/releases)
+* [Source code](https://github.com/ddablib/md5)
