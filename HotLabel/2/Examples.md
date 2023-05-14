@@ -1,5 +1,7 @@
 # [Hot Label Component](../index.md) Examples
 
+**Applies to:** ~>2.0
+
 The following examples showing how to use the [Hot Label Component] are available:
 
 1. [Using Highlighting](./Examples/Example1.md)

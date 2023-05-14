@@ -1,5 +1,7 @@
 # [Resource File Unit](../index.md) Overview
 
+**Applies to:** ~>1.0
+
 > This page provides an overview of the features of the Resource File Unit. If you are looking for information on programming with the component please see the [Programmers' Guide](./API.md).
 
 This unit contains classes that encapsulate Windows 32 bit binary resource files and the resources contained in them. The main functionality is provided by two classes:

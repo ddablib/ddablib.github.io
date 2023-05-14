@@ -1,5 +1,7 @@
 # [Clipboard Viewer Component](../index.md)  Overview
 
+**Applies to:** ~>2.0
+
 > This page provides an overview of the features of the Clipboard Viewer Component. If you are looking for information on programming with the component please see the [Programmers' Guide](./API.md).
 
 This project provides a single non-visual component that notifies the user when the content of the Windows clipboard changes. This is done by triggering an event.

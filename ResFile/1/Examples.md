@@ -1,5 +1,7 @@
 # [Resource File Unit](../index.md) Examples
 
+**Applies to:** ~>1.0
+
 The following examples of using the [Resource File Unit](../index.md) are available:
 
 1.  [Loading a resource file](./Examples/Example1.md)

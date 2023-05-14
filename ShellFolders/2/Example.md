@@ -1,5 +1,7 @@
 # [Shell Folders Unit](../index.md) Example
 
+**Applies to:** ~>2.0
+
 This example illustrates the use of the _[TPJSpecialFolderEnum](./API/TPJSpecialFolderEnum.md)_ class and some of the [special folder support functions](./API/Routines.md).
 
 Drop a _TListBox_ and a _TLabel_ component on a form. When the program starts and the form is created, the list box is filled with the names of the special folder identifier constants. Double clicking an item in the list box displays the constant's name and value (in hex) in the label.
