@@ -32,7 +32,7 @@ If the output is being redirected to a file then the output is a faithful byte b
 
 If output is redirected to the pipe then, again, the actual bytes output by the program are written to the pipe. The programmer is responsible for reading the pipe and must make sure that any structured data is re-assembled correctly. Each time the pipe is read it is possible it may contain an odd number of bytes, which is not valid Unicode. But I stress, it is up to the programmer to handle this - it is not a function of `TPJConsoleApp`.
 
-> Some pipe filter classes are available in the [I/O Utility Classes project](https://delphidabbler.com/software/ioutils), one of which can read Unicode from a pipe correctly. See [this example](./3/Examples/Example12.md) for details.
+> Some pipe filter classes are available in the [I/O Utility Classes project](../IOUtils/index.md), one of which can read Unicode from a pipe correctly. See [this example](./3/Examples/Example12.md) for details.
 
 ## FAQ 3
 
