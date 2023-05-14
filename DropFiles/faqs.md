@@ -17,8 +17,6 @@ This page has some frequently asked questions about the DelphiDabbler [Drop File
 9. [Can the components handle drag and drop onto frames?](#faq-9)
 10. [Can I find out where files were dropped on a control?](#faq-10)
 
-----
-
 ## FAQ 1
 
 **How do I handle files dropped on a single component on my form?**

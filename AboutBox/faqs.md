@@ -4,7 +4,13 @@ This page has some frequently asked questions about the DelphiDabbler [About Box
 
 > If you don't find an answer then read the component's [documentation](../AboutBox/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
-----
+## Contents
+
+1. [How does the component load the information it displays?](#faq-1)
+2. [Any plans to make the component compatible with Unicode Delphis?](#faq-2)
+
+
+## FAQ 1
 
 ***How does the component load the information it displays?***
 
@@ -18,7 +24,7 @@ First, drop a `TPJVersionInfo` component on the same form as the About Box Compo
 
 Now set the about box component's `VersionInfo` property to reference the `TPJVersionInfo` component. That's all you need to do. The about box will now automatically get the text to display from the program's version information.
 
-----
+## FAQ 2
 
 ***Any plans to make the component compatible with Unicode Delphis?***
 

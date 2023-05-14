@@ -12,8 +12,6 @@ This page has some frequently asked questions about the DelphiDabbler [Window St
 4. [Where does TPJWdwState store my window's state data?](#faq-4)
 5. [Why does TPJWdwState raise a "can't write file" exception when it is saving the window state?](#faq-5)
 
-----
-
 ## FAQ 1
 
 **Why does my form always centre itself on the screen even when TPJWdwState saved the old position?**
@@ -36,7 +34,6 @@ To get round this problem an alternative constructor named `CreateStandAlone` is
 
 Here's some sample code you could put in your form's `OnCreate` and `OnDestroy` event handlers to restore and save the form's position:
 
-
 ```pascal
 procedure Form1.FormCreate(Sender: TObject);
 begin
@@ -51,7 +48,6 @@ begin
 end;
 ```
 
-
 This code assumes you are using a `TPJWdwState` component that has been declared as a field of the form and named `fWdwState`. The code works for any of the window state components.
 
 > **Note:** `CreateStandAlone` was added in v4.3.
@@ -62,15 +58,15 @@ This code assumes you are using a `TPJWdwState` component that has been declared
 
 Symbols such as `HKEY_LOCAL_MACHINE` are simply constants representing the numbers that identify different root keys. Here's a list of the possible root keys:
 
-Constant                | Hex value | Decimal Value
-------------------------|-----------|--------------
-`HKEY_CLASSES_ROOT`     | 80000000  | 2147483648
-`HKEY_CURRENT_USER`     | 80000001  | 2147483649
-`HKEY_LOCAL_MACHINE`    | 80000002  | 2147483650
-`HKEY_USERS`            | 80000003  | 2147483651
-`HKEY_PERFORMANCE_DATA` | 80000004  | 2147483652
-`HKEY_CURRENT_CONFIG`   | 80000005  | 2147483653
-`HKEY_DYN_DATA`         | 80000006  | 2147483654
+| Constant                | Hex value | Decimal Value |
+|:------------------------|:----------|:--------------|
+| `HKEY_CLASSES_ROOT`     | 80000000  | 2147483648    |
+| `HKEY_CURRENT_USER`     | 80000001  | 2147483649    |
+| `HKEY_LOCAL_MACHINE`    | 80000002  | 2147483650    |
+| `HKEY_USERS`            | 80000003  | 2147483651    |
+| `HKEY_PERFORMANCE_DATA` | 80000004  | 2147483652    |
+| `HKEY_CURRENT_CONFIG`   | 80000005  | 2147483653    |
+| `HKEY_DYN_DATA`         | 80000006  | 2147483654    |
 
 The object inspector is displaying the actual number because it doesn't know about the constant names. You need to enter the correct decimal or hex number from the above table. Prefix hex numbers with a `$` character.
 
@@ -86,21 +82,21 @@ There are various possibilities depending on how you have configured `TPJWdwStat
 
 You should read the documentation of these properties to get an explanation then come back here and look at the table below that gives examples of various property values for a program with full path name `C:\SamplePath\Example.exe`:
 
-IniFileName property value  | IniRootDir property value | Ini file path
-----------------------------|---------------------------|--------------
-_Empty string_              | `rdAppDataDir`            | `%appdata%\DelphiDabbler\WindowStateStore\Example.ini`
-_Empty string_              | `rdProgramDataDir`        | `%programdata%\DelphiDabbler\WindowStateStore\Example.ini` |
-_Empty string_              | `rdExeDir`                | `C:\SamplePath\Example.ini`
-_Empty string_              | `rdWindowsDir`            | `%systemroot%\Example.ini`
-`Config.ini`                | `rdAppDataDir`            | `%appdata%\DelphiDabbler\WindowStateStore\Config.ini`
-`Config.ini`                | `rdProgramDataDir`        | `%progdata%\DelphiDabbler\WindowStateStore\Config.ini`
-`Config.ini`                | `rdExeDir`                | `C:\SamplePath\Config.ini`
-`Config.ini`                | `rdWindowsDir`            | `%systemroot%\Config.ini`
-`MyConfigDir\Config.ini`    | `rdAppDataDir`            | `%appdata%\MyConfigDir\Config.ini`
-`MyConfigDir\Config.ini`    | `rdProgramDataDir`        | `%progdata%\MyConfigDir\Config.ini`
-`MyConfigDir\Config.ini`    | `rdExeDir`                | `C:\SamplePath\MyConfigDir\Config.ini`
-`MyConfigDir\Config.ini`    | `rdWindowsDir`            | `%systemroot%\MyConfigDir\Config.ini`
-`C:\MyConfigDir\Config.ini` | _Any value_               | `C:\MyConfigDir\Config.ini`
+| IniFileName property value  | IniRootDir property value | Ini file path |
+|:----------------------------|:--------------------------|:--------------|
+| _Empty string_              | `rdAppDataDir`            | `%appdata%\DelphiDabbler\WindowStateStore\Example.ini` |
+| _Empty string_              | `rdProgramDataDir`        | `%programdata%\DelphiDabbler\WindowStateStore\Example.ini` |
+| _Empty string_              | `rdExeDir`                | `C:\SamplePath\Example.ini` |
+| _Empty string_              | `rdWindowsDir`            | `%systemroot%\Example.ini` |
+| `Config.ini`                | `rdAppDataDir`            | `%appdata%\DelphiDabbler\WindowStateStore\Config.ini` |
+| `Config.ini`                | `rdProgramDataDir`        | `%progdata%\DelphiDabbler\WindowStateStore\Config.ini` |
+| `Config.ini`                | `rdExeDir`                | `C:\SamplePath\Config.ini` |
+| `Config.ini`                | `rdWindowsDir`            | `%systemroot%\Config.ini` |
+| `MyConfigDir\Config.ini`    | `rdAppDataDir`            | `%appdata%\MyConfigDir\Config.ini` |
+| `MyConfigDir\Config.ini`    | `rdProgramDataDir`        | `%progdata%\MyConfigDir\Config.ini` |
+| `MyConfigDir\Config.ini`    | `rdExeDir`                | `C:\SamplePath\MyConfigDir\Config.ini` |
+| `MyConfigDir\Config.ini`    | `rdWindowsDir`            | `%systemroot%\MyConfigDir\Config.ini` |
+| `C:\MyConfigDir\Config.ini` | _Any value_               | `C:\MyConfigDir\Config.ini` |
 
 Note that in the above table `%appdata%` is the current user's application data directory, `%progdata%` is the system's common application data directory and `%systemroot%` is the Windows directory.
 
@@ -118,12 +114,12 @@ There are various possibilities depending on how you have configured `TPJWdwStat
 
 Examples:
 
-IniFileName property value  | Ini file name                       | Notes
-----------------------------|-------------------------------------|------
-not set (empty string)      | `C:\PathToProg\MyProg.ini`          | Assumes that the program is named `MyProg.exe` and is running from the `C:\PathToProg` directory.
-`Config.ini`                | `C:\Windows\Config.ini`             | Assumes that `C:\Windows` is the system's Windows directory.
-`MyConfigDir\Config.ini`    | `C:\Windows\MyConfigDir\Config.ini` | Assumes that `C:\Windows` is the system's Windows directory. Note that `C:\Windows\MyConfigDir` must exist.
-`C:\MyConfigDir\Config.ini` | `C:\MyConfigDir\Config.ini`         | Note that `C:\MyConfigDir` must exist.
+| IniFileName property value | Ini file name | Notes |
+|:---------------------------|:--------------|:------|
+| not set (empty string)      | `C:\PathToProg\MyProg.ini`          | Assumes that the program is named `MyProg.exe` and is running from the `C:\PathToProg` directory. |
+| `Config.ini`                | `C:\Windows\Config.ini`             | Assumes that `C:\Windows` is the system's Windows directory. |
+| `MyConfigDir\Config.ini`    | `C:\Windows\MyConfigDir\Config.ini` | Assumes that `C:\Windows` is the system's Windows directory. Note that `C:\Windows\MyConfigDir` must exist. |
+| `C:\MyConfigDir\Config.ini` | `C:\MyConfigDir\Config.ini`         | Note that `C:\MyConfigDir` must exist. |
 
 It is obvious that none of the above are ideal and it is for this reason that the `OnGetIniData` event was added.
 

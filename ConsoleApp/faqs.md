@@ -12,8 +12,6 @@ This page has some frequently asked questions about the DelphiDabbler [Console A
 4. [In the command shell I can pipe data between applications. How can I do this with TPJConsoleApp?](#faq-4)
 5. [How do I create or open a file with an inheritable handle?](#faq-5)
 
-----
-
 ## FAQ 1
 
 **Why am I getting an access violation when running code that uses TPJConsoleApp compiled with with Delphi 2009 (and later)?**
@@ -21,7 +19,6 @@ This page has some frequently asked questions about the DelphiDabbler [Console A
 This is because Delphi 2009 and later (the "Unicode Delphis") use the Unicode Windows API (earlier versions used the ANSI API). It is a peculiarity of the Unicode implementation of the `CreateProcess` API function (which `[[(Docs.)TPJConsoleApp]]` uses) that causes this access violation. This peculiarity wasn't present in the ANSI version of the function.
 
 > The classes have been updated to work round this problem. You need to update to release 1.0.2 or later.
-
 
 ## FAQ 2
 
@@ -52,7 +49,6 @@ First the shell creates a new empty file named `out.txt`. The file is created wi
 We have to do the same to use `TPJConsoleApp` for redirection. First create the file ensuring its handle is inheritable ([FAQ 5](#faq-5) explains how). Assign the file handle to `TPJConsoleApp`'s `StdOut` property. Finally call `Execute` with a command line parameter of `@@MyApp.exe@@`, leaving off the redirection operator part.
 
 Redirection using the `2>` (redirect standard error output) and `<` (redirect standard input) operators is similar. Open the required files for output (standard error) or input (standard input) and assign the (inheritable) handles to `TPJConsoleApp`'s `StdErr` or  `StdIn` properties respectively.
-
 
 ## FAQ 4
 
@@ -168,7 +164,6 @@ To use, pass an array of `TPJConsoleApp` instances to the `Execute` method, in t
 You must set the `StdIn` property of the first app to get the initial data unless it is supplied in any other way. You must also set the `StdOut` property of the last app if you want final output redirected in any way. `TConsoleAppChain` overwrites the remaining `StdIn` and `StdOut` properties, so don't set them. It also sets the `OnWork` event handler of all except the last `TPJConsoleApp` instance to copy output from the pipe to a memory stream.
 
 Each console application except the first must be capable of taking input from standard input. Similarly and each application except the last must write output to standard output.
-
 
 ## FAQ 5
 
