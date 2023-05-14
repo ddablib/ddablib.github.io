@@ -47,5 +47,4 @@ _TPJIStreamWrapper_ exposes no events.
 
 ## See Also
 
-* [Classes List](./Classes.md)
 * [Programmers' Guide](../API.md)

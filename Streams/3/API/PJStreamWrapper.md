@@ -19,7 +19,3 @@ There is an error in _TStringStream_'s _Seek_ implementation that occurs only in
 By default [_TPJStreamWrapper_](./TPJStreamWrapper.md) fixes this problem and all wrapped streams behave correctly and in the same way.
 
 If you prefer this bug to be replicated in wrapped _TStringStream_ classes, or if this change in behaviour from earlier versions of [_TPJStreamWrapper_](./TPJStreamWrapper.md) may break existing code, you can revert to the earlier behaviour by commenting out the _FIX_TSTRINGSTREAM_SEEK_ERROR_ defined symbol in the unit source code.
-
-## Links
-
-* [Units List](./Units.md)

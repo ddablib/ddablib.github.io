@@ -49,5 +49,4 @@ The class defines no events.
 
 ## See Also
 
-* [Classes List](./Classes.md)
 * [Programmers' Guide](../API.md)

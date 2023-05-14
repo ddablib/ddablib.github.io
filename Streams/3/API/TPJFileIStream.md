@@ -43,5 +43,4 @@ _TPJFileIStream_ exposes no events.
 
 ## See Also
 
-* [Classes List](./Classes.md)
 * [Programmers' Guide](../API.md)
