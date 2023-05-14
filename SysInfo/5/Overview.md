@@ -32,19 +32,13 @@ The deprecated code was removed entirely at v4.0.
 
 ## Compatibility
 
-This unit is designed for compilation with 32 bit and 64 bit Windows Delphi compilers. The latest version has been tested with Delphi XE and Delphi 11.3 Alexandria only. An attempt has been made to retain compatibility back to Delphi 4, but this has not been tested for some time, so it's not guaranteed.
+This unit should be able to be compiled with Delphi 4 and later, but later releases have only been tested with Delphi XE and later. It is compatible with Windows 32 bit an 64 bit targets.
 
-Compilation on old Delphi versions that do not support setting registry access flags via _TRegistry_ is not recommended since parts of the code may not work correctly on 64 bit Windows.
+The code depends on the Windows API and so is only suitable for compilation for Windows.
 
-The unit is not compatible with .NET.
+The unit is compatible with both VCL and FMX applications.
 
-The unit should operate correctly on the following platforms:
-
-* Windows 95 to Me
-* All 32 bit NT platform operating systems.
-* Windows 64 bit, either as part of a 32 bit or 64 bit process.
-
-The code is not suitable for non-Windows targets since it depends on the Windows API.
+> Compilation on old Delphi versions that do not support setting registry access flags via _TRegistry_ is not recommended since parts of the code may not work correctly on 64 bit Windows.
 
 ## Links
 
