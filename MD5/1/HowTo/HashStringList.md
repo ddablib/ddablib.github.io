@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of a String List
 
+**Applies to:** ~>1.0
+
 > This how-to involves getting the MD5 hash of Unicode strings which is explained [here](./HashString.md)
 >
 > It also assumes you understand the difference between the [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md) and [_TPJMD5.Process_](../API/TPJMD5-Process.md) methods which is explained [here](./UseCalculateAndProcess.md).

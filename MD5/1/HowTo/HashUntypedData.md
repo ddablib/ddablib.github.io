@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of Untyped Data
 
+**Applies to:** ~>1.0
+
 [_TPJMD5_](../API/TPJMD5.md) provides an overload of both the [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md#untyped-buffer-version) and [_TPJMD5.Process_](../API/TPJMD5-Process.md#untyped-buffer-version) methods that can be used to calculate the MD5 hash of untyped data.
 
 The methods both take a reference to the untyped data item as the first parameter and the length of the data as the second parameter.

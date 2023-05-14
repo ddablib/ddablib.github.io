@@ -6,7 +6,7 @@
 
 **Class:** [_TPJMD5_](./TPJMD5.md)
 
-**Introduced:** v1.0
+**Applies to:** ~>1.0
 
 ```pascal
 class operator Equal(const D1, D2: TPJMD5Digest): Boolean;

@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get a Digest String
 
+**Applies to:** ~>1.0
+
 You often see MD5 hashes or digests displayed as strings like this: `c8b029b7698b23a5962e7cc21a75653a`
 
 These strings are always 32 characters long and are made up hexadecimal characters representing the 16 bytes of a MD5 digest.

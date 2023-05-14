@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of a Record
 
+**Applies to:** ~>1.0
+
 In most cases you get the MD5 hash of a record by creating a new empty hash and adding the value of each field of the record to the hash. How you handle each field depends on its type. If one or more of the fields are also records then the technique is applied recursively.
 
 Because we must add each field in turn to the hash we have to create a [_TPJMD5_](../API/TPJMD5.md) instance and use the [_TPJMD5.Process_](../API/TPJMD5-Process.md) method. We can't use [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md).

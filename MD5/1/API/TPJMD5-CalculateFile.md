@@ -6,7 +6,7 @@
 
 **Class:** [_TPJMD5_](./TPJMD5.md)
 
-**Introduced:** v1.0
+**Applies to:** ~>1.0
 
 ```pascal
 class function CalculateFile(const FileName: TFileName): TPJMD5Digest;

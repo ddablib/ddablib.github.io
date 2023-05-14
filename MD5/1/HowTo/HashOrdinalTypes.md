@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of Ordinal Types
 
+**Applies to:** ~>1.0
+
 [_TPJMD5_](../API/TPJMD5.md) provides no direct means of getting the MD5 hash of ordinal types. Instead we need to use the untyped overloads of the [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md#untyped-buffer-version) and [_TPJMD5.Process_](../API/TPJMD5-Process.md#untyped-buffer-version) methods.
 
 > Working with untyped data is covered in [How To Get the MD5 Hash of Untyped Data](./HashUntypedData.md)

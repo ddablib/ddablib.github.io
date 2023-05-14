@@ -1,5 +1,7 @@
 # [MD5 Message Digest Unit](../index.md) Programmers Guide
 
+**Applies to:** ~>1.0
+
 ## Introduction
 
 This section of the _MD5 Message Digest Unit_ documentation describes the API exposed by the unit to programmers.

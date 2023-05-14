@@ -1,5 +1,7 @@
 # [MD5 Message Digest Unit](../index.md) Overview
 
+**Applies to:** ~>1.0
+
 > This page provides an overview of the features of the MD5 Messsage Digest Unit. If you are looking for information on programming with the unit please see the [Programmers’ Guide](./API.md).
 
 This unit contains an implementation of the MD5 message digest algorithm.

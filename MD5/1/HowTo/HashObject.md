@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of an Object
 
+**Applies to:** ~>1.0
+
 To get the MD5 hash of an object you must use all the data that uniquely identifies the object. This usually means accessing the object's fields and adding each one to the hash, in a similar way as that for [records](./HashRecord.md). You will usually do this by reading public or published properties.
 
 For example, if you have a class, _TFoo_:

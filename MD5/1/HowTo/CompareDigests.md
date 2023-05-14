@@ -1,5 +1,7 @@
 # MD5 How-to: How To Compare Two Digests
 
+**Applies to:** ~>1.0
+
 One of the most common tasks when working with MD5 message digests (hashes) is to compare two digests. This is usually done to check if some data or file has changed.
 
 [_TPJMD5Digest_](../API/TPJMD5Digest.md) helps here in that you can directly compare two digests to equality or inequality. For example, if you have two [_TPJMD5Digest_](../API/TPJMD5Digest.md) records, _D1_ and _D2_, you can compare them like this:

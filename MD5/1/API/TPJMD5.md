@@ -4,7 +4,7 @@
 
 **Unit:** _PJMD5_
 
-**Introduced:** v1.0
+**Applies to:** ~>1.0
 
 ## Description
 

@@ -1,5 +1,7 @@
 # [MD5 Message Digest Unit](../index.md) How-to Guide
 
+**Applies to:** ~>1.0
+
 This guide consists of various topics to help you understand how to get the best out of the MD5 Message Digest unit.
 
 If you want detailed documentation of each method please see the [Programmers' Guide](./API.md).

@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of a String
 
+**Applies to:** ~>1.0
+
 [_TPJMD5_](../API/TPJMD5.md) can calculate the MD5 hash of three of Delphi's string types:
 
 * [Unicode](#unicode-strings) strings

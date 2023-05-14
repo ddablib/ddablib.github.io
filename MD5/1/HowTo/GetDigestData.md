@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get Raw Digest Data
 
+**Applies to:** ~>1.0
+
 An MD5 digest or hash is an 8 byte value. Most of the time all you need to do with a hash is display it or compare it to another hash. But occasionally you need to access the data itself.
 
 [_TPJMD5Digest_](../API/TPJMD5Digest.md) provides two views of the digest data:

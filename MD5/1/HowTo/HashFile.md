@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of One or More Files
 
+**Applies to:** ~>1.0
+
 ## Get the hash of a single file
 
 It is very easy to get the hash of a single file because [_TPJMD5_](../API/TPJMD5.md) defines the [_TPJMD5.CalculateFile_](../API/TPJMD5-CalculateFile.md) class method just for that purpose.

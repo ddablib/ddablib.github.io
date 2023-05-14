@@ -6,7 +6,7 @@
 
 **Class:** [_TPJMD5_](./TPJMD5.md)
 
-**Introduced:** v1.0
+**Applies to:** ~>1.0
 
 ```pascal
 class operator Implicit(const D: TPJMD5Digest): string;

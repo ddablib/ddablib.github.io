@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get Started
 
+**Applies to:** ~>1.0
+
 This is the "hello world" how-to where you'll learn just enough to generate your first MD5 digest.
 
 We'll get the MD5 digest of the contents of the string `Hello world`. Here's the code:

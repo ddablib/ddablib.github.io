@@ -1,5 +1,7 @@
 # MD5 How-to: How To Change the Read Buffer Size
 
+**Applies to:** ~>1.0
+
 [_TPJMD5_](../API/TPJMD5.md) uses a buffer when reading data from a stream or a file. By default the buffer has the size specified by the [_TPJMD5.DefReadBufferSize_](../API/TPJMD5-DefReadBufferSize.md) constant. You can change the buffer size by setting the [_TPJMD5.ReadBufferSize_](../API/TPJMD5-ReadBufferSize.md) property.
 
 Here's an example function that gets the MD5 hash of a file using a specified buffer size:

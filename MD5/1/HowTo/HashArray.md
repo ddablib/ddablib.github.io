@@ -1,5 +1,7 @@
 # MD5 How-to: How To Get the MD5 Hash of an Array
 
+**Applies to:** ~>1.0
+
 > This how-to assumes you know how and when to use [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md) and [_TPJMD5.Process_](../API/TPJMD5-Process.md). For details see [here](./UseCalculateAndProcess.md).
 
 Several different techniques are needed to get an MD5 hash of an array. Which technique to use depends on both the kind of array (static or dynamic) and on the type of the array's elements.
