@@ -28,7 +28,8 @@ Documentation of the following projects has been completed:
 | MD5 Message Digest Unit | <https://lib-docs.delphidabbler.com/MD5/> |
 | Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
-| Shell Folders Unit |  <https://lib-docs.delphidabbler.com/ShellFolders/> |
+| Shell Folders Unit | <https://lib-docs.delphidabbler.com/ShellFolders/> |
+| Stream Extension Classes | <https://lib-docs.delphidabbler.com/Streams/> |
 | System Information Unit | <https://lib-docs.delphidabbler.com/SysInfo/> |
 | Version Information Component | <https://lib-docs.delphidabbler.com/VerInfo/> |
 | Window State Components | <https://lib-docs.delphidabbler.com/WdwState/> |
