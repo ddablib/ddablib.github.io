@@ -15,7 +15,7 @@ The library currently contains the following projects, all originally published 
 | [Fractions Unit](./Fractions/index.md) | Defines an advanced "record with methods" type that encapsulates fraction and related operations. |
 | [Hot Label Component](./HotLabel/index.md) | Label component that accesses a URL when clicked. The URL is displayed in the default web browser or email client. |
 | [I/O Utilities Unit](./IOUtils/index.md) | Several classes that assist with various I/O related tasks, including working with pipes and inheritable file handles. |
-| [MD5 Message Digest Unit](./Docs/MD5.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
+| [MD5 Message Digest Unit](./MD5/index.md) | Implementation of the MD5 Message Digest Algorithm as a Delphi class. This is an implementation from scratch, not a wrapper round earlier code. |
 | [Message Dialog Components](./MsgDlg/index.md) | Components that wrap message dialogue boxes provided by the Delphi VCL and the Windows API. |
 | [Resource File Unit](./ResFile/index.md) | Contains classes that encapsulate 32 bit binary resource files and the resources they contain. Can read and update raw resource file data. |
 | [Shell Folders Unit](./ShellFolders/index.md) | Components, classes and routines to assist in working with shell folders. Includes a "Browse for Folder" dialogue box. |
