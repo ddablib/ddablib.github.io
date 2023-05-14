@@ -25,6 +25,7 @@ This documentation applies to Console Application Runner Classes v3.
 * [Programmer's Guide](./3/API.md)
 * [Examples](./3/Examples.md)
 * [Appendices](./3/Appendices.md)
+* [FAQs](./faqs.md)
 
 ## Links
 

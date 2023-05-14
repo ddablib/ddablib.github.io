@@ -1,8 +1,16 @@
 # Message dialogue Components FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Message Dialogue Components](https://delphidabbler.com/software/msgdlg). You can also try the components' [documentation](../MsgDlg/index.md).
+This page has some frequently asked questions about the DelphiDabbler [Message Dialogue Components](https://delphidabbler.com/software/msgdlg).
 
-----
+> If you don't find an answer then read the component's [documentation](../MsgDlg/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
+
+## Contents
+
+1. [Can I change the colour of the dialogue box window?](#faq-1)
+2. [Can I change the colour of the dialogue box buttons?](#faq-2)
+3. [How do I get access to the controls used in a dialogue box displayed by TPJVCLMsgDlg?](#faq-3)
+
+## FAQ 1
 
 **Can I change the colour of the dialogue box window?**
 
@@ -25,13 +33,13 @@ Note that the `Dlg` parameter is a reference to the dialogue box form while `Sen
 
 > You need v2.2 or later of the components for this to work.
 
-----
+## FAQ 2
 
 **Can I change the colour of the dialogue box buttons?**
 
 No. `TPJWinMsgDlg` (and the deprecated `TPJMessageDialog`) are simply wrappers round Windows API calls that do not expose this behaviour. `TPJVCLMsgDlg` uses standard Delphi `TButton` controls which do not allow their colour to be changed.
 
-----
+## FAQ 3
 
 **How do I get access to the controls used in a dialogue box displayed by TPJVCLMsgDlg?**
 

@@ -1,6 +1,8 @@
 # Console Application Runner Classes FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp). You can also try the class' **[documentation](../Docs/ConsoleApp.md)**.
+This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp).
+
+> If you don't find an answer then read the component's [documentation](../ConsoleApp/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ## Contents
 
@@ -10,16 +12,13 @@ This page has some frequently asked questions about the DelphiDabbler [Console A
 4. [In the command shell I can pipe data between applications. How can I do this with TPJConsoleApp?](#faq-4)
 5. [How do I create or open a file with an inheritable handle?](#faq-5)
 
-----
-
 ## FAQ 1
 
 **Why am I getting an access violation when running code that uses TPJConsoleApp compiled with with Delphi 2009 (and later)?**
 
-This is because Delphi 2009 and later (the "Unicode Delphis") use the Unicode Windows API (earlier versions used the ANSI API). It is a peculiarity of the Unicode implementation of the `CreateProcess` API function (which `[[(Docs.)TPJConsoleApp]]` uses) that causes this access violation. This peculiarity wasn't present in the ANSI version of the function.
+This is because Delphi 2009 and later (the "Unicode Delphis") use the Unicode Windows API (earlier versions used the ANSI API). It is a peculiarity of the Unicode implementation of the `CreateProcess` API function (which `TPJConsoleApp` uses) that causes this access violation. This peculiarity wasn't present in the ANSI version of the function.
 
 > The classes have been updated to work round this problem. You need to update to release 1.0.2 or later.
-
 
 ## FAQ 2
 
@@ -33,7 +32,7 @@ If the output is being redirected to a file then the output is a faithful byte b
 
 If output is redirected to the pipe then, again, the actual bytes output by the program are written to the pipe. The programmer is responsible for reading the pipe and must make sure that any structured data is re-assembled correctly. Each time the pipe is read it is possible it may contain an odd number of bytes, which is not valid Unicode. But I stress, it is up to the programmer to handle this - it is not a function of `TPJConsoleApp`.
 
-> Some pipe filter classes are available in the [I/O Utility Classes project](https://delphidabbler.com/software/ioutils), one of which can read Unicode from a pipe correctly. See [this example](../Docs/ConsoleApp/Examples/Example12.md) for details.
+> Some pipe filter classes are available in the [I/O Utility Classes project](../IOUtils/index.md), one of which can read Unicode from a pipe correctly. See [this example](./3/Examples/Example12.md) for details.
 
 ## FAQ 3
 
@@ -50,7 +49,6 @@ First the shell creates a new empty file named `out.txt`. The file is created wi
 We have to do the same to use `TPJConsoleApp` for redirection. First create the file ensuring its handle is inheritable ([FAQ 5](#faq-5) explains how). Assign the file handle to `TPJConsoleApp`'s `StdOut` property. Finally call `Execute` with a command line parameter of `@@MyApp.exe@@`, leaving off the redirection operator part.
 
 Redirection using the `2>` (redirect standard error output) and `<` (redirect standard input) operators is similar. Open the required files for output (standard error) or input (standard input) and assign the (inheritable) handles to `TPJConsoleApp`'s `StdErr` or  `StdIn` properties respectively.
-
 
 ## FAQ 4
 
@@ -167,9 +165,8 @@ You must set the `StdIn` property of the first app to get the initial data unles
 
 Each console application except the first must be capable of taking input from standard input. Similarly and each application except the last must write output to standard output.
 
-
 ## FAQ 5
 
 **5: How do I create or open a file with an inheritable handle?**
 
-This question is answered in [Appendix 1](../Docs/ConsoleApp/Appendices/Appendix1.md) of the [Console Application Runner Classes documentation](../Docs/ConsoleApp.md).
+This question is answered in [Appendix 1](../ConsoleApp/3/Appendices/Appendix1.md) of the [Console Application Runner Classes documentation](../ConsoleApp/index.md).

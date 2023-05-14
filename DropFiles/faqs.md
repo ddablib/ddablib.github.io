@@ -1,6 +1,8 @@
 # Drop Files Components FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Drop Files Components](https://delphidabbler.com/software/dropfiles). You can also try the components' [documentation](https://delphidabbler.com/url/dropfiles-docs).
+This page has some frequently asked questions about the DelphiDabbler [Drop Files Components](https://delphidabbler.com/software/dropfiles).
+
+> If you don't find an answer then read the component's [documentation](../DropFiles/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ## Contents
 
@@ -14,8 +16,6 @@ This page has some frequently asked questions about the DelphiDabbler [Drop File
 8. [Can the components handle file drops on an application minimised to the tray / notification area?](#faq-8)
 9. [Can the components handle drag and drop onto frames?](#faq-9)
 10. [Can I find out where files were dropped on a control?](#faq-10)
-
-----
 
 ## FAQ 1
 
@@ -35,7 +35,7 @@ This is a "feature" of the operating system, not a problem with the components.
 
 **The WinHelp help file doesn't work on Vista / Windows 7. Can you please convert to HTML Help?**
 
-No, sorry. I've tried Microsoft's conversion utility which is difficult to use and it will take much too long to convert. I just don't have the time. Instead I've created some on-line Drop Files Components [documentation](https://delphidabbler.com/url/dropfiles-docs).
+No, sorry. I've tried Microsoft's conversion utility which is difficult to use and it will take much too long to convert. I just don't have the time. Instead I've created some on-line Drop Files Components [documentation](../DropFiles/index.md).
 
 ## FAQ 4
 
