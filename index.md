@@ -30,7 +30,7 @@ Project releases are available in .zip format from [SourceForge](https://sourcef
 
 ## FAQs
 
-Frequently asked questions for some of the Code Library projects are available and listed on the [FAQs](FAQs/FAQs.md) page.
+Frequently asked questions for some of the Code Library projects are available and listed on the [FAQs](./faqs.md) page.
 
 ## Library News
 

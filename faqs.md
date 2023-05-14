@@ -4,11 +4,11 @@ Here's a list of the available FAQs for the DelphiDabbler Code Library.
 
 ## Contents
 
-* [About Box Component](./AboutBoxComponent.md)
-* [Console Application Runner Classes](./ConsoleAppClasses.md)
-* [Drop Files Components](./DropFilesComponents.md)
-* [Message Dialog Components](./MessageDialogComponents.md)
-* [Window State Components](./WindowStateComponents.md)
+* [About Box Component](./AboutBox/faqs.md)
+* [Console Application Runner Classes](./ConsoleApp/faqs.md)
+* [Drop Files Components](./DropFiles/faqs.md)
+* [Message Dialog Components](./MsgDlg/faqs.md)
+* [Window State Components](./WdwState/faqs.md)
 
 ## Ask a Question
 

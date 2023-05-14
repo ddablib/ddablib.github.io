@@ -1,6 +1,6 @@
 # Console Application Runner Classes FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp). You can also try the class' **[documentation](../Docs/ConsoleApp.md)**.
+This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp). You can also try the class' **[documentation](../ConsoleApp/index.md)**.
 
 ## Contents
 
@@ -33,7 +33,7 @@ If the output is being redirected to a file then the output is a faithful byte b
 
 If output is redirected to the pipe then, again, the actual bytes output by the program are written to the pipe. The programmer is responsible for reading the pipe and must make sure that any structured data is re-assembled correctly. Each time the pipe is read it is possible it may contain an odd number of bytes, which is not valid Unicode. But I stress, it is up to the programmer to handle this - it is not a function of `TPJConsoleApp`.
 
-> Some pipe filter classes are available in the [I/O Utility Classes project](https://delphidabbler.com/software/ioutils), one of which can read Unicode from a pipe correctly. See [this example](../Docs/ConsoleApp/Examples/Example12.md) for details.
+> Some pipe filter classes are available in the [I/O Utility Classes project](https://delphidabbler.com/software/ioutils), one of which can read Unicode from a pipe correctly. See [this example](./3/Examples/Example12.md) for details.
 
 ## FAQ 3
 
@@ -172,4 +172,4 @@ Each console application except the first must be capable of taking input from s
 
 **5: How do I create or open a file with an inheritable handle?**
 
-This question is answered in [Appendix 1](../Docs/ConsoleApp/Appendices/Appendix1.md) of the [Console Application Runner Classes documentation](../Docs/ConsoleApp.md).
+This question is answered in [Appendix 1](../ConsoleApp/3/Appendices/Appendix1.md) of the [Console Application Runner Classes documentation](../ConsoleApp/index.md).
