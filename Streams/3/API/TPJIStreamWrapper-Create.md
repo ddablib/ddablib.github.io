@@ -6,6 +6,8 @@
 
 **Class:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 constructor Create(const Stream: TStream; const CloseStream: Boolean = False);
 ```

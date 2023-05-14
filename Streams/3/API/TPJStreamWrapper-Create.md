@@ -6,6 +6,8 @@
 
 **Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 constructor Create(const Stream: TStream; const CloseStream: Boolean = False); virtual;
 ```

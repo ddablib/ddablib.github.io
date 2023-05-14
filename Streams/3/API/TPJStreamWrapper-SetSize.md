@@ -6,11 +6,15 @@
 
 **Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
+[~>3.0]
+
 ```pascal
 procedure SetSize(NewSize: Longint); override;
 ```
 
-_Introduced: v3.1:_ [[1]](#footnote-1)
+[~>3.1] [[1]](#footnote-1)
 
 ```pascal
 procedure SetSize(const NewSize: Int64); override;
@@ -20,7 +24,7 @@ procedure SetSize(const NewSize: Int64); override;
 
 This protected method overrides the do-nothing method of _TStream_ and attempts to set the size of the wrapped stream.
 
-**[≥v3.1]** There are two overloaded versions of the method: one that takes a 32 bit size and one that takes a 64 bit size [[1]](#footnote-1).
+**[~>3.1]** There are two overloaded versions of the method: one that takes a 32 bit size and one that takes a 64 bit size [[1]](#footnote-1).
 
 If the size of the wrapped stream cannot be changed then _SetSize_ has no effect.
 

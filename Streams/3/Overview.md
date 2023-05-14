@@ -1,5 +1,7 @@
 # [Stream Extension Classes](../index.md) Overview
 
+**Applies to:** ~>3.0
+
 This project provides a library of classes that can be used to extend the functionality of Delphi's _TStream_ classes.
 
 The classes provided are:

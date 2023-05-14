@@ -4,6 +4,8 @@
 
 **Unit:** [_PJIStreams_](./PJIStreams.md)
 
+**Applies to:** ~>3.0
+
 ## Description
 
 _TPJFileIStream_ provides an _IStream_ interface to a file. It's constructor is like that of _TFileStream_ except that the constructor returns an object of type _TPJFileIStream_ which can be cast to _IStream_.
@@ -29,9 +31,9 @@ The [_Stat_](TPJFileIStream-Stat.md) method of _TPJFileIStream_, like that of [_
 
 ### Method visibility
 
-**[v3.0]** The methods of _IStream_ have protected visibility in _TPJFileIStream_ and cannot be accessed from an object instance referenced by a variable of type _TPJFileIStream_. The methods can only be accessed via the object's _IStream_ interface.
+**[~>3.0.0]** The methods of _IStream_ have protected visibility in _TPJFileIStream_ and cannot be accessed from an object instance referenced by a variable of type _TPJFileIStream_. The methods can only be accessed via the object's _IStream_ interface.
 
-**[≥v3.1]** Methods of _IStream_ have public visibility.
+**[~>3.1]** Methods of _IStream_ have public visibility.
 
 ## Properties
 

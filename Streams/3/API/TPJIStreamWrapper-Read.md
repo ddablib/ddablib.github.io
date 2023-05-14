@@ -6,6 +6,8 @@
 
 **Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 function Read(pv: Pointer; cb: Longint; pcbRead: PLongint): HResult;
   virtual; stdcall;

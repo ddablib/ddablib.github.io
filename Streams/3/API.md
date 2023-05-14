@@ -1,5 +1,7 @@
 # [Stream Extension Classes](../index.md) Programmers' Guide
 
+**Applies to:** ~>3.0
+
 ## Introduction
 
 This section of the Stream Extension Classes documentation describes the API exposed by the classes to programmers.

@@ -6,6 +6,8 @@
 
 **Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 function Read(var Buffer; Count: Longint): Longint; override;
 ```

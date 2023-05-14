@@ -6,6 +6,8 @@
 
 **Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 function CopyTo(stm: IStream; cb: Largeint; out cbRead: Largeint;
   out cbWritten: Largeint): HResult; virtual; stdcall;
@@ -28,11 +30,11 @@ Returns:
 * *E_UNEXPECTED* if there is an exception during copying.
 * *STG_E_INVALIDPOINTER* if _stm_ is nil.
 * *STG_E_CANTSAVE* if the data can't be written to the destination stream.
-* **[v3.0]** *E_FAIL* if the number of bytes requested in _cb_ is greater than _MaxInt_ or is negative. _See Remarks_.
-* **[≥v3.1]** *STG_E_MEDIUMFULL* if less than the requested amount of data can be written to the destination stream.
+* **[~>3.0.0]** *E_FAIL* if the number of bytes requested in _cb_ is greater than _MaxInt_ or is negative. _See Remarks_.
+* **[~>3.1]** *STG_E_MEDIUMFULL* if less than the requested amount of data can be written to the destination stream.
 
 ## Remarks
 
-* **[v3.0]** Although you can request more than 2Gb of data to be copied, the implementation of _CopyFrom_ does not support this and will fail with an *E_FAIL* return value. This happens regardless of the size of the wrapped stream.
+* **[~>3.0.0]** Although you can request more than 2Gb of data to be copied, the implementation of _CopyFrom_ does not support this and will fail with an *E_FAIL* return value. This happens regardless of the size of the wrapped stream.
 
-* **[≥v3.1]** Requests of more than 2Gb of data to be copied are supported.
+* **[~>3.1]** Requests of more than 2Gb of data to be copied are supported.

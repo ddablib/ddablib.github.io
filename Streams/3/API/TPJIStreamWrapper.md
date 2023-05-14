@@ -4,6 +4,8 @@
 
 **Unit:** [_PJIStreams_](./PJIStreams.md)
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This class can wrap any _TStream_ derived class and provide access to it by means of an _IStream_ interface.
@@ -33,9 +35,9 @@ Not all features of _IStream_ are supported in this implementation. Those that a
 
 ### Method Visibility
 
-**[v3.0]** Note that the methods of _IStream_ have protected visibility in _TPJIStreamWrapper_ and cannot be accessed from an object instance referenced by a variable of type _TPJIStreamWrapper_. The methods can only be accessed via the object's _IStream_ interface.
+**[~>3.0.0]** Note that the methods of _IStream_ have protected visibility in _TPJIStreamWrapper_ and cannot be accessed from an object instance referenced by a variable of type _TPJIStreamWrapper_. The methods can only be accessed via the object's _IStream_ interface.
 
-**[≥v3.1]** Methods of _IStream_ have public visibility.
+**[~>3.1]** Methods of _IStream_ have public visibility.
 
 ## Properties
 

@@ -6,6 +6,8 @@
 
 **Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 function Clone(out stm: IStream): HResult; virtual; stdcall;
 ```

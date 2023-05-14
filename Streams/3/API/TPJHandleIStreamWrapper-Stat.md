@@ -6,6 +6,8 @@
 
 **Class:** [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 function Stat(out statstg: TStatStg; grfStatFlag: Longint): HResult;
   virtual; stdcall;

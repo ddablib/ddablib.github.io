@@ -2,6 +2,8 @@
 
 **Project:** [Stream Extension Classes](../API.md)
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This unit defines classes that provide various implementations of the _IStream_ interface.

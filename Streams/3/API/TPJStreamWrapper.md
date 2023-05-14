@@ -4,6 +4,8 @@
 
 **Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This class is not normally used on its own. It is designed as a parent for classes that "wrap" a stream.

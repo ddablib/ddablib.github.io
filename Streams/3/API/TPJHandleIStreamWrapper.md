@@ -4,6 +4,8 @@
 
 **Unit:** [_PJIStreams_](./PJIStreams.md)
 
+**Applies to:** ~>3.0
+
 ## Description
 
 This class wraps a stream of type _THandleStream_ or its sub-classes (such as _TFileStream_) and provides an _IStream_ interface to the stream.
@@ -29,9 +31,9 @@ _TPJHandleIStreamWrapper_ descends from, and acts the same as, [_TPJIStreamWrapp
 
 ### Method visibility
 
-**[v3.0]** Methods of _IStream_ have protected visibility in _TPJHandleIStreamWrapper_ and cannot be accessed from an object instance referenced by a variable of type _TPJHandleIStreamWrapper_. The methods can only be accessed via the object's _IStream_ interface.
+**[~>3.0.0]** Methods of _IStream_ have protected visibility in _TPJHandleIStreamWrapper_ and cannot be accessed from an object instance referenced by a variable of type _TPJHandleIStreamWrapper_. The methods can only be accessed via the object's _IStream_ interface.
 
-**[≥v3.1]** Methods of _IStream_ have public visibility.
+**[~>3.1]** Methods of _IStream_ have public visibility.
 
 ## Properties
 

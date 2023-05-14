@@ -6,6 +6,8 @@
 
 **Class:** [_TPJFileIStream_](./TPJFileIStream.md)
 
+**Applies to:** ~>3.0
+
 ```pascal
 constructor Create(const FileName: string; Mode: Word);
 ```
