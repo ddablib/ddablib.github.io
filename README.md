@@ -25,6 +25,7 @@ Documentation of the following projects has been completed:
 | Fractions Unit |  <https://lib-docs.delphidabbler.com/Fractions/> |
 | Hot Label Component | <https://lib-docs.delphidabbler.com/HotLabel/> |
 | I/O Utilities Unit | <https://lib-docs.delphidabbler.com/IOUtils/> |
+| MD5 Message Digest Unit | <https://lib-docs.delphidabbler.com/MD5/> |
 | Message Dialogue Components | <https://lib-docs.delphidabbler.com/MsgDlg/> |
 | Resource File Unit | <https://lib-docs.delphidabbler.com/ResFile/> |
 | Shell Folders Unit |  <https://lib-docs.delphidabbler.com/ShellFolders/> |
