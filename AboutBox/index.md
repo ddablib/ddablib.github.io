@@ -23,6 +23,7 @@ This documentation applies to About Box Component ~>3.6.
 
 * [Overview](./3.6/Overview.md)
 * [Programmer's Guide](./3.6/API.md)
+* [FAQs](./faqs.md)
 
 ## Links
 

@@ -21,6 +21,7 @@ This documentation applies to Message Dialogue Components v3.
 
 * [Overview](./3/Overview.md)
 * [Programmer's Guide](./3/API.md)
+* [FAQs](./faqs.md)
 
 ## Links
 

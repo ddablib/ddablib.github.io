@@ -21,6 +21,7 @@ This documentation applies to Shell Folders Unit v5.
 
 * [Overview](./5/Overview.md)
 * [Programmer's Guide](./5/API.md)
+* [FAQs](./faqs.md)
 
 ## Links
 
