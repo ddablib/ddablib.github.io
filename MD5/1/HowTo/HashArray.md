@@ -36,7 +36,7 @@ _TBytes_ is the only array type for which [_TPJMD5_](../API/TPJMD5.md) provides 
 
 Arrays of simple types (i.e. ordinal and real types) are quite simple to handle.
 
-Each element contains an actual value (not a reference or pointer) and the elements are always contiguous in memory (regardless of use of the **packed** keyword and the [_$ALIGN_](http://docwiki.embarcadero.com/RADStudio/en/Align_fields_%28Delphi%29) compiler directive [[ref]](http://stackoverflow.com/questions/4583985/are-where-any-difference-between-array-and-packed-array-in-delphi). Therefore we can just get the MD5 of the block of memory occupied by the array. We use the untyped overloads of [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md#untyped-buffer-version) and [_TPJMD5.Process_](../API/TPJMD5-Process.md#untyped-buffer-version) to do this.
+Each element contains an actual value (not a reference or pointer) and the elements are always contiguous in memory (regardless of use of the **packed** keyword and the [_$ALIGN_](https://docwiki.embarcadero.com/RADStudio/en/Align_fields_%28Delphi%29) compiler directive [[ref]](https://stackoverflow.com/questions/4583985/are-where-any-difference-between-array-and-packed-array-in-delphi). Therefore we can just get the MD5 of the block of memory occupied by the array. We use the untyped overloads of [_TPJMD5.Calculate_](../API/TPJMD5-Calculate.md#untyped-buffer-version) and [_TPJMD5.Process_](../API/TPJMD5-Process.md#untyped-buffer-version) to do this.
 
 Exactly how we proceed depends on if the array is static or dynamic.
 
