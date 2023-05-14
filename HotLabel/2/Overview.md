@@ -1,5 +1,7 @@
 # [Hot Label Component](../index.md) Overview
 
+**Applies to:** ~>2.0
+
 > This page provides an overview of the features of the _Hot Label Component_. If you are looking for information on programming with the component please see the [Programmers’ Guide](./API.md).
 
 The _Hot Label Component_ is a simple Delphi component that descends from _TLabel_. It provides a clickable label that can start the default browser or email client to access a specific URL. Key features of the component are:

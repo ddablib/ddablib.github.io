@@ -1,5 +1,7 @@
 # [Clipboard Viewer Component](../index.md) Example
 
+**Applies to:** ~>2.0
+
 The following is an example of how to use the [Clipboard Viewer Component](./Overview.md).
 
 Drop a [_TPJCBViewer_](./API/TPJCBViewer.md) component, a _TButton_ and a _TMemo_ on a form. Do not change any of the components' default properties. Add the _Clipbrd_ unit to your uses clause. Using the object inspector, create the following event handlers:

@@ -1,5 +1,7 @@
 # [System Information Unit](../index.md) Overview
 
+**Applies to:** ~>5.0
+
 > This page provides an overview of the features of the Systems Information Unit. If you are looking for information on programming with the unit please see the [Programmers’ Guide](./API.md).
 
 This unit, contains a set of static classes that provide various pieces of system information. They are:

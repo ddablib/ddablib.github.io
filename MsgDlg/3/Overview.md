@@ -1,5 +1,7 @@
 # [Message Dialogue Components](../index.md) Overview
 
+**Applies to:** ~>3.0
+
 > This page provides an overview of the features of the _Message Dialogue Components_. If you are looking for information on programming with the component please see the [Programmers’ Guide](./API.md).
 
 The _Message Dialogue Components_ comprise of two customisable message dialogue box components. They are:
