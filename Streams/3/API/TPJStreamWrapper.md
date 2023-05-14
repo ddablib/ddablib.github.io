@@ -1,8 +1,8 @@
 # TPJStreamWrapper class
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
 ## Description
 
@@ -16,37 +16,33 @@ Wrapping a _TStream_ descendant object rather than adding functionality by exten
 
 > Study the _StreamWrapDemo_ demo source code details of how this can be achieved.
 
-### Methods
+## Methods
 
 _TPJStreamWrapper_ inherits all the methods of _TStream_. Only new methods and those of _TStream_ that are overridden are described here.
 
-#### Public
+### Public Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_Create_](TPJStreamWrapper-Create.md) | Object constructor. Creates a new wrapper object for a given stream. |
 | [_Read_](TPJStreamWrapper-Read.md) | _Override_. Reads data from the wrapped stream into a buffer. |
 | [_Seek_](TPJStreamWrapper-Seek.md) | _Override_. Updates the current position in the underlying stream. |
 | [_Write_](TPJStreamWrapper-Write.md) | _Override_. Writes data from a buffer to the wrapped stream. |
 
-#### Protected
+### Protected Methods
 
 | Method | Description |
-|--------|-------------|
+|:-------|:------------|
 | [_SetSize_](TPJStreamWrapper-SetSize.md) | _Override_. Sets the size of the wrapped stream. |
 
-### Properties
+## Properties
 
 The sole property is protected.
 
 | Property | Description |
-|----------|-------------|
+|:---------|:------------|
 | [_BaseStream_](TPJStreamWrapper-BaseStream.md) | References the wrapped stream. |
 
-### Events
+## Events
 
 The class defines no events.
-
-## See Also
-
-* [Programmers' Guide](../API.md)

@@ -1,10 +1,10 @@
 # SetSize method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJIStreams_](./PJIStreams.md)
+**Unit:** [_PJIStreams_](./PJIStreams.md)
 
-***Classes:*** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
+**Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
 ```pascal
 function SetSize(libNewSize: Largeint): HResult; virtual; stdcall;
@@ -14,11 +14,11 @@ function SetSize(libNewSize: Largeint): HResult; virtual; stdcall;
 
 Changes the size of the wrapped stream.
 
-***Parameters:***
+Parameters:
 
 * _libNewSize_ -- New stream size.
 
-***Returns:***
+Returns:
 
 * _S_OK_ on success.
 * _E_FAIL_ if we can't set the size or the requested size is too large.

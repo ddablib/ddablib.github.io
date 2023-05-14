@@ -1,10 +1,10 @@
 # SetSize method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
-***Class:*** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
+**Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
 ```pascal
 procedure SetSize(NewSize: Longint); override;
@@ -24,7 +24,7 @@ This protected method overrides the do-nothing method of _TStream_ and attempts 
 
 If the size of the wrapped stream cannot be changed then _SetSize_ has no effect.
 
-***Parameters:***
+Parameters:
 
 * _NewSize_ -- Request new size of the wrapped stream.
 

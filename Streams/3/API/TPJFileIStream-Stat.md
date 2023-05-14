@@ -1,10 +1,10 @@
 # Stat method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJIStreams_](./PJIStreams.md)
+**Unit:** [_PJIStreams_](./PJIStreams.md)
 
-***Class:*** [_TPJFileIStream_](./TPJFileIStream.md)
+**Class:** [_TPJFileIStream_](./TPJFileIStream.md)
 
 ```pascal
 function Stat(out statstg: TStatStg; grfStatFlag: Longint): HResult;
@@ -17,14 +17,14 @@ _Stat_ retrieves a [_STATSTG_](http://msdn.microsoft.com/en-us/library/aa380319%
 
 This version of _Stat_ modifies the method inherited from [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md) to provide the file name instead of a name based on class names in the _pwcsName_ field of the _TStatStg_ record.
 
-***Parameters:***
+Parameters:
 
 * _statstg_ -- Receives the required _TStatStg_ ([_STATSTG_](http://msdn.microsoft.com/en-us/library/aa380319%28v=VS.85%29.aspx)) record.
 * _grfStatFlag_ -- Specifies which members of the _TStatStg_ record are not to contain information. Possible values are:
   * _STATFLAG_DEFAULT_: Omits the stream name from the record.
   * _STATFLAG_NORMAL_: Includes the stream name in the record. In this case the name should be freed by the caller using the task allocator.
 
-***Returns:***
+Returns:
 
 * _S_OK_ on success.
 * _E_UNEXPECTED_ if an exception occurs

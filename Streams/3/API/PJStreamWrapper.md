@@ -1,6 +1,6 @@
 # PJStreamWrapper Unit
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
 ## Description
 

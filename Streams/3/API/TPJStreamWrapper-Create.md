@@ -1,10 +1,10 @@
 # Create constructor
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
-***Class:*** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
+**Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
 ```pascal
 constructor Create(const Stream: TStream; const CloseStream: Boolean = False); virtual;
@@ -14,7 +14,7 @@ constructor Create(const Stream: TStream; const CloseStream: Boolean = False); v
 
 This object constructor creates a new stream wrapper object that wraps a given stream.
 
-***Parameters:***
+Parameters:
 
 * _Stream_ -- Stream that is "wrapped" by this object.
 * _CloseStream_ -- Determines whether the wrapped stream object is freed when this wrapper object is destroyed. Pass `True` to this parameter to free the wrapped stream on destruction or `False` to leave it unchanged.

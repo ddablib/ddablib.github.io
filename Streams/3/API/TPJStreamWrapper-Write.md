@@ -1,10 +1,10 @@
 # Write method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
-***Class:*** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
+**Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
 ```pascal
 function Write(const Buffer; Count: Longint): Longint; override;
@@ -16,12 +16,12 @@ This method overrides and implements an abstract method of _TStream_.
 
 _Write_ attempts to write a specified number of bytes of data from a buffer into the wrapped stream.
 
-***Parameters:***
+Parameters:
 
 * _Buffer_ -- Untyped variable containing the data to be written to the stream. The data passed to this parameter must have size of a least _Count_ bytes.
 * _Count_ -- Number of bytes to be written from _Buffer_ into the wrapped stream.
 
-***Returns:***
+Returns:
 
 * Number of bytes actually written.
 

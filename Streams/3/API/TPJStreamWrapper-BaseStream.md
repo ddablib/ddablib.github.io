@@ -1,10 +1,10 @@
 # BaseStream property
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
-***Class:*** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
+**Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
 ```pascal
 property BaseStream: TStream read fBaseStream;

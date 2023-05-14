@@ -1,10 +1,10 @@
 # Read method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJIStreams_](./PJIStreams.md)
+**Unit:** [_PJIStreams_](./PJIStreams.md)
 
-***Classes:*** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
+**Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
 ```pascal
 function Read(pv: Pointer; cb: Longint; pcbRead: PLongint): HResult;
@@ -15,13 +15,13 @@ function Read(pv: Pointer; cb: Longint; pcbRead: PLongint): HResult;
 
 Reads a specified number of bytes from the wrapped stream into memory starting at the current seek pointer. The seek pointer is incremented by the number of bytes read.
 
-***Parameters:***
+Parameters:
 
 * _pv_ -- Pointer to buffer to receive data read from wrapped stream.
 * _cb_ -- Number of bytes to be read.
 * _pcbRead_ -- Pointer to value that receives number of bytes actually read. May be nil in which case the parameter is ignored.
 
-***Returns:***
+Returns:
 
 * _S_OK_ on success.
 * _S_FAIL_ on error reading stream.

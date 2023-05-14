@@ -1,10 +1,10 @@
 # Seek method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJIStreams_](./PJIStreams.md)
+**Unit:** [_PJIStreams_](./PJIStreams.md)
 
-***Classes:*** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
+**Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
 ```pascal
 function Seek(dlibMove: Largeint; dwOrigin: Longint;
@@ -15,7 +15,7 @@ function Seek(dlibMove: Largeint; dwOrigin: Longint;
 
 Changes the seek pointer of the wrapped stream to a new location. The new location can be relative to the beginning of the stream, the end of the stream, or the current seek pointer position.
 
-***Parameters:***
+Parameters:
 
 * _dlibMove_ -- Number of bytes to offset seek pointer from origin specified by _dwOrigin_.
 * _dwOrigin_ -- Origin of the move. Possible values are:
@@ -24,7 +24,7 @@ Changes the seek pointer of the wrapped stream to a new location. The new locati
   * _STREAM_SEEK_END_: Offset from end of stream. _dlibMove_ should be negative.
 * _libNewPosition_ -- Set to the new position in the wrapped stream after the move. _See Remarks._
 
-***Returns:***
+Returns:
 
 * _S_OK_ on success.
 * _STG_E_INVALIDPOINTER_ if the seek fails.

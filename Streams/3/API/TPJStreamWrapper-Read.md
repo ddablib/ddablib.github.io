@@ -1,10 +1,10 @@
 # Read method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJStreamWrapper_](./PJStreamWrapper.md)
+**Unit:** [_PJStreamWrapper_](./PJStreamWrapper.md)
 
-***Class:*** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
+**Class:** [_TPJStreamWrapper_](./TPJStreamWrapper.md)
 
 ```pascal
 function Read(var Buffer; Count: Longint): Longint; override;
@@ -16,12 +16,12 @@ This method overrides and implements an abstract method of _TStream_.
 
 _Read_ attempts to read a specified number of bytes from the stream into a buffer.
 
-***Parameters:***
+Parameters:
 
 * _Buffer_ -- Untyped buffer that receives the data read from the wrapped stream. This variable passed to this parameter must have a size of at least _Count_ bytes.
 * _Count_ -- The number of bytes to be read from the stream. If the stream does not contain sufficient data to fulfil the request just the available number of bytes are read.
 
-***Returns:***
+Returns:
 
 * Number of bytes actually read.
 

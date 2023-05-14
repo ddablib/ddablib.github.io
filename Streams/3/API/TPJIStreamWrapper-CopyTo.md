@@ -1,10 +1,10 @@
 # CopyTo method
 
-***Project:*** [Stream Extension Classes](../API.md)
+**Project:** [Stream Extension Classes](../API.md)
 
-***Unit:*** [_PJIStreams_](./PJIStreams.md)
+**Unit:** [_PJIStreams_](./PJIStreams.md)
 
-***Classes:*** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
+**Classes:** [_TPJIStreamWrapper_](./TPJIStreamWrapper.md), [_TPJHandleIStreamWrapper_](./TPJHandleIStreamWrapper.md), [_TPJFileIStream_](./TPJFileIStream.md)
 
 ```pascal
 function CopyTo(stm: IStream; cb: Largeint; out cbRead: Largeint;
@@ -15,14 +15,14 @@ function CopyTo(stm: IStream; cb: Largeint; out cbRead: Largeint;
 
 Copies a specified number of bytes from the current seek pointer in the wrapped stream to the current seek pointer in another stream. If the wrapped stream has less than the requested number of bytes available then all remaining bytes in the wrapped stream are copied.
 
-***Parameters:***
+Parameters:
 
 * _stm_ -- Stream to receive copied data, referenced by its _IStream_ interface.
 * _cb_ -- Number of bytes to be copied.
 * _cbRead_ -- Set to number of bytes actually read from wrapped stream.
 * _cbWritten_ -- Set to number of bytes actually written to destination stream.
 
-***Returns:***
+Returns:
 
 * *S_OK_* on success.
 * *E_UNEXPECTED* if there is an exception during copying.
