@@ -1,6 +1,8 @@
 # Message dialogue Components FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Message Dialogue Components](https://delphidabbler.com/software/msgdlg). You can also try the components' [documentation](../MsgDlg/index.md).
+This page has some frequently asked questions about the DelphiDabbler [Message Dialogue Components](https://delphidabbler.com/software/msgdlg).
+
+> If you don't find an answer then read the component's [documentation](../MsgDlg/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ----
 

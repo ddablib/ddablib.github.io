@@ -1,6 +1,8 @@
 # About Box Component FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [About Box Component](https://delphidabbler.com/software/aboutbox). You can also try the component's [documentation](../AboutBox/index.md).
+This page has some frequently asked questions about the DelphiDabbler [About Box Component](https://delphidabbler.com/software/aboutbox).
+
+> If you don't find an answer then read the component's [documentation](../AboutBox/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ----
 

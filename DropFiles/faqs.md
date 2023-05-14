@@ -1,6 +1,8 @@
 # Drop Files Components FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Drop Files Components](https://delphidabbler.com/software/dropfiles). You can also try the components' [documentation](https://delphidabbler.com/url/dropfiles-docs).
+This page has some frequently asked questions about the DelphiDabbler [Drop Files Components](https://delphidabbler.com/software/dropfiles).
+
+> If you don't find an answer then read the component's [documentation](../DropFiles/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ## Contents
 

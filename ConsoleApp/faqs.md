@@ -1,6 +1,8 @@
 # Console Application Runner Classes FAQ
 
-This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp). You can also try the class' **[documentation](../ConsoleApp/index.md)**.
+This page has some frequently asked questions about the DelphiDabbler [Console Application Runner Classes](https://delphidabbler.com/software/consoleapp).
+
+> If you don't find an answer then read the component's [documentation](../ConsoleApp/index.md). If you still have no luck then you can read how to [ask a question](../faqs.md#cant-find-an-answer).
 
 ## Contents
 
