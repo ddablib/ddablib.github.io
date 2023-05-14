@@ -20,6 +20,16 @@ The unit also contains a component and stand-alone routines that provide some of
 
 > In previous versions the component was registered with the Delphi IDE when this unit was included in a design time package. This is no longer the case. The component is registered only if `PJEnvVarsDsgn.pas` is included a _design_ package and `PJEnvVars.pas` is included in the same _design_ package or a _required_ package.
 
+## Compatibility
+
+The unit can be compiled with any Delphi compiler from Delphi 7 through to 11.3. It is compatible with 32 bit and 64 bit Windows targets.
+
+> It is possible, but not guaranteed, that the unit will compile with Delphi 4 to 6.
+
+The code is compatible with both the VCL and FMX frameworks.
+
+Non-Windows platforms are not supported due to the code's reliance on the Windows API.
+
 ## Links
 
 * [Programmers' Guide](./API.md) -- Classes, methods, properties etc.
