@@ -66,7 +66,7 @@ If you're unsure of the process [this tutorial](https://opensource.com/article/1
 
 ![Creative Commons CC BY-4.0 license image](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-DelphiDabbler Code Library Documentation by [Peter Johnson](https://en.gravatar.com/delphidabbler) is licensed under a Creative [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+DelphiDabbler Code Library Documentation by [Peter Johnson](https://en.gravatar.com/delphidabbler) is licensed under a Creative [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at [https://github.com/ddablib/ddablib.github.io](https://github.com/ddablib/ddablib.github.io).
 
