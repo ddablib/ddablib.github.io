@@ -20,7 +20,7 @@ Since wrapped streams do not support transacted mode and _TPJIStreamWrapper_ mai
 
 Parameters:
 
-* _grfCommitFlags_ -- Flags from the [_STGC_](https://learn.microsoft.com/en-gb/windows/win32/api/wtypes/ne-wtypes-stgc) specify how the changes are committed. _All flags are ignored in this implementation._
+* _grfCommitFlags_ -- Flags from the [_STGC_](https://learn.microsoft.com/en-gb/windows/win32/api/wtypes/ne-wtypes-stgc) specify how the changes are committed. **All flags are ignored in this implementation.**
 
 Returns:
 
