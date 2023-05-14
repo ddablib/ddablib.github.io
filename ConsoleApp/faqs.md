@@ -16,7 +16,7 @@ This page has some frequently asked questions about the DelphiDabbler [Console A
 
 **Why am I getting an access violation when running code that uses TPJConsoleApp compiled with with Delphi 2009 (and later)?**
 
-This is because Delphi 2009 and later (the "Unicode Delphis") use the Unicode Windows API (earlier versions used the ANSI API). It is a peculiarity of the Unicode implementation of the `CreateProcess` API function (which `[[(Docs.)TPJConsoleApp]]` uses) that causes this access violation. This peculiarity wasn't present in the ANSI version of the function.
+This is because Delphi 2009 and later (the "Unicode Delphis") use the Unicode Windows API (earlier versions used the ANSI API). It is a peculiarity of the Unicode implementation of the `CreateProcess` API function (which `TPJConsoleApp` uses) that causes this access violation. This peculiarity wasn't present in the ANSI version of the function.
 
 > The classes have been updated to work round this problem. You need to update to release 1.0.2 or later.
 
