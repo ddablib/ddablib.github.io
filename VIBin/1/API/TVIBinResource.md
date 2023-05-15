@@ -1,16 +1,16 @@
-# TVerInfoData class
+# TVIBinResource class
 
 > 📝 ***DRAFT: Page subject to change. Do not bookmark links - they may change.***
 
 **Project:** [Binary Version Information Manipulation Units](../API.md)
 
-**Unit:** _UVerInfoData_
+**Unit:** _DelphiDabbler.Lib.VIBin.Resource_
 
 **Applies to:** ~>1.0
 
-_TVerInfoData_ is a class that encapsulates the binary representation of Windows version information and exposes properties and methods that permit this data to be read, modified and written.
+_TVIBinResource_ is a class that encapsulates the binary representation of Windows version information and exposes properties and methods that permit this data to be read, modified and written.
 
-The class operates directly on version information in its raw binary form, without going through the Windows version information API. Badly formed version information can handles that would defeat the API routines. _TVerInfoData_ can enumerate the contents of string tables and list and access non-standard string table entries. It also works with string tables in multiple languages.
+The class operates directly on version information in its raw binary form, without going through the Windows version information API. Badly formed version information can handles that would defeat the API routines. _TVIBinResource_ can enumerate the contents of string tables and list and access non-standard string table entries. It also works with string tables in multiple languages.
 
 ## Methods
 
@@ -20,13 +20,13 @@ The class operates directly on version information in its raw binary form, witho
 >
 > _Please check back later_
 
-_TVerInfoData_ provides numerous methods. They are grouped into similar functions below.
+_TVIBinResource_ provides numerous methods. They are grouped into similar functions below.
 
 ### Constructor
 
 | Constructor | Description |
 |-------------|-------------|
-| _Create_ | Creates a _TVerInfoData_ object that encapsulates version information in either Unicode or ANSI format. |
+| _Create_ | Creates a _TVIBinResource_ object that encapsulates version information in either Unicode or ANSI format. |
 
 ### Fixed File Information Methods
 
@@ -90,7 +90,7 @@ The following methods operate on individual string information items in a specif
 
 | Methods | Description |
 |---------|-------------|
-| _Assign_ | Assigns a copy of the content of another _TVerInfoData_ instance to this instance. |
+| _Assign_ | Assigns a copy of the content of another _TVIBinResource_ instance to this instance. |
 | _ReadFromStream_ | Reads binary version information from a stream into the object. |
 | _Reset_ | Resets the version information object to the default, empty, state. |
 | _WriteToStream_ | Writes the binary version information encapsulated by the object to a stream. |
