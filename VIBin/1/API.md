@@ -10,33 +10,31 @@ This section of the _Binary Version Information Manipulation Units_ documentatio
 
 ## Contents
 
+🔐 Units and classes marked with the lock icon should be treated as private. Anything considered "private" may change without notice and will not cause a major version bump should this happen. "Private" items are not documented any further here.
+
 ### Units
 
 | Unit | Description |
 |------|-------------|
-| _UVerInfoData_ | Contains all the primary classes you need to interact with to manipulate binary version information. |
-| _UVerInfoRec_ | Contains support classes required by _UVerInfoData_. _The classes should not be accessed directly._ |
-| _UVerInfoBinIO_ | Contains a support class required by _UVerInfoRec_. _The class should not be accessed directly._ |
+| _DelphiDabbler.Lib.VIBin.Resource_ | Contains all the primary class you need to interact with to manipulate binary version information. Depends on _DelphiDabbler.Lib.VIBin.VarRec_. |
+| _DelphiDabbler.Lib.VIBin.VarRec_ | 🔐 Contains support classes required by _DelphiDabbler.Lib.VIBin.Resource_. _These classes should not be accessed directly._ |
 
 ### Classes
 
 | Class | Description |
 |-------|-------------|
-| [_TVerInfoData_](./API/TVerInfoData.md) | Class that provides read and write access to binary version information. |
-| _TVerInfoRec_ | 🔐 This class encapsulates a general version information record and exposes properties for the key record elements. |
-| _TVerInfoRecA_ | 🔐 Sub class of _TVerInfoRec_ that implements a generalised ANSI version information record. |
-| _TVerInfoRecW_ | 🔐 Sub class of _TVerInfoRec_ that implements a generalised Unicode version information record. |
-| _TVerInfoBinIO_ | 🔐 IO object used to input from and output to a wrapped stream. |
-| _EVerInfoData_ | Class of exception raised by _TVerInfoData_ and descendants. |
-| _EVerInfoRec_  | Class of exception raised by _TVerInfoRec_ and descedants. |
-
-🔐 All interaction with these units should be done via the [_TVerInfoData_](./API/TVerInfoData.md) class. Classes marked with the lock item should be treated as private. The interface of these "private" classes may change without notice and will not cause a major version bump when this happens. The classes are not documented and further here.
+| [_TVIBinResource_](./API/TVIBinResource.md) | Class that provides read and write access to binary version information. |
+| _TVIBinVarRec_ | 🔐 This class encapsulates a general version information record and exposes properties for the key record elements. |
+| _TVIBinVarRecA_ | 🔐 Sub class of _TVIBinVarRec_ that implements a generalised ANSI version information record. |
+| _TVIBinVarRecW_ | 🔐 Sub class of _TVIBinVarRec_ that implements a generalised Unicode version information record. |
+| _EVIBinResource_ | Class of exception raised by _TVIBinResource_ and descendants. |
+| _EVIBinVarRec_  | Class of exception raised by _TVIBinVarRec_ and descedants. |
 
 ### Types
 
 | Type | Description |
 |------|-------------|
-| [_TVerResType_](./API/TVerResType.md) | Enumeration that specifies whether a version information resource is 16 or 32 bit. |
+| [_TVIBinResourceType_](./API/TVIBinResourceType.md) | Enumeration that specifies whether a version information resource is 16 or 32 bit. |
 
 ## Conventions
 
