@@ -4,25 +4,38 @@
 
 # License & Credits
 
-The information on this page applies only to the web site hosted on the `lib-docs` sub-domain of `delphidabbler.com`.
+The information on this page applies to:
 
-## Website
+1. The web site hosted on the `lib-docs` sub-domain of `delphidabbler.com`.
+2. The site's source code in the [ddablib/ddablib.github.io](https://github.com/ddablib/ddablib.github.io) repository on GitHub.
 
-### Copyright
+## License
 
-The site and it's original source code are copyright © {{ 'now' | date: "%Y" }} by [Peter Johnson](https://en.gravatar.com/delphidabbler).
+![Creative Commons CC BY-4.0 license image](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
 
-### License
+The site is copyright © 2023, [Peter Johnson](https://gravatar.com/delphidabbler).
 
-The content of the website is licensed under the Creative Commons Attribution 4.0 International ([CC BY-4.0](https://creativecommons.org/licenses/by/4.0/)) license.
+Much of the site is licensed under the the [Creative Commons Attribution-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). Some source code files are MIT licensed: they contain an [MIT license](https://opensource.org/license/mit/) statement in their comments.
 
-The site's source code is licensed under the [MIT License](https://delphidabbler.mit-license.org/2022/). It is maintained in the [`ddablib/ddablib.github.io`](https://github.com/ddablib/ddablib.github.io) repository on GitHub.
+### Reuse & Accreditation
 
-### Credits
+The CC BY-SA 4.0 license requires accreditation by anyone reusing this documentation, in original or modified form. A suitable accreditation would be:
+
+```text
+Based on a work by Peter Johnson (https://en.gravatar.com/delphidabbler),
+at https://github.com/ddablib/ddablib.github.io, copyright (c) 2023 and
+licensed under the Creative Commons CC BY-SA license. No warranties are given.
+```
+
+If you make changes to the website and publish the changed version then the modified version must be made available under the same license.
+
+For authoritative details of the above see the [full license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
+## Credits
 
 The site is generated using [Jekyll](https://jekyllrb.com/) and is hosted by [GitHub Pages](https://pages.github.com/).
 
-## Third Party Code
+### Third Party Code
 
 The site uses the following 3rd party code. Some is linked to by each web page while other code is included in the site's Git repository.
 

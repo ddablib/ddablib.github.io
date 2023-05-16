@@ -2,11 +2,11 @@
 
 Welcome to the _DelphiDabbler Code Library Documentation Site_.
 
-The library currently contains the following projects, all originally published on [DelphiDabbler.com](https://delphidabbler.com/codelib).
+This website contains documentation of all [_DelphiDabbler Code Library_](https://delphidabbler.com/codelib) project releases.
 
-| **Project** | **Description** |
-|:------------|:----------------|
-| [About Box Component](./AboutBox/index.md) | Non-visual component that encapsulates an About Box. Set properties or link to a [Version Information Component](./Docs/VerInfo.md) to customise the about box content. |
+| Project | Description |
+|:--------|:------------|
+| [About Box Component](./AboutBox/index.md) | Non-visual component that encapsulates an About Box. Set properties or link to a [Version Information Component](./VerInfo/index.md) to customise the about box content. |
 | [Clipboard Viewer Component](./CBView/index.md) | Component that triggers an event whenever the contents of the clipboard change. |
 | [Console Application Runner Classes](./ConsoleApp/index.md) | Classes to control the execution of child console application processes and to redirect input and output where required. |
 | [Drop Files Components](./DropFiles/index.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
@@ -30,54 +30,22 @@ Project releases are available in .zip format from [SourceForge](https://sourcef
 
 ## FAQs
 
-Frequently asked questions for some of the Code Library projects are available and listed on the [FAQs](./faqs.md) page.
+Frequently asked questions for some of the library projects are available and listed on the [FAQs](./faqs.md) page.
 
 ## Library News
 
-You can get the latest news about the Code Library by following the [DelphiDabbler Blog](https://delphidabbler.blogspot.com/).
+You can get the latest news about the _DelphiDabbler Code Library_ by following the [DelphiDabbler Blog](https://delphidabbler.blogspot.com/).
+
+## Contributing
+
+You can contribute by editing web pages.
+
+There is a _Improve this page_ link at the bottom right of every page of the website. Clicking the link opens the page for editing on the [GitHub repository](https://github.com/ddablib/ddablib.github.io).
+
+Once you have made your suggested changes you will need to [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
+
+The other way to contribute is to report errors using the [issue tracker](https://github.com/ddablib/ddablib.github.io/issues). Please check existing issues to see if anyone has reported anything similar already. If so you can add a comment to that issue or simply add a 👍 (`:+1:`) comment. If there isn't already a suitable issue then feel free to create a new one.
 
 ## License
 
-All the code in the library now uses the Mozilla Public License v2.0 (MPL 2.0). Earlier versions may use the Mozilla Public License v1.1.
-
-Note that the documentation is published under a different license: [see below](#documentation-license).
-
-## About this documentation
-
-### A little history
-
-The documentation started out as a wiki on Google Code, maintained in a Subversion repository as a branch of the DelphiDabbler Code Library Project. The wiki branch was extracted from the Subversion repository and converted to Git as at commit 1d1404b. The Git repository was placed on GitHub in the `delphidabbler/ddab-lib-docs` project.
-
-Development continued directly on the `master` branch until commit 39b9e5a when the GitFlow development model was adopted.
-
-Development then took place on a `develop` branch. Five releases were made before the GitFlow model was abandoned at commit 0697fcb. The `develop` branch was deleted at commit 979f604 and all the release tags were deleted. The associated change-log file was also removed.
-
-### Development model
-
-Since commit 979f604 a new development model was adopted. Changes are now made on branches off `master` and merged back into `master` once verified.
-
-#### Contributing
-
-Anyone who would like to contribute to the documentation is welcome to do so. You should work on a fork of the GitHub `master` branch, create a suitably named branch for your work and open a pull request on GitHub when done.
-
-If you're unsure of the process [this tutorial](https://opensource.com/article/19/7/create-pull-request-github) explains it well.
-
-### Documentation license
-
-![Creative Commons CC BY-4.0 license image](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
-
-DelphiDabbler Code Library Documentation by [Peter Johnson](https://en.gravatar.com/delphidabbler) is licensed under a Creative [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-Based on a work at [https://github.com/ddablib/ddablib.github.io](https://github.com/ddablib/ddablib.github.io).
-
-For full details see the `LICENSE` file.
-
-#### Reuse & Accreditation
-
-The Creative Commons CC BY-SA 4.0 license requires accreditation by anyone reusing this documentation.  A suitable accreditation would be:
-
-> Based on a work by Peter Johnson ([https://en.gravatar.com/delphidabbler](https://en.gravatar.com/delphidabbler)), at [https://github.com/delphidabbler/ddab-lib-docs](https://github.com/delphidabbler/ddab-lib-docs), copyright (c) 2022 and licensed under the Creative Commons CC BY-SA license. No warranties are given.
-
-If you make changes and distribute the changes then, in addition to the above, you must distribute the modified version under the same license, indicate you made changes and retain an indication of earlier changes.
-
-For authoritative details of the above see the [full license](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+See the [License & Credits](./credits.md) page for details.
