@@ -1,7 +1,3 @@
----
-
----
-
 # License & Credits
 
 The information on this page applies to:
