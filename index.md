@@ -22,6 +22,7 @@ This website contains documentation of all [_DelphiDabbler Code Library_](https:
 | [Stream Extension Classes](./Streams/index.md) | Classes that provide a means to wrap _TStream_ objects. Also provides implementations of the _IStream_ interface. |
 | [System Information Unit](./SysInfo/index.md/) | Static classes that get information about the user's computer and operating system.  |
 | [Version Information Component](./VerInfo/index.md) | Component that accesses version information embedded in program files, DLLs etc. |
+| [(Binary) Version Information Manipulation Units](./VIBin/index.md) | Set of classes that can be used to read, manipulate and write Windows version information in its raw binary form. |
 | [Window State Components](./WdwState/index.md) | Three components that save and restore window size, state and position using ini files, the registry or user-defined storage. |
 
 Each library project has its own source code repository on [GitHub](https://github.com/ddablib).
