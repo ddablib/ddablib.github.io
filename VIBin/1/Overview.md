@@ -1,7 +1,5 @@
 # [Binary Version Information Manipulation Units](../index.md) Overview
 
-> 📝 ***DRAFT: Page subject to change. Do not bookmark links - they may change.***
-
 > This page provides an overview of the features of the Binary Version Information Manipulation Units. If you are looking for information on programming with the component please see the [Programmers' Guide](./API.md).
 
 These units contain a set of classes that can be used to read, manipulate and write Windows version information in its raw binary form. The Windows API is bypassed.

@@ -1,7 +1,5 @@
 # [Binary Version Information Manipulation Units](../index.md) Programmers' Guide
 
-> 📝 ***DRAFT: Page subject to change. Do not bookmark links - they may change.***
-
 **Applies to:** ~>1.0
 
 ## Introduction

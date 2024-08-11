@@ -1,14 +1,5 @@
 # Binary Version Information Manipulation Units
 
-> ### 🚧 _UNDER CONSTRUCTION_ 🚧
-> 
-> ***Not all pages are present as yet. Expect broken links.***
->
-> _Please check back later_
-
-> 📝 ***DRAFT: Page subject to change. Do not bookmark links - they may change.***
-
-
 ## Introduction
 
 This is the home page for the on-line documentation of the DelphiDabbler [Binary Version Information Manipulation Units](https://delphidabbler.com/software/vibin).
