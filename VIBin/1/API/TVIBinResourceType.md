@@ -1,10 +1,8 @@
 # TVIBinResourceType enumerated type
 
-> 📝 ***DRAFT: Page subject to change. Do not bookmark links - they may change.***
-
 **Project:** [Binary Version Information Manipulation Units](../API.md)
 
-**Unit:** _DelphiDabbler.Lib.VIBin.Resource_
+**Unit:** _UVerInfoData_
 
 **Applies to:** ~>1.0
 
