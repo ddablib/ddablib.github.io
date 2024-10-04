@@ -28,7 +28,7 @@ The method used to calculate the build number varies according to the version of
 
   > ⚠️ _**BUG:** Unfortunately it appears that the operating system can return the build number of an earlier operating system than that physically stored in the registry._
 
-* [~>5.2.0] and later use the same approach as for v5.0.0 except when the build number can't be calculated. In this case `0` is now returned to signal the error.
+* [~>5.2] and later use the same approach as for v5.0.0 except when the build number can't be calculated. In this case `0` is now returned to signal the error.
 
 ## See Also
 
