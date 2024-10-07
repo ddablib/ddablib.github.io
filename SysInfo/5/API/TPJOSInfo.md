@@ -12,9 +12,11 @@ This is a static class that gives access to information about the operating syst
 
 | Method | Description |
 |:-------|:------------|
+| _[BuildBranch](./TPJOSInfo-BuildBranch.md) [~>v5.30]_ | Gets the Windows development branch from which the OS release was built. |
 | _[BuildNumber](./TPJOSInfo-BuildNumber.md)_ | Gets the operating system build number. |
 | _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ | Checks if the OS can be "spoofed" by specifying a compatibility mode for the program. |
 | _[Description](./TPJOSInfo-Description.md)_ | Gets a full information about of an operating system version. |
+| _[DigitalProductID](./TPJOSInfo-DigitalProductID.md) [~>v5.30]_ | Gets digital product ID of the host OS, if a digital license is held for it. |
 | _[Edition](./TPJOSInfo-Edition.md)_ | Gets the edition of an operating system product. |
 | _[HasPenExtensions](./TPJOSInfo-HasPenExtensions.md)_ | Checks for Windows Pen Extensions. |
 | _[InstallationDate](./TPJOSInfo-InstallationDate.md)_ | Gets the date that Windows was installed. |
@@ -41,6 +43,8 @@ This is a static class that gives access to information about the operating syst
 | _[IsTabletPC](./TPJOSInfo-IsTabletPC.md)_ | Checks for Windows Tablet PC. |
 | _[IsWin32s](./TPJOSInfo-IsWin32s.md)_ | Checks for the Windows 32s system. |
 | _[IsWin9x](./TPJOSInfo-IsWin9x.md)_ | Checks for the Windows 95 platform. |
+| _[IsWindows10VersionOrLater](./TPJOSInfo-IsWindows10VersionOrLater.md) [~>v5.30]_ | Checks if the operating system is a given release version of Windows 10 or later. |
+| _[IsWindows11VersionOrLater](./TPJOSInfo-IsWindows11VersionOrLater.md) [~>v5.30]_ | Checks if the operating system is a given release version of Windows 11 or later. |
 | _[IsWindowsServer](./TPJOSInfo-IsWindowsServer.md)_ | Checks if the OS is a server version. (When run in compatibility mode on Windows 2000 and later this method returns the true OS, unlike _[IsServer](./TPJOSInfo-IsServer.md)_). |
 | _[IsWinNT](./TPJOSInfo-IsWinNT.md)_ | Checks for the Windows NT platform. |
 | _[IsWow64](./TPJOSInfo-IsWow64.md)_ | Checks if the program is running on WOW64. |
@@ -57,6 +61,8 @@ This is a static class that gives access to information about the operating syst
 | _[ServicePackEx](./TPJOSInfo-ServicePackEx.md) [~>5.2]_ | Gets details of the operating system's service pack or any other significant update. |
 | _[ServicePackMajor](./TPJOSInfo-ServicePackMajor.md)_ | Gets the operating system's major service pack version number. |
 | _[ServicePackMinor](./TPJOSInfo-ServicePackMinor.md)_ | Gets the operating system's minor service pack version number. |
+| _[Windows10PlusVersion](./TPJOSInfo-Windows10PlusVersion.md) [~>v5.30]_ | Gets an identifier representing a Windows 10 or 11 release version. |
+| _[Windows10PlusVersionName](./TPJOSInfo-Windows10PlusVersionName.md) [~>v5.30]_ | Gets the release version name of a Windows 10 or 11 operating system. |
 
 ## Properties
 
