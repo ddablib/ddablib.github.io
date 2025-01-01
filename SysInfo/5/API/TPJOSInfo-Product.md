@@ -22,7 +22,8 @@ type TPJOSProduct = (
   osWin10, osWin10Svr,          // defined in v5.1 and later
   osWinSvr2019,                 // defined in v5.4 and later
   osWin11, osWinSvr2022,        // defined in v5.6 and later
-  osWinServer                   // defined in v5.9 and later
+  osWinServer,                  // defined in v5.9 and later
+  osWinSvr2025, osWinSvrLater   // defined in v5.31 and later
 );
 ```
 
@@ -54,7 +55,9 @@ Returns a value from the _TPJOSProduct_ enumeration that identifies the operatin
 | `osWinSvr2019` [~>5.4] | Windows 2019 Server. † |
 | `osWinSvr2022` [~>5.6] | Windows 2022 Server. † |
 | `osWinServer` [~>5.9] | Windows 2022 Server. † |
+| `osWinSvr2025` [~>5.31] | Windows 2025 Server. † |
 | `osWinLater` | An unknown version of Windows released after the most recent version of Windows identified above. |
+| `osWinSvrLater`[~>5.31] | An unknown version of Windows released after the most recent version of Windows identified above. |
 | `osUnknownWinNT` | An unknown product on the Windows NT platform. |
 | `osUnknownWin9x` | An unknown product on the Windows 9x platform. |
 | `osUnknownWin32s` | An operating system running on the Win32s platform. |
@@ -66,4 +69,4 @@ On operating systems where _[CanSpoof](./TPJOSInfo-CanSpoof.md)_ returns `False`
 
 To find the string representation of the product name use the _[ProductName](./TPJOSInfo-ProductName.md)_ method.
 
-> † ⚠️ From Windows 8.1 / Win dows Server 2012 R 2 onwards, the correct operating system will only be returned if the host application contains a manifest that includes a compatibility section that contains the GUID that designates the appropriate version of Windows. If there is no such manifest, or the designated Windows version is lower than that of the operating system then _Product_ will return the code for an earlier operating system. This rule applies regardless of the value returned from _[CanSpoof](./TPJOSInfo-CanSpoof.md)_.
+> † ⚠️ From Windows 8.1 / Windows Server 2012 R 2 onwards, the correct operating system will only be returned if the host application contains a manifest that includes a compatibility section that contains the GUID that designates the appropriate version of Windows. If there is no such manifest, or the designated Windows version is lower than that of the operating system then _Product_ will return the code for an earlier operating system. This rule applies regardless of the value returned from _[CanSpoof](./TPJOSInfo-CanSpoof.md)_.
