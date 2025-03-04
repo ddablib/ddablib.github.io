@@ -21,7 +21,7 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 
 # Security updates
 gem "commonmarker", ">= 0.23.10"
-gem "nokogiri", "~> 1.16.5"
+gem "nokogiri", "~> 1.18.3"
 gem "rexml", "~> 3.3.9"
 gem "activesupport", "~> 7.0.7.1"
 
