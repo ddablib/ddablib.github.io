@@ -4,9 +4,10 @@
 
 > This page provides an overview of the features of the Systems Information Unit. If you are looking for information on programming with the unit please see the [Programmers’ Guide](./API.md).
 
-This unit, contains a set of static classes that provide various pieces of system information. They are:
+This unit, contains a set of classes that provide various pieces of system information. They are:
 
 * [_TPJComputerInfo_](./API/TPJComputerInfo.md) -- Provides information about the computer system.
+* _[TPJBiosInfo](./API/TPJBiosInfo.md) [~>5.32]_ -- Provides information about the computer's BIOS.
 * [_TPJSystemFolders_](./API/TPJSystemFolders.md) -- Provides the paths of various standard system folders. 
 * [_TPJOSInfo_](./API/TPJOSInfo.md) -- Provides information about the operating system.
 
