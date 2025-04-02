@@ -15,3 +15,7 @@ class function BiosVendor: string;
 ## Description
 
 Returns the name of the vendor / manufacturer of the computer's BIOS.
+
+## Note
+
+The returned value may be, but is not guaranteed to be, the same as that returned by _[TPJBiosInfo.BiosVendor](./TPJBiosInfo-BiosVendor.md)_.

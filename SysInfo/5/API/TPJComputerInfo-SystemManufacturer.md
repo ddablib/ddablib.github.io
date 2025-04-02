@@ -17,3 +17,7 @@ class function SystemManufacturer: string;
 Returns the name of the host computer's manufacturer.
 
 The returned name does not include the computer's model (product) name. To get that, use the _[SystemProductName](./TPJComputerInfo-SystemProductName.md)_ property.
+
+## Note
+
+The returned value may be, but is not guaranteed to be, the same as that returned by _[TPJBiosInfo.SystemManufacturer](./TPJBiosInfo-SystemManufacturer.md)_.
