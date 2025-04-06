@@ -14,7 +14,7 @@ Operator overloading is used extensively to enable normal arithmetic operations 
 
 ## Compatibility
 
-This unit is designed for compilation with 32 bit and 64 bit Windows Delphi compilers. It is designed to compile with compilers from Delphi 2009 onwards.
+This unit is designed for compilation with 32 bit and 64 bit Windows Delphi compilers. It is designed to compile with compilers from Delphi XE onwards. It may compile with Delphi 2009 and Delphi 2010, but this is not tested and not guaranteed.
 
 The code uses only Delphi RTL libraries and so should be able to compile for any platform supported by Delphi.
 
