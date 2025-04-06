@@ -71,11 +71,13 @@ _TFraction_ defines several methods. Some are static class methods that operate 
 
 | Method | Description |
 |:-------|:------------|
+| _[Abs](./TFraction-Abs.md) [~>0.2]_ | Returns the absolute value of the fraction (overloaded with class method). |
 | [_CompareTo_](./TFraction-CompareTo.md) | Compares the fraction to another and returns a value indicating which fraction is greatest or if they are equal. |
 | [_Convert_](./TFraction-Convert.md) | Converts the fraction into an equivalent one in which the numerator and denominator are a given integer multiple of their original values. |
 | [_HasCommonFactor_](./TFraction-HasCommonFactor.md) | Checks if a given integer is a common factor of the fraction. |
 | [_IsProper_](./TFraction-IsProper.md) | Checks if the fraction is a proper fraction. |
 | [_IsWholeNumber_](./TFraction-IsWholeNumber.md) | Checks if the fraction represents a whole number. |
+| _[Power](./TFraction-Power.md) [~>0.2]_ | Computes an integer power of a fraction (overloaded with class method). |
 | [_Reciprocal_](./TFraction-Reciprocal.md) | Returns the reciprocal of the fraction. |
 | [_RoundToMultiple_](./TFraction-RoundToMultiple.md) | Rounds the fraction to the nearest whole number multiple of another fraction. |
 | [_Sign_](./TFraction-Sign.md) | Returns a value representing the sign of the fraction.  |
@@ -86,9 +88,9 @@ _TFraction_ defines several methods. Some are static class methods that operate 
 
 | Method | Description |
 |:-------|:------------|
-| [_Abs_](./TFraction-Abs.md) | Returns the absolute value of a given fraction. |
+| [_Abs_](./TFraction-Abs.md) | Returns the absolute value of a given fraction ([~>0.2] overloaded with instance method). |
 | [_Compare_](./TFraction-Compare.md) | Compares two fractions and returns a value indicating which of the two is greater or if they equal. |
 | [_LCD_](./TFraction-LCD.md) | Computes the least common denominator of two fractions. |
 | [_Max_](./TFraction-Max.md) | Overloaded methods that find the largest of two or more fractions. |
 | [_Min_](./TFraction-Min.md) | Overloaded methods that find the smallest of two or more fractions. |
-| [_Power_](./TFraction-Power.md) | Computes an integer power of a fraction. |
+| [_Power_](./TFraction-Power.md) | Computes an integer power of a fraction ([~>0.2] overloaded with instance method). |
