@@ -21,6 +21,9 @@ Furthermore a _TFraction_ variable can be instantiated by assigning a variable o
 * Another _TFraction_. Properties are simply copied.
 * Any integer type. This creates a fractions with numerator equal to the integer and denominator 1.
 * A _Single_, _Double_ or _Extended_ floating point type. The floating point value is converted to a fraction to an accuracy of 5 decimal places. The floating point value must be 0 or have an absolute value in the range 1.0e-19 to 1.0e+19.
+* [~>0.2] **When compiled with Delphi 10.4 or later only:** simply declaring a _TFraction_ variable will instantiate it as if `0` had been assigned to it.
+
+⚠️ Never use a _TFraction_ variable that has not been instantiated since its value is undefined.
 
 ### Properties
 
@@ -56,6 +59,7 @@ The operators are overloaded by the record
 | [_Modulus_](./TFraction-Modulus.md) | Enables the modulus operator (`mod`) to be used to get the fractional remainder after dividing one _TFraction_ record by another.  |
 | [_Round_](./TFraction-Round.md) | Enables the `Round` operator to round a _TFraction_ record to the nearest whole number value.  |
 | [_Trunc_](./TFraction-Trunc.md) | Enables the `Trunc` operator to truncate a _TFraction_ record to the nearest whole number in the direction of zero. |
+| _[Initialize](./TFraction-Initialize.md) [~>0.2]_ | When compiled with Delphi 10.4 or later, automatically initialises _TFraction_ records with _[Numerator](./TFraction-Numerator.md)_ = `0` and _[Denominator](./TFraction-Denominator.md)_ = `1`. |
 
 ### Methods
 
