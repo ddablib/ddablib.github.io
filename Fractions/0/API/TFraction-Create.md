@@ -82,4 +82,5 @@ end;
 
 ## See Also
 
-* [_Implicit_](./TFraction-Implicit.md) operator overload
+* [_Implicit_](./TFraction-Implicit.md) operator overload.
+* _[Intialize](./TFraction-Initialize.md) [~>0.2]_ operator overload (Delphi 10.4 and later only).
