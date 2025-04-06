@@ -79,6 +79,7 @@ _TFraction_ defines several methods. Some are static class methods that operate 
 | [_CompareTo_](./TFraction-CompareTo.md) | Compares the fraction to another and returns a value indicating which fraction is greatest or if they are equal. |
 | [_Convert_](./TFraction-Convert.md) | Converts the fraction into an equivalent one in which the numerator and denominator are a given integer multiple of their original values. |
 | [_HasCommonFactor_](./TFraction-HasCommonFactor.md) | Checks if a given integer is a common factor of the fraction. |
+| _[Hash](./TFraction-Hash.md) [~>0.2]_ | Computes a hash for the fraction. |
 | [_IsProper_](./TFraction-IsProper.md) | Checks if the fraction is a proper fraction. |
 | [_IsWholeNumber_](./TFraction-IsWholeNumber.md) | Checks if the fraction represents a whole number. |
 | _[Power](./TFraction-Power.md) [~>0.2]_ | Computes an integer power of a fraction (overloaded with class method). |
