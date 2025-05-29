@@ -9,6 +9,7 @@ Documentation for each Code Library project is available:
 | Project | Starting page URL |
 |:--------|:------------------|
 | About Box Component | <https://lib-docs.delphidabbler.com/AboutBox/> |
+| Array Utilities Unit | <https://lib-docs.delphidabbler.com/ArrayUtils/> |
 | Clipboard Viewer Component | <https://lib-docs.delphidabbler.com/CBView/> |
 | Console Application Runner Classes | <https://lib-docs.delphidabbler.com/ConsoleApp/> |
 | Drop Files Components | <https://lib-docs.delphidabbler.com/DropFiles/> |
