@@ -7,6 +7,7 @@ This website contains documentation of all [_DelphiDabbler Code Library_](https:
 | Project | Description |
 |:--------|:------------|
 | [About Box Component](./AboutBox/index.md) | Non-visual component that encapsulates an About Box. Set properties or link to a [Version Information Component](./VerInfo/index.md) to customise the about box content. |
+| [Array Utilities Unit](./ArrayUtils/index.md) | Contains an advanced record that provides static class methods that manipulate and interogate generic arrays. |
 | [Clipboard Viewer Component](./CBView/index.md) | Component that triggers an event whenever the contents of the clipboard change. |
 | [Console Application Runner Classes](./ConsoleApp/index.md) | Classes to control the execution of child console application processes and to redirect input and output where required. |
 | [Drop Files Components](./DropFiles/index.md) | Components that enable applications, windows and other components to support drag and drop from Windows Explorer. |
