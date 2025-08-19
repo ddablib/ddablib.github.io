@@ -10,6 +10,12 @@ This non-visual component catches all `WM_DROPFILES` messages that are received 
 
 Use _TPJCtrlDropFiles_ when you want to take different actions depending on which control files are dropped on - you can use a different _TPJCtrlDropFiles_ component for each control that can receive file drops.
 
+> ⚠️ **Known Issue**
+>
+> With some later versions of Delphi _TPJCtrlDropFiles_ does not always work correctly when the control it is associated with is a _TComboBox_ or related control. In some circumstances combo boxes will not permit files to be dropped on them. For further information see the _[ManagedControl](./TPJCtrlDropFiles-ManagedControl.md)_ property help topic.
+>
+> On which version of Delphi the issue first reared its head is not known. What is known is that Delphi XE works as expected but Delphi 12 does not: the problem must have first occured sometime between the two.
+
 ## Methods
 
 _TPJCtrlDropFiles_ defines no new methods.
