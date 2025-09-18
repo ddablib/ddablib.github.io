@@ -22,7 +22,7 @@ gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
 # Security updates
 gem "commonmarker", ">= 0.23.10"
 gem "nokogiri", "~> 1.18.9"
-gem "rexml", "~> 3.3.9"
+gem "rexml", "~> 3.4.2"
 gem "activesupport", "~> 7.0.7.1"
 
 # Fix for when using Ruby 3 - webrick no longer installed w/ Ruby 3
