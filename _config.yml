@@ -5,6 +5,10 @@ repository: "ddablib/ddablib.github.io"
 # Base host name and protocol of site
 url: "https://lib-docs.delphidabbler.com"
 
+# Prevent "jekyll GitHub Metadata: No GitHub API authentication could be found"
+# warning
+github: [metadata]
+
 # Site is in root of host
 baseurl: ""
 
