@@ -48,4 +48,4 @@ sass:
   style: compressed
 
 # Inhibit or include flash messages
-ignore-flash: false;
+ignore-flash: true
