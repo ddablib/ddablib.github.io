@@ -25,7 +25,7 @@ gem "nokogiri", "~> 1.19.4"
 gem "rexml", "~> 3.4.2"
 gem "activesupport", "~> 7.2.3.1"
 gem "faraday", ">= 2.14.3"
-gem "json", ">= 2.19.2"
+gem "json", ">= 2.19.9"
 gem "addressable", ">= 2.9.0"
 gem "concurrent-ruby", "~> 1.3.7"
 
