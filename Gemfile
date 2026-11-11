@@ -23,7 +23,7 @@ gem "wdm", "~> 0.2.0", :install_if => Gem.win_platform?
 gem "commonmarker", ">= 0.23.10"
 gem "nokogiri", "~> 1.19.4"
 gem "rexml", "~> 3.4.2"
-gem "activesupport", "~> 7.2.3.1"
+gem "activesupport", "~> 8.0.5.2"
 gem "faraday", ">= 2.14.3"
 gem "json", ">= 2.19.9"
 gem "addressable", ">= 2.9.0"
